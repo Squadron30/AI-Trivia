@@ -4,7 +4,7 @@ qdir=os.path.join(base,'questions')
 # Emphasis: design & architecture, knowledge/reasoning, problem solving.
 # Exclude AI-history-style questions from the bank.
 EXCLUDE_CATEGORIES={'AI History'}
-EXCLUDE_IDS={'F002','F003','F018','F019','F020'}  # history-flavoured fundamentals
+EXCLUDE_IDS=set()  # history content removed from source; nothing to exclude by ID
 
 allq=[]; ids=set(); errors=[]; skipped=0
 for f in sorted(glob.glob(os.path.join(qdir,'*.json'))):

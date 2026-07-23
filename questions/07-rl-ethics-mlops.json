@@ -19,9 +19,9 @@
   "difficulty": "advanced",
   "q": "A 'policy' in RL maps:",
   "options": [
+   "Pixels to labels",
    "Words to vectors",
    "Files to disks",
-   "Pixels to labels",
    "States to actions"
   ],
   "answer": 3,
@@ -34,9 +34,9 @@
   "q": "The 'reward signal' tells the agent:",
   "options": [
    "How good its action was",
+   "The file size",
    "The GPU temperature",
-   "The dataset name",
-   "The file size"
+   "The dataset name"
   ],
   "answer": 0,
   "explanation": "Rewards provide feedback the agent seeks to maximize over time."
@@ -75,10 +75,10 @@
   "difficulty": "advanced",
   "q": "'Q-learning' learns:",
   "options": [
-   "Disk layout",
    "Pixel values",
+   "Word embeddings",
    "Action-value estimates without a model of the environment",
-   "Word embeddings"
+   "Disk layout"
   ],
   "answer": 2,
   "explanation": "Q-learning is a model-free method estimating the value of state-action pairs."
@@ -104,9 +104,9 @@
   "q": "A 'Markov Decision Process' (MDP) assumes:",
   "options": [
    "The future depends only on the current state and action",
-   "No states exist",
    "Rewards are random only",
-   "Full history is always needed"
+   "Full history is always needed",
+   "No states exist"
   ],
   "answer": 0,
   "explanation": "The Markov property: the next state depends only on the present state and action."
@@ -117,10 +117,10 @@
   "difficulty": "advanced",
   "q": "'Deep Q-Networks' (DQN) combine Q-learning with:",
   "options": [
+   "K-means",
    "Decision trees",
-   "Naive Bayes",
    "Deep neural networks",
-   "K-means"
+   "Naive Bayes"
   ],
   "answer": 2,
   "explanation": "DQN uses neural nets to approximate Q-values, famously playing Atari games."
@@ -285,10 +285,10 @@
   "difficulty": "intermediate",
   "q": "'Algorithmic bias' occurs when a model:",
   "options": [
-   "Uses too much memory",
-   "Systematically produces unfair outcomes for certain groups",
    "Runs too slowly",
-   "Has too few layers"
+   "Systematically produces unfair outcomes for certain groups",
+   "Has too few layers",
+   "Uses too much memory"
   ],
   "answer": 1,
   "explanation": "Bias can arise from skewed data or design, harming particular groups."
@@ -327,10 +327,10 @@
   "difficulty": "advanced",
   "q": "'Differential privacy' protects individuals by:",
   "options": [
+   "Ignoring privacy",
    "Encrypting only names",
-   "Deleting all data",
    "Adding calibrated noise so single records can't be identified",
-   "Ignoring privacy"
+   "Deleting all data"
   ],
   "answer": 2,
   "explanation": "Differential privacy bounds how much any one record affects outputs."
@@ -341,9 +341,9 @@
   "difficulty": "advanced",
   "q": "'Federated learning' trains models by:",
   "options": [
+   "Uploading all raw data centrally",
    "Using no data",
    "Encrypting the CPU",
-   "Uploading all raw data centrally",
    "Keeping data on devices and sharing only model updates"
   ],
   "answer": 3,
@@ -412,9 +412,9 @@
   "q": "'Model cards' are documents that:",
   "options": [
    "Describe a model's intended use, performance, and limitations",
+   "Render UIs",
    "Encrypt data",
-   "Store weights",
-   "Render UIs"
+   "Store weights"
   ],
   "answer": 0,
   "explanation": "Model cards promote transparency about capabilities and constraints."
@@ -425,10 +425,10 @@
   "difficulty": "advanced",
   "q": "'Human-in-the-loop' systems ensure:",
   "options": [
-   "Fully autonomous decisions only",
    "No humans",
+   "Faster GPUs",
    "Human oversight/approval in AI decisions",
-   "Faster GPUs"
+   "Fully autonomous decisions only"
   ],
   "answer": 2,
   "explanation": "HITL keeps humans involved for critical or high-risk decisions."
@@ -440,9 +440,9 @@
   "q": "'Membership inference attacks' attempt to determine:",
   "options": [
    "Whether a specific record was in the training data",
-   "The file format",
    "The GPU model",
-   "The learning rate"
+   "The learning rate",
+   "The file format"
   ],
   "answer": 0,
   "explanation": "Such attacks threaten privacy by revealing training-set membership."
@@ -496,9 +496,9 @@
   "q": "'Concept drift' means a change in:",
   "options": [
    "The relationship between inputs and the target",
-   "The vocabulary only",
    "The screen resolution",
-   "The file size"
+   "The file size",
+   "The vocabulary only"
   ],
   "answer": 0,
   "explanation": "Concept drift is when the underlying input-output mapping changes."
@@ -523,10 +523,10 @@
   "difficulty": "advanced",
   "q": "'Model serving' refers to:",
   "options": [
-   "Cleaning data",
+   "Training a model",
    "Making a trained model available for inference requests",
-   "Labeling data",
-   "Training a model"
+   "Cleaning data",
+   "Labeling data"
   ],
   "answer": 1,
   "explanation": "Serving exposes the model (e.g., via an API) for predictions."
@@ -593,10 +593,10 @@
   "difficulty": "advanced",
   "q": "'Inference latency' measures:",
   "options": [
-   "Dataset size",
+   "Number of features",
    "Time taken to produce a prediction",
-   "Training duration",
-   "Number of features"
+   "Dataset size",
+   "Training duration"
   ],
   "answer": 1,
   "explanation": "Latency is critical for real-time applications requiring fast responses."
@@ -621,9 +621,9 @@
   "difficulty": "advanced",
   "q": "'Shadow deployment' runs a new model:",
   "options": [
-   "Only in training",
    "Instead of production",
    "On no data",
+   "Only in training",
    "Alongside production without affecting user-facing results"
   ],
   "answer": 3,
@@ -663,10 +663,10 @@
   "difficulty": "advanced",
   "q": "'Batch inference' differs from 'online inference' in that it:",
   "options": [
-   "Uses no data",
-   "Processes many inputs periodically rather than one-by-one in real time",
    "Is always slower per item",
-   "Needs no model"
+   "Processes many inputs periodically rather than one-by-one in real time",
+   "Needs no model",
+   "Uses no data"
   ],
   "answer": 1,
   "explanation": "Batch runs on large sets on a schedule; online serves individual real-time requests."
@@ -677,9 +677,9 @@
   "difficulty": "advanced",
   "q": "'Edge deployment' runs models:",
   "options": [
+   "Only on mainframes",
    "Without any hardware",
    "Only during training",
-   "Only on mainframes",
    "On local/edge devices rather than the cloud"
   ],
   "answer": 3,
@@ -719,10 +719,10 @@
   "difficulty": "advanced",
   "q": "'GPU utilization monitoring' in production helps:",
   "options": [
-   "Change the model architecture",
-   "Optimize cost and detect bottlenecks",
    "Label data",
-   "Write documentation"
+   "Optimize cost and detect bottlenecks",
+   "Write documentation",
+   "Change the model architecture"
   ],
   "answer": 1,
   "explanation": "Tracking utilization ensures efficient resource use and reveals performance issues."

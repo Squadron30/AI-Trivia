@@ -5,10 +5,10 @@
   "difficulty": "intermediate",
   "q": "A digital image is represented by a computer as:",
   "options": [
+   "A single number",
    "A text string",
-   "An audio wave",
    "A grid of pixel values",
-   "A single number"
+   "An audio wave"
   ],
   "answer": 2,
   "explanation": "Images are arrays of pixel intensity values, often across color channels."
@@ -34,9 +34,9 @@
   "q": "'Image classification' outputs:",
   "options": [
    "A single label for the whole image",
-   "A pixel mask",
    "A box per object",
-   "A caption paragraph"
+   "A caption paragraph",
+   "A pixel mask"
   ],
   "answer": 0,
   "explanation": "Classification assigns one category to the entire image."
@@ -61,10 +61,10 @@
   "difficulty": "intermediate",
   "q": "'Grayscale' conversion reduces an image to:",
   "options": [
-   "Text",
    "Four channels",
+   "Only red",
    "A single intensity channel",
-   "Only red"
+   "Text"
   ],
   "answer": 2,
   "explanation": "Grayscale keeps brightness information in one channel."
@@ -131,10 +131,10 @@
   "difficulty": "advanced",
   "q": "'IoU' (Intersection over Union) measures:",
   "options": [
-   "Model speed",
    "Audio quality",
+   "Color accuracy",
    "Overlap between predicted and ground-truth boxes/masks",
-   "Color accuracy"
+   "Model speed"
   ],
   "answer": 2,
   "explanation": "IoU quantifies how well predicted regions overlap the true regions."
@@ -174,9 +174,9 @@
   "q": "A 'pre-trained backbone' (e.g., ResNet) is often used for:",
   "options": [
    "Feature extraction via transfer learning",
+   "Compressing audio",
    "Storing labels",
-   "Rendering UI",
-   "Compressing audio"
+   "Rendering UI"
   ],
   "answer": 0,
   "explanation": "Pre-trained backbones provide strong visual features reused for new tasks."
@@ -230,9 +230,9 @@
   "q": "'Facial landmark detection' locates:",
   "options": [
    "Key points like eyes, nose, mouth corners",
-   "Text",
    "Entire scenes",
-   "Audio peaks"
+   "Audio peaks",
+   "Text"
   ],
   "answer": 0,
   "explanation": "Landmark detection finds specific facial keypoints for alignment or analysis."
@@ -272,9 +272,9 @@
   "q": "A 'convolution' operation in image processing involves:",
   "options": [
    "Sliding a kernel over the image computing weighted sums",
+   "Sorting pixels",
    "Deleting rows",
-   "Random shuffling",
-   "Sorting pixels"
+   "Random shuffling"
   ],
   "answer": 0,
   "explanation": "Convolution applies a filter across the image to extract features."
@@ -313,9 +313,9 @@
   "difficulty": "advanced",
   "q": "'Style transfer' produces an image that:",
   "options": [
+   "Deletes color",
    "Only rotates",
    "Adds text",
-   "Deletes color",
    "Combines the content of one image with the style of another"
   ],
   "answer": 3,
@@ -341,10 +341,10 @@
   "difficulty": "advanced",
   "q": "'Anchor boxes' in object detection are:",
   "options": [
-   "Audio frames",
-   "Predefined reference boxes of various shapes/sizes",
    "Random pixels",
-   "Text labels"
+   "Predefined reference boxes of various shapes/sizes",
+   "Text labels",
+   "Audio frames"
   ],
   "answer": 1,
   "explanation": "Anchors serve as reference templates that detectors refine into predictions."
@@ -383,9 +383,9 @@
   "difficulty": "advanced",
   "q": "'Pose estimation' detects:",
   "options": [
-   "Image color histograms",
    "Audio tempo",
    "Text sentiment",
+   "Image color histograms",
    "Body joint positions and configuration"
   ],
   "answer": 3,
@@ -453,9 +453,9 @@
   "difficulty": "advanced",
   "q": "'Color space HSV' stands for:",
   "options": [
-   "Hidden State Vector",
    "High Speed Vision",
    "Horizontal Scan Vector",
+   "Hidden State Vector",
    "Hue, Saturation, Value"
   ],
   "answer": 3,
@@ -495,10 +495,10 @@
   "difficulty": "advanced",
   "q": "'Image registration' aligns:",
   "options": [
-   "Audio tracks",
-   "Two or more images into a common coordinate system",
    "Text documents",
-   "Databases"
+   "Two or more images into a common coordinate system",
+   "Databases",
+   "Audio tracks"
   ],
   "answer": 1,
   "explanation": "Registration overlays images (e.g., medical scans) for comparison."
@@ -509,10 +509,10 @@
   "difficulty": "advanced",
   "q": "A CNN's early layers typically learn:",
   "options": [
-   "Sentence meaning",
    "Full object identities",
+   "Audio pitch",
    "Low-level features like edges and textures",
-   "Audio pitch"
+   "Sentence meaning"
   ],
   "answer": 2,
   "explanation": "Early conv layers detect simple patterns; deeper layers capture complex shapes."

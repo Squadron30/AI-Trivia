@@ -5,9 +5,9 @@
   "difficulty": "beginner",
   "q": "A 'reactive agent' architecture chooses its actions based on:",
   "options": [
+   "A pretrained image set",
    "Random sampling",
    "A full history of the world",
-   "A pretrained image set",
    "The current perception only"
   ],
   "answer": 3,
@@ -117,9 +117,9 @@
   "difficulty": "advanced",
   "q": "'Data parallelism' in distributed training:",
   "options": [
-   "Uses no GPUs",
    "Splits one model across GPUs",
    "Trains without data",
+   "Uses no GPUs",
    "Replicates the model and splits the data across workers"
   ],
   "answer": 3,
@@ -159,10 +159,10 @@
   "difficulty": "intermediate",
   "q": "To decouple producers and consumers in a data pipeline, you typically use:",
   "options": [
-   "A DNS record",
-   "A message queue / event stream",
    "A single shared variable",
-   "A CSS file"
+   "A message queue / event stream",
+   "A CSS file",
+   "A DNS record"
   ],
   "answer": 1,
   "explanation": "Queues (e.g., Kafka, Service Bus) buffer and decouple components for resilience and scale."
@@ -257,9 +257,9 @@
   "difficulty": "intermediate",
   "q": "An 'encoder-decoder' architecture is best suited for:",
   "options": [
-   "Only image thresholding",
    "Only binary classification",
    "Only clustering",
+   "Only image thresholding",
    "Sequence-to-sequence tasks like translation"
   ],
   "answer": 3,
@@ -272,9 +272,9 @@
   "q": "A Retrieval-Augmented Generation (RAG) architecture pairs a generator (LLM) with:",
   "options": [
    "A retriever over an external knowledge source",
+   "A CSS framework",
    "A second identical LLM only",
-   "A random number generator",
-   "A CSS framework"
+   "A random number generator"
   ],
   "answer": 0,
   "explanation": "RAG retrieves relevant context and feeds it to the LLM to ground its answers."
@@ -286,9 +286,9 @@
   "q": "A 'vector database' is designed to:",
   "options": [
    "Store embeddings and perform similarity search",
-   "Manage DNS",
    "Store only relational tables",
-   "Render 3D graphics"
+   "Render 3D graphics",
+   "Manage DNS"
   ],
   "answer": 0,
   "explanation": "Vector DBs index embeddings for fast nearest-neighbour retrieval."
@@ -300,9 +300,9 @@
   "q": "A 'microservices' architecture:",
   "options": [
    "Decomposes a system into small, independently deployable services",
-   "Puts everything in one binary",
    "Removes all APIs",
-   "Uses no network"
+   "Uses no network",
+   "Puts everything in one binary"
   ],
   "answer": 0,
   "explanation": "Microservices split functionality into independent services that scale separately."
@@ -341,10 +341,10 @@
   "difficulty": "intermediate",
   "q": "'Edge deployment' of a model reduces:",
   "options": [
-   "The need for any model",
+   "Model accuracy always",
    "Latency and bandwidth by running closer to the data source",
-   "Training data",
-   "Model accuracy always"
+   "The need for any model",
+   "Training data"
   ],
   "answer": 1,
   "explanation": "Running on-device/at the edge cuts round-trip latency and network usage."
@@ -355,10 +355,10 @@
   "difficulty": "advanced",
   "q": "A 'circuit breaker' pattern is used to:",
   "options": [
-   "Speed up training",
-   "Stop calls to a failing dependency to prevent cascading failures",
    "Add more features",
-   "Encrypt models"
+   "Stop calls to a failing dependency to prevent cascading failures",
+   "Encrypt models",
+   "Speed up training"
   ],
   "answer": 1,
   "explanation": "Circuit breakers trip open when a dependency fails, protecting the system."
@@ -397,10 +397,10 @@
   "difficulty": "beginner",
   "q": "'Knowledge representation' is concerned with:",
   "options": [
-   "Rendering video",
+   "Cooling the CPU",
    "Encoding information so machines can reason about it",
-   "Compressing images only",
-   "Cooling the CPU"
+   "Rendering video",
+   "Compressing images only"
   ],
   "answer": 1,
   "explanation": "KR studies how to formally capture knowledge for automated reasoning."
@@ -537,10 +537,10 @@
   "difficulty": "advanced",
   "q": "The 'resolution' inference rule is commonly used for:",
   "options": [
-   "Image scaling",
    "Sorting arrays",
+   "Rendering fonts",
    "Automated theorem proving by refutation",
-   "Rendering fonts"
+   "Image scaling"
   ],
   "answer": 2,
   "explanation": "Resolution proves a statement by deriving a contradiction from its negation."
@@ -565,10 +565,10 @@
   "difficulty": "beginner",
   "q": "A 'production rule' typically has the form:",
   "options": [
-   "SELECT * FROM table",
+   "GOTO line 10",
    "IF condition THEN action",
-   "x = x + 1",
-   "GOTO line 10"
+   "SELECT * FROM table",
+   "x = x + 1"
   ],
   "answer": 1,
   "explanation": "Production rules express knowledge as condition-action (IF-THEN) pairs."
@@ -579,9 +579,9 @@
   "difficulty": "beginner",
   "q": "An 'inference engine' in a rule-based system:",
   "options": [
+   "Stores video files",
    "Cools the server",
    "Displays graphics",
-   "Stores video files",
    "Applies rules to the knowledge base to derive conclusions"
   ],
   "answer": 3,
@@ -607,10 +607,10 @@
   "difficulty": "intermediate",
   "q": "The conditional probability P(A|B) is read as:",
   "options": [
-   "A minus B",
-   "Probability of A given B",
    "Probability of B only",
-   "A multiplied by B"
+   "Probability of A given B",
+   "A multiplied by B",
+   "A minus B"
   ],
   "answer": 1,
   "explanation": "P(A|B) is the probability of A occurring given that B has occurred."
@@ -733,10 +733,10 @@
   "difficulty": "intermediate",
   "q": "A 'well-defined search problem' must specify the initial state, actions, goal test, and:",
   "options": [
+   "User name",
    "GPU model",
-   "Screen colour",
    "Path cost",
-   "User name"
+   "Screen colour"
   ],
   "answer": 2,
   "explanation": "A search problem is defined by states, actions, a goal test, and a path-cost function."
@@ -747,9 +747,9 @@
   "difficulty": "intermediate",
   "q": "Breadth-First Search is optimal when:",
   "options": [
-   "Costs are negative",
    "The graph is infinite",
    "There is no goal",
+   "Costs are negative",
    "All step costs are equal"
   ],
   "answer": 3,
@@ -761,9 +761,9 @@
   "difficulty": "intermediate",
   "q": "A key advantage of Depth-First Search is its:",
   "options": [
+   "Guaranteed optimality",
    "Independence from the graph",
    "Constant time",
-   "Guaranteed optimality",
    "Low memory usage (linear in depth)"
   ],
   "answer": 3,
@@ -789,10 +789,10 @@
   "difficulty": "advanced",
   "q": "'Iterative Deepening Search' combines:",
   "options": [
+   "Random restarts",
    "Two heuristics",
-   "No search",
    "DFS's low memory with BFS's completeness",
-   "Random restarts"
+   "No search"
   ],
   "answer": 2,
   "explanation": "IDS repeatedly runs depth-limited DFS, gaining BFS-like completeness with DFS memory."
@@ -832,9 +832,9 @@
   "q": "A heuristic is 'consistent' (monotonic) if it satisfies the:",
   "options": [
    "Triangle inequality across every edge",
-   "Closed-world assumption",
    "Law of large numbers",
-   "Pigeonhole principle"
+   "Pigeonhole principle",
+   "Closed-world assumption"
   ],
   "answer": 0,
   "explanation": "Consistency means h(n) ≤ cost(n,n') + h(n') for every successor n'."
@@ -846,9 +846,9 @@
   "q": "The A* evaluation function is:",
   "options": [
    "f(n) = g(n) + h(n)",
-   "f(n) = random",
    "f(n) = g(n) - h(n)",
-   "f(n) = h(n) only"
+   "f(n) = h(n) only",
+   "f(n) = random"
   ],
   "answer": 0,
   "explanation": "A* adds actual cost g(n) and heuristic estimate h(n)."
@@ -859,10 +859,10 @@
   "difficulty": "intermediate",
   "q": "'Greedy best-first search' evaluates nodes using:",
   "options": [
-   "The path cost g(n) only",
+   "Random values",
    "The heuristic h(n) only",
-   "f = g + h",
-   "Random values"
+   "The path cost g(n) only",
+   "f = g + h"
   ],
   "answer": 1,
   "explanation": "Greedy best-first uses only h(n); fast but not guaranteed optimal."
@@ -901,9 +901,9 @@
   "difficulty": "intermediate",
   "q": "'Genetic algorithms' evolve solutions using selection, crossover, and:",
   "options": [
+   "Rendering",
    "Encryption",
    "Compilation",
-   "Rendering",
    "Mutation"
   ],
   "answer": 3,
@@ -929,10 +929,10 @@
   "difficulty": "intermediate",
   "q": "A Constraint Satisfaction Problem (CSP) is defined by variables, domains, and:",
   "options": [
-   "Pixels",
+   "Sockets",
    "Constraints",
-   "Neurons",
-   "Sockets"
+   "Pixels",
+   "Neurons"
   ],
   "answer": 1,
   "explanation": "A CSP assigns values from domains to variables subject to constraints."
@@ -1013,9 +1013,9 @@
   "difficulty": "advanced",
   "q": "'Expectimax' extends minimax to handle:",
   "options": [
+   "Sorting problems",
    "No opponents",
    "Only deterministic games",
-   "Sorting problems",
    "Chance nodes / stochastic outcomes"
   ],
   "answer": 3,

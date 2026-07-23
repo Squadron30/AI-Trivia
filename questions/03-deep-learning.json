@@ -19,10 +19,10 @@
   "difficulty": "intermediate",
   "q": "An 'activation function' introduces:",
   "options": [
-   "Fewer layers",
-   "Non-linearity into the network",
    "More memory",
-   "Random labels"
+   "Non-linearity into the network",
+   "Random labels",
+   "Fewer layers"
   ],
   "answer": 1,
   "explanation": "Without non-linear activations, a network reduces to a linear model regardless of depth."
@@ -75,10 +75,10 @@
   "difficulty": "intermediate",
   "q": "'Dropout' is a regularization technique that:",
   "options": [
+   "Doubles the dataset",
    "Deletes layers permanently",
-   "Encrypts weights",
    "Randomly deactivates neurons during training",
-   "Doubles the dataset"
+   "Encrypts weights"
   ],
   "answer": 2,
   "explanation": "Dropout randomly zeros units during training to prevent co-adaptation and overfitting."
@@ -187,10 +187,10 @@
   "difficulty": "advanced",
   "q": "The 'Adam' optimizer combines ideas from:",
   "options": [
-   "SVM and KNN",
-   "Momentum and RMSProp (adaptive learning rates)",
    "BFS and DFS",
-   "K-means and PCA"
+   "Momentum and RMSProp (adaptive learning rates)",
+   "K-means and PCA",
+   "SVM and KNN"
   ],
   "answer": 1,
   "explanation": "Adam blends momentum with per-parameter adaptive learning rates."
@@ -229,10 +229,10 @@
   "difficulty": "advanced",
   "q": "'Fine-tuning' a pre-trained model means:",
   "options": [
-   "Compressing the dataset",
    "Rendering graphics",
+   "Deleting the model",
    "Continuing training on new task-specific data",
-   "Deleting the model"
+   "Compressing the dataset"
   ],
   "answer": 2,
   "explanation": "Fine-tuning updates a pre-trained model's weights on the target dataset."
@@ -300,9 +300,9 @@
   "q": "A Variational Autoencoder (VAE) differs from a plain autoencoder by:",
   "options": [
    "Learning a probabilistic latent distribution",
+   "Using no encoder",
    "Requiring labels",
-   "Removing the decoder",
-   "Using no encoder"
+   "Removing the decoder"
   ],
   "answer": 0,
   "explanation": "VAEs model the latent space as a probability distribution, enabling generation."
@@ -411,10 +411,10 @@
   "difficulty": "advanced",
   "q": "'Weight decay' is another name for:",
   "options": [
+   "Dropout",
    "Batch norm",
-   "Data augmentation",
    "L2 regularization",
-   "Dropout"
+   "Data augmentation"
   ],
   "answer": 2,
   "explanation": "Weight decay penalizes large weights, equivalent to L2 regularization."
@@ -425,10 +425,10 @@
   "difficulty": "intermediate",
   "q": "'PyTorch' and 'TensorFlow' are primarily:",
   "options": [
-   "Operating systems",
+   "Databases",
    "Deep learning frameworks",
-   "Web browsers",
-   "Databases"
+   "Operating systems",
+   "Web browsers"
   ],
   "answer": 1,
   "explanation": "Both are leading frameworks for building and training neural networks."
@@ -467,10 +467,10 @@
   "difficulty": "advanced",
   "q": "The 'universal approximation theorem' states a neural network can:",
   "options": [
-   "Run without data",
-   "Approximate any continuous function given enough neurons",
    "Solve any problem instantly",
-   "Never overfit"
+   "Approximate any continuous function given enough neurons",
+   "Never overfit",
+   "Run without data"
   ],
   "answer": 1,
   "explanation": "A sufficiently wide network can approximate any continuous function to arbitrary accuracy."
@@ -481,10 +481,10 @@
   "difficulty": "advanced",
   "q": "A 'learning rate scheduler' is used to:",
   "options": [
+   "Schedule GPU cooling",
    "Manage disk space",
-   "Label data",
    "Adjust the learning rate during training",
-   "Schedule GPU cooling"
+   "Label data"
   ],
   "answer": 2,
   "explanation": "Schedulers (step, cosine, warmup) vary the learning rate for better convergence."
@@ -579,9 +579,9 @@
   "difficulty": "advanced",
   "q": "A 'deep' neural network is typically defined as one with:",
   "options": [
-   "Only an input layer",
    "Exactly one layer",
    "No layers",
+   "Only an input layer",
    "Many hidden layers"
   ],
   "answer": 3,
@@ -593,10 +593,10 @@
   "difficulty": "advanced",
   "q": "'Semantic segmentation' assigns a class label to:",
   "options": [
+   "The whole image only",
    "Random pixels",
-   "Audio frames",
    "Every pixel in an image",
-   "The whole image only"
+   "Audio frames"
   ],
   "answer": 2,
   "explanation": "Semantic segmentation classifies each pixel, e.g., road vs. car vs. sky."
@@ -621,9 +621,9 @@
   "difficulty": "advanced",
   "q": "'YOLO' in computer vision stands for:",
   "options": [
-   "Your Own Learning Objective",
    "Yielding Overlapping Labels Only",
    "Yield Optimized Layer Output",
+   "Your Own Learning Objective",
    "You Only Look Once"
   ],
   "answer": 3,
@@ -719,10 +719,10 @@
   "difficulty": "advanced",
   "q": "A 'siamese network' is commonly used for:",
   "options": [
-   "Clustering pixels",
+   "Sorting text",
    "Learning similarity between pairs of inputs",
-   "Single-image classification only",
-   "Sorting text"
+   "Clustering pixels",
+   "Single-image classification only"
   ],
   "answer": 1,
   "explanation": "Siamese networks share weights across twin branches to compare inputs (e.g., face verification)."
@@ -733,10 +733,10 @@
   "difficulty": "advanced",
   "q": "'Contrastive learning' trains models by:",
   "options": [
-   "Deleting samples",
-   "Pulling similar samples together and pushing dissimilar apart",
    "Random labeling",
-   "Ignoring similarity"
+   "Pulling similar samples together and pushing dissimilar apart",
+   "Ignoring similarity",
+   "Deleting samples"
   ],
   "answer": 1,
   "explanation": "Contrastive objectives learn representations by comparing positive and negative pairs."
@@ -747,10 +747,10 @@
   "difficulty": "advanced",
   "q": "'Self-supervised learning' generates labels from:",
   "options": [
-   "Human annotators only",
-   "The data itself (pretext tasks)",
    "External APIs",
-   "Random noise"
+   "The data itself (pretext tasks)",
+   "Random noise",
+   "Human annotators only"
   ],
   "answer": 1,
   "explanation": "Self-supervision creates supervisory signals from unlabeled data automatically."
@@ -845,10 +845,10 @@
   "difficulty": "advanced",
   "q": "'Catastrophic forgetting' occurs when a model:",
   "options": [
-   "Never learns",
    "Uses too little memory",
+   "Overfits the test set",
    "Forgets previous tasks after training on new ones",
-   "Overfits the test set"
+   "Never learns"
   ],
   "answer": 2,
   "explanation": "Sequential training on new tasks can overwrite knowledge of earlier tasks."
@@ -860,9 +860,9 @@
   "q": "'Layer normalization' differs from batch norm by normalizing:",
   "options": [
    "Across features of a single sample",
-   "Across the batch dimension",
    "Across epochs",
-   "Across labels"
+   "Across labels",
+   "Across the batch dimension"
   ],
   "answer": 0,
   "explanation": "LayerNorm normalizes over features per-sample, useful in transformers and RNNs."
@@ -972,9 +972,9 @@
   "q": "A 'confusion' between epochs and iterations: one iteration is:",
   "options": [
    "One weight update (one batch)",
+   "One full dataset pass",
    "One layer",
-   "One feature",
-   "One full dataset pass"
+   "One feature"
   ],
   "answer": 0,
   "explanation": "An iteration processes one batch and performs one update; an epoch is many iterations."

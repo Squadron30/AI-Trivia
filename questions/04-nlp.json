@@ -34,9 +34,9 @@
   "q": "'Stemming' reduces words to their:",
   "options": [
    "Root/base form by chopping affixes",
-   "Synonyms",
    "Plural form",
-   "Uppercase"
+   "Uppercase",
+   "Synonyms"
   ],
   "answer": 0,
   "explanation": "Stemming crudely trims words (e.g., 'running' to 'run')."
@@ -48,9 +48,9 @@
   "q": "'Lemmatization' differs from stemming by:",
   "options": [
    "Producing valid dictionary base forms using context",
-   "Adding suffixes",
    "Being random",
-   "Removing all vowels"
+   "Removing all vowels",
+   "Adding suffixes"
   ],
   "answer": 0,
   "explanation": "Lemmatization maps words to their proper lemma (e.g., 'better' to 'good')."
@@ -61,9 +61,9 @@
   "difficulty": "intermediate",
   "q": "'Bag of Words' represents text as:",
   "options": [
-   "Audio",
    "A sequence with order",
    "An image",
+   "Audio",
    "Word counts ignoring order"
   ],
   "answer": 3,
@@ -89,10 +89,10 @@
   "difficulty": "intermediate",
   "q": "'Word2Vec' produces:",
   "options": [
-   "Audio spectrograms",
-   "Dense word embeddings capturing semantics",
    "One-hot vectors",
-   "Images"
+   "Dense word embeddings capturing semantics",
+   "Images",
+   "Audio spectrograms"
   ],
   "answer": 1,
   "explanation": "Word2Vec learns vector representations where similar words are near each other."
@@ -187,9 +187,9 @@
   "difficulty": "advanced",
   "q": "'Seq2Seq' models map:",
   "options": [
-   "Audio to nothing",
    "An image to a label",
    "A number to a color",
+   "Audio to nothing",
    "An input sequence to an output sequence"
   ],
   "answer": 3,
@@ -314,9 +314,9 @@
   "q": "'Topic modeling' (e.g., LDA) discovers:",
   "options": [
    "Latent themes across a document collection",
-   "Fonts",
    "Image objects",
-   "Grammar errors"
+   "Grammar errors",
+   "Fonts"
   ],
   "answer": 0,
   "explanation": "Latent Dirichlet Allocation finds clusters of co-occurring words as topics."
@@ -328,9 +328,9 @@
   "q": "'Contextual embeddings' (e.g., BERT) differ from Word2Vec because they:",
   "options": [
    "Vary the vector by surrounding context",
+   "Are always identical per word",
    "Use no neural nets",
-   "Ignore context",
-   "Are always identical per word"
+   "Ignore context"
   ],
   "answer": 0,
   "explanation": "Contextual models give a word different vectors depending on its sentence."
@@ -369,10 +369,10 @@
   "difficulty": "advanced",
   "q": "'Stemming' vs 'Lemmatization': which is generally more linguistically accurate?",
   "options": [
-   "Both identical",
+   "Stemming",
    "Lemmatization",
-   "Neither",
-   "Stemming"
+   "Both identical",
+   "Neither"
   ],
   "answer": 1,
   "explanation": "Lemmatization uses vocabulary and morphology for correct base forms."
@@ -412,9 +412,9 @@
   "q": "The main limitation of Bag-of-Words is that it:",
   "options": [
    "Ignores word order and context",
-   "Cannot count words",
    "Is too slow",
-   "Requires GPUs"
+   "Requires GPUs",
+   "Cannot count words"
   ],
   "answer": 0,
   "explanation": "BoW loses sequence and semantic context, limiting understanding."
@@ -467,10 +467,10 @@
   "difficulty": "advanced",
   "q": "'Slot filling' in dialog systems extracts:",
   "options": [
-   "Audio pitch",
-   "Specific parameter values from user input",
    "Random tokens",
-   "Image regions"
+   "Specific parameter values from user input",
+   "Image regions",
+   "Audio pitch"
   ],
   "answer": 1,
   "explanation": "Slots capture entities like date, location, or quantity from an utterance."
@@ -537,10 +537,10 @@
   "difficulty": "advanced",
   "q": "'Semantic parsing' maps natural language to:",
   "options": [
+   "Random text",
    "Pixels",
-   "Audio",
    "A structured, machine-readable meaning representation",
-   "Random text"
+   "Audio"
   ],
   "answer": 2,
   "explanation": "Semantic parsing produces logical forms or queries from language."
@@ -566,9 +566,9 @@
   "q": "'Beam search' in text generation:",
   "options": [
    "Explores multiple candidate sequences to find high-probability output",
+   "Picks random tokens",
    "Deletes tokens",
-   "Sorts characters",
-   "Picks random tokens"
+   "Sorts characters"
   ],
   "answer": 0,
   "explanation": "Beam search keeps the top-k partial sequences to improve generation quality."
@@ -608,9 +608,9 @@
   "q": "'Top-k sampling' restricts generation to:",
   "options": [
    "The k most likely next tokens",
-   "One token",
    "All tokens",
-   "The k least likely tokens"
+   "The k least likely tokens",
+   "One token"
   ],
   "answer": 0,
   "explanation": "Top-k samples only from the k highest-probability tokens for controlled diversity."
@@ -678,9 +678,9 @@
   "q": "A challenge specific to NLP is:",
   "options": [
    "Ambiguity and context-dependence of language",
-   "Lack of any data",
    "No use cases",
-   "Fixed vocabulary always"
+   "Fixed vocabulary always",
+   "Lack of any data"
   ],
   "answer": 0,
   "explanation": "Words can have multiple meanings, making context crucial and NLP hard."

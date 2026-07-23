@@ -19,9 +19,9 @@
   "difficulty": "intermediate",
   "q": "What is 'underfitting'?",
   "options": [
+   "Model overtrains",
    "Model has too many features",
    "Model is too complex",
-   "Model overtrains",
    "Model fails to capture underlying patterns even in training data"
   ],
   "answer": 3,
@@ -47,10 +47,10 @@
   "difficulty": "intermediate",
   "q": "What is the purpose of a 'validation set'?",
   "options": [
-   "To back up the model",
-   "To tune hyperparameters and check generalization during training",
    "To store passwords",
-   "To render graphics"
+   "To tune hyperparameters and check generalization during training",
+   "To render graphics",
+   "To back up the model"
   ],
   "answer": 1,
   "explanation": "A validation set evaluates the model during development to tune hyperparameters without touching the test set."
@@ -103,9 +103,9 @@
   "difficulty": "intermediate",
   "q": "Precision is defined as:",
   "options": [
-   "TN / (TN + FP)",
    "(TP + TN) / total",
    "TP / (TP + FN)",
+   "TN / (TN + FP)",
    "TP / (TP + FP)"
   ],
   "answer": 3,
@@ -201,9 +201,9 @@
   "difficulty": "intermediate",
   "q": "The 'learning rate' controls:",
   "options": [
-   "The number of classes",
    "The dataset size",
    "The number of features",
+   "The number of classes",
    "The step size in gradient descent updates"
   ],
   "answer": 3,
@@ -216,9 +216,9 @@
   "q": "What happens if the learning rate is too high?",
   "options": [
    "Training may diverge or oscillate",
-   "Data becomes labeled",
    "Training is always faster and better",
-   "Model uses no memory"
+   "Model uses no memory",
+   "Data becomes labeled"
   ],
   "answer": 0,
   "explanation": "An excessive learning rate can overshoot minima, causing divergence."
@@ -271,9 +271,9 @@
   "difficulty": "intermediate",
   "q": "In k-fold cross-validation with k=5, the data is split into:",
   "options": [
-   "5 models trained on all data",
    "5 features",
    "5 copies",
+   "5 models trained on all data",
    "5 equal parts, each used once as validation"
   ],
   "answer": 3,
@@ -327,9 +327,9 @@
   "difficulty": "intermediate",
   "q": "A Support Vector Machine tries to find:",
   "options": [
+   "The fastest route",
    "The median value",
    "The smallest cluster",
-   "The fastest route",
    "The hyperplane with maximum margin between classes"
   ],
   "answer": 3,
@@ -341,10 +341,10 @@
   "difficulty": "intermediate",
   "q": "The 'kernel trick' in SVMs allows:",
   "options": [
-   "Image compression",
-   "Learning non-linear boundaries in higher-dimensional space",
    "Data encryption",
-   "Faster disk access"
+   "Learning non-linear boundaries in higher-dimensional space",
+   "Faster disk access",
+   "Image compression"
   ],
   "answer": 1,
   "explanation": "Kernels implicitly map data to higher dimensions to separate non-linearly separable classes."
@@ -369,10 +369,10 @@
   "difficulty": "intermediate",
   "q": "'Boosting' works by:",
   "options": [
-   "Clustering data",
+   "Averaging independent models",
    "Training weak learners sequentially, each correcting prior errors",
-   "Reducing dimensions",
-   "Averaging independent models"
+   "Clustering data",
+   "Reducing dimensions"
   ],
   "answer": 1,
   "explanation": "Boosting (e.g., AdaBoost, XGBoost) builds models sequentially to fix predecessors' mistakes."
@@ -411,10 +411,10 @@
   "difficulty": "intermediate",
   "q": "'Grid search' is used to:",
   "options": [
-   "Encrypt models",
-   "Systematically search hyperparameter combinations",
    "Draw grids on images",
-   "Compress datasets"
+   "Systematically search hyperparameter combinations",
+   "Compress datasets",
+   "Encrypt models"
   ],
   "answer": 1,
   "explanation": "Grid search evaluates all combinations in a defined hyperparameter grid."
@@ -440,9 +440,9 @@
   "q": "K-Nearest Neighbors (KNN) classifies a point based on:",
   "options": [
    "The majority class of its nearest neighbors",
-   "The mean of all data",
    "A random guess",
-   "The first data point"
+   "The first data point",
+   "The mean of all data"
   ],
   "answer": 0,
   "explanation": "KNN assigns the most common class among the k closest training examples."
@@ -523,10 +523,10 @@
   "difficulty": "intermediate",
   "q": "AUC stands for:",
   "options": [
+   "Average Update Count",
    "Augmented Utility Class",
-   "Automatic Unit Conversion",
    "Area Under the Curve",
-   "Average Update Count"
+   "Automatic Unit Conversion"
   ],
   "answer": 2,
   "explanation": "AUC is the area under the ROC curve; higher means better ranking of classes."
@@ -537,9 +537,9 @@
   "difficulty": "intermediate",
   "q": "'One-hot encoding' is used to:",
   "options": [
-   "Compress images",
    "Shuffle data",
    "Normalize numbers",
+   "Compress images",
    "Represent categorical variables as binary vectors"
   ],
   "answer": 3,
@@ -551,10 +551,10 @@
   "difficulty": "intermediate",
   "q": "A 'loss function' measures:",
   "options": [
+   "The CPU temperature",
    "The disk usage",
-   "The number of layers",
    "The difference between predictions and true values",
-   "The CPU temperature"
+   "The number of layers"
   ],
   "answer": 2,
   "explanation": "Loss quantifies prediction error that training aims to minimize."
@@ -593,10 +593,10 @@
   "difficulty": "intermediate",
   "q": "'Stochastic Gradient Descent' updates weights using:",
   "options": [
-   "No data",
+   "The entire dataset only",
    "One (or a few) sample(s) at a time",
-   "Random labels",
-   "The entire dataset only"
+   "No data",
+   "Random labels"
   ],
   "answer": 1,
   "explanation": "SGD uses small batches/single samples for faster, noisier updates."
@@ -608,9 +608,9 @@
   "q": "An 'epoch' in training refers to:",
   "options": [
    "One full pass over the training dataset",
+   "One feature",
    "One sample",
-   "One layer",
-   "One feature"
+   "One layer"
   ],
   "answer": 0,
   "explanation": "An epoch is a complete iteration through all training examples."
@@ -636,9 +636,9 @@
   "q": "Which is an unsupervised dimensionality reduction technique for visualization?",
   "options": [
    "t-SNE",
-   "AdaBoost",
    "Logistic regression",
-   "SVM"
+   "SVM",
+   "AdaBoost"
   ],
   "answer": 0,
   "explanation": "t-SNE projects high-dimensional data to 2D/3D preserving local structure."
@@ -663,10 +663,10 @@
   "difficulty": "intermediate",
   "q": "The 'no free lunch' theorem states that:",
   "options": [
+   "Data is unlimited",
    "GPUs are unnecessary",
-   "Training is always free",
    "No single algorithm is best for all problems",
-   "Data is unlimited"
+   "Training is always free"
   ],
   "answer": 2,
   "explanation": "Performance depends on the problem; no universally superior algorithm exists."
@@ -720,9 +720,9 @@
   "q": "'Ensemble methods' generally aim to:",
   "options": [
    "Combine multiple models for better performance",
+   "Reduce dataset size",
    "Encrypt predictions",
-   "Speed up disk I/O",
-   "Reduce dataset size"
+   "Speed up disk I/O"
   ],
   "answer": 0,
   "explanation": "Ensembles combine several models to outperform any single one."
@@ -748,9 +748,9 @@
   "q": "A* search combines path cost with:",
   "options": [
    "A heuristic estimate to the goal",
-   "Depth only",
    "Random exploration",
-   "Alphabetical order"
+   "Alphabetical order",
+   "Depth only"
   ],
   "answer": 0,
   "explanation": "A* uses f(n)=g(n)+h(n), balancing actual cost and heuristic estimate."
@@ -803,10 +803,10 @@
   "difficulty": "intermediate",
   "q": "A 'heuristic' in AI search is:",
   "options": [
-   "A dataset",
    "A guaranteed exact answer",
+   "A hardware component",
    "A rule of thumb guiding the search",
-   "A hardware component"
+   "A dataset"
   ],
   "answer": 2,
   "explanation": "Heuristics provide informed estimates to guide search efficiently."
@@ -817,10 +817,10 @@
   "difficulty": "intermediate",
   "q": "Breadth-First Search guarantees the shortest path when:",
   "options": [
-   "There is no goal",
+   "Edges have negative cost",
    "All edges have equal cost",
-   "The graph is infinite",
-   "Edges have negative cost"
+   "There is no goal",
+   "The graph is infinite"
   ],
   "answer": 1,
   "explanation": "BFS finds the shallowest goal, which is shortest only with uniform edge costs."
@@ -859,9 +859,9 @@
   "difficulty": "intermediate",
   "q": "'First-order logic' adds which capability over propositional logic?",
   "options": [
-   "Encryption",
    "Image support",
    "Faster CPUs",
+   "Encryption",
    "Quantifiers and predicates over objects"
   ],
   "answer": 3,
@@ -901,9 +901,9 @@
   "difficulty": "intermediate",
   "q": "A 'knowledge base' in an expert system stores:",
   "options": [
-   "Temporary cache",
    "Only images",
    "User passwords",
+   "Temporary cache",
    "Facts and rules about a domain"
   ],
   "answer": 3,
@@ -929,10 +929,10 @@
   "difficulty": "intermediate",
   "q": "A 'greedy best-first search' selects nodes based on:",
   "options": [
-   "Depth only",
    "Actual path cost only",
+   "Random choice",
    "The heuristic estimate alone",
-   "Random choice"
+   "Depth only"
   ],
   "answer": 2,
   "explanation": "Greedy best-first uses only the heuristic h(n), which is fast but not always optimal."
@@ -943,10 +943,10 @@
   "difficulty": "intermediate",
   "q": "'Hill climbing' can get stuck in:",
   "options": [
-   "Negative cycles",
    "Global optima always",
+   "Infinite loops only",
    "Local maxima",
-   "Infinite loops only"
+   "Negative cycles"
   ],
   "answer": 2,
   "explanation": "Hill climbing may converge to a local optimum rather than the global best."
@@ -972,9 +972,9 @@
   "q": "A 'genetic algorithm' is inspired by:",
   "options": [
    "Natural selection and evolution",
-   "Quantum mechanics",
    "Fluid dynamics",
-   "Neural signaling"
+   "Neural signaling",
+   "Quantum mechanics"
   ],
   "answer": 0,
   "explanation": "Genetic algorithms evolve solutions using selection, crossover, and mutation."
@@ -986,9 +986,9 @@
   "q": "'Semi-supervised learning' uses:",
   "options": [
    "A small amount of labeled data with lots of unlabeled data",
+   "No data",
    "Only rewards",
-   "Only labeled data",
-   "No data"
+   "Only labeled data"
   ],
   "answer": 0,
   "explanation": "Semi-supervised methods leverage abundant unlabeled data alongside limited labels."
@@ -1083,10 +1083,10 @@
   "difficulty": "intermediate",
   "q": "'Class imbalance' can be addressed by:",
   "options": [
-   "Ignoring it always",
+   "Adding random noise only",
    "Resampling (oversampling/undersampling) or class weighting",
-   "Removing all classes",
-   "Adding random noise only"
+   "Ignoring it always",
+   "Removing all classes"
   ],
   "answer": 1,
   "explanation": "Techniques like SMOTE, undersampling, or weighted losses handle imbalance."
@@ -1111,10 +1111,10 @@
   "difficulty": "intermediate",
   "q": "'Scikit-learn' is a Python library primarily for:",
   "options": [
+   "Operating systems",
    "3D games",
-   "Web servers",
    "Classical machine learning",
-   "Operating systems"
+   "Web servers"
   ],
   "answer": 2,
   "explanation": "scikit-learn provides classical ML algorithms, preprocessing, and evaluation tools."

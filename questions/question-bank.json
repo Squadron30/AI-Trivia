@@ -1,23 +1,23 @@
 {
  "meta": {
-  "total": 606,
+  "total": 618,
   "byDifficulty": {
-   "beginner": 173,
+   "beginner": 185,
    "intermediate": 177,
    "advanced": 256
   },
   "byCategory": {
-   "AI Basics": 30,
-   "Intelligent Agents": 21,
-   "Problem Solving & Search": 34,
+   "AI Basics": 43,
+   "Intelligent Agents": 20,
+   "Perception & Robotics": 6,
+   "AI Ethics & Safety": 14,
+   "Problem Solving & Search": 33,
    "Adversarial Search": 3,
-   "Logical Agents": 7,
-   "Knowledge & Reasoning": 6,
-   "Planning": 2,
+   "Logical Agents": 5,
+   "Knowledge & Reasoning": 4,
    "Uncertainty": 2,
    "Learning": 6,
-   "Perception & Robotics": 6,
-   "AI Fundamentals": 55,
+   "AI Fundamentals": 60,
    "Machine Learning": 63,
    "Classic AI": 17,
    "Deep Learning": 70,
@@ -25,7 +25,6 @@
    "Transformers & LLMs": 50,
    "Computer Vision": 40,
    "Reinforcement Learning": 20,
-   "AI Ethics & Safety": 12,
    "MLOps & Deployment": 20,
    "AI System Design & Architecture": 28,
    "Knowledge Representation & Reasoning": 24,
@@ -37,1331 +36,1457 @@
    "id": "B001",
    "category": "AI Basics",
    "difficulty": "beginner",
-   "q": "What is the full form of 'AI'?",
+   "q": "What does the abbreviation 'AI' stand for?",
    "options": [
-    "Analog Interface",
-    "Applied Informatics",
+    "Adaptive Informatics",
+    "Augmented Analytics",
     "Artificial Intelligence",
-    "Automatic Input"
+    "Automated Inference"
    ],
    "answer": 2,
-   "explanation": "AI stands for Artificial Intelligence: building machines that can think and act like humans."
+   "explanation": "AI stands for Artificial Intelligence \u2014 machines performing tasks that require human-like intelligence."
   },
   {
    "id": "B002",
    "category": "AI Basics",
    "difficulty": "beginner",
-   "q": "Artificial Intelligence mainly aims to:",
+   "q": "Which best describes the overall goal of Artificial Intelligence?",
    "options": [
-    "Design faster keyboards",
-    "Develop intelligent machines",
-    "Sell more computers",
-    "Improve office furniture"
+    "Guaranteeing bug-free software automatically",
+    "Building systems that perform tasks requiring human-like intelligence",
+    "Maximising raw data storage capacity",
+    "Standardising communication protocols"
    ],
    "answer": 1,
-   "explanation": "AI focuses on creating systems that can reason, learn, and act intelligently."
+   "explanation": "AI aims to create systems that reason, learn, perceive, and act intelligently."
+  },
+  {
+   "id": "B003",
+   "category": "AI Basics",
+   "difficulty": "beginner",
+   "q": "Which of the following is a recognised sub-field of Artificial Intelligence?",
+   "options": [
+    "Data warehousing",
+    "Machine Learning",
+    "Version control",
+    "Load balancing"
+   ],
+   "answer": 1,
+   "explanation": "Machine Learning is a core AI sub-field, alongside NLP, computer vision, and robotics."
   },
   {
    "id": "B004",
    "category": "AI Basics",
    "difficulty": "beginner",
-   "q": "Which of these is a branch of Artificial Intelligence?",
+   "q": "Which is a real-world application of Artificial Intelligence?",
    "options": [
-    "Network cabling",
-    "Book-keeping",
-    "Machine Learning",
-    "Cyber forensics"
+    "Compressing files with a fixed codec",
+    "Indexing rows in a relational database",
+    "Natural language understanding in voice assistants",
+    "Assigning static IP addresses"
    ],
    "answer": 2,
-   "explanation": "Machine Learning is a core sub-area of AI, along with NLP, vision, and robotics."
+   "explanation": "Voice assistants use NLP and speech recognition \u2014 both AI techniques."
   },
   {
    "id": "B005",
    "category": "AI Basics",
    "difficulty": "beginner",
-   "q": "Which of these is a real-world application of AI?",
+   "q": "The AI pipeline is often summarised as three stages: sensing, reasoning, and:",
    "options": [
-    "Sweeping the floor manually",
-    "Stapling paper",
-    "Language understanding and problem solving",
-    "Filing physical documents"
+    "Caching",
+    "Encrypting",
+    "Acting",
+    "Indexing"
    ],
    "answer": 2,
-   "explanation": "NLP-based language understanding is a common AI application, e.g. voice assistants."
+   "explanation": "An AI system senses its environment, reasons over the data, then acts on it."
   },
   {
    "id": "B006",
    "category": "AI Basics",
    "difficulty": "beginner",
-   "q": "The AI process is often described in three steps: sensing, reasoning, and:",
+   "q": "By capability, which category describes essentially all AI systems in use today?",
    "options": [
-    "Sleeping",
-    "Acting",
-    "Printing",
-    "Deleting"
+    "Artificial General Intelligence (AGI)",
+    "Artificial Narrow Intelligence (ANI)",
+    "Theory-of-mind intelligence",
+    "Artificial Super Intelligence (ASI)"
    ],
    "answer": 1,
-   "explanation": "AI systems sense the world, reason about it, then act upon the environment."
+   "explanation": "Today's systems are narrow (ANI) \u2014 specialised for specific tasks, not general reasoning."
   },
   {
    "id": "B007",
    "category": "AI Basics",
    "difficulty": "beginner",
-   "q": "AI is commonly categorized based on capability and:",
+   "q": "'Artificial General Intelligence' (AGI) would be able to:",
    "options": [
-    "Price",
-    "Functionality",
-    "Screen size",
-    "Colour"
+    "Only operate within a single application",
+    "Perform any intellectual task a human can, across domains",
+    "Only classify a fixed set of images",
+    "Only optimise one narrow objective"
    ],
    "answer": 1,
-   "explanation": "AI is grouped by capability (ANI/AGI/ASI) and by functionality (reactive, limited memory, etc.)."
+   "explanation": "AGI refers to human-level general reasoning across a wide range of tasks."
   },
   {
    "id": "B008",
    "category": "AI Basics",
    "difficulty": "beginner",
-   "q": "By capability, which is the type of AI we mostly have today?",
+   "q": "By functionality, AI is categorised as reactive machines, limited memory, theory of mind, and:",
    "options": [
-    "Artificial General Intelligence (AGI)",
-    "None",
-    "Artificial Narrow Intelligence (ANI)",
-    "Artificial Super Intelligence (ASI)"
+    "Edge inference",
+    "Symbolic reasoning",
+    "Self-awareness",
+    "Supervised learning"
    ],
    "answer": 2,
-   "explanation": "Today's AI is narrow (ANI) \u2014 specialized for specific tasks."
+   "explanation": "The functionality classes are reactive, limited memory, theory of mind, and self-awareness."
   },
   {
    "id": "B009",
    "category": "AI Basics",
    "difficulty": "beginner",
-   "q": "'Artificial General Intelligence' (AGI) refers to AI that can:",
+   "q": "Which is considered a core component of intelligence that AI tries to replicate?",
    "options": [
-    "Only play one game",
-    "Only translate text",
-    "Perform any intellectual task a human can",
-    "Only recognize faces"
+    "Data serialisation",
+    "Bandwidth allocation",
+    "Learning from experience",
+    "Memory paging"
    ],
    "answer": 2,
-   "explanation": "AGI would match human-level general reasoning across many tasks."
+   "explanation": "Learning \u2014 acquiring knowledge from data/experience \u2014 is central to intelligence."
   },
   {
    "id": "B010",
-   "category": "AI Basics",
+   "category": "Intelligent Agents",
    "difficulty": "beginner",
-   "q": "'Artificial Super Intelligence' (ASI) describes AI that would:",
+   "q": "An intelligent agent perceives its environment through sensors and acts through:",
    "options": [
-    "Surpass human intelligence in nearly all areas",
-    "Be slightly slower than humans",
-    "Only store data",
-    "Only do maths"
+    "Actuators",
+    "Classifiers",
+    "Heuristics",
+    "Embeddings"
    ],
    "answer": 0,
-   "explanation": "ASI is a hypothetical AI exceeding the best human minds across the board."
+   "explanation": "Agents sense via sensors and take action via actuators (effectors)."
   },
   {
    "id": "B011",
-   "category": "AI Basics",
+   "category": "Intelligent Agents",
    "difficulty": "beginner",
-   "q": "Which is a functionality-based type of AI?",
+   "q": "The 'agent function' maps a sequence of percepts to:",
    "options": [
-    "Reactive machines",
-    "Cheap machines",
-    "Loud machines",
-    "Round machines"
+    "An action",
+    "A training label",
+    "A loss value",
+    "A feature vector"
    ],
    "answer": 0,
-   "explanation": "By functionality, AI includes reactive machines, limited memory, theory of mind, and self-awareness."
+   "explanation": "The agent function decides which action to take given the percepts seen so far."
   },
   {
    "id": "B012",
-   "category": "AI Basics",
+   "category": "Intelligent Agents",
    "difficulty": "beginner",
-   "q": "Which is considered a key component of intelligence in AI?",
+   "q": "Which of these is NOT a standard type of intelligent agent?",
    "options": [
-    "Sleeping",
-    "Charging",
-    "Painting",
-    "Learning"
+    "Utility-based agent",
+    "Goal-based agent",
+    "Simple reflex agent",
+    "Gradient-descent agent"
    ],
    "answer": 3,
-   "explanation": "Learning \u2014 gaining knowledge from experience or teaching \u2014 is a core component of intelligence."
+   "explanation": "Standard types are simple reflex, model-based, goal-based, utility-based, and learning agents."
   },
   {
    "id": "B013",
    "category": "Intelligent Agents",
    "difficulty": "beginner",
-   "q": "An AI 'agent' perceives its environment through sensors and acts through:",
+   "q": "A 'simple reflex agent' selects its action based on:",
    "options": [
-    "Cables",
-    "Speakers only",
-    "Actuators",
-    "Printers only"
+    "A learned deep neural policy",
+    "A full probabilistic model of the world",
+    "The current percept via condition-action rules",
+    "The complete history of all past percepts"
    ],
    "answer": 2,
-   "explanation": "Agents sense via sensors and act via actuators (effectors)."
+   "explanation": "Simple reflex agents map the current percept directly to an action using rules."
   },
   {
    "id": "B014",
    "category": "Intelligent Agents",
    "difficulty": "beginner",
-   "q": "An agent function maps a sequence of percepts to:",
+   "q": "A 'goal-based agent' chooses actions by considering:",
    "options": [
-    "A password",
-    "A file name",
-    "A colour",
-    "An action"
+    "Only the immediate reward signal",
+    "Only the raw sensor reading",
+    "Only the size of its memory",
+    "Whether an action helps achieve a desired goal"
    ],
    "answer": 3,
-   "explanation": "The agent function decides which action to take given the percepts seen so far."
+   "explanation": "Goal-based agents evaluate how actions advance them toward a goal."
   },
   {
    "id": "B015",
    "category": "Intelligent Agents",
    "difficulty": "beginner",
-   "q": "Which of these is NOT a standard type of intelligent agent?",
+   "q": "A 'utility-based agent' selects actions to maximise:",
    "options": [
-    "Goal-based agent",
-    "Unity-based agent",
-    "Simple reflex agent",
-    "Learning agent"
+    "The count of percepts received",
+    "Expected utility (a measure of preference over outcomes)",
+    "The number of rules in its knowledge base",
+    "The depth of its search tree"
    ],
    "answer": 1,
-   "explanation": "Standard agent types include simple reflex, model-based, goal-based, utility-based, and learning agents."
+   "explanation": "Utility-based agents pick actions that maximise expected utility, not just reach a goal."
   },
   {
    "id": "B016",
    "category": "Intelligent Agents",
    "difficulty": "beginner",
-   "q": "A 'simple reflex agent' chooses actions based on:",
+   "q": "What distinguishes a 'learning agent' from the others?",
    "options": [
-    "Random numbers",
-    "The weather forecast",
-    "Its entire life history",
-    "The current percept only"
+    "It uses the deepest search",
+    "It has the largest fixed rule set",
+    "It has the most sensors",
+    "It improves its performance from experience over time"
    ],
    "answer": 3,
-   "explanation": "Simple reflex agents act on the current percept using condition-action rules."
+   "explanation": "A learning agent adapts and improves based on feedback and experience."
   },
   {
    "id": "B017",
    "category": "Intelligent Agents",
    "difficulty": "beginner",
-   "q": "A 'goal-based agent' selects actions to:",
+   "q": "For a human treated as an agent, the eyes and ears play the role of:",
    "options": [
-    "Waste time",
-    "Use more power",
-    "Achieve a desired goal",
-    "Ignore the goal"
+    "Actuators",
+    "Utility functions",
+    "Sensors",
+    "Reward signals"
    ],
    "answer": 2,
-   "explanation": "Goal-based agents consider how actions bring them closer to a goal."
+   "explanation": "Eyes and ears are sensors; hands, legs, and voice are actuators/effectors."
   },
   {
    "id": "B018",
    "category": "Intelligent Agents",
    "difficulty": "beginner",
-   "q": "A 'utility-based agent' tries to maximize:",
+   "q": "Which of the following best qualifies as an intelligent agent?",
    "options": [
-    "File size",
-    "A measure of happiness/usefulness (utility)",
-    "Cable length",
-    "Screen brightness"
+    "A statistical report summarising traffic data",
+    "A self-driving car that perceives and navigates traffic",
+    "A labelled dataset of driving photos",
+    "A trained image classifier saved as a file"
    ],
    "answer": 1,
-   "explanation": "Utility-based agents pick actions that maximize expected utility, not just reach a goal."
+   "explanation": "An agent must perceive AND act in an environment. A saved model, a dataset, and a report are passive artefacts \u2014 only the self-driving car senses and acts."
   },
   {
    "id": "B019",
    "category": "Intelligent Agents",
    "difficulty": "beginner",
-   "q": "A 'learning agent' is special because it can:",
+   "q": "An agent is composed of an architecture together with a(n):",
    "options": [
-    "Improve its performance over time",
-    "Never change",
-    "Only turn on and off",
-    "Only display text"
+    "Agent program (the decision logic)",
+    "Training dataset",
+    "Reward table",
+    "Loss function"
    ],
    "answer": 0,
-   "explanation": "Learning agents improve by learning from experience."
+   "explanation": "Agent = architecture (platform) + program (logic mapping percepts to actions)."
   },
   {
    "id": "B020",
    "category": "Intelligent Agents",
    "difficulty": "beginner",
-   "q": "In an agent, 'sensors' are used to:",
+   "q": "In a 'fully observable' environment, the agent's sensors provide:",
    "options": [
-    "Receive information from the environment",
-    "Print reports",
-    "Cool the CPU",
-    "Store passwords"
+    "Access to the complete relevant state at each step",
+    "Only a noisy fraction of the state",
+    "Only delayed information",
+    "Only the final reward"
    ],
    "answer": 0,
-   "explanation": "Sensors gather input/percepts from the environment."
+   "explanation": "Full observability means the sensors reveal the complete relevant state."
   },
   {
    "id": "B021",
    "category": "Intelligent Agents",
    "difficulty": "beginner",
-   "q": "For a human treated as an agent, the eyes and ears act as:",
+   "q": "A 'partially observable' environment is one where the agent:",
    "options": [
-    "Batteries",
-    "Actuators",
-    "Sensors",
-    "Wires"
+    "Receives the true state after every action",
+    "Perceives the entire state without noise",
+    "Perceives only part of the underlying state",
+    "Has no state to perceive"
    ],
    "answer": 2,
-   "explanation": "Eyes and ears are sensors; hands and legs are effectors/actuators."
+   "explanation": "Partial observability means some of the state is hidden from the agent's sensors."
   },
   {
    "id": "B022",
    "category": "Intelligent Agents",
    "difficulty": "beginner",
-   "q": "A robot vacuum cleaner is an example of a(n):",
+   "q": "In a 'deterministic' environment, the next state is:",
    "options": [
-    "Spreadsheet",
-    "Database",
-    "Web browser",
-    "Intelligent agent"
+    "Revealed only at the end of an episode",
+    "Independent of the chosen action",
+    "Drawn from a probability distribution",
+    "Fully determined by the current state and action"
    ],
    "answer": 3,
-   "explanation": "It senses its surroundings and acts to clean \u2014 a classic simple agent."
+   "explanation": "Deterministic environments produce predictable outcomes for each action."
   },
   {
    "id": "B023",
    "category": "Intelligent Agents",
    "difficulty": "beginner",
-   "q": "An agent is composed of an architecture and a:",
+   "q": "A 'stochastic' environment is one in which:",
    "options": [
-    "Poster",
-    "Program",
-    "Painting",
-    "Playlist"
+    "The state never changes",
+    "Action outcomes involve randomness/uncertainty",
+    "Every action has one fixed outcome",
+    "There is no reward signal"
    ],
    "answer": 1,
-   "explanation": "Agent = architecture (hardware) + program (the logic mapping percepts to actions)."
+   "explanation": "Stochastic environments involve probabilistic, uncertain outcomes."
   },
   {
    "id": "B024",
    "category": "Intelligent Agents",
    "difficulty": "beginner",
-   "q": "Which of the following can be considered an AI agent?",
+   "q": "A 'static' environment is one that:",
    "options": [
-    "An autonomous spacecraft",
-    "A brick",
-    "A paper notebook",
-    "A rubber band"
+    "Does not change while the agent is deliberating",
+    "Has no observable state",
+    "Changes continuously during deliberation",
+    "Provides no possible actions"
    ],
    "answer": 0,
-   "explanation": "An autonomous spacecraft senses and acts on its own \u2014 it is an agent."
+   "explanation": "Static environments remain unchanged while the agent decides what to do."
   },
   {
    "id": "B025",
    "category": "Intelligent Agents",
    "difficulty": "beginner",
-   "q": "In a 'fully observable' environment, the agent:",
+   "q": "A 'multi-agent' environment is one in which:",
    "options": [
-    "Sees nothing",
-    "Guesses randomly",
-    "Only hears sounds",
-    "Can see the complete state at each step"
+    "The state is fixed and unchanging",
+    "A single agent acts in isolation",
+    "Only sensors exist, with no decision-making",
+    "Multiple agents interact, cooperating or competing"
    ],
    "answer": 3,
-   "explanation": "Full observability means sensors give access to the complete environment state."
+   "explanation": "Multi-agent settings involve several agents whose actions affect each other."
   },
   {
    "id": "B026",
-   "category": "Intelligent Agents",
+   "category": "AI Basics",
    "difficulty": "beginner",
-   "q": "A 'partially observable' environment means the agent:",
+   "q": "The 'Turing Test' assesses whether a machine can:",
    "options": [
-    "Knows everything",
-    "Has no sensors",
-    "Cannot act",
-    "Has incomplete information about the state"
+    "Compute results with fewer errors than a human",
+    "Store more information than a human",
+    "Consume less energy than a human brain",
+    "Hold a conversation indistinguishable from a human's"
    ],
    "answer": 3,
-   "explanation": "Partial observability means the agent cannot perceive the full state."
+   "explanation": "The test judges whether a machine's responses are indistinguishable from a person's."
   },
   {
    "id": "B027",
-   "category": "Intelligent Agents",
+   "category": "AI Basics",
    "difficulty": "beginner",
-   "q": "In a 'deterministic' environment, the next state is:",
+   "q": "'Strong AI' refers to a machine that can:",
    "options": [
-    "Decided by dice",
-    "Always random",
-    "Fully determined by the current state and action",
-    "Never known"
+    "Only retrieve stored records on request",
+    "Only recognise a fixed set of patterns",
+    "Genuinely reason and understand like a human mind",
+    "Only execute predefined task-specific scripts"
    ],
    "answer": 2,
-   "explanation": "Deterministic environments have predictable outcomes for each action."
+   "explanation": "Strong AI implies true understanding and reasoning, not narrow task-specific behaviour."
   },
   {
    "id": "B028",
-   "category": "Intelligent Agents",
+   "category": "AI Basics",
    "difficulty": "beginner",
-   "q": "A 'stochastic' environment is one where outcomes are:",
+   "q": "'Weak AI' (narrow AI) describes systems that:",
    "options": [
-    "Never changing",
-    "Always the same",
-    "Always fixed",
-    "Uncertain/random to some degree"
+    "Can perform any task a human can",
+    "Experience subjective emotions",
+    "Possess self-awareness and consciousness",
+    "Handle specific tasks intelligently without genuine understanding"
    ],
    "answer": 3,
-   "explanation": "Stochastic environments involve randomness in outcomes."
+   "explanation": "Weak AI performs narrow tasks competently but does not truly understand."
   },
   {
    "id": "B029",
-   "category": "Intelligent Agents",
+   "category": "AI Basics",
    "difficulty": "beginner",
-   "q": "A 'static' environment is one that:",
+   "q": "A facial-recognition access system is a typical example of the:",
    "options": [
-    "Does not change while the agent is deciding",
-    "Has no agent",
-    "Is always noisy",
-    "Changes every millisecond"
+    "Applied AI approach",
+    "Cognitive-simulation approach",
+    "Purely theoretical AI approach",
+    "Symbolic-logic-only approach"
    ],
    "answer": 0,
-   "explanation": "Static environments don't change while the agent deliberates."
+   "explanation": "The applied approach builds commercially useful 'smart' systems such as face recognition."
   },
   {
    "id": "B030",
-   "category": "Intelligent Agents",
+   "category": "AI Basics",
    "difficulty": "beginner",
-   "q": "A 'multi-agent' environment involves:",
+   "q": "'Fuzzy logic' is valuable in AI because it can:",
    "options": [
-    "Only sensors",
-    "No agents",
-    "More than one agent interacting",
-    "Exactly one agent"
+    "Eliminate the need for any data",
+    "Guarantee provably optimal decisions",
+    "Represent degrees of truth for vague information",
+    "Only work with strict true/false values"
    ],
    "answer": 2,
-   "explanation": "Multi-agent environments have several agents that may cooperate or compete."
+   "explanation": "Fuzzy logic represents partial truth on a continuous scale, mimicking human intuition."
   },
   {
    "id": "B031",
    "category": "AI Basics",
    "difficulty": "beginner",
-   "q": "The 'Turing Test' checks whether a machine can:",
+   "q": "A commonly cited benefit of AI in the workplace is:",
    "options": [
-    "Run faster than a human",
-    "Converse indistinguishably from a human",
-    "Lift heavy objects",
-    "Store more files"
+    "Guaranteeing zero errors in every output",
+    "Automating repetitive tasks and surfacing insights",
+    "Removing the need for any training data",
+    "Eliminating the need for human oversight entirely"
    ],
    "answer": 1,
-   "explanation": "Alan Turing's test judges if a machine's responses are indistinguishable from a human's."
+   "explanation": "AI automates routine work and extracts insights, though it does not guarantee perfection."
+  },
+  {
+   "id": "B032",
+   "category": "Intelligent Agents",
+   "difficulty": "beginner",
+   "q": "What most reliably improves an AI agent's performance over time?",
+   "options": [
+    "Adding more sensors without any learning",
+    "Enlarging its memory without new data",
+    "Increasing the number of hard-coded rules only",
+    "Learning from past experience and feedback"
+   ],
+   "answer": 3,
+   "explanation": "Agents that learn from previous outcomes respond better to similar situations later."
   },
   {
    "id": "B033",
    "category": "AI Basics",
    "difficulty": "beginner",
-   "q": "'Strong AI' refers to machines that can:",
+   "q": "Which language is most widely used for modern AI/ML development?",
    "options": [
-    "Only store data",
-    "Only follow fixed scripts",
-    "Only display images",
-    "Truly reason and solve problems like a human mind"
+    "COBOL",
+    "Bash",
+    "PHP",
+    "Python"
    ],
    "answer": 3,
-   "explanation": "Strong AI aims for genuine understanding and reasoning, not just imitation."
+   "explanation": "Python dominates AI/ML thanks to libraries like TensorFlow, PyTorch, and scikit-learn."
   },
   {
    "id": "B034",
    "category": "AI Basics",
    "difficulty": "beginner",
-   "q": "'Weak AI' (narrow AI) refers to systems that:",
+   "q": "Which AI field enables machines to interpret images and video?",
    "options": [
-    "Feel emotions",
-    "Are conscious",
-    "Can do anything a human can",
-    "Act intelligently on specific tasks without true reasoning"
+    "Natural Language Processing",
+    "Reinforcement Learning",
+    "Speech Recognition",
+    "Computer Vision"
    ],
    "answer": 3,
-   "explanation": "Weak AI performs specific tasks intelligently but doesn't truly 'think'."
+   "explanation": "Computer vision extracts meaning from visual data; the others handle language, audio, and decision-making."
   },
   {
    "id": "B035",
    "category": "AI Basics",
    "difficulty": "beginner",
-   "q": "A face recognition security system is an example of the:",
+   "q": "Which AI field focuses on understanding and generating human language?",
    "options": [
-    "Cognitive science approach",
-    "Purely theoretical approach",
-    "No approach",
-    "Applied AI approach"
+    "Computer Vision",
+    "Robotics",
+    "Reinforcement Learning",
+    "Natural Language Processing"
    ],
    "answer": 3,
-   "explanation": "The applied approach builds commercially viable 'smart' systems like face recognition."
+   "explanation": "NLP works with human language in text and speech; the others target vision, action, and decisions."
   },
   {
    "id": "B036",
-   "category": "AI Basics",
+   "category": "Perception & Robotics",
    "difficulty": "beginner",
-   "q": "'Fuzzy logic' allows machines to:",
+   "q": "'Robotics' in AI integrates perception and reasoning with:",
    "options": [
-    "Ignore all inputs",
-    "Store images",
-    "Handle vague, imprecise information",
-    "Only use true/false with no in-between"
+    "Relational database queries",
+    "Text summarisation",
+    "Physical action via sensors and actuators",
+    "Purely symbolic theorem proving"
    ],
    "answer": 2,
-   "explanation": "Fuzzy logic handles degrees of truth, mimicking human intuition about vague data."
+   "explanation": "Robotics combines AI with hardware that senses and acts in the physical world."
   },
   {
    "id": "B037",
-   "category": "AI Basics",
+   "category": "Perception & Robotics",
    "difficulty": "beginner",
-   "q": "Which is a benefit of Artificial Intelligence?",
+   "q": "A 'chatbot' is an AI application that primarily:",
    "options": [
-    "Reduces time to solve certain problems",
-    "Makes tasks slower",
-    "Removes all electricity",
-    "Always increases errors"
+    "Converses with users in natural language",
+    "Forecasts numeric time series",
+    "Detects objects in photographs",
+    "Controls a robot arm"
    ],
    "answer": 0,
-   "explanation": "AI can automate and speed up problem solving and repetitive tasks."
+   "explanation": "Chatbots use NLP to understand and respond to user messages."
   },
   {
    "id": "B038",
-   "category": "Intelligent Agents",
+   "category": "Perception & Robotics",
    "difficulty": "beginner",
-   "q": "What can improve an AI agent's performance over time?",
+   "q": "'Speech recognition' performs which conversion?",
    "options": [
-    "Deleting its program",
-    "Learning from past experiences",
-    "Turning it off",
-    "Removing its sensors"
+    "Images into captions",
+    "Spoken audio into text",
+    "Text into synthesized speech",
+    "Text into another language"
    ],
    "answer": 1,
-   "explanation": "An agent that learns from previous states responds better to similar situations later."
+   "explanation": "Speech recognition transcribes spoken audio into written text (the reverse of text-to-speech)."
   },
   {
    "id": "B039",
-   "category": "AI Basics",
+   "category": "Perception & Robotics",
    "difficulty": "beginner",
-   "q": "Which is a common programming language for AI?",
+   "q": "A self-driving car depends on AI mainly to:",
    "options": [
-    "Python",
-    "HTML alone",
-    "CSS alone",
-    "Notepad"
+    "Perceive its surroundings and make driving decisions",
+    "Index its map database",
+    "Encrypt its onboard communications",
+    "Compress its sensor logs"
    ],
    "answer": 0,
-   "explanation": "Python is very popular for AI; LISP and Prolog are classic AI languages too."
+   "explanation": "Autonomous vehicles use vision, sensor fusion, and ML to perceive and decide."
+  },
+  {
+   "id": "B040",
+   "category": "AI Basics",
+   "difficulty": "beginner",
+   "q": "'Actuators' on an intelligent system are used to:",
+   "options": [
+    "Gather input from the environment",
+    "Store the knowledge base",
+    "Estimate probabilities",
+    "Carry out physical actions in the environment"
+   ],
+   "answer": 3,
+   "explanation": "Actuators convert decisions into physical action; sensors, by contrast, gather input."
+  },
+  {
+   "id": "B041",
+   "category": "AI Basics",
+   "difficulty": "beginner",
+   "q": "Which is a classic example of AI 'game playing'?",
+   "options": [
+    "A program that trains an image classifier",
+    "A program that clusters customer data",
+    "A program that plays chess at a high level",
+    "A program that translates documents"
+   ],
+   "answer": 2,
+   "explanation": "Game playing (chess, Go) is a long-standing AI research area distinct from these other tasks."
+  },
+  {
+   "id": "B042",
+   "category": "AI Basics",
+   "difficulty": "beginner",
+   "q": "Which is an everyday example of AI in consumer technology?",
+   "options": [
+    "A static contacts list",
+    "A fixed-function calculator app",
+    "A basic alarm timer",
+    "A smartphone voice assistant"
+   ],
+   "answer": 3,
+   "explanation": "Voice assistants rely on speech recognition and NLP \u2014 everyday narrow AI."
+  },
+  {
+   "id": "B043",
+   "category": "AI Basics",
+   "difficulty": "beginner",
+   "q": "AI-driven 'automation' is best described as:",
+   "options": [
+    "Manually approving every single step",
+    "Performing tasks with reduced human intervention",
+    "Deliberately slowing down processing",
+    "Disabling a system's data inputs"
+   ],
+   "answer": 1,
+   "explanation": "AI automation carries out tasks automatically, reducing repetitive manual effort."
+  },
+  {
+   "id": "B044",
+   "category": "AI Ethics & Safety",
+   "difficulty": "beginner",
+   "q": "Which is a widely discussed risk of AI systems?",
+   "options": [
+    "Being impossible to update",
+    "Bias leading to unfair or discriminatory decisions",
+    "Producing results too quickly to use",
+    "Requiring too little training data"
+   ],
+   "answer": 1,
+   "explanation": "Bias in training data or design can produce unfair outcomes \u2014 a central concern."
   },
   {
    "id": "B045",
-   "category": "Problem Solving & Search",
+   "category": "AI Basics",
    "difficulty": "beginner",
-   "q": "In AI, 'search' techniques are used to:",
+   "q": "'Training data' is best defined as:",
    "options": [
-    "Find a sequence of actions to reach a goal",
-    "Sort files alphabetically",
-    "Search the internet only",
-    "Format a disk"
+    "The data a model learns its patterns from",
+    "The code that defines the model architecture",
+    "The hardware a model runs on",
+    "The metric used to score a finished model"
    ],
    "answer": 0,
-   "explanation": "Search explores possible states/actions to find a path to a goal."
+   "explanation": "Models learn by finding patterns in their training data."
   },
   {
    "id": "B046",
-   "category": "Problem Solving & Search",
+   "category": "AI Basics",
    "difficulty": "beginner",
-   "q": "An 'uninformed' (blind) search does NOT use:",
+   "q": "In machine learning, a 'model' is:",
    "options": [
-    "Any memory",
-    "Extra problem-specific knowledge (heuristics)",
-    "Any states",
-    "Any goal"
+    "The optimiser used during training",
+    "The learned function mapping inputs to outputs",
+    "The raw dataset before any training",
+    "The evaluation metric such as accuracy"
    ],
    "answer": 1,
-   "explanation": "Uninformed search has no heuristic guidance beyond the problem definition."
+   "explanation": "An ML model is the learned mapping used to make predictions."
   },
   {
    "id": "B047",
-   "category": "Problem Solving & Search",
+   "category": "AI Basics",
    "difficulty": "beginner",
-   "q": "An 'informed' search uses a ______ to guide it toward the goal.",
+   "q": "'Generative AI' is distinguished by its ability to:",
    "options": [
-    "Random dice",
-    "Screen saver",
-    "Heuristic",
-    "Password"
+    "Only assign inputs to fixed categories",
+    "Only rank items by a score",
+    "Create new content such as text, images, or audio",
+    "Only detect anomalies in data"
    ],
    "answer": 2,
-   "explanation": "Informed (heuristic) search uses estimates to reach goals more efficiently."
+   "explanation": "Generative AI produces new content, unlike models that only classify, rank, or detect."
   },
   {
    "id": "B048",
-   "category": "Problem Solving & Search",
+   "category": "AI Basics",
    "difficulty": "beginner",
-   "q": "'Breadth-First Search' explores nodes:",
+   "q": "A 'prompt' in generative AI refers to:",
    "options": [
-    "Randomly",
-    "Deepest branch first",
-    "Backward only",
-    "Level by level (shallowest first)"
+    "The metric used to evaluate outputs",
+    "The number of layers in the network",
+    "The dataset used to pre-train the model",
+    "The input instruction that guides the model's output"
    ],
    "answer": 3,
-   "explanation": "BFS expands all nodes at one depth before going deeper."
+   "explanation": "A prompt is the text input that steers what a generative model produces."
   },
   {
    "id": "B049",
-   "category": "Problem Solving & Search",
+   "category": "AI Basics",
    "difficulty": "beginner",
-   "q": "'Depth-First Search' explores:",
+   "q": "Which statement about today's AI is accurate?",
    "options": [
-    "Only the goal",
-    "Nothing",
-    "As deep as possible before backtracking",
-    "Level by level"
+    "It reliably matches full human reasoning",
+    "It can operate with no data at all",
+    "It is overwhelmingly narrow and task-specific",
+    "It is generally conscious and self-aware"
    ],
    "answer": 2,
-   "explanation": "DFS follows one branch to its end, then backtracks."
+   "explanation": "Current real-world AI is narrow \u2014 focused on specific tasks, not general or conscious."
   },
   {
    "id": "B050",
-   "category": "Problem Solving & Search",
+   "category": "AI Basics",
    "difficulty": "beginner",
-   "q": "A 'heuristic' is best described as a:",
+   "q": "Why is data so central to modern AI?",
    "options": [
-    "Guaranteed exact solution",
-    "Password manager",
-    "Helpful rule of thumb / educated guess",
-    "Type of monitor"
+    "Data determines the physical size of the model",
+    "Data eliminates the need for evaluation",
+    "Models learn their behaviour by finding patterns in data",
+    "Data replaces the need for algorithms"
    ],
    "answer": 2,
-   "explanation": "Heuristics provide informed estimates to guide search efficiently."
+   "explanation": "Data is what machine-learning models learn from; its quality strongly affects results."
   },
   {
    "id": "B051",
-   "category": "Problem Solving & Search",
+   "category": "Intelligent Agents",
    "difficulty": "beginner",
-   "q": "The 'A* search' algorithm is well known for finding:",
+   "q": "A 'rational agent' is one that:",
    "options": [
-    "The slowest path",
-    "The largest file",
-    "Random routes",
-    "Efficient shortest paths using a heuristic"
+    "Never updates its behaviour",
+    "Ignores its percepts entirely",
+    "Selects actions uniformly at random",
+    "Acts to maximise its expected performance measure"
    ],
    "answer": 3,
-   "explanation": "A* combines path cost and a heuristic to find optimal paths efficiently."
+   "explanation": "A rational agent chooses actions expected to achieve the best outcome by its performance measure."
   },
   {
    "id": "B052",
-   "category": "Problem Solving & Search",
+   "category": "Intelligent Agents",
    "difficulty": "beginner",
-   "q": "How many main types of informed search methods are commonly listed?",
+   "q": "A 'performance measure' for an agent specifies:",
    "options": [
-    "Ten",
-    "Four",
-    "One",
-    "Zero"
+    "The exact sequence of actions it must take",
+    "The criterion defining how successful its behaviour is",
+    "The programming language it is written in",
+    "The number of sensors it has"
    ],
    "answer": 1,
-   "explanation": "Common informed methods: best-first, greedy best-first, A*, and memory-bounded heuristic search."
+   "explanation": "The performance measure defines what counts as success for the agent."
   },
   {
    "id": "B053",
-   "category": "Problem Solving & Search",
+   "category": "AI Basics",
    "difficulty": "beginner",
-   "q": "A 'goal state' in a search problem is:",
+   "q": "In one sentence, AI aims to build machines that can:",
    "options": [
-    "A random number",
-    "A deleted file",
-    "The state we want to reach",
-    "The starting point only"
+    "Store data more densely than before",
+    "Transfer files more quickly",
+    "Think, learn, and act intelligently",
+    "Draw more electrical power efficiently"
    ],
    "answer": 2,
-   "explanation": "The goal state is the desired end condition the search aims to achieve."
+   "explanation": "The essence of AI is machines that reason, learn, and act in intelligent ways."
   },
   {
    "id": "B054",
    "category": "Problem Solving & Search",
    "difficulty": "beginner",
-   "q": "The 'state space' of a problem is:",
+   "q": "In AI, 'search' algorithms are used to:",
    "options": [
-    "One single state",
-    "The screen resolution",
-    "The keyboard layout",
-    "The set of all possible states"
+    "Encrypt data before storage",
+    "Rank documents by keyword relevance",
+    "Sort database records by a key",
+    "Find a sequence of actions leading to a goal"
    ],
    "answer": 3,
-   "explanation": "The state space is all configurations reachable in the problem."
+   "explanation": "AI search explores states and actions to find a path from a start to a goal state."
   },
   {
    "id": "B055",
-   "category": "Adversarial Search",
+   "category": "Problem Solving & Search",
    "difficulty": "beginner",
-   "q": "'Adversarial search' is used in AI for:",
+   "q": "An 'uninformed' (blind) search strategy is one that:",
    "options": [
-    "Printing documents",
-    "Backing up files",
-    "Sorting emails",
-    "Two-player games like chess"
+    "Requires a trained neural network",
+    "Always returns the optimal solution instantly",
+    "Relies on domain expert knowledge",
+    "Uses no problem-specific heuristic guidance"
    ],
    "answer": 3,
-   "explanation": "Adversarial search handles competitive settings such as games with an opponent."
+   "explanation": "Uninformed search uses only the problem definition, with no heuristic estimate."
   },
   {
    "id": "B056",
-   "category": "Adversarial Search",
+   "category": "Problem Solving & Search",
    "difficulty": "beginner",
-   "q": "In game-playing AI, the 'minimax' idea assumes the opponent plays:",
+   "q": "An 'informed' search strategy improves efficiency by using a:",
    "options": [
-    "Not at all",
-    "To help you win",
-    "To minimize your advantage",
-    "Randomly always"
+    "Faster sorting routine",
+    "Larger memory buffer",
+    "Heuristic estimate of distance to the goal",
+    "Random restart policy"
    ],
    "answer": 2,
-   "explanation": "Minimax assumes the opponent tries to minimize your score while you maximize it."
+   "explanation": "Informed (heuristic) search uses estimates of remaining cost to guide exploration."
   },
   {
    "id": "B057",
-   "category": "Adversarial Search",
+   "category": "Problem Solving & Search",
    "difficulty": "beginner",
-   "q": "'Alpha-beta pruning' helps a game AI by:",
+   "q": "'Breadth-First Search' explores the state space:",
    "options": [
-    "Playing slower",
-    "Ignoring the rules",
-    "Adding more branches",
-    "Skipping branches that won't affect the decision"
+    "In order of heuristic value only",
+    "By random sampling of nodes",
+    "Deepest branch first, then backtracks",
+    "Level by level, shallowest nodes first"
    ],
    "answer": 3,
-   "explanation": "Alpha-beta pruning cuts off branches that can't change the outcome, saving time."
+   "explanation": "BFS expands all nodes at one depth before moving deeper; DFS goes deepest-first."
   },
   {
    "id": "B058",
-   "category": "Logical Agents",
+   "category": "Problem Solving & Search",
    "difficulty": "beginner",
-   "q": "In propositional logic, the two basic truth values are:",
+   "q": "'Depth-First Search' explores by:",
    "options": [
-    "Hot and Cold",
-    "0 and 10",
-    "Yes and Maybe",
-    "True and False"
+    "Expanding nodes by heuristic estimate",
+    "Choosing the lowest-cost node each time",
+    "Expanding all shallow nodes first",
+    "Going as deep as possible before backtracking"
    ],
    "answer": 3,
-   "explanation": "Propositional logic uses two proposition symbols: true and false."
+   "explanation": "DFS follows one branch to its end, then backtracks; BFS is the level-by-level counterpart."
   },
   {
    "id": "B059",
-   "category": "Logical Agents",
+   "category": "Problem Solving & Search",
    "difficulty": "beginner",
-   "q": "Which of these is a logical connective used in AI logic?",
+   "q": "A 'heuristic' in search is best described as a:",
    "options": [
-    "Copy-paste",
-    "AND (conjunction)",
-    "Divide-color",
-    "Plus-melt"
+    "Guaranteed optimal exact solution",
+    "Rule-of-thumb estimate that guides the search",
+    "Complete list of all goal states",
+    "Randomised tie-breaking rule"
    ],
    "answer": 1,
-   "explanation": "Logical symbols include negation, conjunction (AND), disjunction (OR), implication, biconditional."
+   "explanation": "Heuristics are informed estimates that help a search reach goals more efficiently."
   },
   {
    "id": "B060",
-   "category": "Logical Agents",
+   "category": "Problem Solving & Search",
    "difficulty": "beginner",
-   "q": "How many standard logical connectives (symbols) are typically listed?",
+   "q": "The 'A*' algorithm finds efficient paths by combining:",
    "options": [
-    "Zero",
-    "Two",
-    "Twenty",
-    "Five"
+    "Only the heuristic estimate to the goal",
+    "Random exploration with backtracking",
+    "Only the path cost accumulated so far",
+    "Path cost so far plus a heuristic estimate to the goal"
    ],
    "answer": 3,
-   "explanation": "The five are negation, conjunction, disjunction, implication, and biconditional."
+   "explanation": "A* uses f(n) = g(n) + h(n): actual cost plus heuristic estimate."
   },
   {
    "id": "B061",
-   "category": "Logical Agents",
+   "category": "Problem Solving & Search",
    "difficulty": "beginner",
-   "q": "'Negation' in logic means:",
+   "q": "A 'goal state' in a search problem is:",
    "options": [
-    "Copying a value",
-    "Adding two values",
-    "NOT \u2014 reversing the truth value",
-    "Multiplying values"
+    "The node with the lowest heuristic",
+    "The starting configuration only",
+    "The condition the search is trying to reach",
+    "Any node with no successors"
    ],
    "answer": 2,
-   "explanation": "Negation flips true to false and vice versa."
+   "explanation": "The goal state is the desired end condition the search aims to achieve."
   },
   {
    "id": "B062",
-   "category": "Logical Agents",
+   "category": "Problem Solving & Search",
    "difficulty": "beginner",
-   "q": "In first-order logic, how many types of quantifiers are there?",
+   "q": "The 'state space' of a problem refers to:",
    "options": [
-    "Five",
-    "Two (universal and existential)",
-    "One",
-    "Ten"
+    "Only the single initial state",
+    "All configurations reachable in the problem",
+    "Only the set of goal states",
+    "The memory used by the algorithm"
    ],
    "answer": 1,
-   "explanation": "The two quantifiers are universal (for all) and existential (there exists)."
+   "explanation": "The state space is the set of all states the problem can be in."
   },
   {
    "id": "B063",
-   "category": "Logical Agents",
+   "category": "Adversarial Search",
    "difficulty": "beginner",
-   "q": "The universal quantifier is read as:",
+   "q": "'Adversarial search' is applied to:",
    "options": [
-    "'There exists'",
-    "'For all'",
-    "'Sometimes'",
-    "'Never'"
+    "Clustering unlabelled data",
+    "Two-player competitive games like chess",
+    "Ranking search results",
+    "Compressing image files"
    ],
    "answer": 1,
-   "explanation": "The universal quantifier means a statement holds for all objects."
+   "explanation": "Adversarial search handles settings with an opponent working against the agent."
   },
   {
    "id": "B064",
-   "category": "Logical Agents",
+   "category": "Adversarial Search",
    "difficulty": "beginner",
-   "q": "The existential quantifier is read as:",
+   "q": "The 'minimax' strategy assumes the opponent will:",
    "options": [
-    "'Always'",
-    "'There exists'",
-    "'None'",
-    "'For all'"
+    "Move uniformly at random",
+    "Play optimally to minimise your score",
+    "Cooperate to maximise your score",
+    "Skip its turns"
    ],
    "answer": 1,
-   "explanation": "The existential quantifier means at least one object satisfies the statement."
+   "explanation": "Minimax assumes a rational adversary who minimises the player's payoff."
   },
   {
    "id": "B065",
-   "category": "Knowledge & Reasoning",
+   "category": "Adversarial Search",
    "difficulty": "beginner",
-   "q": "A 'knowledge base' stores:",
+   "q": "'Alpha-beta pruning' speeds up minimax by:",
    "options": [
-    "Only music",
-    "Only images",
-    "Only passwords",
-    "Facts and rules about a domain"
+    "Ignoring the opponent's moves",
+    "Randomising the move order",
+    "Expanding extra branches for safety",
+    "Skipping branches that cannot change the result"
    ],
    "answer": 3,
-   "explanation": "A knowledge base holds the facts and rules an AI reasons over."
+   "explanation": "Alpha-beta prunes provably irrelevant branches, giving the same result faster."
   },
   {
    "id": "B066",
+   "category": "Logical Agents",
+   "difficulty": "beginner",
+   "q": "In propositional logic, the two fundamental truth values are:",
+   "options": [
+    "Positive and Negative",
+    "True and False",
+    "Universal and Existential",
+    "Certain and Probable"
+   ],
+   "answer": 1,
+   "explanation": "Propositional logic assigns statements one of two truth values: true or false."
+  },
+  {
+   "id": "B067",
+   "category": "Logical Agents",
+   "difficulty": "beginner",
+   "q": "Which of the following is a logical connective?",
+   "options": [
+    "Unification",
+    "Conjunction (AND)",
+    "Resolution",
+    "Quantification"
+   ],
+   "answer": 1,
+   "explanation": "Connectives include negation, conjunction (AND), disjunction (OR), implication, and biconditional."
+  },
+  {
+   "id": "B068",
+   "category": "Logical Agents",
+   "difficulty": "beginner",
+   "q": "'Negation' in logic:",
+   "options": [
+    "Combines two statements with AND",
+    "Reverses a statement's truth value (NOT)",
+    "Asserts a statement holds for all objects",
+    "Substitutes variables to match terms"
+   ],
+   "answer": 1,
+   "explanation": "Negation flips true to false and false to true."
+  },
+  {
+   "id": "B069",
+   "category": "Logical Agents",
+   "difficulty": "beginner",
+   "q": "First-order logic introduces two quantifiers: universal and:",
+   "options": [
+    "Conditional",
+    "Temporal",
+    "Existential",
+    "Propositional"
+   ],
+   "answer": 2,
+   "explanation": "The quantifiers are universal ('for all') and existential ('there exists')."
+  },
+  {
+   "id": "B070",
+   "category": "Logical Agents",
+   "difficulty": "beginner",
+   "q": "The universal quantifier expresses that a statement holds:",
+   "options": [
+    "For all objects in the domain",
+    "For at least one object",
+    "For exactly one object",
+    "For no objects"
+   ],
+   "answer": 0,
+   "explanation": "The universal quantifier asserts a statement is true for every object."
+  },
+  {
+   "id": "B071",
+   "category": "Knowledge & Reasoning",
+   "difficulty": "beginner",
+   "q": "A 'knowledge base' in an AI system stores:",
+   "options": [
+    "Facts and rules about a domain",
+    "The pixels of input images",
+    "The trained weights of a neural net",
+    "The reward signals of an agent"
+   ],
+   "answer": 0,
+   "explanation": "The knowledge base holds the domain facts and rules the system reasons over."
+  },
+  {
+   "id": "B072",
    "category": "Knowledge & Reasoning",
    "difficulty": "beginner",
    "q": "An 'inference engine' is responsible for:",
    "options": [
-    "Displaying videos",
-    "Applying rules to derive new conclusions",
-    "Cooling the computer",
-    "Charging the battery"
+    "Storing the training dataset",
+    "Collecting raw sensor data",
+    "Rendering the user interface",
+    "Applying rules to derive new conclusions"
    ],
-   "answer": 1,
-   "explanation": "The inference engine reasons over the knowledge base to reach conclusions."
+   "answer": 3,
+   "explanation": "The inference engine performs reasoning over the knowledge base."
   },
   {
-   "id": "B067",
+   "id": "B073",
    "category": "Knowledge & Reasoning",
    "difficulty": "beginner",
    "q": "An 'expert system' is designed to:",
    "options": [
-    "Cool the room",
-    "Emulate the decision-making of a human expert",
-    "Draw cartoons",
-    "Play music"
+    "Emulate a human expert's decision-making in a domain",
+    "Balance load across servers",
+    "Generate photorealistic images",
+    "Cluster data without labels"
    ],
-   "answer": 1,
-   "explanation": "Expert systems use knowledge and rules to make expert-like decisions."
+   "answer": 0,
+   "explanation": "Expert systems use domain rules and knowledge to make expert-like decisions."
   },
   {
-   "id": "B068",
-   "category": "Knowledge & Reasoning",
-   "difficulty": "beginner",
-   "q": "A 'Bayesian network' is used to represent:",
-   "options": [
-    "Only images",
-    "Probabilities and relationships between variables",
-    "Only sound",
-    "Only text fonts"
-   ],
-   "answer": 1,
-   "explanation": "Bayesian networks model probabilistic relationships, giving a full description of a domain."
-  },
-  {
-   "id": "B069",
-   "category": "Knowledge & Reasoning",
-   "difficulty": "beginner",
-   "q": "'Reasoning' in AI means:",
-   "options": [
-    "Ignoring the data",
-    "Deleting information",
-    "Processing information to reach conclusions",
-    "Randomly guessing"
-   ],
-   "answer": 2,
-   "explanation": "Reasoning processes known facts to infer new information or decisions."
-  },
-  {
-   "id": "B070",
+   "id": "B074",
    "category": "Knowledge & Reasoning",
    "difficulty": "beginner",
    "q": "A 'semantic network' represents knowledge as:",
    "options": [
-    "Nodes and links showing relationships",
-    "A blank page",
-    "A sound file",
-    "A single number"
+    "Concepts (nodes) linked by relationships",
+    "A flat list of numeric features",
+    "A sequence of reward signals",
+    "A weighted matrix of pixel values"
    ],
    "answer": 0,
-   "explanation": "Semantic networks use nodes (concepts) connected by labeled relationships."
-  },
-  {
-   "id": "B071",
-   "category": "Planning",
-   "difficulty": "beginner",
-   "q": "'Planning' in AI produces:",
-   "options": [
-    "A sequence of actions to achieve a goal",
-    "A picture",
-    "A song",
-    "A single random move"
-   ],
-   "answer": 0,
-   "explanation": "Planning finds an ordered set of actions that reach a desired goal."
-  },
-  {
-   "id": "B072",
-   "category": "Planning",
-   "difficulty": "beginner",
-   "q": "In real-time dynamic systems, planning is challenging because:",
-   "options": [
-    "Nothing ever changes",
-    "There is no goal",
-    "There are no actions",
-    "The environment keeps changing"
-   ],
-   "answer": 3,
-   "explanation": "Dynamic environments change while the agent plans and acts, complicating planning."
-  },
-  {
-   "id": "B073",
-   "category": "Uncertainty",
-   "difficulty": "beginner",
-   "q": "AI uses 'probability' to handle:",
-   "options": [
-    "Uncertainty and incomplete information",
-    "File names",
-    "Only exact facts",
-    "Screen colors"
-   ],
-   "answer": 0,
-   "explanation": "Probability lets AI reason under uncertainty."
-  },
-  {
-   "id": "B074",
-   "category": "Uncertainty",
-   "difficulty": "beginner",
-   "q": "A probability value always lies between:",
-   "options": [
-    "0 and 1",
-    "1 and 100",
-    "-10 and 10",
-    "0 and 1000"
-   ],
-   "answer": 0,
-   "explanation": "Probabilities range from 0 (impossible) to 1 (certain)."
+   "explanation": "Semantic networks connect concepts with labelled relationships."
   },
   {
    "id": "B075",
-   "category": "Learning",
+   "category": "Uncertainty",
    "difficulty": "beginner",
-   "q": "'Machine Learning' allows systems to:",
+   "q": "AI uses 'probability' primarily to:",
    "options": [
-    "Only follow fixed instructions",
-    "Only cool down",
-    "Only display text",
-    "Learn patterns from data"
+    "Guarantee exact deterministic answers",
+    "Compress model weights",
+    "Speed up memory access",
+    "Reason under uncertainty and incomplete information"
    ],
    "answer": 3,
-   "explanation": "ML enables systems to improve from data instead of being explicitly programmed."
+   "explanation": "Probability lets AI systems handle uncertain or incomplete information."
   },
   {
    "id": "B076",
-   "category": "Learning",
+   "category": "Uncertainty",
    "difficulty": "beginner",
-   "q": "'Supervised learning' uses data that is:",
+   "q": "A valid probability value always lies:",
    "options": [
-    "Encrypted only",
-    "Deleted",
-    "Completely unlabeled",
-    "Labeled with correct answers"
+    "Between 0 and 100 as a raw count",
+    "Between -1 and 1",
+    "Above 1 for likely events",
+    "Between 0 and 1 inclusive"
    ],
    "answer": 3,
-   "explanation": "Supervised learning trains on inputs paired with known correct outputs."
+   "explanation": "Probabilities range from 0 (impossible) to 1 (certain)."
   },
   {
    "id": "B077",
    "category": "Learning",
    "difficulty": "beginner",
-   "q": "'Unsupervised learning' works with data that is:",
+   "q": "'Machine Learning' enables systems to:",
    "options": [
-    "Fully labeled",
-    "Encrypted only",
-    "Printed on paper",
-    "Unlabeled"
+    "Follow only manually written IF-THEN rules",
+    "Reason solely with formal logic proofs",
+    "Operate without any input data",
+    "Learn patterns from data rather than being explicitly programmed"
    ],
    "answer": 3,
-   "explanation": "Unsupervised learning finds structure in data without labels."
+   "explanation": "ML systems improve by learning from data instead of relying solely on explicit rules."
   },
   {
    "id": "B078",
    "category": "Learning",
    "difficulty": "beginner",
-   "q": "'Reinforcement learning' teaches an agent using:",
+   "q": "'Supervised learning' is trained on data that is:",
    "options": [
-    "Only labeled images",
-    "Rewards and penalties",
-    "Only text",
-    "Only sound"
+    "Entirely unlabelled",
+    "Labelled with the correct outputs",
+    "Composed only of rewards and penalties",
+    "Generated randomly with no structure"
    ],
    "answer": 1,
-   "explanation": "RL agents learn by trial and error guided by rewards and penalties."
+   "explanation": "Supervised learning uses input-output pairs with known correct labels."
   },
   {
    "id": "B079",
    "category": "Learning",
    "difficulty": "beginner",
-   "q": "A 'decision tree' makes predictions by:",
+   "q": "'Unsupervised learning' works with unlabelled data to:",
    "options": [
-    "Asking a series of yes/no-style questions",
-    "Playing music",
-    "Rolling dice",
-    "Sending emails"
+    "Discover hidden structure such as clusters",
+    "Maximise a reward over time",
+    "Predict a known target label",
+    "Fit a curve to labelled points"
    ],
    "answer": 0,
-   "explanation": "Decision trees split data with feature-based questions to reach a prediction."
+   "explanation": "Unsupervised learning finds structure in unlabelled data; the others need labels or rewards."
   },
   {
    "id": "B080",
    "category": "Learning",
    "difficulty": "beginner",
-   "q": "A 'neural network' is loosely inspired by:",
+   "q": "'Reinforcement learning' trains an agent using:",
    "options": [
-    "The human brain",
-    "Ocean waves",
-    "Car engines",
-    "Traffic lights"
+    "Rewards and penalties from its actions",
+    "A fixed table of correct answers",
+    "Unlabelled clusters of data",
+    "Labelled image-caption pairs"
    ],
    "answer": 0,
-   "explanation": "Artificial neural networks are inspired by interconnected neurons in the brain."
+   "explanation": "RL agents learn by trial and error, guided by rewards and penalties."
   },
   {
    "id": "B081",
-   "category": "Perception & Robotics",
+   "category": "Learning",
    "difficulty": "beginner",
-   "q": "'Computer Vision' enables machines to:",
+   "q": "A 'decision tree' makes a prediction by:",
    "options": [
-    "Only print",
-    "Only store text",
-    "Only hear sounds",
-    "Understand images and video"
+    "Computing distances to cluster centres",
+    "Sampling from a probability distribution",
+    "Averaging the outputs of many neurons",
+    "Following feature-based branches to a leaf"
    ],
    "answer": 3,
-   "explanation": "Computer vision extracts meaning from visual data."
+   "explanation": "Decision trees split on feature values to route an input to a prediction."
   },
   {
    "id": "B082",
-   "category": "Perception & Robotics",
+   "category": "Learning",
    "difficulty": "beginner",
-   "q": "'Natural Language Processing' (NLP) deals with:",
+   "q": "An artificial 'neural network' is loosely inspired by:",
    "options": [
-    "Only music",
-    "Only numbers",
-    "Human language (text and speech)",
-    "Only images"
+    "The branching of decision trees",
+    "The structure of relational tables",
+    "Interconnected neurons in the brain",
+    "The layers of a compiler"
    ],
    "answer": 2,
-   "explanation": "NLP lets computers understand and generate human language."
+   "explanation": "Neural networks are loosely modelled on how brain neurons interconnect."
   },
   {
    "id": "B083",
-   "category": "Perception & Robotics",
+   "category": "AI Basics",
    "difficulty": "beginner",
-   "q": "'Robotics' combines AI with:",
+   "q": "'Optical Character Recognition' (OCR) converts:",
    "options": [
-    "Only spreadsheets",
-    "Only websites",
-    "Physical machines that sense and act",
-    "Only databases"
+    "Spoken words into text",
+    "Text into another language",
+    "Images of text into machine-readable text",
+    "Text into synthesized speech"
    ],
    "answer": 2,
-   "explanation": "Robotics integrates perception, reasoning, and physical action."
+   "explanation": "OCR extracts machine-readable text from images of printed or handwritten text."
   },
   {
    "id": "B084",
-   "category": "Perception & Robotics",
+   "category": "AI Basics",
    "difficulty": "beginner",
-   "q": "A 'chatbot' is an AI application that:",
+   "q": "'Sentiment analysis' is an NLP task that:",
    "options": [
-    "Converses with users in natural language",
-    "Charges phones",
-    "Cools the CPU",
-    "Prints photos"
+    "Classifies the emotional tone of text",
+    "Detects objects within an image",
+    "Groups documents by topic without labels",
+    "Predicts the next reward for an agent"
    ],
    "answer": 0,
-   "explanation": "Chatbots use NLP to understand and respond to users."
+   "explanation": "Sentiment analysis labels text as positive, negative, or neutral."
   },
   {
    "id": "B085",
-   "category": "Perception & Robotics",
+   "category": "AI Basics",
    "difficulty": "beginner",
-   "q": "'Speech recognition' converts:",
+   "q": "A 'recommendation system' primarily:",
    "options": [
-    "Video into text only",
-    "Spoken words into text",
-    "Images into sound",
-    "Text into images"
+    "Translates text between languages",
+    "Predicts items a user is likely to prefer",
+    "Recognises faces in photographs",
+    "Detects fraud in transactions"
    ],
    "answer": 1,
-   "explanation": "Speech recognition transcribes audio speech into written text."
+   "explanation": "Recommender systems use ML to predict user preferences."
   },
   {
    "id": "B086",
-   "category": "Perception & Robotics",
+   "category": "AI Basics",
    "difficulty": "beginner",
-   "q": "A self-driving car mainly relies on AI for:",
+   "q": "'Big Data' refers to datasets characterised by:",
    "options": [
-    "Heating seats",
-    "Playing radio",
-    "Perceiving surroundings and making driving decisions",
-    "Opening the trunk"
+    "Being small enough for one spreadsheet",
+    "Containing only numeric values",
+    "Large volume, high velocity, and variety",
+    "A guaranteed labelled structure"
    ],
    "answer": 2,
-   "explanation": "Autonomous cars use vision, sensors, and ML to perceive and decide."
+   "explanation": "Big Data describes datasets whose scale and complexity challenge conventional processing."
   },
   {
    "id": "B087",
    "category": "AI Basics",
    "difficulty": "beginner",
-   "q": "'Actuators' in a machine are used to:",
+   "q": "A 'feature' in machine learning is:",
    "options": [
-    "Cool the room",
-    "Perform physical actions/outputs",
-    "Store data",
-    "Display colours"
+    "The learning rate of training",
+    "An input variable used to make predictions",
+    "The final predicted output",
+    "The metric used to evaluate a model"
    ],
    "answer": 1,
-   "explanation": "Actuators convert decisions into physical actions (e.g., motors, wheels)."
+   "explanation": "A feature is a measurable input property the model uses to predict."
   },
   {
    "id": "B088",
    "category": "AI Basics",
    "difficulty": "beginner",
-   "q": "Which task is a good example of AI 'game playing'?",
+   "q": "A 'label' in supervised learning is:",
    "options": [
-    "A program that saves files",
-    "A program that formats text",
-    "A program that prints",
-    "A program that plays chess"
+    "A tuning parameter of the model",
+    "An input feature of the data",
+    "A cluster identifier",
+    "The known correct output for a training example"
    ],
    "answer": 3,
-   "explanation": "Game playing (chess, Go) is a classic AI application area."
+   "explanation": "A label is the target output associated with a training input."
   },
   {
    "id": "B089",
    "category": "AI Basics",
    "difficulty": "beginner",
-   "q": "Which is an example of AI in daily life?",
+   "q": "Classifying an email as 'spam' or 'not spam' is an example of:",
    "options": [
-    "Voice assistant on a phone",
-    "A mechanical clock",
-    "A paper calendar",
-    "A glass of water"
+    "Classification",
+    "Dimensionality reduction",
+    "Regression",
+    "Clustering"
    ],
    "answer": 0,
-   "explanation": "Voice assistants use speech recognition and NLP \u2014 everyday AI."
+   "explanation": "Assigning inputs to discrete categories (spam/not spam) is classification."
   },
   {
    "id": "B090",
    "category": "AI Basics",
    "difficulty": "beginner",
-   "q": "'Automation' with AI mainly helps to:",
+   "q": "Predicting the numeric selling price of a house is an example of:",
    "options": [
-    "Slow down work",
-    "Remove all computers",
-    "Do repetitive tasks with less human effort",
-    "Increase manual paperwork"
+    "Classification",
+    "Clustering",
+    "Regression",
+    "Anomaly detection"
    ],
    "answer": 2,
-   "explanation": "AI-driven automation reduces repetitive manual work."
+   "explanation": "Predicting a continuous value like price is a regression task."
   },
   {
    "id": "B091",
    "category": "AI Basics",
    "difficulty": "beginner",
-   "q": "Which is a possible risk or concern with AI?",
+   "q": "Grouping customers into segments without predefined labels is:",
    "options": [
-    "Brighter screens",
-    "Faster maths",
-    "Bias leading to unfair decisions",
-    "Smaller files"
+    "Linear regression",
+    "Supervised classification",
+    "Clustering (unsupervised learning)",
+    "Reinforcement learning"
    ],
    "answer": 2,
-   "explanation": "Bias in data or design can cause unfair AI outcomes \u2014 a key concern."
+   "explanation": "Clustering finds natural groupings in unlabelled data."
   },
   {
    "id": "B092",
    "category": "AI Basics",
    "difficulty": "beginner",
-   "q": "'Training data' is:",
+   "q": "'Data preprocessing' refers to:",
    "options": [
-    "A web page",
-    "A backup drive",
-    "A power cable",
-    "The data used to teach a model"
+    "Deploying the model to production",
+    "Measuring the final accuracy",
+    "Selecting the model architecture",
+    "Cleaning and transforming data before training"
    ],
    "answer": 3,
-   "explanation": "Models learn patterns from training data."
+   "explanation": "Preprocessing cleans and transforms raw data so models can learn effectively."
   },
   {
    "id": "B093",
    "category": "AI Basics",
    "difficulty": "beginner",
-   "q": "A 'model' in machine learning is:",
+   "q": "An 'algorithm' is:",
    "options": [
-    "A type of screen",
-    "A network router",
-    "What the system learns to make predictions",
-    "A fashion figure"
+    "A collection of labelled examples",
+    "A trained set of model weights",
+    "A well-defined step-by-step procedure to solve a problem",
+    "A measure of prediction error"
    ],
    "answer": 2,
-   "explanation": "A model is the learned function mapping inputs to outputs."
+   "explanation": "An algorithm is a finite sequence of well-defined steps to solve a problem."
   },
   {
    "id": "B094",
    "category": "AI Basics",
    "difficulty": "beginner",
-   "q": "'Generative AI' can:",
+   "q": "'Deep learning' is a branch of machine learning that relies on:",
    "options": [
-    "Only sort numbers",
-    "Create new text, images, or audio",
-    "Only delete files",
-    "Only measure temperature"
+    "Relational database joins",
+    "Neural networks with many layers",
+    "Hand-written logical rules only",
+    "Keyword matching"
    ],
    "answer": 1,
-   "explanation": "Generative AI produces new content, like ChatGPT (text) or image generators."
+   "explanation": "Deep learning uses multi-layered neural networks to learn complex patterns."
   },
   {
    "id": "B095",
-   "category": "AI Basics",
+   "category": "Perception & Robotics",
    "difficulty": "beginner",
-   "q": "A 'prompt' given to a generative AI is:",
+   "q": "'Text-to-Speech' (TTS) technology:",
    "options": [
-    "A screen setting",
-    "A network cable",
-    "A hardware fault",
-    "The instruction or question you provide"
+    "Transcribes spoken audio into text",
+    "Extracts text from images",
+    "Detects the language of a document",
+    "Generates spoken audio from written text"
    ],
    "answer": 3,
-   "explanation": "A prompt is the input text that guides what the model generates."
+   "explanation": "TTS synthesises speech from text \u2014 the reverse of speech recognition."
   },
   {
    "id": "B096",
-   "category": "AI Basics",
+   "category": "Perception & Robotics",
    "difficulty": "beginner",
-   "q": "Which statement about today's AI is TRUE?",
+   "q": "'Machine translation' systems:",
    "options": [
-    "All AI is conscious",
-    "Most AI is narrow/specialized",
-    "AI feels emotions like humans",
-    "AGI is already everywhere"
+    "Recognise objects in an image",
+    "Convert text from one language to another",
+    "Summarise a long document into bullet points",
+    "Detect the sentiment of a review"
    ],
    "answer": 1,
-   "explanation": "Current AI is narrow, focused on specific tasks \u2014 not general or conscious."
+   "explanation": "Machine translation converts text between human languages."
   },
   {
    "id": "B097",
    "category": "AI Basics",
    "difficulty": "beginner",
-   "q": "'Data' is important for AI because:",
+   "q": "A key limitation of most AI systems today is that they:",
    "options": [
-    "Models learn patterns from data",
-    "It powers the screen",
-    "It replaces the CPU",
-    "It cools the machine"
+    "Generalise poorly outside their trained task",
+    "Can instantly solve any new problem",
+    "Understand context exactly as humans do",
+    "Require no data to function"
    ],
    "answer": 0,
-   "explanation": "Data is the fuel AI models learn from."
+   "explanation": "Narrow AI struggles to generalise beyond its trained task or domain."
   },
   {
    "id": "B098",
    "category": "Intelligent Agents",
    "difficulty": "beginner",
-   "q": "A 'rational agent' is one that:",
+   "q": "In a 'dynamic' environment, the world can:",
    "options": [
-    "Always fails",
-    "Acts to achieve the best expected outcome",
-    "Never acts",
-    "Acts randomly"
+    "Only change at the end of an episode",
+    "Change while the agent is deciding what to do",
+    "Only change when the agent acts",
+    "Never change under any circumstances"
    ],
    "answer": 1,
-   "explanation": "A rational agent chooses actions expected to maximize its performance measure."
+   "explanation": "Dynamic environments change over time, even as the agent deliberates."
   },
   {
    "id": "B099",
-   "category": "Intelligent Agents",
+   "category": "AI Ethics & Safety",
    "difficulty": "beginner",
-   "q": "A 'performance measure' evaluates:",
+   "q": "'Bias' in an AI model most commonly originates from:",
    "options": [
-    "The price of hardware",
-    "How well an agent is doing its task",
-    "The colour of the agent",
-    "The room temperature"
+    "Using an older programming language",
+    "Skewed or unrepresentative training data",
+    "Insufficient screen resolution",
+    "A slow network connection"
    ],
    "answer": 1,
-   "explanation": "The performance measure defines success for an agent."
+   "explanation": "Unrepresentative or skewed training data is a leading source of model bias."
   },
   {
    "id": "B100",
    "category": "AI Basics",
    "difficulty": "beginner",
-   "q": "In simple terms, AI tries to make machines that can:",
+   "q": "Which correctly describes how AI, machine learning, and deep learning relate?",
    "options": [
-    "Only make noise",
-    "Think, learn, and act intelligently",
-    "Only heat up",
-    "Only consume power"
+    "Machine learning \u2282 AI \u2282 deep learning",
+    "Deep learning \u2282 machine learning \u2282 AI",
+    "AI \u2282 deep learning \u2282 machine learning",
+    "They are three entirely separate fields"
    ],
    "answer": 1,
-   "explanation": "The essence of AI is machines that think, learn, and act in intelligent ways."
+   "explanation": "AI is broadest; machine learning is a subset of AI; deep learning is a subset of ML."
   },
   {
    "id": "F001",
    "category": "AI Fundamentals",
    "difficulty": "beginner",
-   "q": "What does the abbreviation 'AI' stand for?",
+   "q": "Which best defines Artificial Intelligence?",
    "options": [
-    "Augmented Interface",
-    "Automated Intelligence",
-    "Artificial Intelligence",
-    "Advanced Integration"
+    "A protocol for transferring files",
+    "A method for lossless data compression",
+    "The simulation of human intelligence processes by machines",
+    "The study of electrical circuit design"
    ],
    "answer": 2,
-   "explanation": "AI stands for Artificial Intelligence, the simulation of human intelligence by machines."
+   "explanation": "AI is the simulation of human intelligence \u2014 reasoning, learning, perception \u2014 by machines."
+  },
+  {
+   "id": "F002",
+   "category": "AI Fundamentals",
+   "difficulty": "beginner",
+   "q": "Which correctly orders these fields from broadest to narrowest?",
+   "options": [
+    "Machine Learning \u2283 AI \u2283 Deep Learning",
+    "Deep Learning \u2283 Machine Learning \u2283 AI",
+    "Deep Learning \u2283 AI \u2283 Machine Learning",
+    "AI \u2283 Machine Learning \u2283 Deep Learning"
+   ],
+   "answer": 3,
+   "explanation": "AI is broadest, ML is a subset of AI, and deep learning is a subset of ML."
+  },
+  {
+   "id": "F003",
+   "category": "AI Fundamentals",
+   "difficulty": "beginner",
+   "q": "Which is the best example of a 'narrow AI' system?",
+   "options": [
+    "A system that masters every task equally",
+    "A hypothetical self-aware system",
+    "A machine with human-level general reasoning",
+    "A spam filter that only classifies email"
+   ],
+   "answer": 3,
+   "explanation": "Narrow AI is specialised for one task, like spam filtering \u2014 unlike general AI."
   },
   {
    "id": "F004",
    "category": "AI Fundamentals",
    "difficulty": "beginner",
-   "q": "The Turing Test is designed to evaluate a machine's ability to exhibit what?",
+   "q": "The Turing Test evaluates a machine's ability to:",
    "options": [
-    "Perfect memory",
-    "Intelligent behavior indistinguishable from a human",
-    "Faster computation",
-    "Physical dexterity"
+    "Store more facts than a human",
+    "Converse indistinguishably from a human",
+    "Solve equations faster than a human",
+    "Use less energy than a human brain"
    ],
    "answer": 1,
-   "explanation": "Proposed by Alan Turing in 1950, the test checks whether a machine's responses are indistinguishable from a human's."
+   "explanation": "The test checks whether a machine's responses are indistinguishable from a person's."
   },
   {
    "id": "F005",
@@ -1370,166 +1495,166 @@
    "q": "Which of the following is a subset of Artificial Intelligence?",
    "options": [
     "Machine Learning",
-    "Cloud Computing",
-    "Blockchain",
-    "Quantum Physics"
+    "Distributed storage",
+    "Continuous integration",
+    "Packet routing"
    ],
    "answer": 0,
-   "explanation": "Machine Learning is a subset of AI that enables systems to learn from data."
+   "explanation": "Machine Learning is a subset of AI focused on learning from data."
   },
   {
    "id": "F006",
    "category": "AI Fundamentals",
    "difficulty": "beginner",
-   "q": "What is 'Narrow AI' (or Weak AI)?",
+   "q": "'Weak AI' (narrow AI) is characterised by:",
    "options": [
-    "AI that can perform any intellectual task a human can",
-    "AI that is self-aware",
-    "AI designed to perform a specific task",
-    "AI running on small hardware"
+    "Genuine consciousness and self-awareness",
+    "Human-level reasoning across all domains",
+    "Competence at specific tasks without general understanding",
+    "The capacity to feel emotions"
    ],
    "answer": 2,
-   "explanation": "Narrow AI is specialized for a single or limited task, like image recognition or spam filtering."
+   "explanation": "Weak AI handles specific tasks well but lacks general understanding."
   },
   {
    "id": "F007",
    "category": "AI Fundamentals",
    "difficulty": "beginner",
-   "q": "What does 'AGI' stand for?",
+   "q": "'AGI' stands for:",
    "options": [
-    "Augmented Global Intelligence",
-    "Advanced Graphics Integration",
-    "Automated General Interface",
+    "Automated Gradient Inference",
+    "Augmented Generative Interface",
+    "Applied Graph Indexing",
     "Artificial General Intelligence"
    ],
    "answer": 3,
-   "explanation": "AGI (Artificial General Intelligence) refers to machines with human-level general reasoning across tasks."
+   "explanation": "AGI is Artificial General Intelligence \u2014 human-level reasoning across many tasks."
   },
   {
    "id": "F008",
    "category": "AI Fundamentals",
    "difficulty": "beginner",
-   "q": "Which of these is an example of AI used in everyday life?",
+   "q": "Which is an example of AI embedded in consumer technology?",
    "options": [
-    "A calculator",
-    "Voice assistants like Siri or Alexa",
-    "A light switch",
-    "A wall clock"
+    "A static list of stored contacts",
+    "A voice assistant that understands spoken commands",
+    "A fixed-function unit converter",
+    "A countdown timer"
    ],
    "answer": 1,
-   "explanation": "Voice assistants use speech recognition and natural language processing, both AI techniques."
+   "explanation": "Voice assistants use speech recognition and NLP \u2014 everyday narrow AI."
   },
   {
    "id": "F009",
    "category": "AI Fundamentals",
    "difficulty": "beginner",
-   "q": "What is the primary goal of Machine Learning?",
+   "q": "The primary goal of Machine Learning is to:",
    "options": [
-    "To replace all databases",
-    "To speed up the CPU",
-    "To hard-code every rule manually",
-    "To enable systems to learn patterns from data"
+    "Increase display refresh rates",
+    "Hard-code every rule manually in advance",
+    "Store data more compactly on disk",
+    "Enable systems to learn patterns from data"
    ],
    "answer": 3,
-   "explanation": "ML lets systems improve automatically by learning patterns from data rather than explicit programming."
+   "explanation": "ML lets systems improve from data rather than relying on explicit programming."
   },
   {
    "id": "F010",
    "category": "AI Fundamentals",
    "difficulty": "beginner",
-   "q": "An 'agent' in AI is best described as something that:",
+   "q": "An intelligent 'agent' is best described as an entity that:",
    "options": [
-    "Compiles code",
-    "Displays graphics",
-    "Only stores data",
-    "Perceives its environment and takes actions"
+    "Stores static records without acting",
+    "Only computes a loss value",
+    "Only compiles source code",
+    "Perceives its environment and acts upon it"
    ],
    "answer": 3,
-   "explanation": "An intelligent agent perceives its environment through sensors and acts upon it through actuators."
+   "explanation": "An agent senses its environment via sensors and acts via actuators."
   },
   {
    "id": "F011",
    "category": "AI Fundamentals",
    "difficulty": "beginner",
-   "q": "Which type of learning uses labeled data?",
+   "q": "Which learning paradigm uses labelled training data?",
    "options": [
     "Reinforcement learning",
     "Supervised learning",
-    "Transfer learning",
+    "Self-supervised clustering",
     "Unsupervised learning"
    ],
    "answer": 1,
-   "explanation": "Supervised learning trains on input-output pairs where the correct labels are provided."
+   "explanation": "Supervised learning trains on inputs paired with known correct labels."
   },
   {
    "id": "F012",
    "category": "AI Fundamentals",
    "difficulty": "beginner",
-   "q": "Which type of learning finds hidden patterns without labeled outputs?",
+   "q": "Which learning paradigm finds structure in unlabelled data?",
    "options": [
-    "None",
-    "Semi-supervised only",
+    "Imitation learning",
+    "Reinforcement learning",
     "Supervised learning",
     "Unsupervised learning"
    ],
    "answer": 3,
-   "explanation": "Unsupervised learning discovers structure (like clusters) in unlabeled data."
+   "explanation": "Unsupervised learning discovers patterns (e.g., clusters) without labels."
   },
   {
    "id": "F013",
    "category": "AI Fundamentals",
    "difficulty": "beginner",
-   "q": "In reinforcement learning, an agent learns by receiving:",
+   "q": "In reinforcement learning, the agent primarily learns from:",
    "options": [
-    "Rewards and penalties",
-    "Random numbers",
-    "Labels",
-    "Only images"
+    "Rewards and penalties for its actions",
+    "Hand-written logical rules only",
+    "Unlabelled clusters of data",
+    "Pre-labelled input-output pairs"
    ],
    "answer": 0,
-   "explanation": "RL agents learn optimal behavior through trial and error, guided by rewards and penalties."
+   "explanation": "RL agents learn optimal behaviour through reward and penalty feedback."
   },
   {
    "id": "F014",
    "category": "AI Fundamentals",
    "difficulty": "beginner",
-   "q": "A 'chatbot' primarily relies on which AI field?",
+   "q": "A chatbot primarily relies on which AI field?",
    "options": [
-    "Robotics",
-    "Cryptography",
+    "Reinforcement Learning",
+    "Robotic kinematics",
     "Computer Vision",
     "Natural Language Processing"
    ],
    "answer": 3,
-   "explanation": "Chatbots use Natural Language Processing (NLP) to understand and generate human language."
+   "explanation": "Chatbots use NLP to understand and generate human language."
   },
   {
    "id": "F015",
    "category": "AI Fundamentals",
    "difficulty": "beginner",
-   "q": "Which of the following is NOT typically considered a branch of AI?",
+   "q": "Which of the following is NOT a branch of AI?",
    "options": [
+    "Natural Language Processing",
     "Machine Learning",
-    "Computer Vision",
-    "Spreadsheet formatting",
-    "Natural Language Processing"
+    "Relational database normalisation",
+    "Computer Vision"
    ],
    "answer": 2,
-   "explanation": "Spreadsheet formatting is not an AI discipline; the others are core AI branches."
+   "explanation": "Database normalisation is a data-management topic, not an AI branch."
   },
   {
    "id": "F016",
    "category": "AI Fundamentals",
    "difficulty": "beginner",
-   "q": "What is 'training data'?",
+   "q": "'Training data' is:",
    "options": [
-    "Data used to style a webpage",
-    "Deleted data",
-    "Backup data",
-    "Data used to teach a model"
+    "The metric used to score the model",
+    "The architecture of the model",
+    "The hardware the model runs on",
+    "The dataset a model learns from"
    ],
    "answer": 3,
-   "explanation": "Training data is the dataset a model learns from during training."
+   "explanation": "Training data is what the model learns patterns from."
   },
   {
    "id": "F017",
@@ -1537,13 +1662,55 @@
    "difficulty": "beginner",
    "q": "Computer Vision enables machines to:",
    "options": [
-    "Send emails",
-    "Store files",
+    "Optimise a reward signal",
+    "Translate between languages",
     "Interpret and understand images and video",
-    "Hear sounds"
+    "Transcribe spoken audio to text"
    ],
    "answer": 2,
-   "explanation": "Computer Vision lets machines derive meaning from visual inputs like photos and video."
+   "explanation": "Computer vision derives meaning from visual inputs; the others are NLP/RL tasks."
+  },
+  {
+   "id": "F018",
+   "category": "AI Fundamentals",
+   "difficulty": "beginner",
+   "q": "Which task is an example of supervised classification?",
+   "options": [
+    "Labelling photos as 'cat' or 'dog' from labelled examples",
+    "Learning to play a game via rewards",
+    "Reducing 100 features down to 2",
+    "Grouping unlabelled articles by similarity"
+   ],
+   "answer": 0,
+   "explanation": "Classifying into known categories from labelled data is supervised classification."
+  },
+  {
+   "id": "F019",
+   "category": "AI Fundamentals",
+   "difficulty": "beginner",
+   "q": "Which task is an example of unsupervised learning?",
+   "options": [
+    "Filtering spam using labelled email",
+    "Clustering shoppers into groups without labels",
+    "Forecasting labelled monthly sales",
+    "Predicting a labelled house price"
+   ],
+   "answer": 1,
+   "explanation": "Clustering unlabelled data into groups is unsupervised learning."
+  },
+  {
+   "id": "F020",
+   "category": "AI Fundamentals",
+   "difficulty": "beginner",
+   "q": "Which is an example of a regression task?",
+   "options": [
+    "Predicting tomorrow's temperature in degrees",
+    "Deciding if a review is positive or negative",
+    "Sorting emails into labelled folders",
+    "Detecting whether an image contains a face"
+   ],
+   "answer": 0,
+   "explanation": "Regression predicts a continuous numeric value, such as temperature."
   },
   {
    "id": "F021",
@@ -1551,94 +1718,94 @@
    "difficulty": "beginner",
    "q": "A 'dataset' is:",
    "options": [
-    "A collection of data used for analysis or training",
-    "A programming language",
-    "A single number",
-    "A type of CPU"
+    "An organised collection of data for analysis or training",
+    "A single learned model weight",
+    "A processor instruction set",
+    "An evaluation metric"
    ],
    "answer": 0,
-   "explanation": "A dataset is an organized collection of data, often used to train and test models."
+   "explanation": "A dataset is a structured collection of data used to train and test models."
   },
   {
    "id": "F022",
    "category": "AI Fundamentals",
    "difficulty": "beginner",
-   "q": "Which of these is an example of a classification task?",
+   "q": "Deciding whether a transaction is 'fraudulent' or 'legitimate' is an example of:",
    "options": [
-    "Predicting tomorrow's temperature",
-    "Deciding if an email is spam or not",
-    "Ranking web pages",
-    "Compressing a file"
+    "Regression",
+    "Binary classification",
+    "Clustering",
+    "Dimensionality reduction"
    ],
    "answer": 1,
-   "explanation": "Classifying email as 'spam' or 'not spam' assigns inputs to discrete categories."
+   "explanation": "Assigning inputs to one of two categories is binary classification."
   },
   {
    "id": "F023",
    "category": "AI Fundamentals",
    "difficulty": "beginner",
-   "q": "Which of these is an example of a regression task?",
+   "q": "Estimating how many units a store will sell next month is a:",
    "options": [
-    "Sorting emails into folders",
-    "Predicting a house price",
-    "Recognizing a face",
-    "Detecting a cat in an image"
+    "Clustering problem",
+    "Regression problem",
+    "Anomaly-detection problem",
+    "Classification problem"
    ],
    "answer": 1,
-   "explanation": "Regression predicts a continuous numeric value, such as a price."
+   "explanation": "Predicting a continuous quantity is a regression problem."
   },
   {
    "id": "F024",
    "category": "AI Fundamentals",
    "difficulty": "beginner",
-   "q": "What does 'NLP' stand for in AI?",
+   "q": "'NLP' in AI stands for:",
    "options": [
-    "Network Layer Protocol",
-    "Neural Learning Process",
+    "Numeric Linear Programming",
+    "Neural Layer Propagation",
     "Natural Language Processing",
-    "Numeric Logic Programming"
+    "Network Latency Profiling"
    ],
    "answer": 2,
-   "explanation": "NLP is the field enabling computers to understand and generate human language."
+   "explanation": "NLP is the field enabling computers to work with human language."
   },
   {
    "id": "F025",
    "category": "AI Fundamentals",
    "difficulty": "beginner",
-   "q": "A recommendation system (like on Netflix) is an application of:",
+   "q": "A movie recommendation feature is an application of:",
    "options": [
-    "AI/Machine Learning",
-    "Firewall rules",
-    "Disk defragmentation",
-    "Word processing"
+    "Machine learning",
+    "Manual rule-based sorting",
+    "Symbolic theorem proving",
+    "Static keyword matching"
    ],
    "answer": 0,
-   "explanation": "Recommendation systems use ML to predict user preferences."
+   "explanation": "Recommender systems use ML to predict user preferences from data."
   },
   {
    "id": "F026",
    "category": "AI Fundamentals",
    "difficulty": "beginner",
-   "q": "What is an 'algorithm'?",
+   "q": "An 'algorithm' is:",
    "options": [
-    "A step-by-step procedure to solve a problem",
-    "A type of computer",
-    "A network cable",
-    "A display screen"
+    "A step-by-step procedure for solving a problem",
+    "A collection of labelled examples",
+    "A set of trained model weights",
+    "A measure of prediction error"
    ],
    "answer": 0,
-   "explanation": "An algorithm is a finite sequence of well-defined instructions to solve a problem."
+   "explanation": "An algorithm is a finite, well-defined sequence of steps to solve a problem."
   },
   {
    "id": "F027",
    "category": "AI Fundamentals",
    "difficulty": "beginner",
-   "q": "Which of the following best describes 'Deep Learning'?",
+   "q": "'Deep Learning' is best described as:",
    "options": [
-    "A search engine",
-    "ML using multi-layered neural networks",
-    "Learning underwater",
-    "A database technique"
+    "A rule-based expert system technique",
+    "Machine learning using multi-layered neural networks",
+    "A relational database indexing method",
+    "A keyword search-ranking rule"
    ],
    "answer": 1,
    "explanation": "Deep learning uses neural networks with many layers to learn complex representations."
@@ -1647,351 +1814,351 @@
    "id": "F028",
    "category": "AI Fundamentals",
    "difficulty": "beginner",
-   "q": "The building block of a neural network is called a:",
+   "q": "The basic computational unit of a neural network is the:",
    "options": [
     "Neuron (node)",
-    "Cluster",
-    "Pixel",
-    "Byte"
+    "Cluster centroid",
+    "Support vector",
+    "Decision tree"
    ],
    "answer": 0,
-   "explanation": "Artificial neurons (nodes) are the basic units of a neural network."
+   "explanation": "Artificial neurons (nodes) are the building blocks of neural networks."
   },
   {
    "id": "F029",
    "category": "AI Fundamentals",
    "difficulty": "beginner",
-   "q": "Which of the following is a popular programming language for AI and ML?",
+   "q": "Which is a widely used deep-learning framework?",
    "options": [
-    "SQL only",
-    "Python",
-    "HTML",
-    "CSS"
+    "Nginx",
+    "PyTorch",
+    "PostgreSQL",
+    "Kubernetes"
    ],
    "answer": 1,
-   "explanation": "Python is the most widely used language for AI/ML due to libraries like TensorFlow and PyTorch."
+   "explanation": "PyTorch (and TensorFlow) are leading deep-learning frameworks."
   },
   {
    "id": "F030",
    "category": "AI Fundamentals",
    "difficulty": "beginner",
-   "q": "'Generative AI' is best described as AI that:",
+   "q": "'Generative AI' is distinguished by its ability to:",
    "options": [
-    "Creates new content such as text, images, or audio",
-    "Manages networks",
-    "Only classifies data",
-    "Deletes files"
+    "Produce new content such as text or images",
+    "Only detect outliers in data",
+    "Only assign inputs to fixed categories",
+    "Only rank items by relevance"
    ],
    "answer": 0,
-   "explanation": "Generative AI produces new content, e.g., text (ChatGPT) or images (DALL-E)."
+   "explanation": "Generative AI creates new content rather than only classifying, ranking, or detecting."
   },
   {
    "id": "F031",
    "category": "AI Fundamentals",
    "difficulty": "beginner",
-   "q": "ChatGPT is an example of which kind of model?",
+   "q": "A large language model (LLM) is trained primarily to:",
    "options": [
-    "Web browser",
-    "Large Language Model",
-    "Spreadsheet",
-    "Operating system"
+    "Recognise objects in images",
+    "Predict and generate natural-language text",
+    "Cluster numeric records",
+    "Control a physical robot arm"
    ],
    "answer": 1,
-   "explanation": "ChatGPT is built on a Large Language Model (LLM) trained to generate text."
+   "explanation": "LLMs learn to model and generate natural-language text."
   },
   {
    "id": "F032",
    "category": "AI Fundamentals",
    "difficulty": "beginner",
-   "q": "What does a 'model' refer to in machine learning?",
+   "q": "In machine learning, a 'model' is:",
    "options": [
-    "A hardware chip",
-    "A wireframe drawing",
-    "A mathematical representation learned from data",
-    "A fashion figure"
+    "The optimiser used in training",
+    "The accuracy metric reported at the end",
+    "The learned function mapping inputs to outputs",
+    "The raw dataset before training"
    ],
    "answer": 2,
-   "explanation": "An ML model is the learned function that maps inputs to outputs."
+   "explanation": "An ML model is the learned mapping used for predictions."
   },
   {
    "id": "F033",
    "category": "AI Fundamentals",
    "difficulty": "beginner",
-   "q": "Self-driving cars primarily combine which AI fields?",
+   "q": "Self-driving cars combine which AI capabilities?",
    "options": [
-    "Only spreadsheets",
-    "Only databases",
-    "Only NLP",
+    "Only rule-based spreadsheet logic",
+    "Only audio transcription",
+    "Only text summarisation",
     "Computer vision, sensor fusion, and machine learning"
    ],
    "answer": 3,
-   "explanation": "Autonomous vehicles rely heavily on computer vision, sensors, and ML for decision-making."
+   "explanation": "Autonomous vehicles rely on vision, sensors, and ML for perception and decisions."
   },
   {
    "id": "F034",
    "category": "AI Fundamentals",
    "difficulty": "beginner",
-   "q": "Which of the following is a common use of AI in healthcare?",
+   "q": "A common healthcare application of AI is:",
    "options": [
-    "Cooking food",
-    "Mowing lawns",
-    "Painting walls",
-    "Medical image diagnosis"
+    "Replacing clinical judgement entirely",
+    "Setting building thermostats",
+    "Autonomously performing surgery without oversight",
+    "Analysing medical images to assist diagnosis"
    ],
    "answer": 3,
-   "explanation": "AI assists in analyzing medical images like X-rays and MRIs to aid diagnosis."
+   "explanation": "AI assists clinicians by analysing scans like X-rays and MRIs."
   },
   {
    "id": "F035",
    "category": "AI Fundamentals",
    "difficulty": "beginner",
-   "q": "What is 'facial recognition' an application of?",
+   "q": "Facial recognition is primarily an application of:",
    "options": [
-    "Robotics only",
+    "Reinforcement Learning",
     "Computer Vision",
     "Natural Language Processing",
-    "Databases"
+    "Speech synthesis"
    ],
    "answer": 1,
-   "explanation": "Facial recognition is a computer vision task that identifies or verifies faces."
+   "explanation": "Facial recognition is a computer-vision task that identifies or verifies faces."
   },
   {
    "id": "F036",
    "category": "AI Fundamentals",
    "difficulty": "beginner",
-   "q": "Which term describes AI that matches or exceeds human intelligence across all tasks?",
+   "q": "'Superintelligence' refers to AI that would:",
    "options": [
-    "Expert system",
-    "Rule-based AI",
-    "Narrow AI",
-    "Superintelligence"
+    "Run only on a single device",
+    "Handle only one narrow dataset",
+    "Match a calculator at arithmetic",
+    "Exceed the best human minds across virtually all domains"
    ],
    "answer": 3,
-   "explanation": "Superintelligence refers to AI surpassing the best human minds in virtually every field."
+   "explanation": "Superintelligence is a hypothetical AI surpassing top human ability broadly."
   },
   {
    "id": "F037",
    "category": "AI Fundamentals",
    "difficulty": "beginner",
-   "q": "An 'expert system' makes decisions using:",
+   "q": "An 'expert system' reaches decisions using:",
    "options": [
-    "Random guessing",
-    "A set of rules and a knowledge base",
-    "GPS coordinates",
-    "Only images"
+    "Only raw pixel inputs",
+    "A knowledge base plus inference rules",
+    "Randomly sampled actions",
+    "Only reward feedback"
    ],
    "answer": 1,
-   "explanation": "Expert systems use a knowledge base and inference rules to emulate expert decision-making."
+   "explanation": "Expert systems combine a knowledge base with an inference engine."
   },
   {
    "id": "F038",
    "category": "AI Fundamentals",
    "difficulty": "beginner",
-   "q": "What is a 'feature' in machine learning?",
+   "q": "A 'feature' in machine learning is:",
    "options": [
-    "An individual measurable property of the data",
-    "A bug in code",
-    "A network port",
-    "A user interface button"
+    "An input variable used for prediction",
+    "The training learning rate",
+    "The predicted output value",
+    "The evaluation metric"
    ],
    "answer": 0,
-   "explanation": "A feature is an input variable used by the model to make predictions."
+   "explanation": "A feature is a measurable input property used by the model."
   },
   {
    "id": "F039",
    "category": "AI Fundamentals",
    "difficulty": "beginner",
-   "q": "What is a 'label' in supervised learning?",
+   "q": "A 'label' in supervised learning is:",
    "options": [
-    "A color",
-    "The correct answer/output for a training example",
-    "A sticker on hardware",
-    "A file name"
+    "An unlabelled cluster index",
+    "The known correct output for a training example",
+    "A raw sensor reading",
+    "A tuning hyperparameter"
    ],
    "answer": 1,
-   "explanation": "A label is the known target output associated with an input in supervised learning."
+   "explanation": "A label is the target output paired with a training input."
   },
   {
    "id": "F040",
    "category": "AI Fundamentals",
    "difficulty": "beginner",
-   "q": "Spam email filtering is an example of:",
+   "q": "Spam filtering is typically framed as:",
    "options": [
-    "Regression",
+    "Unsupervised clustering",
     "Reinforcement learning",
     "Supervised classification",
-    "Unsupervised clustering"
+    "Dimensionality reduction"
    ],
    "answer": 2,
-   "explanation": "Spam filters are typically trained on labeled spam/not-spam examples (supervised classification)."
+   "explanation": "Spam filters learn from labelled spam/not-spam examples \u2014 supervised classification."
   },
   {
    "id": "F041",
    "category": "AI Fundamentals",
    "difficulty": "beginner",
-   "q": "Which of the following best defines 'Big Data'?",
+   "q": "'Big Data' is best characterised by:",
    "options": [
-    "Extremely large and complex datasets",
-    "A small text file",
-    "A type of monitor",
-    "A single spreadsheet"
+    "Volume, velocity, and variety beyond traditional tools",
+    "A guaranteed clean, labelled structure",
+    "Always fitting in a single spreadsheet",
+    "Containing only numeric columns"
    ],
    "answer": 0,
-   "explanation": "Big Data refers to datasets so large or complex that traditional tools struggle to process them."
+   "explanation": "Big Data refers to datasets whose scale/complexity strains conventional processing."
   },
   {
    "id": "F042",
    "category": "AI Fundamentals",
    "difficulty": "beginner",
-   "q": "Which of these is a popular open-source deep learning framework?",
+   "q": "Which of the following is an open-source machine-learning library?",
    "options": [
-    "Photoshop",
-    "TensorFlow",
-    "WordPress",
-    "Excel"
+    "Terraform",
+    "scikit-learn",
+    "Redis",
+    "Apache Kafka"
    ],
    "answer": 1,
-   "explanation": "TensorFlow (by Google) is a widely used open-source deep learning framework."
+   "explanation": "scikit-learn is a popular open-source ML library; the others are infrastructure tools."
   },
   {
    "id": "F043",
    "category": "AI Fundamentals",
    "difficulty": "beginner",
-   "q": "'Robotics' in AI combines perception, reasoning, and:",
+   "q": "'Robotics' integrates AI with:",
    "options": [
-    "Web hosting",
-    "Email marketing",
-    "Spreadsheet macros",
-    "Physical action in the real world"
+    "Only web-page styling",
+    "Only relational queries",
+    "Only text translation",
+    "Physical sensing and action in the real world"
    ],
    "answer": 3,
-   "explanation": "Robotics integrates AI with sensors and actuators to act physically in the world."
+   "explanation": "Robotics combines perception, reasoning, and physical action."
   },
   {
    "id": "F044",
    "category": "AI Fundamentals",
    "difficulty": "beginner",
-   "q": "What is 'prediction' in ML?",
+   "q": "A model's 'prediction' is:",
    "options": [
-    "A random number",
-    "A model's output/estimate for new input",
-    "A password",
-    "A hardware setting"
+    "The dataset's row count",
+    "Its estimated output for a given input",
+    "A stored hyperparameter",
+    "The labelled training target"
    ],
    "answer": 1,
-   "explanation": "A prediction is the model's estimated output for previously unseen input data."
+   "explanation": "A prediction is the model's estimated output for new input data."
   },
   {
    "id": "F045",
    "category": "AI Fundamentals",
    "difficulty": "beginner",
-   "q": "Which of these is an ethical concern in AI?",
+   "q": "Which is a genuine ethical concern in AI systems?",
    "options": [
-    "More colorful screens",
-    "Cheaper cables",
-    "Bias in decision-making",
-    "Faster processors"
+    "Using open-source libraries",
+    "Requiring only small models",
+    "Discriminatory bias in automated decisions",
+    "Producing predictions too quickly"
    ],
    "answer": 2,
-   "explanation": "Bias in AI can lead to unfair or discriminatory outcomes, a major ethical concern."
+   "explanation": "Bias can cause unfair or discriminatory outcomes \u2014 a central ethical concern."
   },
   {
    "id": "F046",
    "category": "AI Fundamentals",
    "difficulty": "beginner",
-   "q": "OpenAI is best known for creating which family of models?",
+   "q": "A large language model generates text by:",
    "options": [
-    "Windows",
-    "GPT",
-    "Chrome",
-    "Android"
+    "Rendering vector graphics",
+    "Predicting likely next tokens given the context",
+    "Executing a database query",
+    "Retrieving a fixed pre-written answer"
    ],
    "answer": 1,
-   "explanation": "OpenAI created the GPT (Generative Pre-trained Transformer) family of models."
+   "explanation": "LLMs generate text by repeatedly predicting the next token."
   },
   {
    "id": "F047",
    "category": "AI Fundamentals",
    "difficulty": "beginner",
-   "q": "A 'neural network' is inspired by:",
+   "q": "Artificial neural networks are loosely inspired by:",
    "options": [
-    "The human brain",
-    "Ocean currents",
-    "Weather systems",
-    "Traffic lights"
+    "The interconnected neurons of the brain",
+    "The branching of decision trees",
+    "The structure of relational tables",
+    "The layers of a network protocol stack"
    ],
    "answer": 0,
-   "explanation": "Artificial neural networks are loosely inspired by the interconnected neurons of the brain."
+   "explanation": "Neural networks are loosely modelled on brain neurons and their connections."
   },
   {
    "id": "F048",
    "category": "AI Fundamentals",
    "difficulty": "beginner",
-   "q": "What is 'automation'?",
+   "q": "'Automation' powered by AI means:",
    "options": [
-    "Printing documents",
-    "Manually doing everything",
-    "Using technology to perform tasks with minimal human intervention",
-    "Turning off computers"
+    "Approving every step manually",
+    "Removing a system's data inputs",
+    "Performing tasks with minimal human intervention",
+    "Slowing down work intentionally"
    ],
    "answer": 2,
-   "explanation": "Automation uses technology to carry out tasks automatically, often powered by AI."
+   "explanation": "Automation uses technology to carry out tasks with little human effort."
   },
   {
    "id": "F049",
    "category": "AI Fundamentals",
    "difficulty": "beginner",
-   "q": "Which of the following is an example of unsupervised learning?",
+   "q": "Which is an example of unsupervised learning in practice?",
    "options": [
-    "Customer segmentation via clustering",
-    "Grading exams with an answer key",
-    "Predicting labeled house prices",
-    "Spam detection with labels"
+    "Segmenting customers into groups by behaviour",
+    "Predicting a labelled exam score",
+    "Forecasting labelled product demand",
+    "Flagging labelled fraudulent charges"
    ],
    "answer": 0,
-   "explanation": "Clustering customers into groups without predefined labels is unsupervised learning."
+   "explanation": "Grouping data without predefined labels is unsupervised learning."
   },
   {
    "id": "F050",
    "category": "AI Fundamentals",
    "difficulty": "beginner",
-   "q": "'Speech recognition' converts:",
+   "q": "'Speech recognition' performs which conversion?",
    "options": [
-    "Spoken language into text",
-    "Text into images",
-    "Video into text",
-    "Images into sound"
+    "Spoken audio into text",
+    "Text into synthesized speech",
+    "Text into another language",
+    "Images into captions"
    ],
    "answer": 0,
-   "explanation": "Speech recognition transcribes spoken audio into written text."
+   "explanation": "Speech recognition transcribes spoken audio into text."
   },
   {
    "id": "F051",
    "category": "AI Fundamentals",
    "difficulty": "beginner",
-   "q": "What is 'sentiment analysis'?",
+   "q": "'Sentiment analysis' determines:",
    "options": [
-    "Determining the emotional tone of text",
-    "Sorting files by date",
-    "Counting web visits",
-    "Measuring CPU temperature"
+    "The emotional tone of a piece of text",
+    "The file encoding of a document",
+    "The reading speed of a user",
+    "The grammatical language of the text"
    ],
    "answer": 0,
-   "explanation": "Sentiment analysis is an NLP task that classifies text as positive, negative, or neutral."
+   "explanation": "Sentiment analysis classifies text as positive, negative, or neutral."
   },
   {
    "id": "F052",
    "category": "AI Fundamentals",
    "difficulty": "beginner",
-   "q": "Which term describes teaching a model using examples with known answers?",
+   "q": "Which describes 'supervised learning' most precisely?",
    "options": [
-    "Clustering",
-    "Anomaly detection",
-    "Supervised learning",
-    "Dimensionality reduction"
+    "Grouping data with no labels provided",
+    "Reducing the number of input features",
+    "Learning a mapping from labelled input-output pairs",
+    "Learning purely from reward signals"
    ],
    "answer": 2,
-   "explanation": "Supervised learning uses labeled examples (known answers) to train models."
+   "explanation": "Supervised learning fits a function using known input-output examples."
   },
   {
    "id": "F053",
@@ -1999,23 +2166,23 @@
    "difficulty": "beginner",
    "q": "An 'autonomous system' is one that can:",
    "options": [
-    "Never make mistakes",
-    "Operate and make decisions without constant human control",
-    "Only run when plugged in",
-    "Only work offline"
+    "Function only with no sensors attached",
+    "Make decisions and act without constant human control",
+    "Guarantee it never makes a mistake",
+    "Operate only with a human approving each step"
    ],
    "answer": 1,
-   "explanation": "Autonomous systems perform tasks and make decisions independently."
+   "explanation": "Autonomous systems perform tasks and decide independently."
   },
   {
    "id": "F054",
    "category": "AI Fundamentals",
    "difficulty": "beginner",
-   "q": "Which of the following is a virtual assistant powered by AI?",
+   "q": "Which is an AI-powered virtual assistant?",
    "options": [
-    "Calculator",
-    "Paint",
-    "Notepad",
+    "A spreadsheet formula bar",
+    "A file-compression utility",
+    "A relational database engine",
     "Google Assistant"
    ],
    "answer": 3,
@@ -2025,12 +2192,12 @@
    "id": "F055",
    "category": "AI Fundamentals",
    "difficulty": "beginner",
-   "q": "What does 'ML' stand for?",
+   "q": "'ML' is the abbreviation for:",
    "options": [
-    "Managed Logic",
-    "Multi Language",
+    "Multi-Layer routing",
+    "Markov Logic",
     "Machine Learning",
-    "Memory Load"
+    "Model Latency"
    ],
    "answer": 2,
    "explanation": "ML stands for Machine Learning, a core subfield of AI."
@@ -2039,71 +2206,71 @@
    "id": "F056",
    "category": "AI Fundamentals",
    "difficulty": "beginner",
-   "q": "AI systems that recognize handwriting are performing:",
+   "q": "Recognising handwritten digits from images is an example of:",
    "options": [
-    "Optical Character Recognition",
-    "Audio synthesis",
-    "Network routing",
-    "File compression"
+    "Computer-vision classification",
+    "Speech synthesis",
+    "Text translation",
+    "Reward-based control"
    ],
    "answer": 0,
-   "explanation": "OCR (Optical Character Recognition) converts images of text into machine-readable text."
+   "explanation": "Classifying handwritten digits from images is a computer-vision task (e.g., MNIST)."
   },
   {
    "id": "F057",
    "category": "AI Fundamentals",
    "difficulty": "beginner",
-   "q": "Which of the following is TRUE about AI today?",
+   "q": "Which statement about present-day AI is TRUE?",
    "options": [
-    "AGI is already common",
-    "All AI is fully self-aware",
-    "AI can feel emotions like humans",
-    "It is mostly narrow/specialized AI"
+    "It operates without any data",
+    "It is generally self-aware",
+    "It fully matches human reasoning",
+    "It is predominantly narrow and task-specific"
    ],
    "answer": 3,
-   "explanation": "Current real-world AI is overwhelmingly narrow AI focused on specific tasks."
+   "explanation": "Real-world AI today is narrow, focused on specific tasks."
   },
   {
    "id": "F058",
    "category": "AI Fundamentals",
    "difficulty": "beginner",
-   "q": "A 'prompt' in generative AI is:",
+   "q": "In generative AI, a 'prompt' is:",
    "options": [
-    "A type of monitor",
-    "The input/instruction given to the model",
-    "A hardware error",
-    "A network cable"
+    "The dataset used for pre-training",
+    "The input instruction that guides the output",
+    "The metric used to grade outputs",
+    "The number of model parameters"
    ],
    "answer": 1,
-   "explanation": "A prompt is the text input or instruction that guides a generative model's output."
+   "explanation": "A prompt is the input that steers a generative model's response."
   },
   {
    "id": "F059",
    "category": "AI Fundamentals",
    "difficulty": "beginner",
-   "q": "Which of these best describes 'data preprocessing'?",
+   "q": "'Data preprocessing' involves:",
    "options": [
-    "Printing data",
-    "Deleting all data",
-    "Encrypting the CPU",
-    "Cleaning and preparing data before training"
+    "Writing the model's inference API",
+    "Choosing which cloud region to deploy in",
+    "Measuring final production latency",
+    "Cleaning and transforming raw data before training"
    ],
    "answer": 3,
-   "explanation": "Preprocessing cleans, transforms, and prepares raw data for effective model training."
+   "explanation": "Preprocessing prepares raw data so models can learn effectively."
   },
   {
    "id": "F060",
    "category": "AI Fundamentals",
    "difficulty": "beginner",
-   "q": "Which of these is a benefit of AI in business?",
+   "q": "A key business benefit of AI is:",
    "options": [
-    "Automating repetitive tasks and gaining insights from data",
-    "Slowing down all processes",
-    "Removing all computers",
-    "Increasing manual paperwork"
+    "Automating routine work and revealing insights from data",
+    "Guaranteeing flawless results with no oversight",
+    "Removing the need for any strategy",
+    "Eliminating all data requirements"
    ],
    "answer": 0,
-   "explanation": "AI helps businesses automate tasks, reduce errors, and extract insights from data."
+   "explanation": "AI helps automate tasks and extract insights, though human oversight remains important."
   },
   {
    "id": "M001",
@@ -2125,9 +2292,9 @@
    "difficulty": "intermediate",
    "q": "What is 'underfitting'?",
    "options": [
+    "Model overtrains",
     "Model has too many features",
     "Model is too complex",
-    "Model overtrains",
     "Model fails to capture underlying patterns even in training data"
    ],
    "answer": 3,
@@ -2153,10 +2320,10 @@
    "difficulty": "intermediate",
    "q": "What is the purpose of a 'validation set'?",
    "options": [
-    "To back up the model",
-    "To tune hyperparameters and check generalization during training",
     "To store passwords",
-    "To render graphics"
+    "To tune hyperparameters and check generalization during training",
+    "To render graphics",
+    "To back up the model"
    ],
    "answer": 1,
    "explanation": "A validation set evaluates the model during development to tune hyperparameters without touching the test set."
@@ -2209,9 +2376,9 @@
    "difficulty": "intermediate",
    "q": "Precision is defined as:",
    "options": [
-    "TN / (TN + FP)",
     "(TP + TN) / total",
     "TP / (TP + FN)",
+    "TN / (TN + FP)",
     "TP / (TP + FP)"
    ],
    "answer": 3,
@@ -2307,9 +2474,9 @@
    "difficulty": "intermediate",
    "q": "The 'learning rate' controls:",
    "options": [
-    "The number of classes",
     "The dataset size",
     "The number of features",
+    "The number of classes",
     "The step size in gradient descent updates"
    ],
    "answer": 3,
@@ -2322,9 +2489,9 @@
    "q": "What happens if the learning rate is too high?",
    "options": [
     "Training may diverge or oscillate",
-    "Data becomes labeled",
     "Training is always faster and better",
-    "Model uses no memory"
+    "Model uses no memory",
+    "Data becomes labeled"
    ],
    "answer": 0,
    "explanation": "An excessive learning rate can overshoot minima, causing divergence."
@@ -2377,9 +2544,9 @@
    "difficulty": "intermediate",
    "q": "In k-fold cross-validation with k=5, the data is split into:",
    "options": [
-    "5 models trained on all data",
     "5 features",
     "5 copies",
+    "5 models trained on all data",
     "5 equal parts, each used once as validation"
    ],
    "answer": 3,
@@ -2433,9 +2600,9 @@
    "difficulty": "intermediate",
    "q": "A Support Vector Machine tries to find:",
    "options": [
+    "The fastest route",
     "The median value",
     "The smallest cluster",
-    "The fastest route",
     "The hyperplane with maximum margin between classes"
    ],
    "answer": 3,
@@ -2447,10 +2614,10 @@
    "difficulty": "intermediate",
    "q": "The 'kernel trick' in SVMs allows:",
    "options": [
-    "Image compression",
-    "Learning non-linear boundaries in higher-dimensional space",
     "Data encryption",
-    "Faster disk access"
+    "Learning non-linear boundaries in higher-dimensional space",
+    "Faster disk access",
+    "Image compression"
    ],
    "answer": 1,
    "explanation": "Kernels implicitly map data to higher dimensions to separate non-linearly separable classes."
@@ -2475,10 +2642,10 @@
    "difficulty": "intermediate",
    "q": "'Boosting' works by:",
    "options": [
-    "Clustering data",
+    "Averaging independent models",
     "Training weak learners sequentially, each correcting prior errors",
-    "Reducing dimensions",
-    "Averaging independent models"
+    "Clustering data",
+    "Reducing dimensions"
    ],
    "answer": 1,
    "explanation": "Boosting (e.g., AdaBoost, XGBoost) builds models sequentially to fix predecessors' mistakes."
@@ -2517,10 +2684,10 @@
    "difficulty": "intermediate",
    "q": "'Grid search' is used to:",
    "options": [
-    "Encrypt models",
-    "Systematically search hyperparameter combinations",
     "Draw grids on images",
-    "Compress datasets"
+    "Systematically search hyperparameter combinations",
+    "Compress datasets",
+    "Encrypt models"
    ],
    "answer": 1,
    "explanation": "Grid search evaluates all combinations in a defined hyperparameter grid."
@@ -2546,9 +2713,9 @@
    "q": "K-Nearest Neighbors (KNN) classifies a point based on:",
    "options": [
     "The majority class of its nearest neighbors",
-    "The mean of all data",
     "A random guess",
-    "The first data point"
+    "The first data point",
+    "The mean of all data"
    ],
    "answer": 0,
    "explanation": "KNN assigns the most common class among the k closest training examples."
@@ -2629,10 +2796,10 @@
    "difficulty": "intermediate",
    "q": "AUC stands for:",
    "options": [
+    "Average Update Count",
     "Augmented Utility Class",
-    "Automatic Unit Conversion",
     "Area Under the Curve",
-    "Average Update Count"
+    "Automatic Unit Conversion"
    ],
    "answer": 2,
    "explanation": "AUC is the area under the ROC curve; higher means better ranking of classes."
@@ -2643,9 +2810,9 @@
    "difficulty": "intermediate",
    "q": "'One-hot encoding' is used to:",
    "options": [
-    "Compress images",
     "Shuffle data",
     "Normalize numbers",
+    "Compress images",
     "Represent categorical variables as binary vectors"
    ],
    "answer": 3,
@@ -2657,10 +2824,10 @@
    "difficulty": "intermediate",
    "q": "A 'loss function' measures:",
    "options": [
+    "The CPU temperature",
     "The disk usage",
-    "The number of layers",
     "The difference between predictions and true values",
-    "The CPU temperature"
+    "The number of layers"
    ],
    "answer": 2,
    "explanation": "Loss quantifies prediction error that training aims to minimize."
@@ -2699,10 +2866,10 @@
    "difficulty": "intermediate",
    "q": "'Stochastic Gradient Descent' updates weights using:",
    "options": [
-    "No data",
+    "The entire dataset only",
     "One (or a few) sample(s) at a time",
-    "Random labels",
-    "The entire dataset only"
+    "No data",
+    "Random labels"
    ],
    "answer": 1,
    "explanation": "SGD uses small batches/single samples for faster, noisier updates."
@@ -2714,9 +2881,9 @@
    "q": "An 'epoch' in training refers to:",
    "options": [
     "One full pass over the training dataset",
+    "One feature",
     "One sample",
-    "One layer",
-    "One feature"
+    "One layer"
    ],
    "answer": 0,
    "explanation": "An epoch is a complete iteration through all training examples."
@@ -2742,9 +2909,9 @@
    "q": "Which is an unsupervised dimensionality reduction technique for visualization?",
    "options": [
     "t-SNE",
-    "AdaBoost",
     "Logistic regression",
-    "SVM"
+    "SVM",
+    "AdaBoost"
    ],
    "answer": 0,
    "explanation": "t-SNE projects high-dimensional data to 2D/3D preserving local structure."
@@ -2769,10 +2936,10 @@
    "difficulty": "intermediate",
    "q": "The 'no free lunch' theorem states that:",
    "options": [
+    "Data is unlimited",
     "GPUs are unnecessary",
-    "Training is always free",
     "No single algorithm is best for all problems",
-    "Data is unlimited"
+    "Training is always free"
    ],
    "answer": 2,
    "explanation": "Performance depends on the problem; no universally superior algorithm exists."
@@ -2826,9 +2993,9 @@
    "q": "'Ensemble methods' generally aim to:",
    "options": [
     "Combine multiple models for better performance",
+    "Reduce dataset size",
     "Encrypt predictions",
-    "Speed up disk I/O",
-    "Reduce dataset size"
+    "Speed up disk I/O"
    ],
    "answer": 0,
    "explanation": "Ensembles combine several models to outperform any single one."
@@ -2854,9 +3021,9 @@
    "q": "A* search combines path cost with:",
    "options": [
     "A heuristic estimate to the goal",
-    "Depth only",
     "Random exploration",
-    "Alphabetical order"
+    "Alphabetical order",
+    "Depth only"
    ],
    "answer": 0,
    "explanation": "A* uses f(n)=g(n)+h(n), balancing actual cost and heuristic estimate."
@@ -2909,10 +3076,10 @@
    "difficulty": "intermediate",
    "q": "A 'heuristic' in AI search is:",
    "options": [
-    "A dataset",
     "A guaranteed exact answer",
+    "A hardware component",
     "A rule of thumb guiding the search",
-    "A hardware component"
+    "A dataset"
    ],
    "answer": 2,
    "explanation": "Heuristics provide informed estimates to guide search efficiently."
@@ -2923,10 +3090,10 @@
    "difficulty": "intermediate",
    "q": "Breadth-First Search guarantees the shortest path when:",
    "options": [
-    "There is no goal",
+    "Edges have negative cost",
     "All edges have equal cost",
-    "The graph is infinite",
-    "Edges have negative cost"
+    "There is no goal",
+    "The graph is infinite"
    ],
    "answer": 1,
    "explanation": "BFS finds the shallowest goal, which is shortest only with uniform edge costs."
@@ -2965,9 +3132,9 @@
    "difficulty": "intermediate",
    "q": "'First-order logic' adds which capability over propositional logic?",
    "options": [
-    "Encryption",
     "Image support",
     "Faster CPUs",
+    "Encryption",
     "Quantifiers and predicates over objects"
    ],
    "answer": 3,
@@ -3007,9 +3174,9 @@
    "difficulty": "intermediate",
    "q": "A 'knowledge base' in an expert system stores:",
    "options": [
-    "Temporary cache",
     "Only images",
     "User passwords",
+    "Temporary cache",
     "Facts and rules about a domain"
    ],
    "answer": 3,
@@ -3035,10 +3202,10 @@
    "difficulty": "intermediate",
    "q": "A 'greedy best-first search' selects nodes based on:",
    "options": [
-    "Depth only",
     "Actual path cost only",
+    "Random choice",
     "The heuristic estimate alone",
-    "Random choice"
+    "Depth only"
    ],
    "answer": 2,
    "explanation": "Greedy best-first uses only the heuristic h(n), which is fast but not always optimal."
@@ -3049,10 +3216,10 @@
    "difficulty": "intermediate",
    "q": "'Hill climbing' can get stuck in:",
    "options": [
-    "Negative cycles",
     "Global optima always",
+    "Infinite loops only",
     "Local maxima",
-    "Infinite loops only"
+    "Negative cycles"
    ],
    "answer": 2,
    "explanation": "Hill climbing may converge to a local optimum rather than the global best."
@@ -3078,9 +3245,9 @@
    "q": "A 'genetic algorithm' is inspired by:",
    "options": [
     "Natural selection and evolution",
-    "Quantum mechanics",
     "Fluid dynamics",
-    "Neural signaling"
+    "Neural signaling",
+    "Quantum mechanics"
    ],
    "answer": 0,
    "explanation": "Genetic algorithms evolve solutions using selection, crossover, and mutation."
@@ -3092,9 +3259,9 @@
    "q": "'Semi-supervised learning' uses:",
    "options": [
     "A small amount of labeled data with lots of unlabeled data",
+    "No data",
     "Only rewards",
-    "Only labeled data",
-    "No data"
+    "Only labeled data"
    ],
    "answer": 0,
    "explanation": "Semi-supervised methods leverage abundant unlabeled data alongside limited labels."
@@ -3189,10 +3356,10 @@
    "difficulty": "intermediate",
    "q": "'Class imbalance' can be addressed by:",
    "options": [
-    "Ignoring it always",
+    "Adding random noise only",
     "Resampling (oversampling/undersampling) or class weighting",
-    "Removing all classes",
-    "Adding random noise only"
+    "Ignoring it always",
+    "Removing all classes"
    ],
    "answer": 1,
    "explanation": "Techniques like SMOTE, undersampling, or weighted losses handle imbalance."
@@ -3217,10 +3384,10 @@
    "difficulty": "intermediate",
    "q": "'Scikit-learn' is a Python library primarily for:",
    "options": [
+    "Operating systems",
     "3D games",
-    "Web servers",
     "Classical machine learning",
-    "Operating systems"
+    "Web servers"
    ],
    "answer": 2,
    "explanation": "scikit-learn provides classical ML algorithms, preprocessing, and evaluation tools."
@@ -3245,10 +3412,10 @@
    "difficulty": "intermediate",
    "q": "An 'activation function' introduces:",
    "options": [
-    "Fewer layers",
-    "Non-linearity into the network",
     "More memory",
-    "Random labels"
+    "Non-linearity into the network",
+    "Random labels",
+    "Fewer layers"
    ],
    "answer": 1,
    "explanation": "Without non-linear activations, a network reduces to a linear model regardless of depth."
@@ -3301,10 +3468,10 @@
    "difficulty": "intermediate",
    "q": "'Dropout' is a regularization technique that:",
    "options": [
+    "Doubles the dataset",
     "Deletes layers permanently",
-    "Encrypts weights",
     "Randomly deactivates neurons during training",
-    "Doubles the dataset"
+    "Encrypts weights"
    ],
    "answer": 2,
    "explanation": "Dropout randomly zeros units during training to prevent co-adaptation and overfitting."
@@ -3413,10 +3580,10 @@
    "difficulty": "advanced",
    "q": "The 'Adam' optimizer combines ideas from:",
    "options": [
-    "SVM and KNN",
-    "Momentum and RMSProp (adaptive learning rates)",
     "BFS and DFS",
-    "K-means and PCA"
+    "Momentum and RMSProp (adaptive learning rates)",
+    "K-means and PCA",
+    "SVM and KNN"
    ],
    "answer": 1,
    "explanation": "Adam blends momentum with per-parameter adaptive learning rates."
@@ -3455,10 +3622,10 @@
    "difficulty": "advanced",
    "q": "'Fine-tuning' a pre-trained model means:",
    "options": [
-    "Compressing the dataset",
     "Rendering graphics",
+    "Deleting the model",
     "Continuing training on new task-specific data",
-    "Deleting the model"
+    "Compressing the dataset"
    ],
    "answer": 2,
    "explanation": "Fine-tuning updates a pre-trained model's weights on the target dataset."
@@ -3526,9 +3693,9 @@
    "q": "A Variational Autoencoder (VAE) differs from a plain autoencoder by:",
    "options": [
     "Learning a probabilistic latent distribution",
+    "Using no encoder",
     "Requiring labels",
-    "Removing the decoder",
-    "Using no encoder"
+    "Removing the decoder"
    ],
    "answer": 0,
    "explanation": "VAEs model the latent space as a probability distribution, enabling generation."
@@ -3637,10 +3804,10 @@
    "difficulty": "advanced",
    "q": "'Weight decay' is another name for:",
    "options": [
+    "Dropout",
     "Batch norm",
-    "Data augmentation",
     "L2 regularization",
-    "Dropout"
+    "Data augmentation"
    ],
    "answer": 2,
    "explanation": "Weight decay penalizes large weights, equivalent to L2 regularization."
@@ -3651,10 +3818,10 @@
    "difficulty": "intermediate",
    "q": "'PyTorch' and 'TensorFlow' are primarily:",
    "options": [
-    "Operating systems",
+    "Databases",
     "Deep learning frameworks",
-    "Web browsers",
-    "Databases"
+    "Operating systems",
+    "Web browsers"
    ],
    "answer": 1,
    "explanation": "Both are leading frameworks for building and training neural networks."
@@ -3693,10 +3860,10 @@
    "difficulty": "advanced",
    "q": "The 'universal approximation theorem' states a neural network can:",
    "options": [
-    "Run without data",
-    "Approximate any continuous function given enough neurons",
     "Solve any problem instantly",
-    "Never overfit"
+    "Approximate any continuous function given enough neurons",
+    "Never overfit",
+    "Run without data"
    ],
    "answer": 1,
    "explanation": "A sufficiently wide network can approximate any continuous function to arbitrary accuracy."
@@ -3707,10 +3874,10 @@
    "difficulty": "advanced",
    "q": "A 'learning rate scheduler' is used to:",
    "options": [
+    "Schedule GPU cooling",
     "Manage disk space",
-    "Label data",
     "Adjust the learning rate during training",
-    "Schedule GPU cooling"
+    "Label data"
    ],
    "answer": 2,
    "explanation": "Schedulers (step, cosine, warmup) vary the learning rate for better convergence."
@@ -3805,9 +3972,9 @@
    "difficulty": "advanced",
    "q": "A 'deep' neural network is typically defined as one with:",
    "options": [
-    "Only an input layer",
     "Exactly one layer",
     "No layers",
+    "Only an input layer",
     "Many hidden layers"
    ],
    "answer": 3,
@@ -3819,10 +3986,10 @@
    "difficulty": "advanced",
    "q": "'Semantic segmentation' assigns a class label to:",
    "options": [
+    "The whole image only",
     "Random pixels",
-    "Audio frames",
     "Every pixel in an image",
-    "The whole image only"
+    "Audio frames"
    ],
    "answer": 2,
    "explanation": "Semantic segmentation classifies each pixel, e.g., road vs. car vs. sky."
@@ -3847,9 +4014,9 @@
    "difficulty": "advanced",
    "q": "'YOLO' in computer vision stands for:",
    "options": [
-    "Your Own Learning Objective",
     "Yielding Overlapping Labels Only",
     "Yield Optimized Layer Output",
+    "Your Own Learning Objective",
     "You Only Look Once"
    ],
    "answer": 3,
@@ -3945,10 +4112,10 @@
    "difficulty": "advanced",
    "q": "A 'siamese network' is commonly used for:",
    "options": [
-    "Clustering pixels",
+    "Sorting text",
     "Learning similarity between pairs of inputs",
-    "Single-image classification only",
-    "Sorting text"
+    "Clustering pixels",
+    "Single-image classification only"
    ],
    "answer": 1,
    "explanation": "Siamese networks share weights across twin branches to compare inputs (e.g., face verification)."
@@ -3959,10 +4126,10 @@
    "difficulty": "advanced",
    "q": "'Contrastive learning' trains models by:",
    "options": [
-    "Deleting samples",
-    "Pulling similar samples together and pushing dissimilar apart",
     "Random labeling",
-    "Ignoring similarity"
+    "Pulling similar samples together and pushing dissimilar apart",
+    "Ignoring similarity",
+    "Deleting samples"
    ],
    "answer": 1,
    "explanation": "Contrastive objectives learn representations by comparing positive and negative pairs."
@@ -3973,10 +4140,10 @@
    "difficulty": "advanced",
    "q": "'Self-supervised learning' generates labels from:",
    "options": [
-    "Human annotators only",
-    "The data itself (pretext tasks)",
     "External APIs",
-    "Random noise"
+    "The data itself (pretext tasks)",
+    "Random noise",
+    "Human annotators only"
    ],
    "answer": 1,
    "explanation": "Self-supervision creates supervisory signals from unlabeled data automatically."
@@ -4071,10 +4238,10 @@
    "difficulty": "advanced",
    "q": "'Catastrophic forgetting' occurs when a model:",
    "options": [
-    "Never learns",
     "Uses too little memory",
+    "Overfits the test set",
     "Forgets previous tasks after training on new ones",
-    "Overfits the test set"
+    "Never learns"
    ],
    "answer": 2,
    "explanation": "Sequential training on new tasks can overwrite knowledge of earlier tasks."
@@ -4086,9 +4253,9 @@
    "q": "'Layer normalization' differs from batch norm by normalizing:",
    "options": [
     "Across features of a single sample",
-    "Across the batch dimension",
     "Across epochs",
-    "Across labels"
+    "Across labels",
+    "Across the batch dimension"
    ],
    "answer": 0,
    "explanation": "LayerNorm normalizes over features per-sample, useful in transformers and RNNs."
@@ -4198,9 +4365,9 @@
    "q": "A 'confusion' between epochs and iterations: one iteration is:",
    "options": [
     "One weight update (one batch)",
+    "One full dataset pass",
     "One layer",
-    "One feature",
-    "One full dataset pass"
+    "One feature"
    ],
    "answer": 0,
    "explanation": "An iteration processes one batch and performs one update; an epoch is many iterations."
@@ -4240,9 +4407,9 @@
    "q": "'Stemming' reduces words to their:",
    "options": [
     "Root/base form by chopping affixes",
-    "Synonyms",
     "Plural form",
-    "Uppercase"
+    "Uppercase",
+    "Synonyms"
    ],
    "answer": 0,
    "explanation": "Stemming crudely trims words (e.g., 'running' to 'run')."
@@ -4254,9 +4421,9 @@
    "q": "'Lemmatization' differs from stemming by:",
    "options": [
     "Producing valid dictionary base forms using context",
-    "Adding suffixes",
     "Being random",
-    "Removing all vowels"
+    "Removing all vowels",
+    "Adding suffixes"
    ],
    "answer": 0,
    "explanation": "Lemmatization maps words to their proper lemma (e.g., 'better' to 'good')."
@@ -4267,9 +4434,9 @@
    "difficulty": "intermediate",
    "q": "'Bag of Words' represents text as:",
    "options": [
-    "Audio",
     "A sequence with order",
     "An image",
+    "Audio",
     "Word counts ignoring order"
    ],
    "answer": 3,
@@ -4295,10 +4462,10 @@
    "difficulty": "intermediate",
    "q": "'Word2Vec' produces:",
    "options": [
-    "Audio spectrograms",
-    "Dense word embeddings capturing semantics",
     "One-hot vectors",
-    "Images"
+    "Dense word embeddings capturing semantics",
+    "Images",
+    "Audio spectrograms"
    ],
    "answer": 1,
    "explanation": "Word2Vec learns vector representations where similar words are near each other."
@@ -4393,9 +4560,9 @@
    "difficulty": "advanced",
    "q": "'Seq2Seq' models map:",
    "options": [
-    "Audio to nothing",
     "An image to a label",
     "A number to a color",
+    "Audio to nothing",
     "An input sequence to an output sequence"
    ],
    "answer": 3,
@@ -4520,9 +4687,9 @@
    "q": "'Topic modeling' (e.g., LDA) discovers:",
    "options": [
     "Latent themes across a document collection",
-    "Fonts",
     "Image objects",
-    "Grammar errors"
+    "Grammar errors",
+    "Fonts"
    ],
    "answer": 0,
    "explanation": "Latent Dirichlet Allocation finds clusters of co-occurring words as topics."
@@ -4534,9 +4701,9 @@
    "q": "'Contextual embeddings' (e.g., BERT) differ from Word2Vec because they:",
    "options": [
     "Vary the vector by surrounding context",
+    "Are always identical per word",
     "Use no neural nets",
-    "Ignore context",
-    "Are always identical per word"
+    "Ignore context"
    ],
    "answer": 0,
    "explanation": "Contextual models give a word different vectors depending on its sentence."
@@ -4575,10 +4742,10 @@
    "difficulty": "advanced",
    "q": "'Stemming' vs 'Lemmatization': which is generally more linguistically accurate?",
    "options": [
-    "Both identical",
+    "Stemming",
     "Lemmatization",
-    "Neither",
-    "Stemming"
+    "Both identical",
+    "Neither"
    ],
    "answer": 1,
    "explanation": "Lemmatization uses vocabulary and morphology for correct base forms."
@@ -4618,9 +4785,9 @@
    "q": "The main limitation of Bag-of-Words is that it:",
    "options": [
     "Ignores word order and context",
-    "Cannot count words",
     "Is too slow",
-    "Requires GPUs"
+    "Requires GPUs",
+    "Cannot count words"
    ],
    "answer": 0,
    "explanation": "BoW loses sequence and semantic context, limiting understanding."
@@ -4673,10 +4840,10 @@
    "difficulty": "advanced",
    "q": "'Slot filling' in dialog systems extracts:",
    "options": [
-    "Audio pitch",
-    "Specific parameter values from user input",
     "Random tokens",
-    "Image regions"
+    "Specific parameter values from user input",
+    "Image regions",
+    "Audio pitch"
    ],
    "answer": 1,
    "explanation": "Slots capture entities like date, location, or quantity from an utterance."
@@ -4743,10 +4910,10 @@
    "difficulty": "advanced",
    "q": "'Semantic parsing' maps natural language to:",
    "options": [
+    "Random text",
     "Pixels",
-    "Audio",
     "A structured, machine-readable meaning representation",
-    "Random text"
+    "Audio"
    ],
    "answer": 2,
    "explanation": "Semantic parsing produces logical forms or queries from language."
@@ -4772,9 +4939,9 @@
    "q": "'Beam search' in text generation:",
    "options": [
     "Explores multiple candidate sequences to find high-probability output",
+    "Picks random tokens",
     "Deletes tokens",
-    "Sorts characters",
-    "Picks random tokens"
+    "Sorts characters"
    ],
    "answer": 0,
    "explanation": "Beam search keeps the top-k partial sequences to improve generation quality."
@@ -4814,9 +4981,9 @@
    "q": "'Top-k sampling' restricts generation to:",
    "options": [
     "The k most likely next tokens",
-    "One token",
     "All tokens",
-    "The k least likely tokens"
+    "The k least likely tokens",
+    "One token"
    ],
    "answer": 0,
    "explanation": "Top-k samples only from the k highest-probability tokens for controlled diversity."
@@ -4884,9 +5051,9 @@
    "q": "A challenge specific to NLP is:",
    "options": [
     "Ambiguity and context-dependence of language",
-    "Lack of any data",
     "No use cases",
-    "Fixed vocabulary always"
+    "Fixed vocabulary always",
+    "Lack of any data"
    ],
    "answer": 0,
    "explanation": "Words can have multiple meanings, making context crucial and NLP hard."
@@ -4954,9 +5121,9 @@
    "q": "'Positional encoding' is needed in Transformers because:",
    "options": [
     "Self-attention has no inherent sense of token order",
-    "It encrypts tokens",
     "GPUs require it",
-    "It compresses data"
+    "It compresses data",
+    "It encrypts tokens"
    ],
    "answer": 0,
    "explanation": "Positional encodings inject order information into the otherwise permutation-invariant attention."
@@ -4981,10 +5148,10 @@
    "difficulty": "advanced",
    "q": "'GPT' stands for:",
    "options": [
-    "Global Prediction Test",
-    "Generative Pre-trained Transformer",
     "General Purpose Tool",
-    "Gradient Propagation Technique"
+    "Generative Pre-trained Transformer",
+    "Gradient Propagation Technique",
+    "Global Prediction Test"
    ],
    "answer": 1,
    "explanation": "GPT = Generative Pre-trained Transformer, an autoregressive decoder model."
@@ -5065,9 +5232,9 @@
    "difficulty": "advanced",
    "q": "'Prompt engineering' is the practice of:",
    "options": [
+    "Building CPUs",
     "Writing operating systems",
     "Designing networks",
-    "Building CPUs",
     "Crafting inputs to elicit better model outputs"
    ],
    "answer": 3,
@@ -5107,9 +5274,9 @@
    "difficulty": "advanced",
    "q": "'Chain-of-thought' prompting encourages the model to:",
    "options": [
-    "Ignore the question",
     "Output random tokens",
     "Answer instantly with one word",
+    "Ignore the question",
     "Reason step by step before answering"
    ],
    "answer": 3,
@@ -5121,10 +5288,10 @@
    "difficulty": "advanced",
    "q": "The 'context window' of an LLM is:",
    "options": [
+    "The screen size",
     "The training duration",
-    "The number of layers",
     "The maximum number of tokens it can process at once",
-    "The screen size"
+    "The number of layers"
    ],
    "answer": 2,
    "explanation": "The context window limits how much text the model can attend to in one call."
@@ -5149,9 +5316,9 @@
    "difficulty": "advanced",
    "q": "A 'vector database' is commonly used in RAG to:",
    "options": [
-    "Render video",
     "Store images only",
     "Compile code",
+    "Render video",
     "Store and search embeddings by similarity"
    ],
    "answer": 3,
@@ -5163,10 +5330,10 @@
    "difficulty": "advanced",
    "q": "'Tokens' in an LLM are:",
    "options": [
-    "Pixels",
     "Security keys",
+    "GPU cores",
     "Chunks of text (words/subwords) the model processes",
-    "GPU cores"
+    "Pixels"
    ],
    "answer": 2,
    "explanation": "LLMs operate on tokens, which may be whole words or subword pieces."
@@ -5205,10 +5372,10 @@
    "difficulty": "advanced",
    "q": "'LoRA' is a technique for:",
    "options": [
-    "Data collection",
-    "Parameter-efficient fine-tuning via low-rank adapters",
     "Full retraining",
-    "Image scaling"
+    "Parameter-efficient fine-tuning via low-rank adapters",
+    "Image scaling",
+    "Data collection"
    ],
    "answer": 1,
    "explanation": "LoRA freezes weights and trains small low-rank matrices, saving compute/memory."
@@ -5275,10 +5442,10 @@
    "difficulty": "advanced",
    "q": "'Grounding' an LLM response means:",
    "options": [
-    "Adding random facts",
     "Making it shorter",
+    "Deleting context",
     "Backing it with verifiable external evidence/context",
-    "Deleting context"
+    "Adding random facts"
    ],
    "answer": 2,
    "explanation": "Grounding ties outputs to reliable sources to improve factuality."
@@ -5289,10 +5456,10 @@
    "difficulty": "advanced",
    "q": "'Distillation' of an LLM produces:",
    "options": [
-    "More data",
+    "A bigger model",
     "A smaller model approximating a larger one",
-    "New hardware",
-    "A bigger model"
+    "More data",
+    "New hardware"
    ],
    "answer": 1,
    "explanation": "Distillation transfers knowledge to a compact, cheaper-to-run model."
@@ -5304,9 +5471,9 @@
    "q": "'Encoder-decoder' Transformers (e.g., T5) are well suited for:",
    "options": [
     "Sequence-to-sequence tasks like translation/summarization",
-    "Only images",
     "Only classification",
-    "Only clustering"
+    "Only clustering",
+    "Only images"
    ],
    "answer": 0,
    "explanation": "Encoder-decoder models map input sequences to output sequences."
@@ -5360,9 +5527,9 @@
    "q": "A 'foundation model' is:",
    "options": [
     "A large model pre-trained broadly and adaptable to many tasks",
+    "A compiler",
     "A database",
-    "A tiny single-task model",
-    "A compiler"
+    "A tiny single-task model"
    ],
    "answer": 0,
    "explanation": "Foundation models are broadly trained bases adaptable via fine-tuning or prompting."
@@ -5373,10 +5540,10 @@
    "difficulty": "advanced",
    "q": "'Multimodal' models can process:",
    "options": [
-    "Only numbers",
-    "Multiple input types such as text and images",
     "Only audio",
-    "Only text"
+    "Multiple input types such as text and images",
+    "Only text",
+    "Only numbers"
    ],
    "answer": 1,
    "explanation": "Multimodal models handle combinations like text, image, and audio."
@@ -5458,9 +5625,9 @@
    "q": "'Agentic' LLM systems are notable for:",
    "options": [
     "Planning and using tools/actions to accomplish goals",
+    "Only answering trivia",
     "Rendering graphics",
-    "Storing files",
-    "Only answering trivia"
+    "Storing files"
    ],
    "answer": 0,
    "explanation": "AI agents chain reasoning with tool use to complete multi-step tasks."
@@ -5499,9 +5666,9 @@
    "difficulty": "advanced",
    "q": "'Scaling laws' describe how model performance relates to:",
    "options": [
-    "Cable length",
     "Screen resolution",
     "Number of users",
+    "Cable length",
     "Model size, data, and compute"
    ],
    "answer": 3,
@@ -5611,10 +5778,10 @@
    "difficulty": "intermediate",
    "q": "A digital image is represented by a computer as:",
    "options": [
+    "A single number",
     "A text string",
-    "An audio wave",
     "A grid of pixel values",
-    "A single number"
+    "An audio wave"
    ],
    "answer": 2,
    "explanation": "Images are arrays of pixel intensity values, often across color channels."
@@ -5640,9 +5807,9 @@
    "q": "'Image classification' outputs:",
    "options": [
     "A single label for the whole image",
-    "A pixel mask",
     "A box per object",
-    "A caption paragraph"
+    "A caption paragraph",
+    "A pixel mask"
    ],
    "answer": 0,
    "explanation": "Classification assigns one category to the entire image."
@@ -5667,10 +5834,10 @@
    "difficulty": "intermediate",
    "q": "'Grayscale' conversion reduces an image to:",
    "options": [
-    "Text",
     "Four channels",
+    "Only red",
     "A single intensity channel",
-    "Only red"
+    "Text"
    ],
    "answer": 2,
    "explanation": "Grayscale keeps brightness information in one channel."
@@ -5737,10 +5904,10 @@
    "difficulty": "advanced",
    "q": "'IoU' (Intersection over Union) measures:",
    "options": [
-    "Model speed",
     "Audio quality",
+    "Color accuracy",
     "Overlap between predicted and ground-truth boxes/masks",
-    "Color accuracy"
+    "Model speed"
    ],
    "answer": 2,
    "explanation": "IoU quantifies how well predicted regions overlap the true regions."
@@ -5780,9 +5947,9 @@
    "q": "A 'pre-trained backbone' (e.g., ResNet) is often used for:",
    "options": [
     "Feature extraction via transfer learning",
+    "Compressing audio",
     "Storing labels",
-    "Rendering UI",
-    "Compressing audio"
+    "Rendering UI"
    ],
    "answer": 0,
    "explanation": "Pre-trained backbones provide strong visual features reused for new tasks."
@@ -5836,9 +6003,9 @@
    "q": "'Facial landmark detection' locates:",
    "options": [
     "Key points like eyes, nose, mouth corners",
-    "Text",
     "Entire scenes",
-    "Audio peaks"
+    "Audio peaks",
+    "Text"
    ],
    "answer": 0,
    "explanation": "Landmark detection finds specific facial keypoints for alignment or analysis."
@@ -5878,9 +6045,9 @@
    "q": "A 'convolution' operation in image processing involves:",
    "options": [
     "Sliding a kernel over the image computing weighted sums",
+    "Sorting pixels",
     "Deleting rows",
-    "Random shuffling",
-    "Sorting pixels"
+    "Random shuffling"
    ],
    "answer": 0,
    "explanation": "Convolution applies a filter across the image to extract features."
@@ -5919,9 +6086,9 @@
    "difficulty": "advanced",
    "q": "'Style transfer' produces an image that:",
    "options": [
+    "Deletes color",
     "Only rotates",
     "Adds text",
-    "Deletes color",
     "Combines the content of one image with the style of another"
    ],
    "answer": 3,
@@ -5947,10 +6114,10 @@
    "difficulty": "advanced",
    "q": "'Anchor boxes' in object detection are:",
    "options": [
-    "Audio frames",
-    "Predefined reference boxes of various shapes/sizes",
     "Random pixels",
-    "Text labels"
+    "Predefined reference boxes of various shapes/sizes",
+    "Text labels",
+    "Audio frames"
    ],
    "answer": 1,
    "explanation": "Anchors serve as reference templates that detectors refine into predictions."
@@ -5989,9 +6156,9 @@
    "difficulty": "advanced",
    "q": "'Pose estimation' detects:",
    "options": [
-    "Image color histograms",
     "Audio tempo",
     "Text sentiment",
+    "Image color histograms",
     "Body joint positions and configuration"
    ],
    "answer": 3,
@@ -6059,9 +6226,9 @@
    "difficulty": "advanced",
    "q": "'Color space HSV' stands for:",
    "options": [
-    "Hidden State Vector",
     "High Speed Vision",
     "Horizontal Scan Vector",
+    "Hidden State Vector",
     "Hue, Saturation, Value"
    ],
    "answer": 3,
@@ -6101,10 +6268,10 @@
    "difficulty": "advanced",
    "q": "'Image registration' aligns:",
    "options": [
-    "Audio tracks",
-    "Two or more images into a common coordinate system",
     "Text documents",
-    "Databases"
+    "Two or more images into a common coordinate system",
+    "Databases",
+    "Audio tracks"
    ],
    "answer": 1,
    "explanation": "Registration overlays images (e.g., medical scans) for comparison."
@@ -6115,10 +6282,10 @@
    "difficulty": "advanced",
    "q": "A CNN's early layers typically learn:",
    "options": [
-    "Sentence meaning",
     "Full object identities",
+    "Audio pitch",
     "Low-level features like edges and textures",
-    "Audio pitch"
+    "Sentence meaning"
    ],
    "answer": 2,
    "explanation": "Early conv layers detect simple patterns; deeper layers capture complex shapes."
@@ -6185,9 +6352,9 @@
    "difficulty": "advanced",
    "q": "A 'policy' in RL maps:",
    "options": [
+    "Pixels to labels",
     "Words to vectors",
     "Files to disks",
-    "Pixels to labels",
     "States to actions"
    ],
    "answer": 3,
@@ -6200,9 +6367,9 @@
    "q": "The 'reward signal' tells the agent:",
    "options": [
     "How good its action was",
+    "The file size",
     "The GPU temperature",
-    "The dataset name",
-    "The file size"
+    "The dataset name"
    ],
    "answer": 0,
    "explanation": "Rewards provide feedback the agent seeks to maximize over time."
@@ -6241,10 +6408,10 @@
    "difficulty": "advanced",
    "q": "'Q-learning' learns:",
    "options": [
-    "Disk layout",
     "Pixel values",
+    "Word embeddings",
     "Action-value estimates without a model of the environment",
-    "Word embeddings"
+    "Disk layout"
    ],
    "answer": 2,
    "explanation": "Q-learning is a model-free method estimating the value of state-action pairs."
@@ -6270,9 +6437,9 @@
    "q": "A 'Markov Decision Process' (MDP) assumes:",
    "options": [
     "The future depends only on the current state and action",
-    "No states exist",
     "Rewards are random only",
-    "Full history is always needed"
+    "Full history is always needed",
+    "No states exist"
    ],
    "answer": 0,
    "explanation": "The Markov property: the next state depends only on the present state and action."
@@ -6283,10 +6450,10 @@
    "difficulty": "advanced",
    "q": "'Deep Q-Networks' (DQN) combine Q-learning with:",
    "options": [
+    "K-means",
     "Decision trees",
-    "Naive Bayes",
     "Deep neural networks",
-    "K-means"
+    "Naive Bayes"
    ],
    "answer": 2,
    "explanation": "DQN uses neural nets to approximate Q-values, famously playing Atari games."
@@ -6451,10 +6618,10 @@
    "difficulty": "intermediate",
    "q": "'Algorithmic bias' occurs when a model:",
    "options": [
-    "Uses too much memory",
-    "Systematically produces unfair outcomes for certain groups",
     "Runs too slowly",
-    "Has too few layers"
+    "Systematically produces unfair outcomes for certain groups",
+    "Has too few layers",
+    "Uses too much memory"
    ],
    "answer": 1,
    "explanation": "Bias can arise from skewed data or design, harming particular groups."
@@ -6493,10 +6660,10 @@
    "difficulty": "advanced",
    "q": "'Differential privacy' protects individuals by:",
    "options": [
+    "Ignoring privacy",
     "Encrypting only names",
-    "Deleting all data",
     "Adding calibrated noise so single records can't be identified",
-    "Ignoring privacy"
+    "Deleting all data"
    ],
    "answer": 2,
    "explanation": "Differential privacy bounds how much any one record affects outputs."
@@ -6507,9 +6674,9 @@
    "difficulty": "advanced",
    "q": "'Federated learning' trains models by:",
    "options": [
+    "Uploading all raw data centrally",
     "Using no data",
     "Encrypting the CPU",
-    "Uploading all raw data centrally",
     "Keeping data on devices and sharing only model updates"
    ],
    "answer": 3,
@@ -6578,9 +6745,9 @@
    "q": "'Model cards' are documents that:",
    "options": [
     "Describe a model's intended use, performance, and limitations",
+    "Render UIs",
     "Encrypt data",
-    "Store weights",
-    "Render UIs"
+    "Store weights"
    ],
    "answer": 0,
    "explanation": "Model cards promote transparency about capabilities and constraints."
@@ -6591,10 +6758,10 @@
    "difficulty": "advanced",
    "q": "'Human-in-the-loop' systems ensure:",
    "options": [
-    "Fully autonomous decisions only",
     "No humans",
+    "Faster GPUs",
     "Human oversight/approval in AI decisions",
-    "Faster GPUs"
+    "Fully autonomous decisions only"
    ],
    "answer": 2,
    "explanation": "HITL keeps humans involved for critical or high-risk decisions."
@@ -6606,9 +6773,9 @@
    "q": "'Membership inference attacks' attempt to determine:",
    "options": [
     "Whether a specific record was in the training data",
-    "The file format",
     "The GPU model",
-    "The learning rate"
+    "The learning rate",
+    "The file format"
    ],
    "answer": 0,
    "explanation": "Such attacks threaten privacy by revealing training-set membership."
@@ -6662,9 +6829,9 @@
    "q": "'Concept drift' means a change in:",
    "options": [
     "The relationship between inputs and the target",
-    "The vocabulary only",
     "The screen resolution",
-    "The file size"
+    "The file size",
+    "The vocabulary only"
    ],
    "answer": 0,
    "explanation": "Concept drift is when the underlying input-output mapping changes."
@@ -6689,10 +6856,10 @@
    "difficulty": "advanced",
    "q": "'Model serving' refers to:",
    "options": [
-    "Cleaning data",
+    "Training a model",
     "Making a trained model available for inference requests",
-    "Labeling data",
-    "Training a model"
+    "Cleaning data",
+    "Labeling data"
    ],
    "answer": 1,
    "explanation": "Serving exposes the model (e.g., via an API) for predictions."
@@ -6759,10 +6926,10 @@
    "difficulty": "advanced",
    "q": "'Inference latency' measures:",
    "options": [
-    "Dataset size",
+    "Number of features",
     "Time taken to produce a prediction",
-    "Training duration",
-    "Number of features"
+    "Dataset size",
+    "Training duration"
    ],
    "answer": 1,
    "explanation": "Latency is critical for real-time applications requiring fast responses."
@@ -6787,9 +6954,9 @@
    "difficulty": "advanced",
    "q": "'Shadow deployment' runs a new model:",
    "options": [
-    "Only in training",
     "Instead of production",
     "On no data",
+    "Only in training",
     "Alongside production without affecting user-facing results"
    ],
    "answer": 3,
@@ -6829,10 +6996,10 @@
    "difficulty": "advanced",
    "q": "'Batch inference' differs from 'online inference' in that it:",
    "options": [
-    "Uses no data",
-    "Processes many inputs periodically rather than one-by-one in real time",
     "Is always slower per item",
-    "Needs no model"
+    "Processes many inputs periodically rather than one-by-one in real time",
+    "Needs no model",
+    "Uses no data"
    ],
    "answer": 1,
    "explanation": "Batch runs on large sets on a schedule; online serves individual real-time requests."
@@ -6843,9 +7010,9 @@
    "difficulty": "advanced",
    "q": "'Edge deployment' runs models:",
    "options": [
+    "Only on mainframes",
     "Without any hardware",
     "Only during training",
-    "Only on mainframes",
     "On local/edge devices rather than the cloud"
    ],
    "answer": 3,
@@ -6885,10 +7052,10 @@
    "difficulty": "advanced",
    "q": "'GPU utilization monitoring' in production helps:",
    "options": [
-    "Change the model architecture",
-    "Optimize cost and detect bottlenecks",
     "Label data",
-    "Write documentation"
+    "Optimize cost and detect bottlenecks",
+    "Write documentation",
+    "Change the model architecture"
    ],
    "answer": 1,
    "explanation": "Tracking utilization ensures efficient resource use and reveals performance issues."
@@ -6899,9 +7066,9 @@
    "difficulty": "beginner",
    "q": "A 'reactive agent' architecture chooses its actions based on:",
    "options": [
+    "A pretrained image set",
     "Random sampling",
     "A full history of the world",
-    "A pretrained image set",
     "The current perception only"
    ],
    "answer": 3,
@@ -7011,9 +7178,9 @@
    "difficulty": "advanced",
    "q": "'Data parallelism' in distributed training:",
    "options": [
-    "Uses no GPUs",
     "Splits one model across GPUs",
     "Trains without data",
+    "Uses no GPUs",
     "Replicates the model and splits the data across workers"
    ],
    "answer": 3,
@@ -7053,10 +7220,10 @@
    "difficulty": "intermediate",
    "q": "To decouple producers and consumers in a data pipeline, you typically use:",
    "options": [
-    "A DNS record",
-    "A message queue / event stream",
     "A single shared variable",
-    "A CSS file"
+    "A message queue / event stream",
+    "A CSS file",
+    "A DNS record"
    ],
    "answer": 1,
    "explanation": "Queues (e.g., Kafka, Service Bus) buffer and decouple components for resilience and scale."
@@ -7151,9 +7318,9 @@
    "difficulty": "intermediate",
    "q": "An 'encoder-decoder' architecture is best suited for:",
    "options": [
-    "Only image thresholding",
     "Only binary classification",
     "Only clustering",
+    "Only image thresholding",
     "Sequence-to-sequence tasks like translation"
    ],
    "answer": 3,
@@ -7166,9 +7333,9 @@
    "q": "A Retrieval-Augmented Generation (RAG) architecture pairs a generator (LLM) with:",
    "options": [
     "A retriever over an external knowledge source",
+    "A CSS framework",
     "A second identical LLM only",
-    "A random number generator",
-    "A CSS framework"
+    "A random number generator"
    ],
    "answer": 0,
    "explanation": "RAG retrieves relevant context and feeds it to the LLM to ground its answers."
@@ -7180,9 +7347,9 @@
    "q": "A 'vector database' is designed to:",
    "options": [
     "Store embeddings and perform similarity search",
-    "Manage DNS",
     "Store only relational tables",
-    "Render 3D graphics"
+    "Render 3D graphics",
+    "Manage DNS"
    ],
    "answer": 0,
    "explanation": "Vector DBs index embeddings for fast nearest-neighbour retrieval."
@@ -7194,9 +7361,9 @@
    "q": "A 'microservices' architecture:",
    "options": [
     "Decomposes a system into small, independently deployable services",
-    "Puts everything in one binary",
     "Removes all APIs",
-    "Uses no network"
+    "Uses no network",
+    "Puts everything in one binary"
    ],
    "answer": 0,
    "explanation": "Microservices split functionality into independent services that scale separately."
@@ -7235,10 +7402,10 @@
    "difficulty": "intermediate",
    "q": "'Edge deployment' of a model reduces:",
    "options": [
-    "The need for any model",
+    "Model accuracy always",
     "Latency and bandwidth by running closer to the data source",
-    "Training data",
-    "Model accuracy always"
+    "The need for any model",
+    "Training data"
    ],
    "answer": 1,
    "explanation": "Running on-device/at the edge cuts round-trip latency and network usage."
@@ -7249,10 +7416,10 @@
    "difficulty": "advanced",
    "q": "A 'circuit breaker' pattern is used to:",
    "options": [
-    "Speed up training",
-    "Stop calls to a failing dependency to prevent cascading failures",
     "Add more features",
-    "Encrypt models"
+    "Stop calls to a failing dependency to prevent cascading failures",
+    "Encrypt models",
+    "Speed up training"
    ],
    "answer": 1,
    "explanation": "Circuit breakers trip open when a dependency fails, protecting the system."
@@ -7291,10 +7458,10 @@
    "difficulty": "beginner",
    "q": "'Knowledge representation' is concerned with:",
    "options": [
-    "Rendering video",
+    "Cooling the CPU",
     "Encoding information so machines can reason about it",
-    "Compressing images only",
-    "Cooling the CPU"
+    "Rendering video",
+    "Compressing images only"
    ],
    "answer": 1,
    "explanation": "KR studies how to formally capture knowledge for automated reasoning."
@@ -7431,10 +7598,10 @@
    "difficulty": "advanced",
    "q": "The 'resolution' inference rule is commonly used for:",
    "options": [
-    "Image scaling",
     "Sorting arrays",
+    "Rendering fonts",
     "Automated theorem proving by refutation",
-    "Rendering fonts"
+    "Image scaling"
    ],
    "answer": 2,
    "explanation": "Resolution proves a statement by deriving a contradiction from its negation."
@@ -7459,10 +7626,10 @@
    "difficulty": "beginner",
    "q": "A 'production rule' typically has the form:",
    "options": [
-    "SELECT * FROM table",
+    "GOTO line 10",
     "IF condition THEN action",
-    "x = x + 1",
-    "GOTO line 10"
+    "SELECT * FROM table",
+    "x = x + 1"
    ],
    "answer": 1,
    "explanation": "Production rules express knowledge as condition-action (IF-THEN) pairs."
@@ -7473,9 +7640,9 @@
    "difficulty": "beginner",
    "q": "An 'inference engine' in a rule-based system:",
    "options": [
+    "Stores video files",
     "Cools the server",
     "Displays graphics",
-    "Stores video files",
     "Applies rules to the knowledge base to derive conclusions"
    ],
    "answer": 3,
@@ -7501,10 +7668,10 @@
    "difficulty": "intermediate",
    "q": "The conditional probability P(A|B) is read as:",
    "options": [
-    "A minus B",
-    "Probability of A given B",
     "Probability of B only",
-    "A multiplied by B"
+    "Probability of A given B",
+    "A multiplied by B",
+    "A minus B"
    ],
    "answer": 1,
    "explanation": "P(A|B) is the probability of A occurring given that B has occurred."
@@ -7627,10 +7794,10 @@
    "difficulty": "intermediate",
    "q": "A 'well-defined search problem' must specify the initial state, actions, goal test, and:",
    "options": [
+    "User name",
     "GPU model",
-    "Screen colour",
     "Path cost",
-    "User name"
+    "Screen colour"
    ],
    "answer": 2,
    "explanation": "A search problem is defined by states, actions, a goal test, and a path-cost function."
@@ -7641,9 +7808,9 @@
    "difficulty": "intermediate",
    "q": "Breadth-First Search is optimal when:",
    "options": [
-    "Costs are negative",
     "The graph is infinite",
     "There is no goal",
+    "Costs are negative",
     "All step costs are equal"
    ],
    "answer": 3,
@@ -7655,9 +7822,9 @@
    "difficulty": "intermediate",
    "q": "A key advantage of Depth-First Search is its:",
    "options": [
+    "Guaranteed optimality",
     "Independence from the graph",
     "Constant time",
-    "Guaranteed optimality",
     "Low memory usage (linear in depth)"
    ],
    "answer": 3,
@@ -7683,10 +7850,10 @@
    "difficulty": "advanced",
    "q": "'Iterative Deepening Search' combines:",
    "options": [
+    "Random restarts",
     "Two heuristics",
-    "No search",
     "DFS's low memory with BFS's completeness",
-    "Random restarts"
+    "No search"
    ],
    "answer": 2,
    "explanation": "IDS repeatedly runs depth-limited DFS, gaining BFS-like completeness with DFS memory."
@@ -7726,9 +7893,9 @@
    "q": "A heuristic is 'consistent' (monotonic) if it satisfies the:",
    "options": [
     "Triangle inequality across every edge",
-    "Closed-world assumption",
     "Law of large numbers",
-    "Pigeonhole principle"
+    "Pigeonhole principle",
+    "Closed-world assumption"
    ],
    "answer": 0,
    "explanation": "Consistency means h(n) \u2264 cost(n,n') + h(n') for every successor n'."
@@ -7740,9 +7907,9 @@
    "q": "The A* evaluation function is:",
    "options": [
     "f(n) = g(n) + h(n)",
-    "f(n) = random",
     "f(n) = g(n) - h(n)",
-    "f(n) = h(n) only"
+    "f(n) = h(n) only",
+    "f(n) = random"
    ],
    "answer": 0,
    "explanation": "A* adds actual cost g(n) and heuristic estimate h(n)."
@@ -7753,10 +7920,10 @@
    "difficulty": "intermediate",
    "q": "'Greedy best-first search' evaluates nodes using:",
    "options": [
-    "The path cost g(n) only",
+    "Random values",
     "The heuristic h(n) only",
-    "f = g + h",
-    "Random values"
+    "The path cost g(n) only",
+    "f = g + h"
    ],
    "answer": 1,
    "explanation": "Greedy best-first uses only h(n); fast but not guaranteed optimal."
@@ -7795,9 +7962,9 @@
    "difficulty": "intermediate",
    "q": "'Genetic algorithms' evolve solutions using selection, crossover, and:",
    "options": [
+    "Rendering",
     "Encryption",
     "Compilation",
-    "Rendering",
     "Mutation"
    ],
    "answer": 3,
@@ -7823,10 +7990,10 @@
    "difficulty": "intermediate",
    "q": "A Constraint Satisfaction Problem (CSP) is defined by variables, domains, and:",
    "options": [
-    "Pixels",
+    "Sockets",
     "Constraints",
-    "Neurons",
-    "Sockets"
+    "Pixels",
+    "Neurons"
    ],
    "answer": 1,
    "explanation": "A CSP assigns values from domains to variables subject to constraints."
@@ -7907,9 +8074,9 @@
    "difficulty": "advanced",
    "q": "'Expectimax' extends minimax to handle:",
    "options": [
+    "Sorting problems",
     "No opponents",
     "Only deterministic games",
-    "Sorting problems",
     "Chance nodes / stochastic outcomes"
    ],
    "answer": 3,
@@ -7978,9 +8145,9 @@
    "q": "Which company created the AI assistant 'Claude'?",
    "options": [
     "Anthropic",
-    "Intel",
     "Amazon",
-    "Cisco"
+    "Cisco",
+    "Intel"
    ],
    "answer": 0,
    "explanation": "Claude is the family of AI assistants built by Anthropic."
@@ -8131,10 +8298,10 @@
    "difficulty": "beginner",
    "q": "A 'prompt' given to an AI assistant is:",
    "options": [
-    "A hardware fault",
     "A type of monitor",
+    "A network port",
     "The instruction or question you provide",
-    "A network port"
+    "A hardware fault"
    ],
    "answer": 2,
    "explanation": "A prompt is the input text that guides the assistant's response."
@@ -8229,10 +8396,10 @@
    "difficulty": "beginner",
    "q": "Besides ChatGPT, OpenAI is also known for the image generator:",
    "options": [
-    "Canva",
+    "Photoshop",
     "DALL-E",
-    "GIMP",
-    "Photoshop"
+    "Canva",
+    "GIMP"
    ],
    "answer": 1,
    "explanation": "OpenAI created DALL-E for text-to-image generation (and Whisper for speech)."
@@ -8243,10 +8410,10 @@
    "difficulty": "intermediate",
    "q": "OpenAI's speech-to-text model is called:",
    "options": [
+    "Murmur",
     "Echo",
-    "Shout",
     "Whisper",
-    "Murmur"
+    "Shout"
    ],
    "answer": 2,
    "explanation": "Whisper is OpenAI's automatic speech recognition model."
@@ -8342,9 +8509,9 @@
    "q": "'Guardrails' around an AI assistant are meant to:",
    "options": [
     "Keep outputs safe and within policy",
-    "Speed up typing",
     "Increase model size",
-    "Store embeddings"
+    "Store embeddings",
+    "Speed up typing"
    ],
    "answer": 0,
    "explanation": "Guardrails filter or steer responses to meet safety and policy requirements."
@@ -8370,9 +8537,9 @@
    "q": "'Few-shot prompting' means giving the assistant:",
    "options": [
     "A few examples in the prompt to guide it",
-    "Millions of labelled files",
     "No instructions at all",
-    "Only images"
+    "Only images",
+    "Millions of labelled files"
    ],
    "answer": 0,
    "explanation": "Few-shot prompting includes example demonstrations directly in the prompt."
@@ -8384,9 +8551,9 @@
    "q": "'Zero-shot' use of an assistant means:",
    "options": [
     "Asking it to do a task with no examples",
+    "Giving thousands of examples",
     "Turning it off",
-    "Using it only offline",
-    "Giving thousands of examples"
+    "Using it only offline"
    ],
    "answer": 0,
    "explanation": "Zero-shot relies on the model's built-in knowledge with just instructions."
@@ -8411,10 +8578,10 @@
    "difficulty": "intermediate",
    "q": "'Fine-tuning' an assistant's underlying model means:",
    "options": [
-    "Deleting the model",
-    "Further training it on task-specific data",
     "Encrypting the output",
-    "Reducing the screen size"
+    "Further training it on task-specific data",
+    "Reducing the screen size",
+    "Deleting the model"
    ],
    "answer": 1,
    "explanation": "Fine-tuning adapts a pre-trained model to a specific domain or task."
@@ -8439,10 +8606,10 @@
    "difficulty": "advanced",
    "q": "A 'vector embedding' is used by AI assistants to:",
    "options": [
-    "Store user passwords",
     "Render 3D graphics",
+    "Cool the processor",
     "Represent text meaning for semantic search/retrieval",
-    "Cool the processor"
+    "Store user passwords"
    ],
    "answer": 2,
    "explanation": "Embeddings map text to vectors so similar meanings sit close together, powering retrieval."
@@ -8467,10 +8634,10 @@
    "difficulty": "intermediate",
    "q": "Microsoft 'Copilot Studio' is a tool for:",
    "options": [
-    "Designing circuit boards",
-    "Building custom copilots/agents",
     "Editing raw video",
-    "Managing disk partitions"
+    "Building custom copilots/agents",
+    "Managing disk partitions",
+    "Designing circuit boards"
    ],
    "answer": 1,
    "explanation": "Copilot Studio lets organizations build and customize their own AI copilots/agents."
@@ -8510,9 +8677,9 @@
    "q": "A key limitation shared by AI assistants like ChatGPT and Claude is that they can:",
    "options": [
     "Produce confident but incorrect answers (hallucinate)",
-    "Guarantee perfect accuracy",
     "Read minds",
-    "Never make mistakes"
+    "Never make mistakes",
+    "Guarantee perfect accuracy"
    ],
    "answer": 0,
    "explanation": "All current LLM assistants can hallucinate, so outputs should be verified."

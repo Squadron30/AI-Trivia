@@ -48,9 +48,9 @@
   "q": "'Positional encoding' is needed in Transformers because:",
   "options": [
    "Self-attention has no inherent sense of token order",
-   "It encrypts tokens",
    "GPUs require it",
-   "It compresses data"
+   "It compresses data",
+   "It encrypts tokens"
   ],
   "answer": 0,
   "explanation": "Positional encodings inject order information into the otherwise permutation-invariant attention."
@@ -75,10 +75,10 @@
   "difficulty": "advanced",
   "q": "'GPT' stands for:",
   "options": [
-   "Global Prediction Test",
-   "Generative Pre-trained Transformer",
    "General Purpose Tool",
-   "Gradient Propagation Technique"
+   "Generative Pre-trained Transformer",
+   "Gradient Propagation Technique",
+   "Global Prediction Test"
   ],
   "answer": 1,
   "explanation": "GPT = Generative Pre-trained Transformer, an autoregressive decoder model."
@@ -159,9 +159,9 @@
   "difficulty": "advanced",
   "q": "'Prompt engineering' is the practice of:",
   "options": [
+   "Building CPUs",
    "Writing operating systems",
    "Designing networks",
-   "Building CPUs",
    "Crafting inputs to elicit better model outputs"
   ],
   "answer": 3,
@@ -201,9 +201,9 @@
   "difficulty": "advanced",
   "q": "'Chain-of-thought' prompting encourages the model to:",
   "options": [
-   "Ignore the question",
    "Output random tokens",
    "Answer instantly with one word",
+   "Ignore the question",
    "Reason step by step before answering"
   ],
   "answer": 3,
@@ -215,10 +215,10 @@
   "difficulty": "advanced",
   "q": "The 'context window' of an LLM is:",
   "options": [
+   "The screen size",
    "The training duration",
-   "The number of layers",
    "The maximum number of tokens it can process at once",
-   "The screen size"
+   "The number of layers"
   ],
   "answer": 2,
   "explanation": "The context window limits how much text the model can attend to in one call."
@@ -243,9 +243,9 @@
   "difficulty": "advanced",
   "q": "A 'vector database' is commonly used in RAG to:",
   "options": [
-   "Render video",
    "Store images only",
    "Compile code",
+   "Render video",
    "Store and search embeddings by similarity"
   ],
   "answer": 3,
@@ -257,10 +257,10 @@
   "difficulty": "advanced",
   "q": "'Tokens' in an LLM are:",
   "options": [
-   "Pixels",
    "Security keys",
+   "GPU cores",
    "Chunks of text (words/subwords) the model processes",
-   "GPU cores"
+   "Pixels"
   ],
   "answer": 2,
   "explanation": "LLMs operate on tokens, which may be whole words or subword pieces."
@@ -299,10 +299,10 @@
   "difficulty": "advanced",
   "q": "'LoRA' is a technique for:",
   "options": [
-   "Data collection",
-   "Parameter-efficient fine-tuning via low-rank adapters",
    "Full retraining",
-   "Image scaling"
+   "Parameter-efficient fine-tuning via low-rank adapters",
+   "Image scaling",
+   "Data collection"
   ],
   "answer": 1,
   "explanation": "LoRA freezes weights and trains small low-rank matrices, saving compute/memory."
@@ -369,10 +369,10 @@
   "difficulty": "advanced",
   "q": "'Grounding' an LLM response means:",
   "options": [
-   "Adding random facts",
    "Making it shorter",
+   "Deleting context",
    "Backing it with verifiable external evidence/context",
-   "Deleting context"
+   "Adding random facts"
   ],
   "answer": 2,
   "explanation": "Grounding ties outputs to reliable sources to improve factuality."
@@ -383,10 +383,10 @@
   "difficulty": "advanced",
   "q": "'Distillation' of an LLM produces:",
   "options": [
-   "More data",
+   "A bigger model",
    "A smaller model approximating a larger one",
-   "New hardware",
-   "A bigger model"
+   "More data",
+   "New hardware"
   ],
   "answer": 1,
   "explanation": "Distillation transfers knowledge to a compact, cheaper-to-run model."
@@ -398,9 +398,9 @@
   "q": "'Encoder-decoder' Transformers (e.g., T5) are well suited for:",
   "options": [
    "Sequence-to-sequence tasks like translation/summarization",
-   "Only images",
    "Only classification",
-   "Only clustering"
+   "Only clustering",
+   "Only images"
   ],
   "answer": 0,
   "explanation": "Encoder-decoder models map input sequences to output sequences."
@@ -454,9 +454,9 @@
   "q": "A 'foundation model' is:",
   "options": [
    "A large model pre-trained broadly and adaptable to many tasks",
+   "A compiler",
    "A database",
-   "A tiny single-task model",
-   "A compiler"
+   "A tiny single-task model"
   ],
   "answer": 0,
   "explanation": "Foundation models are broadly trained bases adaptable via fine-tuning or prompting."
@@ -467,10 +467,10 @@
   "difficulty": "advanced",
   "q": "'Multimodal' models can process:",
   "options": [
-   "Only numbers",
-   "Multiple input types such as text and images",
    "Only audio",
-   "Only text"
+   "Multiple input types such as text and images",
+   "Only text",
+   "Only numbers"
   ],
   "answer": 1,
   "explanation": "Multimodal models handle combinations like text, image, and audio."
@@ -552,9 +552,9 @@
   "q": "'Agentic' LLM systems are notable for:",
   "options": [
    "Planning and using tools/actions to accomplish goals",
+   "Only answering trivia",
    "Rendering graphics",
-   "Storing files",
-   "Only answering trivia"
+   "Storing files"
   ],
   "answer": 0,
   "explanation": "AI agents chain reasoning with tool use to complete multi-step tasks."
@@ -593,9 +593,9 @@
   "difficulty": "advanced",
   "q": "'Scaling laws' describe how model performance relates to:",
   "options": [
-   "Cable length",
    "Screen resolution",
    "Number of users",
+   "Cable length",
    "Model size, data, and compute"
   ],
   "answer": 3,

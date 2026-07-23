@@ -20,9 +20,9 @@
   "q": "Which company created the AI assistant 'Claude'?",
   "options": [
    "Anthropic",
-   "Intel",
    "Amazon",
-   "Cisco"
+   "Cisco",
+   "Intel"
   ],
   "answer": 0,
   "explanation": "Claude is the family of AI assistants built by Anthropic."
@@ -173,10 +173,10 @@
   "difficulty": "beginner",
   "q": "A 'prompt' given to an AI assistant is:",
   "options": [
-   "A hardware fault",
    "A type of monitor",
+   "A network port",
    "The instruction or question you provide",
-   "A network port"
+   "A hardware fault"
   ],
   "answer": 2,
   "explanation": "A prompt is the input text that guides the assistant's response."
@@ -271,10 +271,10 @@
   "difficulty": "beginner",
   "q": "Besides ChatGPT, OpenAI is also known for the image generator:",
   "options": [
-   "Canva",
+   "Photoshop",
    "DALL-E",
-   "GIMP",
-   "Photoshop"
+   "Canva",
+   "GIMP"
   ],
   "answer": 1,
   "explanation": "OpenAI created DALL-E for text-to-image generation (and Whisper for speech)."
@@ -285,10 +285,10 @@
   "difficulty": "intermediate",
   "q": "OpenAI's speech-to-text model is called:",
   "options": [
+   "Murmur",
    "Echo",
-   "Shout",
    "Whisper",
-   "Murmur"
+   "Shout"
   ],
   "answer": 2,
   "explanation": "Whisper is OpenAI's automatic speech recognition model."
@@ -384,9 +384,9 @@
   "q": "'Guardrails' around an AI assistant are meant to:",
   "options": [
    "Keep outputs safe and within policy",
-   "Speed up typing",
    "Increase model size",
-   "Store embeddings"
+   "Store embeddings",
+   "Speed up typing"
   ],
   "answer": 0,
   "explanation": "Guardrails filter or steer responses to meet safety and policy requirements."
@@ -412,9 +412,9 @@
   "q": "'Few-shot prompting' means giving the assistant:",
   "options": [
    "A few examples in the prompt to guide it",
-   "Millions of labelled files",
    "No instructions at all",
-   "Only images"
+   "Only images",
+   "Millions of labelled files"
   ],
   "answer": 0,
   "explanation": "Few-shot prompting includes example demonstrations directly in the prompt."
@@ -426,9 +426,9 @@
   "q": "'Zero-shot' use of an assistant means:",
   "options": [
    "Asking it to do a task with no examples",
+   "Giving thousands of examples",
    "Turning it off",
-   "Using it only offline",
-   "Giving thousands of examples"
+   "Using it only offline"
   ],
   "answer": 0,
   "explanation": "Zero-shot relies on the model's built-in knowledge with just instructions."
@@ -453,10 +453,10 @@
   "difficulty": "intermediate",
   "q": "'Fine-tuning' an assistant's underlying model means:",
   "options": [
-   "Deleting the model",
-   "Further training it on task-specific data",
    "Encrypting the output",
-   "Reducing the screen size"
+   "Further training it on task-specific data",
+   "Reducing the screen size",
+   "Deleting the model"
   ],
   "answer": 1,
   "explanation": "Fine-tuning adapts a pre-trained model to a specific domain or task."
@@ -481,10 +481,10 @@
   "difficulty": "advanced",
   "q": "A 'vector embedding' is used by AI assistants to:",
   "options": [
-   "Store user passwords",
    "Render 3D graphics",
+   "Cool the processor",
    "Represent text meaning for semantic search/retrieval",
-   "Cool the processor"
+   "Store user passwords"
   ],
   "answer": 2,
   "explanation": "Embeddings map text to vectors so similar meanings sit close together, powering retrieval."
@@ -509,10 +509,10 @@
   "difficulty": "intermediate",
   "q": "Microsoft 'Copilot Studio' is a tool for:",
   "options": [
-   "Designing circuit boards",
-   "Building custom copilots/agents",
    "Editing raw video",
-   "Managing disk partitions"
+   "Building custom copilots/agents",
+   "Managing disk partitions",
+   "Designing circuit boards"
   ],
   "answer": 1,
   "explanation": "Copilot Studio lets organizations build and customize their own AI copilots/agents."
@@ -552,9 +552,9 @@
   "q": "A key limitation shared by AI assistants like ChatGPT and Claude is that they can:",
   "options": [
    "Produce confident but incorrect answers (hallucinate)",
-   "Guarantee perfect accuracy",
    "Read minds",
-   "Never make mistakes"
+   "Never make mistakes",
+   "Guarantee perfect accuracy"
   ],
   "answer": 0,
   "explanation": "All current LLM assistants can hallucinate, so outputs should be verified."
