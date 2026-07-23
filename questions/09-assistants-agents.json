@@ -5,13 +5,13 @@
   "difficulty": "beginner",
   "q": "Which company created ChatGPT?",
   "options": [
-   "Adobe",
-   "Netflix",
-   "Oracle",
-   "OpenAI"
+   "Anthropic",
+   "Meta AI",
+   "OpenAI",
+   "Google DeepMind"
   ],
-  "answer": 3,
-  "explanation": "ChatGPT was created by OpenAI and launched in November 2022."
+  "answer": 2,
+  "explanation": "ChatGPT was created by OpenAI; the others build Claude, Gemini, and Llama respectively."
  },
  {
   "id": "AA002",
@@ -20,138 +20,138 @@
   "q": "Which company created the AI assistant 'Claude'?",
   "options": [
    "Anthropic",
-   "Amazon",
-   "Cisco",
-   "Intel"
+   "OpenAI",
+   "Mistral AI",
+   "Microsoft"
   ],
   "answer": 0,
-  "explanation": "Claude is the family of AI assistants built by Anthropic."
+  "explanation": "Claude is built by Anthropic; OpenAI makes ChatGPT, Microsoft makes Copilot, Mistral makes Le Chat."
  },
  {
   "id": "AA003",
   "category": "AI Assistants & Agents",
   "difficulty": "beginner",
-  "q": "'GitHub Copilot' is best described as an AI:",
+  "q": "An AI 'chatbot' interacts with users primarily through:",
   "options": [
-   "Photo editor",
-   "Video game",
-   "Coding assistant / pair programmer",
-   "Spreadsheet"
+   "Structured SQL queries typed by the user",
+   "Reinforcement learning on pixel inputs",
+   "Computer-vision analysis of camera feeds",
+   "Natural language conversation"
   ],
-  "answer": 2,
-  "explanation": "GitHub Copilot suggests code and helps developers write software."
+  "answer": 3,
+  "explanation": "Chatbots communicate via natural language; the distractors are unrelated AI techniques."
  },
  {
   "id": "AA004",
   "category": "AI Assistants & Agents",
   "difficulty": "beginner",
-  "q": "'Microsoft Copilot' was previously known as:",
+  "q": "'GitHub Copilot' is best described as an AI:",
   "options": [
-   "OneDrive",
-   "Notepad",
-   "Paint",
-   "Bing Chat"
+   "Coding assistant that suggests and completes code",
+   "Image-generation model",
+   "Recommendation engine for shopping",
+   "Speech-transcription service"
   ],
-  "answer": 3,
-  "explanation": "Microsoft rebranded Bing Chat as Microsoft Copilot."
+  "answer": 0,
+  "explanation": "GitHub Copilot helps developers write code; the others describe different AI applications."
  },
  {
   "id": "AA005",
   "category": "AI Assistants & Agents",
   "difficulty": "beginner",
-  "q": "Google's AI assistant 'Gemini' was formerly called:",
+  "q": "'Microsoft Copilot' was previously branded as:",
   "options": [
-   "Alexa",
-   "Siri",
-   "Bard",
-   "Cortana"
+   "Bing Chat",
+   "Cortana",
+   "Clippy",
+   "Azure Bot Service"
   ],
-  "answer": 2,
-  "explanation": "Google rebranded its Bard assistant to Gemini in 2024."
+  "answer": 0,
+  "explanation": "Microsoft rebranded Bing Chat as Microsoft Copilot; Cortana was a separate older assistant."
  },
  {
   "id": "AA006",
   "category": "AI Assistants & Agents",
   "difficulty": "beginner",
-  "q": "In 'GPT', the letters stand for:",
+  "q": "Google's AI assistant 'Gemini' was formerly called:",
   "options": [
-   "Graphical Processing Technique",
-   "General Purpose Tool",
-   "Generative Pre-trained Transformer",
-   "Global Personal Trainer"
+   "LaMDA",
+   "Bard",
+   "PaLM",
+   "Duplex"
   ],
-  "answer": 2,
-  "explanation": "GPT = Generative Pre-trained Transformer, the architecture behind ChatGPT."
+  "answer": 1,
+  "explanation": "Bard was rebranded to Gemini; LaMDA and PaLM were underlying Google models, Duplex was a calling feature."
  },
  {
   "id": "AA007",
   "category": "AI Assistants & Agents",
   "difficulty": "beginner",
-  "q": "An AI 'chatbot' primarily interacts with users through:",
+  "q": "In 'GPT', the letters stand for:",
   "options": [
-   "Spreadsheets only",
-   "Printed reports",
-   "Physical robots only",
-   "Natural language conversation"
+   "General Purpose Tokeniser",
+   "Gradient Propagation Technique",
+   "Generative Pre-trained Transformer",
+   "Guided Predictive Tuning"
   ],
-  "answer": 3,
-  "explanation": "Chatbots communicate using natural language text or speech."
+  "answer": 2,
+  "explanation": "GPT = Generative Pre-trained Transformer, the architecture behind ChatGPT."
  },
  {
   "id": "AA008",
   "category": "AI Assistants & Agents",
   "difficulty": "beginner",
-  "q": "Which of these is an AI assistant/chatbot?",
+  "q": "Meta's family of open-weight large language models is called:",
   "options": [
-   "WinZip",
-   "Excel",
-   "ChatGPT",
-   "Photoshop"
+   "Claude",
+   "Llama",
+   "Gemini",
+   "Phi"
   ],
-  "answer": 2,
-  "explanation": "ChatGPT is a conversational AI assistant."
+  "answer": 1,
+  "explanation": "Meta develops Llama; Gemini is Google's, Claude is Anthropic's, Phi is Microsoft's small-model family."
  },
  {
   "id": "AA009",
   "category": "AI Assistants & Agents",
   "difficulty": "intermediate",
-  "q": "'LLM', the technology behind assistants like ChatGPT and Claude, stands for:",
+  "q": "The technology powering assistants like ChatGPT and Claude is a:",
   "options": [
-   "Layered Learning Method",
-   "Local Logic Machine",
-   "Large Language Model",
-   "Long Latency Memory"
+   "Convolutional Neural Network (CNN)",
+   "Hidden Markov Model (HMM)",
+   "Support Vector Machine (SVM)",
+   "Large Language Model (LLM)"
   ],
-  "answer": 2,
-  "explanation": "LLMs (Large Language Models) power modern conversational AI assistants."
+  "answer": 3,
+  "explanation": "Modern conversational assistants are built on LLMs; the others suit vision, classification, and sequences."
  },
  {
   "id": "AA010",
   "category": "AI Assistants & Agents",
   "difficulty": "intermediate",
-  "q": "Microsoft 365 Copilot integrates AI assistance directly into apps like:",
+  "q": "Microsoft 365 Copilot integrates AI assistance directly into:",
   "options": [
-   "Word, Excel, and PowerPoint",
-   "Only the BIOS",
-   "Only a web browser",
-   "Only a calculator"
+   "Azure networking and firewall rules",
+   "SQL Server query optimisation only",
+   "The Windows kernel and device drivers",
+   "Word, Excel, PowerPoint, Outlook, and Teams"
   ],
-  "answer": 0,
-  "explanation": "Microsoft 365 Copilot embeds AI help across Office apps."
+  "answer": 3,
+  "explanation": "M365 Copilot embeds AI help across the Office productivity apps."
  },
  {
   "id": "AA011",
   "category": "AI Assistants & Agents",
   "difficulty": "intermediate",
-  "q": "An AI 'agent' differs from a basic chatbot because it can:",
+  "q": "How does an AI 'agent' differ from a plain chatbot?",
   "options": [
-   "Never use any tools",
-   "Only echo the user's text",
-   "Plan and take actions using tools to complete tasks",
-   "Only display images"
+   "It cannot process natural language",
+   "It can plan and take actions using tools to complete tasks",
+   "It runs only on specialised GPU hardware",
+   "It responds only with pre-written canned replies"
   ],
-  "answer": 2,
-  "explanation": "AI agents can reason, use tools/APIs, and act to accomplish multi-step goals."
+  "answer": 1,
+  "explanation": "Agents reason, use tools/APIs, and act toward goals — beyond simply chatting."
  },
  {
   "id": "AA012",
@@ -159,13 +159,13 @@
   "difficulty": "intermediate",
   "q": "'Function calling' (tool use) lets an AI assistant:",
   "options": [
-   "Turn off the computer",
-   "Invoke external tools/APIs with structured inputs",
-   "Only chat in plain text",
-   "Delete its own model"
+   "Increase its parameter count at runtime",
+   "Invoke external tools or APIs with structured arguments",
+   "Render 3D graphics natively",
+   "Retrain its own weights automatically"
   ],
   "answer": 1,
-  "explanation": "Tool/function calling enables assistants to trigger actions like search, code, or lookups."
+  "explanation": "Tool/function calling enables assistants to trigger external actions like search or code execution."
  },
  {
   "id": "AA013",
@@ -173,13 +173,13 @@
   "difficulty": "beginner",
   "q": "A 'prompt' given to an AI assistant is:",
   "options": [
-   "A type of monitor",
-   "A network port",
-   "The instruction or question you provide",
-   "A hardware fault"
+   "The dataset used to pre-train it",
+   "The metric used to evaluate it",
+   "The input instruction that guides its response",
+   "The number of layers in its network"
   ],
   "answer": 2,
-  "explanation": "A prompt is the input text that guides the assistant's response."
+  "explanation": "A prompt is the input text that steers the assistant's output."
  },
  {
   "id": "AA014",
@@ -187,10 +187,10 @@
   "difficulty": "intermediate",
   "q": "A 'hallucination' from an AI assistant refers to:",
   "options": [
-   "A slow response",
-   "A colourful image",
-   "A hardware error",
-   "A confident but false or made-up answer"
+   "An image the model generates unprompted",
+   "A request the model refuses to answer",
+   "A slow, delayed response",
+   "A confident but factually false or fabricated answer"
   ],
   "answer": 3,
   "explanation": "Hallucinations are plausible-sounding but incorrect outputs."
@@ -201,55 +201,55 @@
   "difficulty": "intermediate",
   "q": "The 'context window' of an assistant determines:",
   "options": [
-   "Its battery life",
-   "Its screen brightness",
-   "How much text it can consider at once",
-   "Its download speed"
+   "How fast it can generate each token",
+   "How large its training dataset was",
+   "How much text (tokens) it can consider at once",
+   "How many users can connect simultaneously"
   ],
   "answer": 2,
-  "explanation": "The context window is the maximum amount of text (tokens) the model can process together."
+  "explanation": "The context window is the maximum amount of text the model can attend to in one request."
  },
  {
   "id": "AA016",
   "category": "AI Assistants & Agents",
   "difficulty": "intermediate",
-  "q": "'RAG' (Retrieval-Augmented Generation) helps an assistant by:",
+  "q": "'RAG' (Retrieval-Augmented Generation) improves an assistant by:",
   "options": [
-   "Deleting its training data",
-   "Fetching relevant documents to ground its answers",
-   "Encrypting the prompt",
-   "Making responses slower on purpose"
+   "Retrieving relevant documents to ground its answers",
+   "Increasing the sampling temperature",
+   "Compressing the model with quantisation",
+   "Adding more attention heads"
   ],
-  "answer": 1,
-  "explanation": "RAG retrieves external knowledge to reduce hallucination and add up-to-date facts."
+  "answer": 0,
+  "explanation": "RAG fetches relevant external context so responses are grounded and up to date."
  },
  {
   "id": "AA017",
   "category": "AI Assistants & Agents",
   "difficulty": "beginner",
-  "q": "Which company develops the 'Gemini' AI models?",
+  "q": "Which company develops the 'Gemini' family of models?",
   "options": [
-   "Dell",
-   "Google",
-   "Nvidia",
-   "Spotify"
+   "Amazon",
+   "Anthropic",
+   "IBM",
+   "Google"
   ],
-  "answer": 1,
+  "answer": 3,
   "explanation": "Gemini is developed by Google (Google DeepMind)."
  },
  {
   "id": "AA018",
   "category": "AI Assistants & Agents",
   "difficulty": "intermediate",
-  "q": "Meta's family of open large language models is called:",
+  "q": "'Mistral AI', known for open-weight models, is a company based in:",
   "options": [
-   "Falcon-X",
-   "Llama",
-   "Puma",
-   "Zebra"
+   "Australia",
+   "France",
+   "Japan",
+   "Brazil"
   ],
   "answer": 1,
-  "explanation": "Meta develops the open-weight Llama family of models."
+  "explanation": "Mistral AI is a French company known for efficient open-weight LLMs."
  },
  {
   "id": "AA019",
@@ -257,41 +257,41 @@
   "difficulty": "intermediate",
   "q": "Anthropic's Claude 3 model family included versions named:",
   "options": [
+   "Nano, Pro, and Ultra",
+   "Base, Chat, and Turbo",
    "Haiku, Sonnet, and Opus",
-   "Small, Medium, and Large",
-   "Bronze, Silver, and Gold",
-   "Alpha, Beta, and Gamma"
+   "Small, Medium, and Large"
   ],
-  "answer": 0,
+  "answer": 2,
   "explanation": "Claude 3 shipped as Haiku (fastest), Sonnet (balanced), and Opus (most capable)."
  },
  {
   "id": "AA020",
   "category": "AI Assistants & Agents",
-  "difficulty": "beginner",
-  "q": "Besides ChatGPT, OpenAI is also known for the image generator:",
+  "difficulty": "intermediate",
+  "q": "OpenAI's text-to-image generation model is called:",
   "options": [
-   "Photoshop",
+   "Sora",
+   "Whisper",
    "DALL-E",
-   "Canva",
-   "GIMP"
+   "Codex"
   ],
-  "answer": 1,
-  "explanation": "OpenAI created DALL-E for text-to-image generation (and Whisper for speech)."
+  "answer": 2,
+  "explanation": "DALL-E generates images; Whisper does speech-to-text, Codex was for code, Sora for video."
  },
  {
   "id": "AA021",
   "category": "AI Assistants & Agents",
   "difficulty": "intermediate",
-  "q": "OpenAI's speech-to-text model is called:",
+  "q": "OpenAI's speech-to-text (transcription) model is called:",
   "options": [
-   "Murmur",
-   "Echo",
-   "Whisper",
-   "Shout"
+   "Gemini",
+   "Claude",
+   "DALL-E",
+   "Whisper"
   ],
-  "answer": 2,
-  "explanation": "Whisper is OpenAI's automatic speech recognition model."
+  "answer": 3,
+  "explanation": "Whisper is OpenAI's automatic speech-recognition model."
  },
  {
   "id": "AA022",
@@ -299,13 +299,13 @@
   "difficulty": "intermediate",
   "q": "A 'system prompt' for an AI assistant typically:",
   "options": [
-   "Sets its role, behaviour, and rules",
-   "Stores user passwords",
-   "Renders the user interface",
-   "Trains the model from scratch"
+   "Sets the assistant's role, behaviour, and rules",
+   "Selects which GPU the model runs on",
+   "Fine-tunes the underlying model weights",
+   "Stores the conversation history permanently"
   ],
   "answer": 0,
-  "explanation": "The system prompt provides high-level instructions shaping the assistant's behaviour."
+  "explanation": "The system prompt provides high-level instructions shaping the assistant's persona and constraints."
  },
  {
   "id": "AA023",
@@ -313,250 +313,530 @@
   "difficulty": "intermediate",
   "q": "The 'temperature' setting in a generative assistant controls:",
   "options": [
-   "The CPU heat",
-   "Randomness/creativity of the output",
-   "The font size",
-   "The number of users"
+   "The size of the training set",
+   "The maximum context length",
+   "The randomness/creativity of the output",
+   "The number of tool calls allowed"
   ],
-  "answer": 1,
-  "explanation": "Higher temperature makes output more varied; lower makes it more focused."
+  "answer": 2,
+  "explanation": "Higher temperature yields more varied output; lower makes it more deterministic."
  },
  {
   "id": "AA024",
   "category": "AI Assistants & Agents",
   "difficulty": "intermediate",
-  "q": "'Tokens' in the context of an AI assistant are:",
+  "q": "'Tokens', in the context of an LLM assistant, are:",
   "options": [
-   "GPU cores",
-   "Screen pixels",
-   "Chunks of text (words/subwords) the model processes",
-   "Security badges"
+   "Units of GPU memory",
+   "Individual neurons in the network",
+   "Access credentials for the API",
+   "Chunks of text (words or subwords) the model processes"
   ],
-  "answer": 2,
+  "answer": 3,
   "explanation": "Assistants read and generate text in units called tokens."
  },
  {
   "id": "AA025",
   "category": "AI Assistants & Agents",
   "difficulty": "intermediate",
-  "q": "A 'multimodal' assistant can work with:",
+  "q": "A 'multimodal' assistant is one that can:",
   "options": [
-   "Only audio",
-   "Only numbers",
-   "Multiple input types such as text and images",
-   "Only plain text"
+   "Use multiple GPUs for training",
+   "Only respond in multiple human languages",
+   "Accept multiple input types, such as text and images",
+   "Run on multiple operating systems"
   ],
   "answer": 2,
-  "explanation": "Multimodal assistants handle combinations like text, images, and audio."
+  "explanation": "Multimodal assistants handle combinations of modalities like text, images, and audio."
  },
  {
   "id": "AA026",
   "category": "AI Assistants & Agents",
-  "difficulty": "intermediate",
-  "q": "'GitHub Copilot Chat' lets developers:",
+  "difficulty": "beginner",
+  "q": "'GitHub Copilot' can be used inside which of the following?",
   "options": [
-   "Play music",
-   "Manage email",
-   "Ask coding questions in natural language inside their editor",
-   "Edit videos"
+   "Only the GitHub website",
+   "Only the Windows terminal",
+   "Code editors such as VS Code and JetBrains IDEs",
+   "Only mobile phone browsers"
   ],
   "answer": 2,
-  "explanation": "Copilot Chat provides conversational coding help within the IDE."
+  "explanation": "Copilot integrates into editors like VS Code, Visual Studio, JetBrains IDEs, and Neovim."
  },
  {
   "id": "AA027",
   "category": "AI Assistants & Agents",
   "difficulty": "intermediate",
-  "q": "A 'jailbreak' attempt on an AI assistant tries to:",
+  "q": "'GitHub Copilot Chat' differs from inline completion because it:",
   "options": [
-   "Back up its data",
-   "Speed up its GPU",
-   "Change its font",
-   "Bypass its safety guardrails"
+   "Provisions cloud servers automatically",
+   "Compiles and ships the final binary",
+   "Manages the Git branching strategy",
+   "Answers coding questions conversationally in the editor"
   ],
   "answer": 3,
-  "explanation": "Jailbreaks attempt to make the assistant ignore its safety rules."
+  "explanation": "Copilot Chat provides a conversational Q&A experience alongside inline code suggestions."
  },
  {
   "id": "AA028",
   "category": "AI Assistants & Agents",
   "difficulty": "intermediate",
-  "q": "'Guardrails' around an AI assistant are meant to:",
+  "q": "GitHub Copilot was originally powered by a model derived from:",
   "options": [
-   "Keep outputs safe and within policy",
-   "Increase model size",
-   "Store embeddings",
-   "Speed up typing"
+   "Google's BERT",
+   "Meta's Llama",
+   "OpenAI's Codex (a GPT model for code)",
+   "Anthropic's Claude"
   ],
-  "answer": 0,
-  "explanation": "Guardrails filter or steer responses to meet safety and policy requirements."
+  "answer": 2,
+  "explanation": "GitHub Copilot launched using OpenAI Codex, a GPT model specialised for code."
  },
  {
   "id": "AA029",
   "category": "AI Assistants & Agents",
   "difficulty": "intermediate",
-  "q": "'Prompt engineering' is the practice of:",
+  "q": "'Copilot in Excel' is designed to help users:",
   "options": [
-   "Writing operating systems",
-   "Building CPUs",
-   "Designing networks",
-   "Crafting inputs to get better assistant outputs"
+   "Overclock the computer's CPU",
+   "Design the spreadsheet's file format",
+   "Analyse data and generate formulas from natural-language requests",
+   "Encrypt the workbook at rest"
   ],
-  "answer": 3,
-  "explanation": "Prompt engineering optimizes how requests are phrased to guide the assistant."
+  "answer": 2,
+  "explanation": "Copilot in Excel turns plain-language requests into analysis, formulas, and charts."
  },
  {
   "id": "AA030",
   "category": "AI Assistants & Agents",
   "difficulty": "intermediate",
-  "q": "'Few-shot prompting' means giving the assistant:",
+  "q": "'Copilot in PowerPoint' can:",
   "options": [
-   "A few examples in the prompt to guide it",
-   "No instructions at all",
-   "Only images",
-   "Millions of labelled files"
+   "Draft a slide deck from a document or prompt",
+   "Compress the file to a ZIP",
+   "Physically project the slides",
+   "Replace the display driver"
   ],
   "answer": 0,
-  "explanation": "Few-shot prompting includes example demonstrations directly in the prompt."
+  "explanation": "Copilot in PowerPoint generates draft decks from prompts or existing documents."
  },
  {
   "id": "AA031",
   "category": "AI Assistants & Agents",
-  "difficulty": "beginner",
-  "q": "'Zero-shot' use of an assistant means:",
+  "difficulty": "intermediate",
+  "q": "'Copilot in Outlook' commonly helps users by:",
   "options": [
-   "Asking it to do a task with no examples",
-   "Giving thousands of examples",
-   "Turning it off",
-   "Using it only offline"
+   "Managing the network firewall",
+   "Encrypting the mailbox database",
+   "Summarising long email threads and drafting replies",
+   "Configuring the mail server's DNS records"
   ],
-  "answer": 0,
-  "explanation": "Zero-shot relies on the model's built-in knowledge with just instructions."
+  "answer": 2,
+  "explanation": "Copilot in Outlook summarises threads and helps compose responses."
  },
  {
   "id": "AA032",
   "category": "AI Assistants & Agents",
   "difficulty": "intermediate",
-  "q": "'Agentic AI' refers to systems that:",
+  "q": "'Copilot in Microsoft Teams' is typically used to:",
   "options": [
-   "Only generate images",
-   "Plan and execute multi-step tasks, often using tools",
-   "Never take actions",
-   "Only answer one question"
+   "Route the underlying VoIP packets",
+   "Summarise meetings and surface action items",
+   "Manage Active Directory groups",
+   "Allocate conference-room hardware"
   ],
   "answer": 1,
-  "explanation": "Agentic systems chain reasoning and tool use to accomplish goals autonomously."
+  "explanation": "Teams Copilot recaps meetings, captures decisions, and lists follow-up actions."
  },
  {
   "id": "AA033",
   "category": "AI Assistants & Agents",
   "difficulty": "intermediate",
-  "q": "'Fine-tuning' an assistant's underlying model means:",
+  "q": "'Microsoft Security Copilot' is designed to assist:",
   "options": [
-   "Encrypting the output",
-   "Further training it on task-specific data",
-   "Reducing the screen size",
-   "Deleting the model"
+   "Graphic designers editing images",
+   "Accountants filing tax returns",
+   "Security analysts investigating and responding to threats",
+   "Musicians composing audio tracks"
   ],
-  "answer": 1,
-  "explanation": "Fine-tuning adapts a pre-trained model to a specific domain or task."
+  "answer": 2,
+  "explanation": "Security Copilot is a generative-AI assistant for SOC/security operations and incident response."
  },
  {
   "id": "AA034",
   "category": "AI Assistants & Agents",
-  "difficulty": "advanced",
-  "q": "'RLHF', widely used to align assistants like ChatGPT and Claude, stands for:",
+  "difficulty": "intermediate",
+  "q": "'Microsoft Copilot Studio' is a tool for:",
   "options": [
-   "Rapid Language Handling Framework",
-   "Random Logic Hyper Filter",
-   "Reinforcement Learning from Human Feedback",
-   "Recurrent Layer Hidden Function"
+   "Editing raw video footage",
+   "Designing printed circuit boards",
+   "Managing disk partitions",
+   "Building and customising your own copilots/agents"
   ],
-  "answer": 2,
-  "explanation": "RLHF fine-tunes models using human preference signals to make them more helpful and safe."
+  "answer": 3,
+  "explanation": "Copilot Studio is a low-code platform to create custom copilots and agents."
  },
  {
   "id": "AA035",
   "category": "AI Assistants & Agents",
-  "difficulty": "advanced",
-  "q": "A 'vector embedding' is used by AI assistants to:",
+  "difficulty": "intermediate",
+  "q": "Within a Microsoft 365 tenant, Copilot 'grounds' its answers using:",
   "options": [
-   "Render 3D graphics",
-   "Cool the processor",
-   "Represent text meaning for semantic search/retrieval",
-   "Store user passwords"
+   "The user's BIOS settings",
+   "The GPU's firmware",
+   "Organisational data accessed via Microsoft Graph",
+   "A random public web page"
   ],
   "answer": 2,
-  "explanation": "Embeddings map text to vectors so similar meanings sit close together, powering retrieval."
+  "explanation": "M365 Copilot grounds responses in tenant data (emails, docs, chats) through Microsoft Graph."
  },
  {
   "id": "AA036",
   "category": "AI Assistants & Agents",
   "difficulty": "beginner",
-  "q": "'Perplexity AI' is best described as an AI-powered:",
+  "q": "'Copilot in Windows' is best described as:",
   "options": [
-   "Music player",
-   "Photo printer",
-   "Answer engine / search assistant",
-   "Spreadsheet tool"
+   "A device-driver updater",
+   "An AI assistant built into the Windows operating system",
+   "A disk-defragmentation utility",
+   "A file-backup scheduler"
   ],
-  "answer": 2,
-  "explanation": "Perplexity is an AI assistant that answers questions with cited sources."
+  "answer": 1,
+  "explanation": "Copilot in Windows is an integrated AI assistant accessible from the desktop."
  },
  {
   "id": "AA037",
   "category": "AI Assistants & Agents",
   "difficulty": "intermediate",
-  "q": "Microsoft 'Copilot Studio' is a tool for:",
+  "q": "A key enterprise selling point of Microsoft 365 Copilot is that it:",
   "options": [
-   "Editing raw video",
-   "Building custom copilots/agents",
-   "Managing disk partitions",
-   "Designing circuit boards"
+   "Shares tenant data publicly to improve answers",
+   "Respects existing data permissions and tenant boundaries",
+   "Requires disabling all access controls",
+   "Stores every prompt on the user's desktop"
   ],
   "answer": 1,
-  "explanation": "Copilot Studio lets organizations build and customize their own AI copilots/agents."
+  "explanation": "M365 Copilot honours a user's existing permissions and keeps data within the tenant boundary."
  },
  {
   "id": "AA038",
   "category": "AI Assistants & Agents",
   "difficulty": "intermediate",
-  "q": "'Grounding' an assistant's answer means:",
+  "q": "Which best distinguishes GitHub Copilot from Microsoft 365 Copilot?",
   "options": [
-   "Making it shorter",
-   "Backing it with reliable sources/context",
-   "Removing all context",
-   "Adding random facts"
+   "They are identical products with different names",
+   "GitHub Copilot assists coding; M365 Copilot assists Office productivity",
+   "GitHub Copilot only generates images",
+   "M365 Copilot only writes source code"
   ],
   "answer": 1,
-  "explanation": "Grounding ties responses to trustworthy sources to improve accuracy."
+  "explanation": "GitHub Copilot targets developers in the IDE; M365 Copilot targets productivity in Office apps."
  },
  {
   "id": "AA039",
   "category": "AI Assistants & Agents",
-  "difficulty": "beginner",
-  "q": "Which of these is an AI coding assistant?",
+  "difficulty": "intermediate",
+  "q": "'Copilot agents' (or extensions) allow a copilot to:",
   "options": [
-   "Windows Defender",
-   "Task Manager",
-   "GitHub Copilot",
-   "Disk Cleanup"
+   "Connect to specific data sources or perform specialised tasks",
+   "Overwrite the operating system kernel",
+   "Replace the network router",
+   "Physically repair hardware"
   ],
-  "answer": 2,
-  "explanation": "GitHub Copilot assists with writing and completing code."
+  "answer": 0,
+  "explanation": "Agents/extensions extend a copilot to particular knowledge sources or workflows."
  },
  {
   "id": "AA040",
   "category": "AI Assistants & Agents",
   "difficulty": "intermediate",
-  "q": "A key limitation shared by AI assistants like ChatGPT and Claude is that they can:",
+  "q": "'Agentic AI' refers to systems that:",
   "options": [
-   "Produce confident but incorrect answers (hallucinate)",
-   "Read minds",
-   "Never make mistakes",
-   "Guarantee perfect accuracy"
+   "Only answer a single question then stop",
+   "Plan and execute multi-step tasks, often using tools",
+   "Never take actions in the world",
+   "Only generate static images"
+  ],
+  "answer": 1,
+  "explanation": "Agentic systems chain reasoning with tool use to accomplish goals with autonomy."
+ },
+ {
+  "id": "AA041",
+  "category": "AI Assistants & Agents",
+  "difficulty": "intermediate",
+  "q": "A 'jailbreak' attempt on an AI assistant tries to:",
+  "options": [
+   "Reduce its memory footprint",
+   "Improve its training accuracy",
+   "Bypass its safety guardrails to elicit disallowed output",
+   "Increase its inference speed"
+  ],
+  "answer": 2,
+  "explanation": "Jailbreaks craft inputs that make the assistant ignore its safety rules."
+ },
+ {
+  "id": "AA042",
+  "category": "AI Assistants & Agents",
+  "difficulty": "intermediate",
+  "q": "'Prompt injection' is a security risk in which:",
+  "options": [
+   "Malicious input overrides the assistant's intended instructions",
+   "The network latency spikes",
+   "The GPU is physically damaged",
+   "The model's weights are deleted"
   ],
   "answer": 0,
-  "explanation": "All current LLM assistants can hallucinate, so outputs should be verified."
+  "explanation": "Prompt injection hides instructions in content to hijack the assistant's behaviour."
+ },
+ {
+  "id": "AA043",
+  "category": "AI Assistants & Agents",
+  "difficulty": "intermediate",
+  "q": "'Guardrails' around an AI assistant exist to:",
+  "options": [
+   "Expand the context window",
+   "Keep outputs safe and within policy",
+   "Increase the model's parameter count",
+   "Speed up token generation"
+  ],
+  "answer": 1,
+  "explanation": "Guardrails filter or steer responses to meet safety and policy requirements."
+ },
+ {
+  "id": "AA044",
+  "category": "AI Assistants & Agents",
+  "difficulty": "intermediate",
+  "q": "'Prompt engineering' is the practice of:",
+  "options": [
+   "Writing the operating system scheduler",
+   "Manufacturing GPU chips",
+   "Crafting inputs to obtain better assistant outputs",
+   "Designing the model's neural architecture"
+  ],
+  "answer": 2,
+  "explanation": "Prompt engineering optimises how requests are phrased to guide the assistant."
+ },
+ {
+  "id": "AA045",
+  "category": "AI Assistants & Agents",
+  "difficulty": "intermediate",
+  "q": "'Few-shot prompting' provides the assistant with:",
+  "options": [
+   "No instructions whatsoever",
+   "A fully retrained model",
+   "A few worked examples inside the prompt",
+   "Only an image input"
+  ],
+  "answer": 2,
+  "explanation": "Few-shot prompting includes example demonstrations directly in the prompt."
+ },
+ {
+  "id": "AA046",
+  "category": "AI Assistants & Agents",
+  "difficulty": "beginner",
+  "q": "'Zero-shot' use of an assistant means:",
+  "options": [
+   "Running it without any prompt",
+   "Providing thousands of labelled examples",
+   "Asking it to do a task with only instructions, no examples",
+   "Fine-tuning it on custom data first"
+  ],
+  "answer": 2,
+  "explanation": "Zero-shot relies on the model's pre-trained knowledge with instructions but no examples."
+ },
+ {
+  "id": "AA047",
+  "category": "AI Assistants & Agents",
+  "difficulty": "advanced",
+  "q": "'RLHF', widely used to align assistants like ChatGPT and Claude, stands for:",
+  "options": [
+   "Randomised Low-rank Hyperparameter Fitting",
+   "Recurrent Layer Hierarchical Fusion",
+   "Rapid Local Heuristic Filtering",
+   "Reinforcement Learning from Human Feedback"
+  ],
+  "answer": 3,
+  "explanation": "RLHF fine-tunes models using human preference signals to make them more helpful and safe."
+ },
+ {
+  "id": "AA048",
+  "category": "AI Assistants & Agents",
+  "difficulty": "advanced",
+  "q": "A 'vector embedding' is used by assistants to:",
+  "options": [
+   "Represent text meaning as vectors for semantic search",
+   "Schedule background jobs",
+   "Store the user's login session",
+   "Compress video streams"
+  ],
+  "answer": 0,
+  "explanation": "Embeddings map text to vectors so similar meanings sit close together, powering retrieval."
+ },
+ {
+  "id": "AA049",
+  "category": "AI Assistants & Agents",
+  "difficulty": "advanced",
+  "q": "In a RAG-based assistant, a 'vector database' is used to:",
+  "options": [
+   "Serve the front-end web pages",
+   "Hold the model's training checkpoints",
+   "Manage user authentication tokens",
+   "Store embeddings and retrieve them by similarity"
+  ],
+  "answer": 3,
+  "explanation": "Vector databases index embeddings for fast nearest-neighbour retrieval of relevant context."
+ },
+ {
+  "id": "AA050",
+  "category": "AI Assistants & Agents",
+  "difficulty": "intermediate",
+  "q": "'Fine-tuning' an assistant's underlying model means:",
+  "options": [
+   "Further training it on task- or domain-specific data",
+   "Adding more retrieval documents",
+   "Enlarging the context window",
+   "Increasing the sampling temperature"
+  ],
+  "answer": 0,
+  "explanation": "Fine-tuning adapts a pre-trained model to a specific domain or task via additional training."
+ },
+ {
+  "id": "AA051",
+  "category": "AI Assistants & Agents",
+  "difficulty": "advanced",
+  "q": "'LoRA', often used to customise assistant models efficiently, is a form of:",
+  "options": [
+   "Parameter-efficient fine-tuning with low-rank adapters",
+   "Data preprocessing",
+   "Output post-filtering",
+   "Full retraining from scratch"
+  ],
+  "answer": 0,
+  "explanation": "LoRA trains small low-rank adapter matrices while freezing the base weights, saving compute."
+ },
+ {
+  "id": "AA052",
+  "category": "AI Assistants & Agents",
+  "difficulty": "beginner",
+  "q": "'Perplexity AI' is best described as an AI-powered:",
+  "options": [
+   "Spreadsheet application",
+   "Answer engine that cites its sources",
+   "Video-editing suite",
+   "Password manager"
+  ],
+  "answer": 1,
+  "explanation": "Perplexity is an AI assistant that answers questions with linked citations."
+ },
+ {
+  "id": "AA053",
+  "category": "AI Assistants & Agents",
+  "difficulty": "intermediate",
+  "q": "'Grounding' an assistant's answer means:",
+  "options": [
+   "Shortening it to fit the screen",
+   "Backing it with reliable sources or retrieved context",
+   "Increasing its response temperature",
+   "Translating it to another language"
+  ],
+  "answer": 1,
+  "explanation": "Grounding ties responses to trustworthy sources to improve factual accuracy."
+ },
+ {
+  "id": "AA054",
+  "category": "AI Assistants & Agents",
+  "difficulty": "advanced",
+  "q": "'Chain-of-thought' prompting encourages an assistant to:",
+  "options": [
+   "Answer in a single word only",
+   "Generate an image instead of text",
+   "Show intermediate reasoning steps before answering",
+   "Ignore the user's question"
+  ],
+  "answer": 2,
+  "explanation": "Chain-of-thought elicits step-by-step reasoning, improving performance on complex tasks."
+ },
+ {
+  "id": "AA055",
+  "category": "AI Assistants & Agents",
+  "difficulty": "advanced",
+  "q": "A 'reward model' in RLHF is trained to:",
+  "options": [
+   "Generate the final user-facing text",
+   "Store the conversation history",
+   "Score outputs by predicted human preference",
+   "Tokenise the input prompt"
+  ],
+  "answer": 2,
+  "explanation": "The reward model predicts human preference scores that guide reinforcement learning."
+ },
+ {
+  "id": "AA056",
+  "category": "AI Assistants & Agents",
+  "difficulty": "intermediate",
+  "q": "Which statement correctly separates these Microsoft products?",
+  "options": [
+   "Both are image generators",
+   "Both are coding assistants only",
+   "Security Copilot aids security ops; GitHub Copilot aids coding",
+   "Security Copilot writes code; GitHub Copilot analyses malware"
+  ],
+  "answer": 2,
+  "explanation": "Security Copilot supports security analysts; GitHub Copilot supports developers writing code."
+ },
+ {
+  "id": "AA057",
+  "category": "AI Assistants & Agents",
+  "difficulty": "advanced",
+  "q": "A practical reason to use RAG instead of fine-tuning for company knowledge is that RAG:",
+  "options": [
+   "Permanently bakes facts into the weights",
+   "Lets you update the knowledge without retraining the model",
+   "Eliminates the need for embeddings",
+   "Removes the need for any prompt"
+  ],
+  "answer": 1,
+  "explanation": "RAG keeps knowledge in an external store you can update anytime, avoiding costly retraining."
+ },
+ {
+  "id": "AA058",
+  "category": "AI Assistants & Agents",
+  "difficulty": "intermediate",
+  "q": "A shared limitation of assistants like ChatGPT, Claude, and Copilot is that they can:",
+  "options": [
+   "Guarantee 100% factual accuracy",
+   "Produce confident but incorrect answers (hallucinate)",
+   "Operate with no compute at all",
+   "Access any private system without permission"
+  ],
+  "answer": 1,
+  "explanation": "All current LLM-based assistants can hallucinate, so outputs should be verified."
+ },
+ {
+  "id": "AA059",
+  "category": "AI Assistants & Agents",
+  "difficulty": "advanced",
+  "q": "'Model Context Protocol'-style tool integrations let an assistant:",
+  "options": [
+   "Reduce its token vocabulary",
+   "Bypass its safety filters",
+   "Connect to external tools and data sources in a standard way",
+   "Increase its clock speed"
+  ],
+  "answer": 2,
+  "explanation": "Standardised tool/data connectors let agents access external systems consistently and securely."
+ },
+ {
+  "id": "AA060",
+  "category": "AI Assistants & Agents",
+  "difficulty": "intermediate",
+  "q": "When GitHub Copilot suggests code, the developer should:",
+  "options": [
+   "Review and test it, since it may contain errors",
+   "Disable all testing to save time",
+   "Merge it to production without any review",
+   "Assume it is always optimal and secure"
+  ],
+  "answer": 0,
+  "explanation": "Copilot suggestions can be wrong or insecure, so human review and testing remain essential."
  }
 ]

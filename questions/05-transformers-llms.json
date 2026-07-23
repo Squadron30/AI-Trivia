@@ -5,12 +5,12 @@
   "difficulty": "advanced",
   "q": "The Transformer architecture was introduced in which 2017 paper?",
   "options": [
+   "Attention Is All You Need",
    "ImageNet Classification",
    "Generative Adversarial Nets",
-   "Playing Atari with Deep RL",
-   "Attention Is All You Need"
+   "Playing Atari with Deep RL"
   ],
-  "answer": 3,
+  "answer": 0,
   "explanation": "Vaswani et al.'s 'Attention Is All You Need' (2017) introduced the Transformer."
  },
  {
@@ -20,9 +20,9 @@
   "q": "The core innovation of the Transformer is:",
   "options": [
    "Self-attention (dispensing with recurrence)",
-   "Genetic algorithms",
    "Pooling",
-   "Convolution"
+   "Convolution",
+   "Genetic algorithms"
   ],
   "answer": 0,
   "explanation": "Transformers rely on self-attention instead of recurrence or convolution."
@@ -33,12 +33,12 @@
   "difficulty": "advanced",
   "q": "In self-attention, each token computes attention using three vectors:",
   "options": [
-   "Input, Output, Bias",
    "Query, Key, and Value",
    "Weight, Gradient, Loss",
+   "Input, Output, Bias",
    "Pixel, Channel, Filter"
   ],
-  "answer": 1,
+  "answer": 0,
   "explanation": "Attention scores come from Query-Key dot products, weighting Values."
  },
  {
@@ -47,12 +47,12 @@
   "difficulty": "advanced",
   "q": "'Positional encoding' is needed in Transformers because:",
   "options": [
+   "It compresses data",
    "Self-attention has no inherent sense of token order",
    "GPUs require it",
-   "It compresses data",
    "It encrypts tokens"
   ],
-  "answer": 0,
+  "answer": 1,
   "explanation": "Positional encodings inject order information into the otherwise permutation-invariant attention."
  },
  {
@@ -61,12 +61,12 @@
   "difficulty": "advanced",
   "q": "'Multi-head attention' allows the model to:",
   "options": [
+   "Reduce parameters to zero",
    "Attend to information from different representation subspaces",
    "Use multiple GPUs only",
-   "Delete heads",
-   "Reduce parameters to zero"
+   "Delete heads"
   ],
-  "answer": 0,
+  "answer": 1,
   "explanation": "Multiple attention heads capture diverse relationships in parallel."
  },
  {
@@ -75,10 +75,10 @@
   "difficulty": "advanced",
   "q": "'GPT' stands for:",
   "options": [
-   "General Purpose Tool",
-   "Generative Pre-trained Transformer",
    "Gradient Propagation Technique",
-   "Global Prediction Test"
+   "Generative Pre-trained Transformer",
+   "Global Prediction Test",
+   "General Purpose Tool"
   ],
   "answer": 1,
   "explanation": "GPT = Generative Pre-trained Transformer, an autoregressive decoder model."
@@ -89,12 +89,12 @@
   "difficulty": "advanced",
   "q": "An 'autoregressive' language model generates text by:",
   "options": [
-   "Predicting the next token given previous tokens",
-   "Predicting all tokens at once",
    "Reading right to left only",
-   "Ignoring context"
+   "Predicting all tokens at once",
+   "Ignoring context",
+   "Predicting the next token given previous tokens"
   ],
-  "answer": 0,
+  "answer": 3,
   "explanation": "Autoregressive models produce one token at a time conditioned on prior tokens."
  },
  {
@@ -103,10 +103,10 @@
   "difficulty": "advanced",
   "q": "'Pre-training' an LLM typically involves:",
   "options": [
+   "No data",
    "Labeling every example manually",
-   "Only reinforcement learning",
    "Learning language patterns from large unlabeled corpora",
-   "No data"
+   "Only reinforcement learning"
   ],
   "answer": 2,
   "explanation": "LLMs pre-train on massive text via self-supervised next-token prediction."
@@ -117,12 +117,12 @@
   "difficulty": "advanced",
   "q": "'Fine-tuning' an LLM adapts it to:",
   "options": [
-   "A specific task or domain using targeted data",
+   "Only images",
    "Random outputs",
-   "Delete its weights",
-   "Only images"
+   "A specific task or domain using targeted data",
+   "Delete its weights"
   ],
-  "answer": 0,
+  "answer": 2,
   "explanation": "Fine-tuning specializes a pre-trained model on task-specific data."
  },
  {
@@ -131,12 +131,12 @@
   "difficulty": "advanced",
   "q": "'RLHF' stands for:",
   "options": [
-   "Rapid Learning Hyper Framework",
-   "Reinforcement Learning from Human Feedback",
+   "Recurrent Layer Hidden Function",
    "Random Loss Half Filter",
-   "Recurrent Layer Hidden Function"
+   "Reinforcement Learning from Human Feedback",
+   "Rapid Learning Hyper Framework"
   ],
-  "answer": 1,
+  "answer": 2,
   "explanation": "RLHF fine-tunes models using human preference signals via reinforcement learning."
  },
  {
@@ -145,12 +145,12 @@
   "difficulty": "advanced",
   "q": "A 'hallucination' in LLMs refers to:",
   "options": [
-   "Slow responses",
    "Confidently generating false or fabricated information",
-   "GPU errors",
-   "Image artifacts"
+   "Slow responses",
+   "Image artifacts",
+   "GPU errors"
   ],
-  "answer": 1,
+  "answer": 0,
   "explanation": "Hallucinations are plausible-sounding but incorrect model outputs."
  },
  {
@@ -159,12 +159,12 @@
   "difficulty": "advanced",
   "q": "'Prompt engineering' is the practice of:",
   "options": [
-   "Building CPUs",
-   "Writing operating systems",
+   "Crafting inputs to elicit better model outputs",
    "Designing networks",
-   "Crafting inputs to elicit better model outputs"
+   "Building CPUs",
+   "Writing operating systems"
   ],
-  "answer": 3,
+  "answer": 0,
   "explanation": "Prompt engineering optimizes how queries are phrased to guide the model."
  },
  {
@@ -173,12 +173,12 @@
   "difficulty": "advanced",
   "q": "'Few-shot prompting' provides the model with:",
   "options": [
-   "Only images",
    "Millions of labeled examples",
    "A few examples in the prompt to guide behavior",
+   "Only images",
    "No context"
   ],
-  "answer": 2,
+  "answer": 1,
   "explanation": "Few-shot includes example demonstrations directly in the prompt."
  },
  {
@@ -187,8 +187,8 @@
   "difficulty": "advanced",
   "q": "'Zero-shot prompting' means the model:",
   "options": [
-   "Is untrained",
    "Needs thousands of examples",
+   "Is untrained",
    "Only copies input",
    "Performs a task with no examples, just instructions"
   ],
@@ -201,12 +201,12 @@
   "difficulty": "advanced",
   "q": "'Chain-of-thought' prompting encourages the model to:",
   "options": [
-   "Output random tokens",
    "Answer instantly with one word",
-   "Ignore the question",
-   "Reason step by step before answering"
+   "Output random tokens",
+   "Reason step by step before answering",
+   "Ignore the question"
   ],
-  "answer": 3,
+  "answer": 2,
   "explanation": "CoT prompts elicit intermediate reasoning, improving complex task performance."
  },
  {
@@ -216,11 +216,11 @@
   "q": "The 'context window' of an LLM is:",
   "options": [
    "The screen size",
+   "The number of layers",
    "The training duration",
-   "The maximum number of tokens it can process at once",
-   "The number of layers"
+   "The maximum number of tokens it can process at once"
   ],
-  "answer": 2,
+  "answer": 3,
   "explanation": "The context window limits how much text the model can attend to in one call."
  },
  {
@@ -229,12 +229,12 @@
   "difficulty": "advanced",
   "q": "'RAG' (Retrieval-Augmented Generation) improves LLMs by:",
   "options": [
-   "Retrieving relevant external documents to ground responses",
+   "Encrypting prompts",
    "Removing all data",
-   "Slowing generation",
-   "Encrypting prompts"
+   "Retrieving relevant external documents to ground responses",
+   "Slowing generation"
   ],
-  "answer": 0,
+  "answer": 2,
   "explanation": "RAG fetches relevant context from a knowledge source to reduce hallucination."
  },
  {
@@ -243,9 +243,9 @@
   "difficulty": "advanced",
   "q": "A 'vector database' is commonly used in RAG to:",
   "options": [
-   "Store images only",
    "Compile code",
    "Render video",
+   "Store images only",
    "Store and search embeddings by similarity"
   ],
   "answer": 3,
@@ -257,10 +257,10 @@
   "difficulty": "advanced",
   "q": "'Tokens' in an LLM are:",
   "options": [
+   "Pixels",
    "Security keys",
-   "GPU cores",
    "Chunks of text (words/subwords) the model processes",
-   "Pixels"
+   "GPU cores"
   ],
   "answer": 2,
   "explanation": "LLMs operate on tokens, which may be whole words or subword pieces."
@@ -272,11 +272,11 @@
   "q": "'Parameter count' (e.g., 7B, 70B) refers to:",
   "options": [
    "The dataset size in GB",
-   "The number of learnable weights in the model",
    "The number of users",
+   "The number of learnable weights in the model",
    "The number of GPUs"
   ],
-  "answer": 1,
+  "answer": 2,
   "explanation": "7B means ~7 billion parameters; larger models often have more capacity."
  },
  {
@@ -285,12 +285,12 @@
   "difficulty": "advanced",
   "q": "'Instruction tuning' trains an LLM to:",
   "options": [
-   "Follow natural-language instructions across tasks",
-   "Play video games",
    "Compress files",
+   "Play video games",
+   "Follow natural-language instructions across tasks",
    "Render 3D scenes"
   ],
-  "answer": 0,
+  "answer": 2,
   "explanation": "Instruction tuning uses instruction-response data so models follow directions."
  },
  {
@@ -299,12 +299,12 @@
   "difficulty": "advanced",
   "q": "'LoRA' is a technique for:",
   "options": [
+   "Image scaling",
    "Full retraining",
    "Parameter-efficient fine-tuning via low-rank adapters",
-   "Image scaling",
    "Data collection"
   ],
-  "answer": 1,
+  "answer": 2,
   "explanation": "LoRA freezes weights and trains small low-rank matrices, saving compute/memory."
  },
  {
@@ -313,12 +313,12 @@
   "difficulty": "advanced",
   "q": "A 'system prompt' typically:",
   "options": [
-   "Renders UI",
-   "Sets the assistant's behavior and role",
    "Stores user passwords",
-   "Trains the model"
+   "Trains the model",
+   "Sets the assistant's behavior and role",
+   "Renders UI"
   ],
-  "answer": 1,
+  "answer": 2,
   "explanation": "System prompts provide high-level instructions shaping the model's persona and rules."
  },
  {
@@ -327,12 +327,12 @@
   "difficulty": "advanced",
   "q": "'Mixture of Experts' (MoE) models improve efficiency by:",
   "options": [
-   "Removing all layers",
    "Activating only a subset of expert sub-networks per input",
-   "Using every parameter always",
-   "Training without data"
+   "Training without data",
+   "Removing all layers",
+   "Using every parameter always"
   ],
-  "answer": 1,
+  "answer": 0,
   "explanation": "MoE routes each token to a few experts, scaling capacity with less compute per token."
  },
  {
@@ -342,9 +342,9 @@
   "q": "'Emergent abilities' in LLMs describe capabilities that:",
   "options": [
    "Never occur",
-   "Are hardcoded",
+   "Exist in tiny models",
    "Appear only at sufficiently large scale",
-   "Exist in tiny models"
+   "Are hardcoded"
   ],
   "answer": 2,
   "explanation": "Some abilities emerge unpredictably as model/data scale increases."
@@ -356,11 +356,11 @@
   "q": "'Alignment' in AI safety refers to:",
   "options": [
    "Sorting data",
-   "GPU synchronization",
+   "Ensuring model behavior matches human intentions and values",
    "Aligning text on screen",
-   "Ensuring model behavior matches human intentions and values"
+   "GPU synchronization"
   ],
-  "answer": 3,
+  "answer": 1,
   "explanation": "Alignment aims to make AI systems act in accordance with human goals and values."
  },
  {
@@ -369,12 +369,12 @@
   "difficulty": "advanced",
   "q": "'Grounding' an LLM response means:",
   "options": [
-   "Making it shorter",
    "Deleting context",
    "Backing it with verifiable external evidence/context",
+   "Making it shorter",
    "Adding random facts"
   ],
-  "answer": 2,
+  "answer": 1,
   "explanation": "Grounding ties outputs to reliable sources to improve factuality."
  },
  {
@@ -383,12 +383,12 @@
   "difficulty": "advanced",
   "q": "'Distillation' of an LLM produces:",
   "options": [
-   "A bigger model",
    "A smaller model approximating a larger one",
+   "A bigger model",
    "More data",
    "New hardware"
   ],
-  "answer": 1,
+  "answer": 0,
   "explanation": "Distillation transfers knowledge to a compact, cheaper-to-run model."
  },
  {
@@ -398,8 +398,8 @@
   "q": "'Encoder-decoder' Transformers (e.g., T5) are well suited for:",
   "options": [
    "Sequence-to-sequence tasks like translation/summarization",
-   "Only classification",
    "Only clustering",
+   "Only classification",
    "Only images"
   ],
   "answer": 0,
@@ -411,10 +411,10 @@
   "difficulty": "advanced",
   "q": "The complexity of standard self-attention with sequence length n is:",
   "options": [
-   "O(n)",
    "O(log n)",
+   "O(1)",
    "O(n^2)",
-   "O(1)"
+   "O(n)"
   ],
   "answer": 2,
   "explanation": "Full self-attention compares all token pairs, giving quadratic complexity."
@@ -425,12 +425,12 @@
   "difficulty": "advanced",
   "q": "'Flash Attention' primarily improves:",
   "options": [
-   "Memory efficiency and speed of attention computation",
-   "Dataset labeling",
    "Model accuracy only",
-   "UI rendering"
+   "Dataset labeling",
+   "UI rendering",
+   "Memory efficiency and speed of attention computation"
   ],
-  "answer": 0,
+  "answer": 3,
   "explanation": "FlashAttention reorders computation to reduce memory traffic, speeding attention."
  },
  {
@@ -439,12 +439,12 @@
   "difficulty": "advanced",
   "q": "'KV cache' in LLM inference stores:",
   "options": [
-   "User credentials",
+   "Previously computed keys and values to speed generation",
    "Training data",
-   "Images",
-   "Previously computed keys and values to speed generation"
+   "User credentials",
+   "Images"
   ],
-  "answer": 3,
+  "answer": 0,
   "explanation": "Caching keys/values avoids recomputation across generation steps."
  },
  {
@@ -453,12 +453,12 @@
   "difficulty": "advanced",
   "q": "A 'foundation model' is:",
   "options": [
+   "A tiny single-task model",
    "A large model pre-trained broadly and adaptable to many tasks",
    "A compiler",
-   "A database",
-   "A tiny single-task model"
+   "A database"
   ],
-  "answer": 0,
+  "answer": 1,
   "explanation": "Foundation models are broadly trained bases adaptable via fine-tuning or prompting."
  },
  {
@@ -467,12 +467,12 @@
   "difficulty": "advanced",
   "q": "'Multimodal' models can process:",
   "options": [
-   "Only audio",
    "Multiple input types such as text and images",
    "Only text",
+   "Only audio",
    "Only numbers"
   ],
-  "answer": 1,
+  "answer": 0,
   "explanation": "Multimodal models handle combinations like text, image, and audio."
  },
  {
@@ -496,11 +496,11 @@
   "q": "Diffusion models generate images by:",
   "options": [
    "Sorting pixels",
-   "Using decision trees",
    "Iteratively denoising random noise",
-   "Compressing text"
+   "Compressing text",
+   "Using decision trees"
   ],
-  "answer": 2,
+  "answer": 1,
   "explanation": "Diffusion models learn to reverse a noising process to synthesize images."
  },
  {
@@ -511,8 +511,8 @@
   "options": [
    "Images and text",
    "Code and binaries",
-   "Audio and video only",
-   "Numbers and dates"
+   "Numbers and dates",
+   "Audio and video only"
   ],
   "answer": 0,
   "explanation": "CLIP aligns image and text embeddings, enabling zero-shot classification."
@@ -538,11 +538,11 @@
   "q": "'Prompt injection' is a security risk where:",
   "options": [
    "Data is encrypted",
-   "The GPU overheats",
    "Malicious input manipulates the model's instructions",
+   "The GPU overheats",
    "Weights are pruned"
   ],
-  "answer": 2,
+  "answer": 1,
   "explanation": "Attackers embed instructions in inputs to override intended behavior."
  },
  {
@@ -551,12 +551,12 @@
   "difficulty": "advanced",
   "q": "'Agentic' LLM systems are notable for:",
   "options": [
-   "Planning and using tools/actions to accomplish goals",
    "Only answering trivia",
-   "Rendering graphics",
-   "Storing files"
+   "Planning and using tools/actions to accomplish goals",
+   "Storing files",
+   "Rendering graphics"
   ],
-  "answer": 0,
+  "answer": 1,
   "explanation": "AI agents chain reasoning with tool use to complete multi-step tasks."
  },
  {
@@ -565,12 +565,12 @@
   "difficulty": "advanced",
   "q": "'Function/tool calling' lets an LLM:",
   "options": [
-   "Only chat",
    "Compress data",
+   "Invoke external tools or APIs with structured arguments",
    "Delete itself",
-   "Invoke external tools or APIs with structured arguments"
+   "Only chat"
   ],
-  "answer": 3,
+  "answer": 1,
   "explanation": "Tool calling enables models to trigger functions for actions like search or math."
  },
  {
@@ -579,12 +579,12 @@
   "difficulty": "advanced",
   "q": "A key advantage of Transformers over RNNs is:",
   "options": [
-   "No need for data",
-   "Parallel processing of sequence tokens",
+   "Less memory always",
    "Slower training",
-   "Less memory always"
+   "Parallel processing of sequence tokens",
+   "No need for data"
   ],
-  "answer": 1,
+  "answer": 2,
   "explanation": "Transformers process tokens in parallel, unlike sequential RNNs, speeding training."
  },
  {
@@ -593,12 +593,12 @@
   "difficulty": "advanced",
   "q": "'Scaling laws' describe how model performance relates to:",
   "options": [
-   "Screen resolution",
-   "Number of users",
    "Cable length",
-   "Model size, data, and compute"
+   "Screen resolution",
+   "Model size, data, and compute",
+   "Number of users"
   ],
-  "answer": 3,
+  "answer": 2,
   "explanation": "Scaling laws predict loss improvements as parameters, data, and compute grow."
  },
  {
@@ -608,8 +608,8 @@
   "q": "'In-context learning' means the model:",
   "options": [
    "Learns a task from examples in the prompt without weight updates",
-   "Uses reinforcement only",
    "Retrains fully",
+   "Uses reinforcement only",
    "Deletes context"
   ],
   "answer": 0,
@@ -621,12 +621,12 @@
   "difficulty": "advanced",
   "q": "'Constitutional AI' guides model behavior using:",
   "options": [
-   "Only human labels",
-   "Random rewards",
    "A set of principles/rules for self-critique",
-   "No guidance"
+   "No guidance",
+   "Only human labels",
+   "Random rewards"
   ],
-  "answer": 2,
+  "answer": 0,
   "explanation": "Constitutional AI uses written principles to help models critique and revise outputs."
  },
  {
@@ -635,12 +635,12 @@
   "difficulty": "advanced",
   "q": "'Speculative decoding' speeds up generation by:",
   "options": [
-   "Skipping all tokens",
-   "Training longer",
    "Using a small model to draft tokens verified by a larger model",
+   "Training longer",
+   "Skipping all tokens",
    "Removing attention"
   ],
-  "answer": 2,
+  "answer": 0,
   "explanation": "A draft model proposes tokens the target model verifies, reducing latency."
  },
  {
@@ -649,12 +649,12 @@
   "difficulty": "advanced",
   "q": "'Embeddings from an LLM' are useful for:",
   "options": [
-   "Rendering games",
-   "Cooling the GPU",
+   "Semantic search, clustering, and retrieval",
    "Formatting disks",
-   "Semantic search, clustering, and retrieval"
+   "Cooling the GPU",
+   "Rendering games"
   ],
-  "answer": 3,
+  "answer": 0,
   "explanation": "LLM embeddings capture meaning for downstream retrieval and similarity tasks."
  },
  {
@@ -663,12 +663,12 @@
   "difficulty": "advanced",
   "q": "'Catastrophic forgetting' during LLM fine-tuning can be reduced by:",
   "options": [
-   "Parameter-efficient methods like LoRA or mixing in original data",
-   "Deleting the base model",
+   "Increasing temperature",
    "Using no data",
-   "Increasing temperature"
+   "Deleting the base model",
+   "Parameter-efficient methods like LoRA or mixing in original data"
   ],
-  "answer": 0,
+  "answer": 3,
   "explanation": "Techniques like LoRA and data replay help preserve prior knowledge."
  },
  {
@@ -678,9 +678,9 @@
   "q": "A 'reward model' in RLHF is trained to:",
   "options": [
    "Store embeddings",
-   "Compress text",
+   "Generate images",
    "Predict human preference scores for outputs",
-   "Generate images"
+   "Compress text"
   ],
   "answer": 2,
   "explanation": "The reward model scores outputs by predicted human preference to guide RL."
@@ -691,12 +691,12 @@
   "difficulty": "advanced",
   "q": "'Overfitting to the prompt format' is a risk when:",
   "options": [
-   "Using diverse data",
-   "Using more compute",
+   "Never fine-tuning",
    "Fine-tuning narrowly on one template",
-   "Never fine-tuning"
+   "Using diverse data",
+   "Using more compute"
   ],
-  "answer": 2,
+  "answer": 1,
   "explanation": "Training on a single rigid format can hurt generalization to other phrasings."
  }
 ]

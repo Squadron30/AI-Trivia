@@ -5,12 +5,12 @@
   "difficulty": "beginner",
   "q": "Which best defines Artificial Intelligence?",
   "options": [
-   "A protocol for transferring files",
    "A method for lossless data compression",
    "The simulation of human intelligence processes by machines",
-   "The study of electrical circuit design"
+   "The study of electrical circuit design",
+   "A protocol for transferring files"
   ],
-  "answer": 2,
+  "answer": 1,
   "explanation": "AI is the simulation of human intelligence — reasoning, learning, perception — by machines."
  },
  {
@@ -19,12 +19,12 @@
   "difficulty": "beginner",
   "q": "Which correctly orders these fields from broadest to narrowest?",
   "options": [
-   "Machine Learning ⊃ AI ⊃ Deep Learning",
-   "Deep Learning ⊃ Machine Learning ⊃ AI",
    "Deep Learning ⊃ AI ⊃ Machine Learning",
-   "AI ⊃ Machine Learning ⊃ Deep Learning"
+   "AI ⊃ Machine Learning ⊃ Deep Learning",
+   "Deep Learning ⊃ Machine Learning ⊃ AI",
+   "Machine Learning ⊃ AI ⊃ Deep Learning"
   ],
-  "answer": 3,
+  "answer": 1,
   "explanation": "AI is broadest, ML is a subset of AI, and deep learning is a subset of ML."
  },
  {
@@ -33,12 +33,12 @@
   "difficulty": "beginner",
   "q": "Which is the best example of a 'narrow AI' system?",
   "options": [
-   "A system that masters every task equally",
-   "A hypothetical self-aware system",
+   "A spam filter that only classifies email",
    "A machine with human-level general reasoning",
-   "A spam filter that only classifies email"
+   "A hypothetical self-aware system",
+   "A system that masters every task equally"
   ],
-  "answer": 3,
+  "answer": 0,
   "explanation": "Narrow AI is specialised for one task, like spam filtering — unlike general AI."
  },
  {
@@ -47,12 +47,12 @@
   "difficulty": "beginner",
   "q": "The Turing Test evaluates a machine's ability to:",
   "options": [
-   "Store more facts than a human",
    "Converse indistinguishably from a human",
    "Solve equations faster than a human",
-   "Use less energy than a human brain"
+   "Use less energy than a human brain",
+   "Store more facts than a human"
   ],
-  "answer": 1,
+  "answer": 0,
   "explanation": "The test checks whether a machine's responses are indistinguishable from a person's."
  },
  {
@@ -61,12 +61,12 @@
   "difficulty": "beginner",
   "q": "Which of the following is a subset of Artificial Intelligence?",
   "options": [
-   "Machine Learning",
    "Distributed storage",
-   "Continuous integration",
-   "Packet routing"
+   "Packet routing",
+   "Machine Learning",
+   "Continuous integration"
   ],
-  "answer": 0,
+  "answer": 2,
   "explanation": "Machine Learning is a subset of AI focused on learning from data."
  },
  {
@@ -76,11 +76,11 @@
   "q": "'Weak AI' (narrow AI) is characterised by:",
   "options": [
    "Genuine consciousness and self-awareness",
-   "Human-level reasoning across all domains",
    "Competence at specific tasks without general understanding",
-   "The capacity to feel emotions"
+   "The capacity to feel emotions",
+   "Human-level reasoning across all domains"
   ],
-  "answer": 2,
+  "answer": 1,
   "explanation": "Weak AI handles specific tasks well but lacks general understanding."
  },
  {
@@ -89,12 +89,12 @@
   "difficulty": "beginner",
   "q": "'AGI' stands for:",
   "options": [
-   "Automated Gradient Inference",
-   "Augmented Generative Interface",
    "Applied Graph Indexing",
-   "Artificial General Intelligence"
+   "Augmented Generative Interface",
+   "Artificial General Intelligence",
+   "Automated Gradient Inference"
   ],
-  "answer": 3,
+  "answer": 2,
   "explanation": "AGI is Artificial General Intelligence — human-level reasoning across many tasks."
  },
  {
@@ -103,10 +103,10 @@
   "difficulty": "beginner",
   "q": "Which is an example of AI embedded in consumer technology?",
   "options": [
-   "A static list of stored contacts",
-   "A voice assistant that understands spoken commands",
    "A fixed-function unit converter",
-   "A countdown timer"
+   "A voice assistant that understands spoken commands",
+   "A countdown timer",
+   "A static list of stored contacts"
   ],
   "answer": 1,
   "explanation": "Voice assistants use speech recognition and NLP — everyday narrow AI."
@@ -117,9 +117,9 @@
   "difficulty": "beginner",
   "q": "The primary goal of Machine Learning is to:",
   "options": [
-   "Increase display refresh rates",
    "Hard-code every rule manually in advance",
    "Store data more compactly on disk",
+   "Increase display refresh rates",
    "Enable systems to learn patterns from data"
   ],
   "answer": 3,
@@ -146,11 +146,11 @@
   "q": "Which learning paradigm uses labelled training data?",
   "options": [
    "Reinforcement learning",
-   "Supervised learning",
    "Self-supervised clustering",
-   "Unsupervised learning"
+   "Unsupervised learning",
+   "Supervised learning"
   ],
-  "answer": 1,
+  "answer": 3,
   "explanation": "Supervised learning trains on inputs paired with known correct labels."
  },
  {
@@ -161,10 +161,10 @@
   "options": [
    "Imitation learning",
    "Reinforcement learning",
-   "Supervised learning",
-   "Unsupervised learning"
+   "Unsupervised learning",
+   "Supervised learning"
   ],
-  "answer": 3,
+  "answer": 2,
   "explanation": "Unsupervised learning discovers patterns (e.g., clusters) without labels."
  },
  {
@@ -173,12 +173,12 @@
   "difficulty": "beginner",
   "q": "In reinforcement learning, the agent primarily learns from:",
   "options": [
-   "Rewards and penalties for its actions",
-   "Hand-written logical rules only",
    "Unlabelled clusters of data",
-   "Pre-labelled input-output pairs"
+   "Rewards and penalties for its actions",
+   "Pre-labelled input-output pairs",
+   "Hand-written logical rules only"
   ],
-  "answer": 0,
+  "answer": 1,
   "explanation": "RL agents learn optimal behaviour through reward and penalty feedback."
  },
  {
@@ -187,12 +187,12 @@
   "difficulty": "beginner",
   "q": "A chatbot primarily relies on which AI field?",
   "options": [
-   "Reinforcement Learning",
    "Robotic kinematics",
-   "Computer Vision",
-   "Natural Language Processing"
+   "Natural Language Processing",
+   "Reinforcement Learning",
+   "Computer Vision"
   ],
-  "answer": 3,
+  "answer": 1,
   "explanation": "Chatbots use NLP to understand and generate human language."
  },
  {
@@ -201,12 +201,12 @@
   "difficulty": "beginner",
   "q": "Which of the following is NOT a branch of AI?",
   "options": [
-   "Natural Language Processing",
    "Machine Learning",
-   "Relational database normalisation",
-   "Computer Vision"
+   "Natural Language Processing",
+   "Computer Vision",
+   "Relational database normalisation"
   ],
-  "answer": 2,
+  "answer": 3,
   "explanation": "Database normalisation is a data-management topic, not an AI branch."
  },
  {
@@ -215,12 +215,12 @@
   "difficulty": "beginner",
   "q": "'Training data' is:",
   "options": [
-   "The metric used to score the model",
    "The architecture of the model",
-   "The hardware the model runs on",
-   "The dataset a model learns from"
+   "The metric used to score the model",
+   "The dataset a model learns from",
+   "The hardware the model runs on"
   ],
-  "answer": 3,
+  "answer": 2,
   "explanation": "Training data is what the model learns patterns from."
  },
  {
@@ -230,11 +230,11 @@
   "q": "Computer Vision enables machines to:",
   "options": [
    "Optimise a reward signal",
-   "Translate between languages",
    "Interpret and understand images and video",
+   "Translate between languages",
    "Transcribe spoken audio to text"
   ],
-  "answer": 2,
+  "answer": 1,
   "explanation": "Computer vision derives meaning from visual inputs; the others are NLP/RL tasks."
  },
  {
@@ -243,12 +243,12 @@
   "difficulty": "beginner",
   "q": "Which task is an example of supervised classification?",
   "options": [
-   "Labelling photos as 'cat' or 'dog' from labelled examples",
-   "Learning to play a game via rewards",
+   "Grouping unlabelled articles by similarity",
    "Reducing 100 features down to 2",
-   "Grouping unlabelled articles by similarity"
+   "Labelling photos as 'cat' or 'dog' from labelled examples",
+   "Learning to play a game via rewards"
   ],
-  "answer": 0,
+  "answer": 2,
   "explanation": "Classifying into known categories from labelled data is supervised classification."
  },
  {
@@ -257,12 +257,12 @@
   "difficulty": "beginner",
   "q": "Which task is an example of unsupervised learning?",
   "options": [
+   "Predicting a labelled house price",
    "Filtering spam using labelled email",
-   "Clustering shoppers into groups without labels",
    "Forecasting labelled monthly sales",
-   "Predicting a labelled house price"
+   "Clustering shoppers into groups without labels"
   ],
-  "answer": 1,
+  "answer": 3,
   "explanation": "Clustering unlabelled data into groups is unsupervised learning."
  },
  {
@@ -271,12 +271,12 @@
   "difficulty": "beginner",
   "q": "Which is an example of a regression task?",
   "options": [
-   "Predicting tomorrow's temperature in degrees",
+   "Detecting whether an image contains a face",
    "Deciding if a review is positive or negative",
-   "Sorting emails into labelled folders",
-   "Detecting whether an image contains a face"
+   "Predicting tomorrow's temperature in degrees",
+   "Sorting emails into labelled folders"
   ],
-  "answer": 0,
+  "answer": 2,
   "explanation": "Regression predicts a continuous numeric value, such as temperature."
  },
  {
@@ -287,8 +287,8 @@
   "options": [
    "An organised collection of data for analysis or training",
    "A single learned model weight",
-   "A processor instruction set",
-   "An evaluation metric"
+   "An evaluation metric",
+   "A processor instruction set"
   ],
   "answer": 0,
   "explanation": "A dataset is a structured collection of data used to train and test models."
@@ -299,12 +299,12 @@
   "difficulty": "beginner",
   "q": "Deciding whether a transaction is 'fraudulent' or 'legitimate' is an example of:",
   "options": [
-   "Regression",
    "Binary classification",
    "Clustering",
-   "Dimensionality reduction"
+   "Dimensionality reduction",
+   "Regression"
   ],
-  "answer": 1,
+  "answer": 0,
   "explanation": "Assigning inputs to one of two categories is binary classification."
  },
  {
@@ -313,12 +313,12 @@
   "difficulty": "beginner",
   "q": "Estimating how many units a store will sell next month is a:",
   "options": [
-   "Clustering problem",
    "Regression problem",
-   "Anomaly-detection problem",
-   "Classification problem"
+   "Clustering problem",
+   "Classification problem",
+   "Anomaly-detection problem"
   ],
-  "answer": 1,
+  "answer": 0,
   "explanation": "Predicting a continuous quantity is a regression problem."
  },
  {
@@ -327,12 +327,12 @@
   "difficulty": "beginner",
   "q": "'NLP' in AI stands for:",
   "options": [
-   "Numeric Linear Programming",
    "Neural Layer Propagation",
-   "Natural Language Processing",
-   "Network Latency Profiling"
+   "Network Latency Profiling",
+   "Numeric Linear Programming",
+   "Natural Language Processing"
   ],
-  "answer": 2,
+  "answer": 3,
   "explanation": "NLP is the field enabling computers to work with human language."
  },
  {
@@ -341,12 +341,12 @@
   "difficulty": "beginner",
   "q": "A movie recommendation feature is an application of:",
   "options": [
+   "Symbolic theorem proving",
    "Machine learning",
    "Manual rule-based sorting",
-   "Symbolic theorem proving",
    "Static keyword matching"
   ],
-  "answer": 0,
+  "answer": 1,
   "explanation": "Recommender systems use ML to predict user preferences from data."
  },
  {
@@ -355,12 +355,12 @@
   "difficulty": "beginner",
   "q": "An 'algorithm' is:",
   "options": [
-   "A step-by-step procedure for solving a problem",
-   "A collection of labelled examples",
+   "A measure of prediction error",
    "A set of trained model weights",
-   "A measure of prediction error"
+   "A collection of labelled examples",
+   "A step-by-step procedure for solving a problem"
   ],
-  "answer": 0,
+  "answer": 3,
   "explanation": "An algorithm is a finite, well-defined sequence of steps to solve a problem."
  },
  {
@@ -369,12 +369,12 @@
   "difficulty": "beginner",
   "q": "'Deep Learning' is best described as:",
   "options": [
+   "A relational database indexing method",
    "A rule-based expert system technique",
    "Machine learning using multi-layered neural networks",
-   "A relational database indexing method",
    "A keyword search-ranking rule"
   ],
-  "answer": 1,
+  "answer": 2,
   "explanation": "Deep learning uses neural networks with many layers to learn complex representations."
  },
  {
@@ -383,12 +383,12 @@
   "difficulty": "beginner",
   "q": "The basic computational unit of a neural network is the:",
   "options": [
-   "Neuron (node)",
+   "Decision tree",
    "Cluster centroid",
-   "Support vector",
-   "Decision tree"
+   "Neuron (node)",
+   "Support vector"
   ],
-  "answer": 0,
+  "answer": 2,
   "explanation": "Artificial neurons (nodes) are the building blocks of neural networks."
  },
  {
@@ -397,12 +397,12 @@
   "difficulty": "beginner",
   "q": "Which is a widely used deep-learning framework?",
   "options": [
-   "Nginx",
    "PyTorch",
-   "PostgreSQL",
-   "Kubernetes"
+   "Nginx",
+   "Kubernetes",
+   "PostgreSQL"
   ],
-  "answer": 1,
+  "answer": 0,
   "explanation": "PyTorch (and TensorFlow) are leading deep-learning frameworks."
  },
  {
@@ -411,12 +411,12 @@
   "difficulty": "beginner",
   "q": "'Generative AI' is distinguished by its ability to:",
   "options": [
-   "Produce new content such as text or images",
    "Only detect outliers in data",
    "Only assign inputs to fixed categories",
-   "Only rank items by relevance"
+   "Only rank items by relevance",
+   "Produce new content such as text or images"
   ],
-  "answer": 0,
+  "answer": 3,
   "explanation": "Generative AI creates new content rather than only classifying, ranking, or detecting."
  },
  {
@@ -426,11 +426,11 @@
   "q": "A large language model (LLM) is trained primarily to:",
   "options": [
    "Recognise objects in images",
-   "Predict and generate natural-language text",
    "Cluster numeric records",
+   "Predict and generate natural-language text",
    "Control a physical robot arm"
   ],
-  "answer": 1,
+  "answer": 2,
   "explanation": "LLMs learn to model and generate natural-language text."
  },
  {
@@ -439,12 +439,12 @@
   "difficulty": "beginner",
   "q": "In machine learning, a 'model' is:",
   "options": [
-   "The optimiser used in training",
+   "The raw dataset before training",
    "The accuracy metric reported at the end",
-   "The learned function mapping inputs to outputs",
-   "The raw dataset before training"
+   "The optimiser used in training",
+   "The learned function mapping inputs to outputs"
   ],
-  "answer": 2,
+  "answer": 3,
   "explanation": "An ML model is the learned mapping used for predictions."
  },
  {
@@ -453,12 +453,12 @@
   "difficulty": "beginner",
   "q": "Self-driving cars combine which AI capabilities?",
   "options": [
+   "Computer vision, sensor fusion, and machine learning",
    "Only rule-based spreadsheet logic",
    "Only audio transcription",
-   "Only text summarisation",
-   "Computer vision, sensor fusion, and machine learning"
+   "Only text summarisation"
   ],
-  "answer": 3,
+  "answer": 0,
   "explanation": "Autonomous vehicles rely on vision, sensors, and ML for perception and decisions."
  },
  {
@@ -467,12 +467,12 @@
   "difficulty": "beginner",
   "q": "A common healthcare application of AI is:",
   "options": [
-   "Replacing clinical judgement entirely",
-   "Setting building thermostats",
+   "Analysing medical images to assist diagnosis",
    "Autonomously performing surgery without oversight",
-   "Analysing medical images to assist diagnosis"
+   "Setting building thermostats",
+   "Replacing clinical judgement entirely"
   ],
-  "answer": 3,
+  "answer": 0,
   "explanation": "AI assists clinicians by analysing scans like X-rays and MRIs."
  },
  {
@@ -481,10 +481,10 @@
   "difficulty": "beginner",
   "q": "Facial recognition is primarily an application of:",
   "options": [
-   "Reinforcement Learning",
+   "Speech synthesis",
    "Computer Vision",
    "Natural Language Processing",
-   "Speech synthesis"
+   "Reinforcement Learning"
   ],
   "answer": 1,
   "explanation": "Facial recognition is a computer-vision task that identifies or verifies faces."
@@ -495,12 +495,12 @@
   "difficulty": "beginner",
   "q": "'Superintelligence' refers to AI that would:",
   "options": [
-   "Run only on a single device",
+   "Exceed the best human minds across virtually all domains",
    "Handle only one narrow dataset",
    "Match a calculator at arithmetic",
-   "Exceed the best human minds across virtually all domains"
+   "Run only on a single device"
   ],
-  "answer": 3,
+  "answer": 0,
   "explanation": "Superintelligence is a hypothetical AI surpassing top human ability broadly."
  },
  {
@@ -510,11 +510,11 @@
   "q": "An 'expert system' reaches decisions using:",
   "options": [
    "Only raw pixel inputs",
-   "A knowledge base plus inference rules",
    "Randomly sampled actions",
+   "A knowledge base plus inference rules",
    "Only reward feedback"
   ],
-  "answer": 1,
+  "answer": 2,
   "explanation": "Expert systems combine a knowledge base with an inference engine."
  },
  {
@@ -525,8 +525,8 @@
   "options": [
    "An input variable used for prediction",
    "The training learning rate",
-   "The predicted output value",
-   "The evaluation metric"
+   "The evaluation metric",
+   "The predicted output value"
   ],
   "answer": 0,
   "explanation": "A feature is a measurable input property used by the model."
@@ -539,8 +539,8 @@
   "options": [
    "An unlabelled cluster index",
    "The known correct output for a training example",
-   "A raw sensor reading",
-   "A tuning hyperparameter"
+   "A tuning hyperparameter",
+   "A raw sensor reading"
   ],
   "answer": 1,
   "explanation": "A label is the target output paired with a training input."
@@ -551,12 +551,12 @@
   "difficulty": "beginner",
   "q": "Spam filtering is typically framed as:",
   "options": [
-   "Unsupervised clustering",
-   "Reinforcement learning",
    "Supervised classification",
-   "Dimensionality reduction"
+   "Unsupervised clustering",
+   "Dimensionality reduction",
+   "Reinforcement learning"
   ],
-  "answer": 2,
+  "answer": 0,
   "explanation": "Spam filters learn from labelled spam/not-spam examples — supervised classification."
  },
  {
@@ -565,12 +565,12 @@
   "difficulty": "beginner",
   "q": "'Big Data' is best characterised by:",
   "options": [
+   "Containing only numeric columns",
    "Volume, velocity, and variety beyond traditional tools",
-   "A guaranteed clean, labelled structure",
    "Always fitting in a single spreadsheet",
-   "Containing only numeric columns"
+   "A guaranteed clean, labelled structure"
   ],
-  "answer": 0,
+  "answer": 1,
   "explanation": "Big Data refers to datasets whose scale/complexity strains conventional processing."
  },
  {
@@ -579,12 +579,12 @@
   "difficulty": "beginner",
   "q": "Which of the following is an open-source machine-learning library?",
   "options": [
-   "Terraform",
    "scikit-learn",
-   "Redis",
-   "Apache Kafka"
+   "Terraform",
+   "Apache Kafka",
+   "Redis"
   ],
-  "answer": 1,
+  "answer": 0,
   "explanation": "scikit-learn is a popular open-source ML library; the others are infrastructure tools."
  },
  {
@@ -593,12 +593,12 @@
   "difficulty": "beginner",
   "q": "'Robotics' integrates AI with:",
   "options": [
-   "Only web-page styling",
-   "Only relational queries",
    "Only text translation",
-   "Physical sensing and action in the real world"
+   "Only relational queries",
+   "Physical sensing and action in the real world",
+   "Only web-page styling"
   ],
-  "answer": 3,
+  "answer": 2,
   "explanation": "Robotics combines perception, reasoning, and physical action."
  },
  {
@@ -607,12 +607,12 @@
   "difficulty": "beginner",
   "q": "A model's 'prediction' is:",
   "options": [
-   "The dataset's row count",
    "Its estimated output for a given input",
+   "The labelled training target",
    "A stored hyperparameter",
-   "The labelled training target"
+   "The dataset's row count"
   ],
-  "answer": 1,
+  "answer": 0,
   "explanation": "A prediction is the model's estimated output for new input data."
  },
  {
@@ -621,12 +621,12 @@
   "difficulty": "beginner",
   "q": "Which is a genuine ethical concern in AI systems?",
   "options": [
-   "Using open-source libraries",
+   "Producing predictions too quickly",
    "Requiring only small models",
-   "Discriminatory bias in automated decisions",
-   "Producing predictions too quickly"
+   "Using open-source libraries",
+   "Discriminatory bias in automated decisions"
   ],
-  "answer": 2,
+  "answer": 3,
   "explanation": "Bias can cause unfair or discriminatory outcomes — a central ethical concern."
  },
  {
@@ -636,11 +636,11 @@
   "q": "A large language model generates text by:",
   "options": [
    "Rendering vector graphics",
-   "Predicting likely next tokens given the context",
    "Executing a database query",
-   "Retrieving a fixed pre-written answer"
+   "Retrieving a fixed pre-written answer",
+   "Predicting likely next tokens given the context"
   ],
-  "answer": 1,
+  "answer": 3,
   "explanation": "LLMs generate text by repeatedly predicting the next token."
  },
  {
@@ -649,12 +649,12 @@
   "difficulty": "beginner",
   "q": "Artificial neural networks are loosely inspired by:",
   "options": [
-   "The interconnected neurons of the brain",
+   "The layers of a network protocol stack",
    "The branching of decision trees",
-   "The structure of relational tables",
-   "The layers of a network protocol stack"
+   "The interconnected neurons of the brain",
+   "The structure of relational tables"
   ],
-  "answer": 0,
+  "answer": 2,
   "explanation": "Neural networks are loosely modelled on brain neurons and their connections."
  },
  {
@@ -664,11 +664,11 @@
   "q": "'Automation' powered by AI means:",
   "options": [
    "Approving every step manually",
+   "Slowing down work intentionally",
    "Removing a system's data inputs",
-   "Performing tasks with minimal human intervention",
-   "Slowing down work intentionally"
+   "Performing tasks with minimal human intervention"
   ],
-  "answer": 2,
+  "answer": 3,
   "explanation": "Automation uses technology to carry out tasks with little human effort."
  },
  {
@@ -677,12 +677,12 @@
   "difficulty": "beginner",
   "q": "Which is an example of unsupervised learning in practice?",
   "options": [
+   "Forecasting labelled product demand",
    "Segmenting customers into groups by behaviour",
    "Predicting a labelled exam score",
-   "Forecasting labelled product demand",
    "Flagging labelled fraudulent charges"
   ],
-  "answer": 0,
+  "answer": 1,
   "explanation": "Grouping data without predefined labels is unsupervised learning."
  },
  {
@@ -705,12 +705,12 @@
   "difficulty": "beginner",
   "q": "'Sentiment analysis' determines:",
   "options": [
-   "The emotional tone of a piece of text",
-   "The file encoding of a document",
+   "The grammatical language of the text",
    "The reading speed of a user",
-   "The grammatical language of the text"
+   "The file encoding of a document",
+   "The emotional tone of a piece of text"
   ],
-  "answer": 0,
+  "answer": 3,
   "explanation": "Sentiment analysis classifies text as positive, negative, or neutral."
  },
  {
@@ -719,12 +719,12 @@
   "difficulty": "beginner",
   "q": "Which describes 'supervised learning' most precisely?",
   "options": [
-   "Grouping data with no labels provided",
    "Reducing the number of input features",
-   "Learning a mapping from labelled input-output pairs",
-   "Learning purely from reward signals"
+   "Learning purely from reward signals",
+   "Grouping data with no labels provided",
+   "Learning a mapping from labelled input-output pairs"
   ],
-  "answer": 2,
+  "answer": 3,
   "explanation": "Supervised learning fits a function using known input-output examples."
  },
  {
@@ -733,12 +733,12 @@
   "difficulty": "beginner",
   "q": "An 'autonomous system' is one that can:",
   "options": [
-   "Function only with no sensors attached",
    "Make decisions and act without constant human control",
-   "Guarantee it never makes a mistake",
-   "Operate only with a human approving each step"
+   "Function only with no sensors attached",
+   "Operate only with a human approving each step",
+   "Guarantee it never makes a mistake"
   ],
-  "answer": 1,
+  "answer": 0,
   "explanation": "Autonomous systems perform tasks and decide independently."
  },
  {
@@ -747,12 +747,12 @@
   "difficulty": "beginner",
   "q": "Which is an AI-powered virtual assistant?",
   "options": [
-   "A spreadsheet formula bar",
-   "A file-compression utility",
+   "Google Assistant",
    "A relational database engine",
-   "Google Assistant"
+   "A spreadsheet formula bar",
+   "A file-compression utility"
   ],
-  "answer": 3,
+  "answer": 0,
   "explanation": "Google Assistant uses NLP and ML to respond to voice commands."
  },
  {
@@ -761,12 +761,12 @@
   "difficulty": "beginner",
   "q": "'ML' is the abbreviation for:",
   "options": [
-   "Multi-Layer routing",
    "Markov Logic",
-   "Machine Learning",
-   "Model Latency"
+   "Multi-Layer routing",
+   "Model Latency",
+   "Machine Learning"
   ],
-  "answer": 2,
+  "answer": 3,
   "explanation": "ML stands for Machine Learning, a core subfield of AI."
  },
  {
@@ -775,12 +775,12 @@
   "difficulty": "beginner",
   "q": "Recognising handwritten digits from images is an example of:",
   "options": [
-   "Computer-vision classification",
-   "Speech synthesis",
+   "Reward-based control",
    "Text translation",
-   "Reward-based control"
+   "Computer-vision classification",
+   "Speech synthesis"
   ],
-  "answer": 0,
+  "answer": 2,
   "explanation": "Classifying handwritten digits from images is a computer-vision task (e.g., MNIST)."
  },
  {
@@ -789,12 +789,12 @@
   "difficulty": "beginner",
   "q": "Which statement about present-day AI is TRUE?",
   "options": [
-   "It operates without any data",
    "It is generally self-aware",
-   "It fully matches human reasoning",
-   "It is predominantly narrow and task-specific"
+   "It operates without any data",
+   "It is predominantly narrow and task-specific",
+   "It fully matches human reasoning"
   ],
-  "answer": 3,
+  "answer": 2,
   "explanation": "Real-world AI today is narrow, focused on specific tasks."
  },
  {
@@ -803,10 +803,10 @@
   "difficulty": "beginner",
   "q": "In generative AI, a 'prompt' is:",
   "options": [
-   "The dataset used for pre-training",
+   "The number of model parameters",
    "The input instruction that guides the output",
-   "The metric used to grade outputs",
-   "The number of model parameters"
+   "The dataset used for pre-training",
+   "The metric used to grade outputs"
   ],
   "answer": 1,
   "explanation": "A prompt is the input that steers a generative model's response."
@@ -818,8 +818,8 @@
   "q": "'Data preprocessing' involves:",
   "options": [
    "Writing the model's inference API",
-   "Choosing which cloud region to deploy in",
    "Measuring final production latency",
+   "Choosing which cloud region to deploy in",
    "Cleaning and transforming raw data before training"
   ],
   "answer": 3,
@@ -831,12 +831,12 @@
   "difficulty": "beginner",
   "q": "A key business benefit of AI is:",
   "options": [
-   "Automating routine work and revealing insights from data",
    "Guaranteeing flawless results with no oversight",
+   "Automating routine work and revealing insights from data",
    "Removing the need for any strategy",
    "Eliminating all data requirements"
   ],
-  "answer": 0,
+  "answer": 1,
   "explanation": "AI helps automate tasks and extract insights, though human oversight remains important."
  }
 ]

@@ -7,8 +7,8 @@
   "options": [
    "Compute gradients of the loss w.r.t. weights",
    "Sort arrays",
-   "Compress data",
-   "Render images"
+   "Render images",
+   "Compress data"
   ],
   "answer": 0,
   "explanation": "Backpropagation applies the chain rule to compute gradients for weight updates."
@@ -20,11 +20,11 @@
   "q": "An 'activation function' introduces:",
   "options": [
    "More memory",
-   "Non-linearity into the network",
+   "Fewer layers",
    "Random labels",
-   "Fewer layers"
+   "Non-linearity into the network"
   ],
-  "answer": 1,
+  "answer": 3,
   "explanation": "Without non-linear activations, a network reduces to a linear model regardless of depth."
  },
  {
@@ -33,12 +33,12 @@
   "difficulty": "intermediate",
   "q": "Which activation function outputs zero for negatives and the input for positives?",
   "options": [
-   "Softmax",
-   "Sigmoid",
    "Tanh",
-   "ReLU"
+   "ReLU",
+   "Sigmoid",
+   "Softmax"
   ],
-  "answer": 3,
+  "answer": 1,
   "explanation": "ReLU(x)=max(0,x), zeroing negatives and passing positives unchanged."
  },
  {
@@ -47,12 +47,12 @@
   "difficulty": "intermediate",
   "q": "The 'softmax' function is typically used in the output layer for:",
   "options": [
-   "Regression",
-   "Clustering",
+   "Multi-class classification",
    "Compression",
-   "Multi-class classification"
+   "Regression",
+   "Clustering"
   ],
-  "answer": 3,
+  "answer": 0,
   "explanation": "Softmax converts logits into a probability distribution over classes."
  },
  {
@@ -61,12 +61,12 @@
   "difficulty": "intermediate",
   "q": "The 'vanishing gradient' problem primarily affects:",
   "options": [
+   "Deep networks with saturating activations",
    "K-means",
-   "Decision trees",
    "Shallow linear models",
-   "Deep networks with saturating activations"
+   "Decision trees"
   ],
-  "answer": 3,
+  "answer": 0,
   "explanation": "Gradients shrink through many layers with sigmoid/tanh, slowing early-layer learning."
  },
  {
@@ -76,11 +76,11 @@
   "q": "'Dropout' is a regularization technique that:",
   "options": [
    "Doubles the dataset",
-   "Deletes layers permanently",
    "Randomly deactivates neurons during training",
+   "Deletes layers permanently",
    "Encrypts weights"
   ],
-  "answer": 2,
+  "answer": 1,
   "explanation": "Dropout randomly zeros units during training to prevent co-adaptation and overfitting."
  },
  {
@@ -89,12 +89,12 @@
   "difficulty": "intermediate",
   "q": "A Convolutional Neural Network (CNN) is especially suited for:",
   "options": [
-   "Sorting numbers",
-   "Tabular text only",
+   "Image and spatial data",
    "Compressing audio only",
-   "Image and spatial data"
+   "Sorting numbers",
+   "Tabular text only"
   ],
-  "answer": 3,
+  "answer": 0,
   "explanation": "CNNs exploit spatial locality via convolution filters, ideal for images."
  },
  {
@@ -105,8 +105,8 @@
   "options": [
    "Downsample feature maps and reduce dimensions",
    "Encrypt data",
-   "Add color",
-   "Increase resolution"
+   "Increase resolution",
+   "Add color"
   ],
   "answer": 0,
   "explanation": "Pooling (e.g., max pooling) reduces spatial size, adding translation invariance."
@@ -117,12 +117,12 @@
   "difficulty": "intermediate",
   "q": "A Recurrent Neural Network (RNN) is designed for:",
   "options": [
+   "Sequential/time-series data",
    "Static images only",
-   "Sorting",
    "Clustering",
-   "Sequential/time-series data"
+   "Sorting"
   ],
-  "answer": 3,
+  "answer": 0,
   "explanation": "RNNs maintain hidden state across time steps, suited to sequences."
  },
  {
@@ -131,12 +131,12 @@
   "difficulty": "intermediate",
   "q": "LSTM networks were introduced to address:",
   "options": [
+   "The vanishing gradient problem in RNNs",
    "Image blur",
    "GPU overheating",
-   "The vanishing gradient problem in RNNs",
    "Slow disk access"
   ],
-  "answer": 2,
+  "answer": 0,
   "explanation": "LSTMs use gates and cell state to preserve long-range dependencies."
  },
  {
@@ -145,12 +145,12 @@
   "difficulty": "intermediate",
   "q": "What does 'GPU' provide for deep learning?",
   "options": [
-   "Better audio",
-   "Network security",
    "Extra disk space",
-   "Massively parallel computation for matrix operations"
+   "Massively parallel computation for matrix operations",
+   "Network security",
+   "Better audio"
   ],
-  "answer": 3,
+  "answer": 1,
   "explanation": "GPUs accelerate the parallel matrix/tensor math central to neural networks."
  },
  {
@@ -159,12 +159,12 @@
   "difficulty": "intermediate",
   "q": "'Batch normalization' helps by:",
   "options": [
-   "Deleting layers",
    "Reducing dataset size",
+   "Stabilizing and speeding up training via normalized layer inputs",
    "Encrypting gradients",
-   "Stabilizing and speeding up training via normalized layer inputs"
+   "Deleting layers"
   ],
-  "answer": 3,
+  "answer": 1,
   "explanation": "BatchNorm normalizes activations, reducing internal covariate shift and easing training."
  },
  {
@@ -173,10 +173,10 @@
   "difficulty": "intermediate",
   "q": "A 'fully connected (dense) layer' connects:",
   "options": [
-   "Nothing",
+   "Only adjacent pixels",
    "Every input neuron to every output neuron",
    "Random pairs",
-   "Only adjacent pixels"
+   "Nothing"
   ],
   "answer": 1,
   "explanation": "Dense layers connect all inputs to all outputs with learnable weights."
@@ -187,12 +187,12 @@
   "difficulty": "advanced",
   "q": "The 'Adam' optimizer combines ideas from:",
   "options": [
-   "BFS and DFS",
-   "Momentum and RMSProp (adaptive learning rates)",
    "K-means and PCA",
-   "SVM and KNN"
+   "BFS and DFS",
+   "SVM and KNN",
+   "Momentum and RMSProp (adaptive learning rates)"
   ],
-  "answer": 1,
+  "answer": 3,
   "explanation": "Adam blends momentum with per-parameter adaptive learning rates."
  },
  {
@@ -202,11 +202,11 @@
   "q": "A 'residual connection' (ResNet) helps by:",
   "options": [
    "Adding random noise",
-   "Compressing images",
    "Allowing gradients to skip layers, easing very deep training",
+   "Compressing images",
    "Removing all layers"
   ],
-  "answer": 2,
+  "answer": 1,
   "explanation": "Skip connections let information/gradients bypass layers, enabling very deep nets."
  },
  {
@@ -215,9 +215,9 @@
   "difficulty": "advanced",
   "q": "'Transfer learning' involves:",
   "options": [
-   "Training from scratch always",
-   "Reusing a pre-trained model on a new related task",
    "Deleting weights",
+   "Reusing a pre-trained model on a new related task",
+   "Training from scratch always",
    "Moving files between disks"
   ],
   "answer": 1,
@@ -230,11 +230,11 @@
   "q": "'Fine-tuning' a pre-trained model means:",
   "options": [
    "Rendering graphics",
+   "Compressing the dataset",
    "Deleting the model",
-   "Continuing training on new task-specific data",
-   "Compressing the dataset"
+   "Continuing training on new task-specific data"
   ],
-  "answer": 2,
+  "answer": 3,
   "explanation": "Fine-tuning updates a pre-trained model's weights on the target dataset."
  },
  {
@@ -244,11 +244,11 @@
   "q": "A Generative Adversarial Network (GAN) consists of:",
   "options": [
    "A single classifier",
-   "A clustering module",
+   "A generator and a discriminator competing",
    "Two identical encoders",
-   "A generator and a discriminator competing"
+   "A clustering module"
   ],
-  "answer": 3,
+  "answer": 1,
   "explanation": "In a GAN, the generator creates fakes while the discriminator distinguishes real from fake."
  },
  {
@@ -258,8 +258,8 @@
   "q": "In a GAN, the generator's goal is to:",
   "options": [
    "Produce samples that fool the discriminator",
-   "Classify data",
    "Cluster inputs",
+   "Classify data",
    "Compute gradients only"
   ],
   "answer": 0,
@@ -271,12 +271,12 @@
   "difficulty": "advanced",
   "q": "An 'autoencoder' is trained to:",
   "options": [
-   "Classify with labels",
    "Play games",
+   "Reconstruct its input through a compressed representation",
    "Rank web pages",
-   "Reconstruct its input through a compressed representation"
+   "Classify with labels"
   ],
-  "answer": 3,
+  "answer": 1,
   "explanation": "Autoencoders learn a compact latent code by reconstructing the input."
  },
  {
@@ -285,10 +285,10 @@
   "difficulty": "advanced",
   "q": "The 'latent space' of an autoencoder is:",
   "options": [
-   "The loss value",
    "The raw pixels",
+   "The output labels",
    "The compressed internal representation of data",
-   "The output labels"
+   "The loss value"
   ],
   "answer": 2,
   "explanation": "The latent space is the low-dimensional bottleneck encoding of the input."
@@ -299,12 +299,12 @@
   "difficulty": "advanced",
   "q": "A Variational Autoencoder (VAE) differs from a plain autoencoder by:",
   "options": [
-   "Learning a probabilistic latent distribution",
-   "Using no encoder",
+   "Removing the decoder",
    "Requiring labels",
-   "Removing the decoder"
+   "Using no encoder",
+   "Learning a probabilistic latent distribution"
   ],
-  "answer": 0,
+  "answer": 3,
   "explanation": "VAEs model the latent space as a probability distribution, enabling generation."
  },
  {
@@ -313,12 +313,12 @@
   "difficulty": "advanced",
   "q": "'Weight initialization' matters because:",
   "options": [
-   "It adds features",
-   "It changes the dataset",
    "Poor initialization can slow or break training",
+   "It changes the dataset",
+   "It adds features",
    "It encrypts the model"
   ],
-  "answer": 2,
+  "answer": 0,
   "explanation": "Good initialization (e.g., Xavier/He) keeps signal/gradients well-scaled early on."
  },
  {
@@ -327,12 +327,12 @@
   "difficulty": "advanced",
   "q": "A 'convolution filter (kernel)' in a CNN:",
   "options": [
-   "Stores labels",
-   "Encrypts images",
    "Sorts pixels",
-   "Slides over input detecting local patterns"
+   "Stores labels",
+   "Slides over input detecting local patterns",
+   "Encrypts images"
   ],
-  "answer": 3,
+  "answer": 2,
   "explanation": "Kernels learn to detect features like edges by convolving across the input."
  },
  {
@@ -341,12 +341,12 @@
   "difficulty": "advanced",
   "q": "'Stride' in a convolution controls:",
   "options": [
-   "How far the filter moves each step",
-   "The label count",
    "The batch size",
-   "The color depth"
+   "How far the filter moves each step",
+   "The color depth",
+   "The label count"
   ],
-  "answer": 0,
+  "answer": 1,
   "explanation": "Stride sets the step size of the kernel, affecting output spatial size."
  },
  {
@@ -356,11 +356,11 @@
   "q": "'Padding' in CNNs is used to:",
   "options": [
    "Add random noise",
+   "Delete channels",
    "Increase learning rate",
-   "Control output size and preserve border information",
-   "Delete channels"
+   "Control output size and preserve border information"
   ],
-  "answer": 2,
+  "answer": 3,
   "explanation": "Padding adds border values so convolutions can retain spatial dimensions."
  },
  {
@@ -369,8 +369,8 @@
   "difficulty": "advanced",
   "q": "A 'feature map' in a CNN is:",
   "options": [
-   "The label set",
    "The optimizer",
+   "The label set",
    "The output of applying a filter to the input",
    "The dataset"
   ],
@@ -383,12 +383,12 @@
   "difficulty": "advanced",
   "q": "'Data augmentation' for images includes techniques like:",
   "options": [
-   "Encrypting labels",
-   "Rotation, flipping, cropping, and scaling",
+   "Reducing epochs",
    "Deleting the dataset",
-   "Reducing epochs"
+   "Encrypting labels",
+   "Rotation, flipping, cropping, and scaling"
   ],
-  "answer": 1,
+  "answer": 3,
   "explanation": "Augmentation expands training variety, improving generalization."
  },
  {
@@ -397,10 +397,10 @@
   "difficulty": "advanced",
   "q": "The 'exploding gradient' problem is often mitigated by:",
   "options": [
-   "Removing activations",
+   "Using larger learning rates",
    "Adding layers",
    "Gradient clipping",
-   "Using larger learning rates"
+   "Removing activations"
   ],
   "answer": 2,
   "explanation": "Gradient clipping caps gradient magnitude to prevent unstable updates."
@@ -412,11 +412,11 @@
   "q": "'Weight decay' is another name for:",
   "options": [
    "Dropout",
-   "Batch norm",
    "L2 regularization",
-   "Data augmentation"
+   "Data augmentation",
+   "Batch norm"
   ],
-  "answer": 2,
+  "answer": 1,
   "explanation": "Weight decay penalizes large weights, equivalent to L2 regularization."
  },
  {
@@ -425,12 +425,12 @@
   "difficulty": "intermediate",
   "q": "'PyTorch' and 'TensorFlow' are primarily:",
   "options": [
-   "Databases",
    "Deep learning frameworks",
-   "Operating systems",
-   "Web browsers"
+   "Databases",
+   "Web browsers",
+   "Operating systems"
   ],
-  "answer": 1,
+  "answer": 0,
   "explanation": "Both are leading frameworks for building and training neural networks."
  },
  {
@@ -439,10 +439,10 @@
   "difficulty": "advanced",
   "q": "A 'tensor' is best described as:",
   "options": [
-   "A single scalar only",
+   "A network packet",
    "A multi-dimensional array",
-   "A database table",
-   "A network packet"
+   "A single scalar only",
+   "A database table"
   ],
   "answer": 1,
   "explanation": "Tensors generalize scalars, vectors, and matrices to n dimensions."
@@ -453,10 +453,10 @@
   "difficulty": "advanced",
   "q": "'Gradient descent with momentum' helps by:",
   "options": [
-   "Randomizing labels",
    "Deleting gradients",
+   "Reducing layers",
    "Accelerating convergence and dampening oscillations",
-   "Reducing layers"
+   "Randomizing labels"
   ],
   "answer": 2,
   "explanation": "Momentum accumulates past gradients to smooth and speed up descent."
@@ -468,11 +468,11 @@
   "q": "The 'universal approximation theorem' states a neural network can:",
   "options": [
    "Solve any problem instantly",
+   "Run without data",
    "Approximate any continuous function given enough neurons",
-   "Never overfit",
-   "Run without data"
+   "Never overfit"
   ],
-  "answer": 1,
+  "answer": 2,
   "explanation": "A sufficiently wide network can approximate any continuous function to arbitrary accuracy."
  },
  {
@@ -481,12 +481,12 @@
   "difficulty": "advanced",
   "q": "A 'learning rate scheduler' is used to:",
   "options": [
+   "Label data",
    "Schedule GPU cooling",
    "Manage disk space",
-   "Adjust the learning rate during training",
-   "Label data"
+   "Adjust the learning rate during training"
   ],
-  "answer": 2,
+  "answer": 3,
   "explanation": "Schedulers (step, cosine, warmup) vary the learning rate for better convergence."
  },
  {
@@ -495,12 +495,12 @@
   "difficulty": "advanced",
   "q": "'Bidirectional RNNs' process sequences:",
   "options": [
+   "Randomly",
    "In both forward and backward directions",
-   "Only forward",
    "Only once",
-   "Randomly"
+   "Only forward"
   ],
-  "answer": 0,
+  "answer": 1,
   "explanation": "Bi-RNNs read the sequence both ways to capture past and future context."
  },
  {
@@ -509,12 +509,12 @@
   "difficulty": "advanced",
   "q": "The 'GRU' (Gated Recurrent Unit) is:",
   "options": [
-   "An optimizer",
    "A simpler gated alternative to the LSTM",
+   "An optimizer",
    "A loss function",
    "A CNN layer"
   ],
-  "answer": 1,
+  "answer": 0,
   "explanation": "GRUs use fewer gates than LSTMs while addressing long-term dependencies."
  },
  {
@@ -523,12 +523,12 @@
   "difficulty": "advanced",
   "q": "'Embedding layers' convert:",
   "options": [
-   "Numbers into labels",
-   "Images into text",
    "Audio into video",
-   "Discrete tokens into dense vectors"
+   "Images into text",
+   "Discrete tokens into dense vectors",
+   "Numbers into labels"
   ],
-  "answer": 3,
+  "answer": 2,
   "explanation": "Embeddings map categorical items (like words) to learned dense vectors."
  },
  {
@@ -537,12 +537,12 @@
   "difficulty": "advanced",
   "q": "A model with very low training loss but high test loss is likely:",
   "options": [
-   "Overfitting",
    "Perfectly generalizing",
    "Underfitting",
+   "Overfitting",
    "Untrained"
   ],
-  "answer": 0,
+  "answer": 2,
   "explanation": "Low train / high test error is the classic signature of overfitting."
  },
  {
@@ -551,12 +551,12 @@
   "difficulty": "advanced",
   "q": "'Xavier (Glorot) initialization' is designed for:",
   "options": [
-   "Keeping variance stable across layers",
    "Deleting neurons",
    "Encrypting weights",
-   "Sorting inputs"
+   "Sorting inputs",
+   "Keeping variance stable across layers"
   ],
-  "answer": 0,
+  "answer": 3,
   "explanation": "Xavier init scales weights to maintain signal variance, aiding convergence."
  },
  {
@@ -565,12 +565,12 @@
   "difficulty": "advanced",
   "q": "'He initialization' is particularly suited for:",
   "options": [
-   "ReLU-based networks",
    "Sigmoid-only networks",
    "Linear regression",
-   "Decision trees"
+   "Decision trees",
+   "ReLU-based networks"
   ],
-  "answer": 0,
+  "answer": 3,
   "explanation": "He init accounts for ReLU's properties to keep variance stable."
  },
  {
@@ -579,12 +579,12 @@
   "difficulty": "advanced",
   "q": "A 'deep' neural network is typically defined as one with:",
   "options": [
-   "Exactly one layer",
+   "Many hidden layers",
    "No layers",
    "Only an input layer",
-   "Many hidden layers"
+   "Exactly one layer"
   ],
-  "answer": 3,
+  "answer": 0,
   "explanation": "Depth refers to having multiple hidden layers enabling hierarchical features."
  },
  {
@@ -593,12 +593,12 @@
   "difficulty": "advanced",
   "q": "'Semantic segmentation' assigns a class label to:",
   "options": [
+   "Audio frames",
    "The whole image only",
    "Random pixels",
-   "Every pixel in an image",
-   "Audio frames"
+   "Every pixel in an image"
   ],
-  "answer": 2,
+  "answer": 3,
   "explanation": "Semantic segmentation classifies each pixel, e.g., road vs. car vs. sky."
  },
  {
@@ -607,10 +607,10 @@
   "difficulty": "advanced",
   "q": "'Object detection' outputs:",
   "options": [
+   "Pixel-wise masks only",
    "Only a single label",
-   "Text summaries",
    "Bounding boxes and class labels for objects",
-   "Pixel-wise masks only"
+   "Text summaries"
   ],
   "answer": 2,
   "explanation": "Detection localizes objects with boxes and classifies each."
@@ -621,12 +621,12 @@
   "difficulty": "advanced",
   "q": "'YOLO' in computer vision stands for:",
   "options": [
-   "Yielding Overlapping Labels Only",
-   "Yield Optimized Layer Output",
    "Your Own Learning Objective",
-   "You Only Look Once"
+   "Yield Optimized Layer Output",
+   "You Only Look Once",
+   "Yielding Overlapping Labels Only"
   ],
-  "answer": 3,
+  "answer": 2,
   "explanation": "YOLO is a fast, single-pass real-time object detection architecture."
  },
  {
@@ -637,10 +637,10 @@
   "options": [
    "A hardware metric",
    "A dataset",
-   "The surface of loss values over the parameter space",
-   "A UI element"
+   "A UI element",
+   "The surface of loss values over the parameter space"
   ],
-  "answer": 2,
+  "answer": 3,
   "explanation": "The loss landscape visualizes how loss varies with model parameters."
  },
  {
@@ -651,10 +651,10 @@
   "options": [
    "Encrypt outputs",
    "Increase model size",
-   "Mimic a larger 'teacher' model",
-   "Delete the teacher"
+   "Delete the teacher",
+   "Mimic a larger 'teacher' model"
   ],
-  "answer": 2,
+  "answer": 3,
   "explanation": "A compact 'student' learns from a larger 'teacher' to retain performance efficiently."
  },
  {
@@ -663,12 +663,12 @@
   "difficulty": "advanced",
   "q": "'Quantization' of a neural network:",
   "options": [
-   "Reduces numerical precision to shrink and speed up the model",
    "Adds more parameters",
+   "Increases precision",
    "Deletes layers",
-   "Increases precision"
+   "Reduces numerical precision to shrink and speed up the model"
   ],
-  "answer": 0,
+  "answer": 3,
   "explanation": "Quantization uses lower-bit representations (e.g., int8) for efficiency."
  },
  {
@@ -677,12 +677,12 @@
   "difficulty": "advanced",
   "q": "'Pruning' a neural network involves:",
   "options": [
-   "Adding random layers",
-   "Removing unimportant weights/neurons",
+   "Doubling parameters",
    "Encrypting the model",
-   "Doubling parameters"
+   "Removing unimportant weights/neurons",
+   "Adding random layers"
   ],
-  "answer": 1,
+  "answer": 2,
   "explanation": "Pruning eliminates redundant parameters to compress the model."
  },
  {
@@ -691,9 +691,9 @@
   "difficulty": "advanced",
   "q": "The 'receptive field' of a neuron in a CNN is:",
   "options": [
-   "Its label",
-   "Its bias term",
    "Its learning rate",
+   "Its bias term",
+   "Its label",
    "The region of input that influences it"
   ],
   "answer": 3,
@@ -705,12 +705,12 @@
   "difficulty": "advanced",
   "q": "'Mixed precision training' uses:",
   "options": [
-   "Only 64-bit floats",
-   "Integers only",
+   "Both 16-bit and 32-bit floats to speed training",
    "No floats",
-   "Both 16-bit and 32-bit floats to speed training"
+   "Only 64-bit floats",
+   "Integers only"
   ],
-  "answer": 3,
+  "answer": 0,
   "explanation": "Mixed precision leverages fast FP16 math while keeping FP32 where needed for stability."
  },
  {
@@ -719,12 +719,12 @@
   "difficulty": "advanced",
   "q": "A 'siamese network' is commonly used for:",
   "options": [
+   "Single-image classification only",
    "Sorting text",
    "Learning similarity between pairs of inputs",
-   "Clustering pixels",
-   "Single-image classification only"
+   "Clustering pixels"
   ],
-  "answer": 1,
+  "answer": 2,
   "explanation": "Siamese networks share weights across twin branches to compare inputs (e.g., face verification)."
  },
  {
@@ -733,12 +733,12 @@
   "difficulty": "advanced",
   "q": "'Contrastive learning' trains models by:",
   "options": [
-   "Random labeling",
    "Pulling similar samples together and pushing dissimilar apart",
    "Ignoring similarity",
+   "Random labeling",
    "Deleting samples"
   ],
-  "answer": 1,
+  "answer": 0,
   "explanation": "Contrastive objectives learn representations by comparing positive and negative pairs."
  },
  {
@@ -748,11 +748,11 @@
   "q": "'Self-supervised learning' generates labels from:",
   "options": [
    "External APIs",
-   "The data itself (pretext tasks)",
+   "Human annotators only",
    "Random noise",
-   "Human annotators only"
+   "The data itself (pretext tasks)"
   ],
-  "answer": 1,
+  "answer": 3,
   "explanation": "Self-supervision creates supervisory signals from unlabeled data automatically."
  },
  {
@@ -761,12 +761,12 @@
   "difficulty": "advanced",
   "q": "The 'dead ReLU' problem occurs when:",
   "options": [
+   "Labels are missing",
    "Neurons output zero for all inputs and stop learning",
-   "The GPU fails",
    "ReLU outputs are too large",
-   "Labels are missing"
+   "The GPU fails"
   ],
-  "answer": 0,
+  "answer": 1,
   "explanation": "If a ReLU unit always outputs zero, its gradient is zero and it stops updating."
  },
  {
@@ -777,10 +777,10 @@
   "options": [
    "Removing negatives entirely",
    "Adding dropout",
-   "Allowing a small negative slope",
-   "Increasing depth"
+   "Increasing depth",
+   "Allowing a small negative slope"
   ],
-  "answer": 2,
+  "answer": 3,
   "explanation": "Leaky ReLU permits a small gradient for negative inputs to keep units alive."
  },
  {
@@ -789,12 +789,12 @@
   "difficulty": "advanced",
   "q": "'Transposed convolution' is often used for:",
   "options": [
-   "Downsampling only",
-   "Sorting features",
+   "Upsampling in generative and segmentation networks",
    "Encrypting data",
-   "Upsampling in generative and segmentation networks"
+   "Sorting features",
+   "Downsampling only"
   ],
-  "answer": 3,
+  "answer": 0,
   "explanation": "Transposed (deconv) layers increase spatial resolution, e.g., in decoders."
  },
  {
@@ -804,11 +804,11 @@
   "q": "'Depthwise separable convolutions' (e.g., MobileNet) aim to:",
   "options": [
    "Increase model size",
-   "Add labels",
    "Reduce computation and parameters",
+   "Add labels",
    "Remove all filters"
   ],
-  "answer": 2,
+  "answer": 1,
   "explanation": "They factor convolutions into depthwise + pointwise steps for efficiency."
  },
  {
@@ -817,12 +817,12 @@
   "difficulty": "advanced",
   "q": "A 'checkpoint' during training saves:",
   "options": [
-   "Model weights/state to resume or evaluate later",
    "The GPU driver",
    "The dataset",
-   "User credentials"
+   "User credentials",
+   "Model weights/state to resume or evaluate later"
   ],
-  "answer": 0,
+  "answer": 3,
   "explanation": "Checkpoints persist model state so training can resume or best models be restored."
  },
  {
@@ -831,12 +831,12 @@
   "difficulty": "advanced",
   "q": "'Gradient accumulation' is used to:",
   "options": [
-   "Simulate larger batch sizes with limited memory",
-   "Encrypt weights",
    "Delete gradients",
-   "Speed up disk I/O"
+   "Speed up disk I/O",
+   "Simulate larger batch sizes with limited memory",
+   "Encrypt weights"
   ],
-  "answer": 0,
+  "answer": 2,
   "explanation": "It sums gradients over several mini-batches before an update, emulating a big batch."
  },
  {
@@ -845,12 +845,12 @@
   "difficulty": "advanced",
   "q": "'Catastrophic forgetting' occurs when a model:",
   "options": [
-   "Uses too little memory",
-   "Overfits the test set",
    "Forgets previous tasks after training on new ones",
-   "Never learns"
+   "Uses too little memory",
+   "Never learns",
+   "Overfits the test set"
   ],
-  "answer": 2,
+  "answer": 0,
   "explanation": "Sequential training on new tasks can overwrite knowledge of earlier tasks."
  },
  {
@@ -859,12 +859,12 @@
   "difficulty": "advanced",
   "q": "'Layer normalization' differs from batch norm by normalizing:",
   "options": [
+   "Across the batch dimension",
    "Across features of a single sample",
-   "Across epochs",
    "Across labels",
-   "Across the batch dimension"
+   "Across epochs"
   ],
-  "answer": 0,
+  "answer": 1,
   "explanation": "LayerNorm normalizes over features per-sample, useful in transformers and RNNs."
  },
  {
@@ -873,12 +873,12 @@
   "difficulty": "advanced",
   "q": "An 'attention mechanism' allows a model to:",
   "options": [
-   "Delete inputs",
-   "Compress files",
+   "Randomize weights",
    "Focus on relevant parts of the input",
-   "Randomize weights"
+   "Delete inputs",
+   "Compress files"
   ],
-  "answer": 2,
+  "answer": 1,
   "explanation": "Attention weights different input elements by relevance when producing outputs."
  },
  {
@@ -887,12 +887,12 @@
   "difficulty": "advanced",
   "q": "The number of 'parameters' in a model refers to:",
   "options": [
-   "The number of epochs",
-   "The GPU count",
    "The learnable weights and biases",
-   "The dataset size"
+   "The dataset size",
+   "The number of epochs",
+   "The GPU count"
   ],
-  "answer": 2,
+  "answer": 0,
   "explanation": "Parameters are the values learned during training; more can mean higher capacity."
  },
  {
@@ -901,12 +901,12 @@
   "difficulty": "advanced",
   "q": "'Zero-padding' followed by a 3x3 'same' convolution keeps the output:",
   "options": [
-   "Twice the size",
-   "Half the size",
    "The same spatial size as the input",
-   "A single value"
+   "A single value",
+   "Twice the size",
+   "Half the size"
   ],
-  "answer": 2,
+  "answer": 0,
   "explanation": "'Same' padding preserves the input's height and width in the output."
  },
  {
@@ -916,9 +916,9 @@
   "q": "'Ablation study' in deep learning means:",
   "options": [
    "Removing components to measure their impact",
-   "Deploying to production",
+   "Adding more data",
    "Encrypting the model",
-   "Adding more data"
+   "Deploying to production"
   ],
   "answer": 0,
   "explanation": "Ablation removes or alters parts of a system to understand their contribution."
@@ -929,12 +929,12 @@
   "difficulty": "advanced",
   "q": "'FLOPs' is a measure of:",
   "options": [
-   "Disk space",
-   "Network latency",
+   "Computational cost (floating point operations)",
    "Label count",
-   "Computational cost (floating point operations)"
+   "Disk space",
+   "Network latency"
   ],
-  "answer": 3,
+  "answer": 0,
   "explanation": "FLOPs estimate the number of floating-point operations a model requires."
  },
  {
@@ -943,8 +943,8 @@
   "difficulty": "advanced",
   "q": "'Overparameterization' in modern deep nets often:",
   "options": [
-   "Always causes failure",
    "Prevents training",
+   "Always causes failure",
    "Still generalizes well despite many parameters",
    "Removes features"
   ],
@@ -957,12 +957,12 @@
   "difficulty": "advanced",
   "q": "'Warmup' in learning rate schedules means:",
   "options": [
-   "Cooling the GPU",
    "Gradually increasing the LR at the start of training",
+   "Cooling the GPU",
    "Deleting early epochs",
    "Freezing all layers"
   ],
-  "answer": 1,
+  "answer": 0,
   "explanation": "Warmup ramps the learning rate up initially to stabilize early training."
  },
  {
@@ -971,12 +971,12 @@
   "difficulty": "advanced",
   "q": "A 'confusion' between epochs and iterations: one iteration is:",
   "options": [
-   "One weight update (one batch)",
    "One full dataset pass",
+   "One feature",
    "One layer",
-   "One feature"
+   "One weight update (one batch)"
   ],
-  "answer": 0,
+  "answer": 3,
   "explanation": "An iteration processes one batch and performs one update; an epoch is many iterations."
  }
 ]

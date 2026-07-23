@@ -5,12 +5,12 @@
   "difficulty": "intermediate",
   "q": "'Tokenization' in NLP is the process of:",
   "options": [
+   "Splitting text into smaller units (tokens)",
    "Encrypting text",
    "Translating languages",
-   "Compressing files",
-   "Splitting text into smaller units (tokens)"
+   "Compressing files"
   ],
-  "answer": 3,
+  "answer": 0,
   "explanation": "Tokenization breaks text into words, subwords, or characters for processing."
  },
  {
@@ -19,12 +19,12 @@
   "difficulty": "intermediate",
   "q": "'Stop words' are:",
   "options": [
+   "Punctuation only",
    "Common words often filtered out (the, is, and)",
-   "Rare technical terms",
    "Numbers",
-   "Punctuation only"
+   "Rare technical terms"
   ],
-  "answer": 0,
+  "answer": 1,
   "explanation": "Stop words carry little meaning and are sometimes removed before analysis."
  },
  {
@@ -34,8 +34,8 @@
   "q": "'Stemming' reduces words to their:",
   "options": [
    "Root/base form by chopping affixes",
-   "Plural form",
    "Uppercase",
+   "Plural form",
    "Synonyms"
   ],
   "answer": 0,
@@ -47,12 +47,12 @@
   "difficulty": "intermediate",
   "q": "'Lemmatization' differs from stemming by:",
   "options": [
+   "Adding suffixes",
    "Producing valid dictionary base forms using context",
    "Being random",
-   "Removing all vowels",
-   "Adding suffixes"
+   "Removing all vowels"
   ],
-  "answer": 0,
+  "answer": 1,
   "explanation": "Lemmatization maps words to their proper lemma (e.g., 'better' to 'good')."
  },
  {
@@ -62,11 +62,11 @@
   "q": "'Bag of Words' represents text as:",
   "options": [
    "A sequence with order",
-   "An image",
    "Audio",
-   "Word counts ignoring order"
+   "Word counts ignoring order",
+   "An image"
   ],
-  "answer": 3,
+  "answer": 2,
   "explanation": "BoW counts word occurrences, discarding grammar and word order."
  },
  {
@@ -75,12 +75,12 @@
   "difficulty": "intermediate",
   "q": "'TF-IDF' weighs words by:",
   "options": [
-   "Word length",
-   "Alphabetical order",
    "Random values",
-   "Term frequency and inverse document frequency"
+   "Term frequency and inverse document frequency",
+   "Alphabetical order",
+   "Word length"
   ],
-  "answer": 3,
+  "answer": 1,
   "explanation": "TF-IDF boosts frequent-in-doc but rare-across-corpus terms."
  },
  {
@@ -89,12 +89,12 @@
   "difficulty": "intermediate",
   "q": "'Word2Vec' produces:",
   "options": [
-   "One-hot vectors",
-   "Dense word embeddings capturing semantics",
+   "Audio spectrograms",
    "Images",
-   "Audio spectrograms"
+   "Dense word embeddings capturing semantics",
+   "One-hot vectors"
   ],
-  "answer": 1,
+  "answer": 2,
   "explanation": "Word2Vec learns vector representations where similar words are near each other."
  },
  {
@@ -103,12 +103,12 @@
   "difficulty": "intermediate",
   "q": "In word embeddings, 'king - man + woman' famously approximates:",
   "options": [
-   "queen",
    "child",
-   "prince",
-   "throne"
+   "queen",
+   "throne",
+   "prince"
   ],
-  "answer": 0,
+  "answer": 1,
   "explanation": "This analogy illustrates that embeddings capture semantic relationships."
  },
  {
@@ -117,9 +117,9 @@
   "difficulty": "intermediate",
   "q": "'Named Entity Recognition' (NER) identifies:",
   "options": [
-   "Only verbs",
-   "Entities like people, places, organizations",
    "Sentence length",
+   "Entities like people, places, organizations",
+   "Only verbs",
    "Font size"
   ],
   "answer": 1,
@@ -132,11 +132,11 @@
   "q": "'Part-of-Speech tagging' assigns:",
   "options": [
    "Numbers to letters",
-   "Colors to words",
    "Grammatical categories (noun, verb) to words",
+   "Colors to words",
    "Random labels"
   ],
-  "answer": 2,
+  "answer": 1,
   "explanation": "POS tagging labels each token with its grammatical role."
  },
  {
@@ -145,12 +145,12 @@
   "difficulty": "intermediate",
   "q": "An 'n-gram' is:",
   "options": [
-   "A neural layer",
    "A contiguous sequence of n items (words/chars)",
-   "A single letter",
-   "A dataset"
+   "A neural layer",
+   "A dataset",
+   "A single letter"
   ],
-  "answer": 1,
+  "answer": 0,
   "explanation": "N-grams capture local context, e.g., bigrams are pairs of consecutive words."
  },
  {
@@ -161,10 +161,10 @@
   "options": [
    "Into code only",
    "Into images",
-   "Into audio only",
-   "From one language to another"
+   "From one language to another",
+   "Into audio only"
   ],
-  "answer": 3,
+  "answer": 2,
   "explanation": "MT systems (e.g., Google Translate) translate between languages."
  },
  {
@@ -173,12 +173,12 @@
   "difficulty": "advanced",
   "q": "'Cosine similarity' between embeddings measures:",
   "options": [
+   "The token count",
    "The word length",
-   "The angle-based similarity of two vectors",
    "The file size",
-   "The token count"
+   "The angle-based similarity of two vectors"
   ],
-  "answer": 1,
+  "answer": 3,
   "explanation": "Cosine similarity compares vector orientation, common for semantic similarity."
  },
  {
@@ -187,12 +187,12 @@
   "difficulty": "advanced",
   "q": "'Seq2Seq' models map:",
   "options": [
-   "An image to a label",
    "A number to a color",
    "Audio to nothing",
-   "An input sequence to an output sequence"
+   "An input sequence to an output sequence",
+   "An image to a label"
   ],
-  "answer": 3,
+  "answer": 2,
   "explanation": "Sequence-to-sequence models (encoder-decoder) power translation and summarization."
  },
  {
@@ -201,12 +201,12 @@
   "difficulty": "advanced",
   "q": "The 'attention mechanism' in seq2seq helps by:",
   "options": [
-   "Deleting the encoder",
    "Letting the decoder focus on relevant input positions",
    "Compressing text",
+   "Deleting the encoder",
    "Randomizing outputs"
   ],
-  "answer": 1,
+  "answer": 0,
   "explanation": "Attention aligns output steps with the most relevant input tokens."
  },
  {
@@ -215,12 +215,12 @@
   "difficulty": "advanced",
   "q": "'BLEU score' is used to evaluate:",
   "options": [
-   "CPU speed",
-   "Image sharpness",
    "Audio volume",
-   "Machine translation quality"
+   "Machine translation quality",
+   "Image sharpness",
+   "CPU speed"
   ],
-  "answer": 3,
+  "answer": 1,
   "explanation": "BLEU compares machine translations to reference translations via n-gram overlap."
  },
  {
@@ -229,12 +229,12 @@
   "difficulty": "advanced",
   "q": "'Subword tokenization' (e.g., BPE) helps handle:",
   "options": [
-   "Rare and out-of-vocabulary words",
-   "Image pixels",
    "Audio frames",
-   "Only numbers"
+   "Only numbers",
+   "Rare and out-of-vocabulary words",
+   "Image pixels"
   ],
-  "answer": 0,
+  "answer": 2,
   "explanation": "Byte-Pair Encoding splits rare words into known subword units."
  },
  {
@@ -244,8 +244,8 @@
   "q": "'Coreference resolution' determines:",
   "options": [
    "The sentence length",
-   "The language",
    "The font",
+   "The language",
    "Which words refer to the same entity"
   ],
   "answer": 3,
@@ -257,12 +257,12 @@
   "difficulty": "advanced",
   "q": "'GloVe' embeddings are trained using:",
   "options": [
-   "Images",
-   "Only local windows",
    "Reinforcement learning",
-   "Global word co-occurrence statistics"
+   "Only local windows",
+   "Global word co-occurrence statistics",
+   "Images"
   ],
-  "answer": 3,
+  "answer": 2,
   "explanation": "GloVe factorizes a global word co-occurrence matrix to learn vectors."
  },
  {
@@ -271,12 +271,12 @@
   "difficulty": "advanced",
   "q": "A 'language model' predicts:",
   "options": [
-   "The probability of the next token/word",
+   "The audio pitch",
    "The file size",
    "The image class",
-   "The audio pitch"
+   "The probability of the next token/word"
   ],
-  "answer": 0,
+  "answer": 3,
   "explanation": "Language models estimate the likelihood of sequences, predicting upcoming tokens."
  },
  {
@@ -285,12 +285,12 @@
   "difficulty": "advanced",
   "q": "'Perplexity' is a metric that measures:",
   "options": [
+   "How well a language model predicts a sample (lower is better)",
    "GPU load",
-   "Image quality",
    "Disk usage",
-   "How well a language model predicts a sample (lower is better)"
+   "Image quality"
   ],
-  "answer": 3,
+  "answer": 0,
   "explanation": "Perplexity reflects model uncertainty; lower perplexity means better prediction."
  },
  {
@@ -299,12 +299,12 @@
   "difficulty": "advanced",
   "q": "'Text summarization' can be extractive, meaning it:",
   "options": [
-   "Selects existing sentences from the source",
    "Translates the text",
-   "Deletes the text",
-   "Writes brand-new sentences"
+   "Writes brand-new sentences",
+   "Selects existing sentences from the source",
+   "Deletes the text"
   ],
-  "answer": 0,
+  "answer": 2,
   "explanation": "Extractive summarization picks key sentences; abstractive generates new text."
  },
  {
@@ -313,12 +313,12 @@
   "difficulty": "advanced",
   "q": "'Topic modeling' (e.g., LDA) discovers:",
   "options": [
-   "Latent themes across a document collection",
    "Image objects",
    "Grammar errors",
+   "Latent themes across a document collection",
    "Fonts"
   ],
-  "answer": 0,
+  "answer": 2,
   "explanation": "Latent Dirichlet Allocation finds clusters of co-occurring words as topics."
  },
  {
@@ -327,12 +327,12 @@
   "difficulty": "advanced",
   "q": "'Contextual embeddings' (e.g., BERT) differ from Word2Vec because they:",
   "options": [
+   "Ignore context",
    "Vary the vector by surrounding context",
    "Are always identical per word",
-   "Use no neural nets",
-   "Ignore context"
+   "Use no neural nets"
   ],
-  "answer": 0,
+  "answer": 1,
   "explanation": "Contextual models give a word different vectors depending on its sentence."
  },
  {
@@ -341,12 +341,12 @@
   "difficulty": "advanced",
   "q": "BERT is trained using which objective?",
   "options": [
-   "Image classification",
-   "Masked language modeling",
    "Next-frame prediction",
-   "Reward maximization"
+   "Image classification",
+   "Reward maximization",
+   "Masked language modeling"
   ],
-  "answer": 1,
+  "answer": 3,
   "explanation": "BERT masks tokens and learns to predict them (plus next-sentence prediction)."
  },
  {
@@ -356,8 +356,8 @@
   "q": "BERT is a ______ model, while GPT is a ______ model.",
   "options": [
    "both decoders",
-   "both encoders",
    "decoder-only; encoder-only",
+   "both encoders",
    "encoder-only; decoder-only"
   ],
   "answer": 3,
@@ -369,9 +369,9 @@
   "difficulty": "advanced",
   "q": "'Stemming' vs 'Lemmatization': which is generally more linguistically accurate?",
   "options": [
-   "Stemming",
-   "Lemmatization",
    "Both identical",
+   "Lemmatization",
+   "Stemming",
    "Neither"
   ],
   "answer": 1,
@@ -383,12 +383,12 @@
   "difficulty": "advanced",
   "q": "'Zero-shot text classification' means classifying:",
   "options": [
-   "With millions of labels",
-   "Random labels",
    "Only trained labels",
-   "Into labels the model wasn't explicitly trained on"
+   "Random labels",
+   "Into labels the model wasn't explicitly trained on",
+   "With millions of labels"
   ],
-  "answer": 3,
+  "answer": 2,
   "explanation": "Zero-shot uses semantic understanding to handle unseen label sets."
  },
  {
@@ -397,12 +397,12 @@
   "difficulty": "advanced",
   "q": "'Dependency parsing' analyzes:",
   "options": [
-   "Pixel values",
    "Network packets",
-   "Grammatical relationships between words",
-   "Audio waveforms"
+   "Audio waveforms",
+   "Pixel values",
+   "Grammatical relationships between words"
   ],
-  "answer": 2,
+  "answer": 3,
   "explanation": "Dependency parsing builds a tree of head-dependent word relations."
  },
  {
@@ -412,8 +412,8 @@
   "q": "The main limitation of Bag-of-Words is that it:",
   "options": [
    "Ignores word order and context",
-   "Is too slow",
    "Requires GPUs",
+   "Is too slow",
    "Cannot count words"
   ],
   "answer": 0,
@@ -425,12 +425,12 @@
   "difficulty": "advanced",
   "q": "'Text normalization' includes steps like:",
   "options": [
-   "Adding random words",
-   "Increasing font",
    "Lowercasing, removing punctuation, expanding contractions",
-   "Encrypting text"
+   "Increasing font",
+   "Encrypting text",
+   "Adding random words"
   ],
-  "answer": 2,
+  "answer": 0,
   "explanation": "Normalization standardizes text to reduce spurious variation."
  },
  {
@@ -439,12 +439,12 @@
   "difficulty": "advanced",
   "q": "A 'corpus' in NLP is:",
   "options": [
-   "A large collection of text used for analysis/training",
    "A single sentence",
-   "A GPU cluster",
-   "A neural layer"
+   "A neural layer",
+   "A large collection of text used for analysis/training",
+   "A GPU cluster"
   ],
-  "answer": 0,
+  "answer": 2,
   "explanation": "A corpus is a structured set of texts used in linguistics and NLP."
  },
  {
@@ -453,12 +453,12 @@
   "difficulty": "advanced",
   "q": "'Intent classification' in chatbots determines:",
   "options": [
-   "What the user wants to accomplish",
-   "The IP address",
    "The font used",
-   "The message length"
+   "The IP address",
+   "The message length",
+   "What the user wants to accomplish"
   ],
-  "answer": 0,
+  "answer": 3,
   "explanation": "Intent detection maps user utterances to actions the bot should take."
  },
  {
@@ -467,12 +467,12 @@
   "difficulty": "advanced",
   "q": "'Slot filling' in dialog systems extracts:",
   "options": [
+   "Audio pitch",
    "Random tokens",
-   "Specific parameter values from user input",
    "Image regions",
-   "Audio pitch"
+   "Specific parameter values from user input"
   ],
-  "answer": 1,
+  "answer": 3,
   "explanation": "Slots capture entities like date, location, or quantity from an utterance."
  },
  {
@@ -481,12 +481,12 @@
   "difficulty": "advanced",
   "q": "'Text-to-Speech' (TTS) converts:",
   "options": [
-   "Text into images",
-   "Speech into text",
    "Text into spoken audio",
+   "Speech into text",
+   "Text into images",
    "Audio into text"
   ],
-  "answer": 2,
+  "answer": 0,
   "explanation": "TTS synthesizes natural-sounding speech from written text."
  },
  {
@@ -495,12 +495,12 @@
   "difficulty": "advanced",
   "q": "'Automatic Speech Recognition' (ASR) converts:",
   "options": [
+   "Speech into text",
    "Images into text",
    "Text into images",
-   "Text into speech",
-   "Speech into text"
+   "Text into speech"
   ],
-  "answer": 3,
+  "answer": 0,
   "explanation": "ASR transcribes spoken language into written text."
  },
  {
@@ -509,12 +509,12 @@
   "difficulty": "advanced",
   "q": "Which metric evaluates summarization by overlap with references?",
   "options": [
-   "BLEU only for images",
-   "PSNR",
+   "Silhouette score",
    "ROUGE",
-   "Silhouette score"
+   "PSNR",
+   "BLEU only for images"
   ],
-  "answer": 2,
+  "answer": 1,
   "explanation": "ROUGE measures n-gram/word overlap between generated and reference summaries."
  },
  {
@@ -523,12 +523,12 @@
   "difficulty": "advanced",
   "q": "'Out-of-vocabulary' (OOV) words are those that:",
   "options": [
-   "Are numbers",
    "Are misspelled only",
-   "Are uppercase",
-   "Do not appear in the model's vocabulary"
+   "Are numbers",
+   "Do not appear in the model's vocabulary",
+   "Are uppercase"
   ],
-  "answer": 3,
+  "answer": 2,
   "explanation": "OOV words are unseen tokens; subword methods help handle them."
  },
  {
@@ -537,12 +537,12 @@
   "difficulty": "advanced",
   "q": "'Semantic parsing' maps natural language to:",
   "options": [
-   "Random text",
-   "Pixels",
+   "Audio",
    "A structured, machine-readable meaning representation",
-   "Audio"
+   "Random text",
+   "Pixels"
   ],
-  "answer": 2,
+  "answer": 1,
   "explanation": "Semantic parsing produces logical forms or queries from language."
  },
  {
@@ -551,12 +551,12 @@
   "difficulty": "advanced",
   "q": "A 'language model head' typically outputs:",
   "options": [
-   "A probability distribution over the vocabulary",
-   "An audio clip",
+   "A cluster ID",
    "A single image",
-   "A cluster ID"
+   "A probability distribution over the vocabulary",
+   "An audio clip"
   ],
-  "answer": 0,
+  "answer": 2,
   "explanation": "The LM head projects hidden states to vocabulary logits for next-token prediction."
  },
  {
@@ -565,12 +565,12 @@
   "difficulty": "advanced",
   "q": "'Beam search' in text generation:",
   "options": [
-   "Explores multiple candidate sequences to find high-probability output",
    "Picks random tokens",
-   "Deletes tokens",
-   "Sorts characters"
+   "Explores multiple candidate sequences to find high-probability output",
+   "Sorts characters",
+   "Deletes tokens"
   ],
-  "answer": 0,
+  "answer": 1,
   "explanation": "Beam search keeps the top-k partial sequences to improve generation quality."
  },
  {
@@ -579,12 +579,12 @@
   "difficulty": "advanced",
   "q": "'Greedy decoding' selects at each step:",
   "options": [
-   "A random token",
-   "All tokens",
+   "The least probable token",
    "The single most probable next token",
-   "The least probable token"
+   "All tokens",
+   "A random token"
   ],
-  "answer": 2,
+  "answer": 1,
   "explanation": "Greedy decoding always takes the highest-probability token, which can be suboptimal."
  },
  {
@@ -607,12 +607,12 @@
   "difficulty": "advanced",
   "q": "'Top-k sampling' restricts generation to:",
   "options": [
-   "The k most likely next tokens",
+   "One token",
    "All tokens",
    "The k least likely tokens",
-   "One token"
+   "The k most likely next tokens"
   ],
-  "answer": 0,
+  "answer": 3,
   "explanation": "Top-k samples only from the k highest-probability tokens for controlled diversity."
  },
  {
@@ -622,11 +622,11 @@
   "q": "'Top-p (nucleus) sampling' selects tokens from:",
   "options": [
    "Random noise",
-   "A fixed count",
    "The smallest set whose cumulative probability exceeds p",
+   "A fixed count",
    "The full vocabulary always"
   ],
-  "answer": 2,
+  "answer": 1,
   "explanation": "Nucleus sampling chooses from the smallest probable set summing to probability p."
  },
  {
@@ -635,9 +635,9 @@
   "difficulty": "advanced",
   "q": "'spaCy' and 'NLTK' are:",
   "options": [
+   "GPUs",
    "Databases",
    "Web frameworks",
-   "GPUs",
    "Popular NLP libraries in Python"
   ],
   "answer": 3,
@@ -650,11 +650,11 @@
   "q": "'Language identification' determines:",
   "options": [
    "The font",
-   "Which language a text is written in",
    "The author's age",
-   "The topic only"
+   "The topic only",
+   "Which language a text is written in"
   ],
-  "answer": 1,
+  "answer": 3,
   "explanation": "Language ID classifies text by its natural language."
  },
  {
@@ -663,12 +663,12 @@
   "difficulty": "advanced",
   "q": "'Text classification' assigns text to:",
   "options": [
-   "Predefined categories",
-   "Audio bins",
    "Random pixels",
-   "Numeric coordinates"
+   "Audio bins",
+   "Numeric coordinates",
+   "Predefined categories"
   ],
-  "answer": 0,
+  "answer": 3,
   "explanation": "Text classification maps documents to categories like topic or sentiment."
  },
  {
@@ -677,12 +677,12 @@
   "difficulty": "advanced",
   "q": "A challenge specific to NLP is:",
   "options": [
-   "Ambiguity and context-dependence of language",
-   "No use cases",
    "Fixed vocabulary always",
+   "No use cases",
+   "Ambiguity and context-dependence of language",
    "Lack of any data"
   ],
-  "answer": 0,
+  "answer": 2,
   "explanation": "Words can have multiple meanings, making context crucial and NLP hard."
  },
  {
@@ -691,12 +691,12 @@
   "difficulty": "advanced",
   "q": "'Embeddings' generally enable models to:",
   "options": [
-   "Sort alphabetically",
-   "Encrypt text",
    "Represent discrete symbols as continuous vectors capturing meaning",
-   "Delete rare words"
+   "Delete rare words",
+   "Encrypt text",
+   "Sort alphabetically"
   ],
-  "answer": 2,
+  "answer": 0,
   "explanation": "Embeddings place semantically similar items close in vector space."
  }
 ]
