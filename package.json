@@ -1,0 +1,22 @@
+{
+  "name": "ai-trivia",
+  "version": "1.0.0",
+  "description": "AI Trivia - real-time multiplayer MCQ game (presenter + players), progressive AI difficulty, live leaderboard. Azure-ready.",
+  "main": "server/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "node --watch server/server.js",
+    "build:bank": "python3 scripts/build_bank.py",
+    "smoke": "node scripts/smoke_test.js"
+  },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5"
+  },
+  "optionalDependencies": {
+    "@socket.io/redis-adapter": "^8.3.0",
+    "ioredis": "^5.4.1"
+  }
+}

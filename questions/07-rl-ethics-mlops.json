@@ -1,0 +1,730 @@
+[
+ {
+  "id": "R001",
+  "category": "Reinforcement Learning",
+  "difficulty": "advanced",
+  "q": "In RL, the 'agent' interacts with the:",
+  "options": [
+   "Compiler",
+   "Environment",
+   "Database",
+   "Browser"
+  ],
+  "answer": 1,
+  "explanation": "An RL agent takes actions in an environment to maximize cumulative reward."
+ },
+ {
+  "id": "R002",
+  "category": "Reinforcement Learning",
+  "difficulty": "advanced",
+  "q": "A 'policy' in RL maps:",
+  "options": [
+   "Words to vectors",
+   "Files to disks",
+   "Pixels to labels",
+   "States to actions"
+  ],
+  "answer": 3,
+  "explanation": "A policy defines the agent's behavior: which action to take in each state."
+ },
+ {
+  "id": "R003",
+  "category": "Reinforcement Learning",
+  "difficulty": "advanced",
+  "q": "The 'reward signal' tells the agent:",
+  "options": [
+   "How good its action was",
+   "The GPU temperature",
+   "The dataset name",
+   "The file size"
+  ],
+  "answer": 0,
+  "explanation": "Rewards provide feedback the agent seeks to maximize over time."
+ },
+ {
+  "id": "R004",
+  "category": "Reinforcement Learning",
+  "difficulty": "advanced",
+  "q": "A 'value function' estimates:",
+  "options": [
+   "Current pixel color",
+   "Disk usage",
+   "Word frequency",
+   "Expected future reward from a state"
+  ],
+  "answer": 3,
+  "explanation": "Value functions predict long-term return, guiding better decisions."
+ },
+ {
+  "id": "R005",
+  "category": "Reinforcement Learning",
+  "difficulty": "advanced",
+  "q": "The 'exploration vs exploitation' tradeoff concerns:",
+  "options": [
+   "Text vs images",
+   "CPU vs GPU",
+   "Train vs test",
+   "Trying new actions vs using known good ones"
+  ],
+  "answer": 3,
+  "explanation": "Agents must balance exploring for better options against exploiting current knowledge."
+ },
+ {
+  "id": "R006",
+  "category": "Reinforcement Learning",
+  "difficulty": "advanced",
+  "q": "'Q-learning' learns:",
+  "options": [
+   "Disk layout",
+   "Pixel values",
+   "Action-value estimates without a model of the environment",
+   "Word embeddings"
+  ],
+  "answer": 2,
+  "explanation": "Q-learning is a model-free method estimating the value of state-action pairs."
+ },
+ {
+  "id": "R007",
+  "category": "Reinforcement Learning",
+  "difficulty": "advanced",
+  "q": "The 'discount factor' (gamma) controls:",
+  "options": [
+   "Image size",
+   "How much future rewards are valued vs immediate ones",
+   "Learning rate only",
+   "Batch size"
+  ],
+  "answer": 1,
+  "explanation": "Gamma weights future rewards; near 1 values the long term, near 0 the immediate."
+ },
+ {
+  "id": "R008",
+  "category": "Reinforcement Learning",
+  "difficulty": "advanced",
+  "q": "A 'Markov Decision Process' (MDP) assumes:",
+  "options": [
+   "The future depends only on the current state and action",
+   "No states exist",
+   "Rewards are random only",
+   "Full history is always needed"
+  ],
+  "answer": 0,
+  "explanation": "The Markov property: the next state depends only on the present state and action."
+ },
+ {
+  "id": "R009",
+  "category": "Reinforcement Learning",
+  "difficulty": "advanced",
+  "q": "'Deep Q-Networks' (DQN) combine Q-learning with:",
+  "options": [
+   "Decision trees",
+   "Naive Bayes",
+   "Deep neural networks",
+   "K-means"
+  ],
+  "answer": 2,
+  "explanation": "DQN uses neural nets to approximate Q-values, famously playing Atari games."
+ },
+ {
+  "id": "R010",
+  "category": "Reinforcement Learning",
+  "difficulty": "advanced",
+  "q": "'Experience replay' in DQN:",
+  "options": [
+   "Encrypts states",
+   "Renders video",
+   "Stores past transitions to sample for stable training",
+   "Deletes all data"
+  ],
+  "answer": 2,
+  "explanation": "Replay buffers reuse past experiences, breaking correlation and improving stability."
+ },
+ {
+  "id": "R011",
+  "category": "Reinforcement Learning",
+  "difficulty": "advanced",
+  "q": "'Policy gradient' methods directly optimize:",
+  "options": [
+   "The loss of a classifier",
+   "The dataset",
+   "The policy's parameters to maximize reward",
+   "Image pixels"
+  ],
+  "answer": 2,
+  "explanation": "Policy gradients adjust policy parameters in the direction of higher expected reward."
+ },
+ {
+  "id": "R012",
+  "category": "Reinforcement Learning",
+  "difficulty": "advanced",
+  "q": "'Actor-Critic' methods combine:",
+  "options": [
+   "Two classifiers",
+   "Two GPUs",
+   "Two datasets",
+   "A policy (actor) and a value estimator (critic)"
+  ],
+  "answer": 3,
+  "explanation": "The actor selects actions while the critic evaluates them to guide learning."
+ },
+ {
+  "id": "R013",
+  "category": "Reinforcement Learning",
+  "difficulty": "advanced",
+  "q": "'PPO' (Proximal Policy Optimization) is popular because it:",
+  "options": [
+   "Uses no neural nets",
+   "Only works offline",
+   "Requires no reward",
+   "Provides stable, reliable policy updates"
+  ],
+  "answer": 3,
+  "explanation": "PPO constrains update size for stable training; it's widely used, including in RLHF."
+ },
+ {
+  "id": "R014",
+  "category": "Reinforcement Learning",
+  "difficulty": "advanced",
+  "q": "AlphaGo combined deep learning with:",
+  "options": [
+   "Monte Carlo Tree Search",
+   "Linear regression",
+   "Bag of Words",
+   "OCR"
+  ],
+  "answer": 0,
+  "explanation": "AlphaGo used neural networks and MCTS to master the game of Go."
+ },
+ {
+  "id": "R015",
+  "category": "Reinforcement Learning",
+  "difficulty": "advanced",
+  "q": "A 'sparse reward' problem occurs when:",
+  "options": [
+   "Rewards are constant",
+   "Rewards are rare, making learning difficult",
+   "There are too many rewards",
+   "No environment exists"
+  ],
+  "answer": 1,
+  "explanation": "Infrequent feedback makes credit assignment and learning harder."
+ },
+ {
+  "id": "R016",
+  "category": "Reinforcement Learning",
+  "difficulty": "advanced",
+  "q": "'Reward shaping' involves:",
+  "options": [
+   "Adding intermediate rewards to guide learning",
+   "Deleting rewards",
+   "Randomizing states",
+   "Removing the agent"
+  ],
+  "answer": 0,
+  "explanation": "Shaping provides extra signals to steer the agent toward the goal."
+ },
+ {
+  "id": "R017",
+  "category": "Reinforcement Learning",
+  "difficulty": "advanced",
+  "q": "'Model-based RL' differs from model-free by:",
+  "options": [
+   "Only using images",
+   "Ignoring states",
+   "Learning/using a model of environment dynamics",
+   "Using no rewards"
+  ],
+  "answer": 2,
+  "explanation": "Model-based RL predicts environment transitions to plan ahead."
+ },
+ {
+  "id": "R018",
+  "category": "Reinforcement Learning",
+  "difficulty": "advanced",
+  "q": "An 'episode' in RL is:",
+  "options": [
+   "A dataset row",
+   "A single pixel",
+   "One weight",
+   "A complete sequence from start to terminal state"
+  ],
+  "answer": 3,
+  "explanation": "An episode runs from an initial state until a terminal condition."
+ },
+ {
+  "id": "R019",
+  "category": "Reinforcement Learning",
+  "difficulty": "advanced",
+  "q": "'Multi-agent RL' studies:",
+  "options": [
+   "No agents",
+   "One agent only",
+   "Multiple agents learning and interacting together",
+   "Static datasets"
+  ],
+  "answer": 2,
+  "explanation": "MARL involves several agents that may cooperate or compete."
+ },
+ {
+  "id": "R020",
+  "category": "Reinforcement Learning",
+  "difficulty": "advanced",
+  "q": "'Epsilon-greedy' is a strategy for:",
+  "options": [
+   "Balancing exploration and exploitation",
+   "Compressing images",
+   "Sorting data",
+   "Encrypting rewards"
+  ],
+  "answer": 0,
+  "explanation": "With probability epsilon the agent explores randomly; otherwise it exploits."
+ },
+ {
+  "id": "E001",
+  "category": "AI Ethics & Safety",
+  "difficulty": "intermediate",
+  "q": "'Algorithmic bias' occurs when a model:",
+  "options": [
+   "Uses too much memory",
+   "Systematically produces unfair outcomes for certain groups",
+   "Runs too slowly",
+   "Has too few layers"
+  ],
+  "answer": 1,
+  "explanation": "Bias can arise from skewed data or design, harming particular groups."
+ },
+ {
+  "id": "E002",
+  "category": "AI Ethics & Safety",
+  "difficulty": "intermediate",
+  "q": "'Explainable AI' (XAI) aims to:",
+  "options": [
+   "Speed up training",
+   "Encrypt models",
+   "Reduce cost only",
+   "Make model decisions understandable to humans"
+  ],
+  "answer": 3,
+  "explanation": "XAI provides interpretable reasons for model outputs, building trust."
+ },
+ {
+  "id": "E003",
+  "category": "AI Ethics & Safety",
+  "difficulty": "intermediate",
+  "q": "'Data privacy' in AI concerns:",
+  "options": [
+   "UI colors",
+   "Protecting personal information used in models",
+   "Bigger datasets always",
+   "Faster GPUs"
+  ],
+  "answer": 1,
+  "explanation": "Privacy ensures personal data is handled responsibly and lawfully."
+ },
+ {
+  "id": "E004",
+  "category": "AI Ethics & Safety",
+  "difficulty": "advanced",
+  "q": "'Differential privacy' protects individuals by:",
+  "options": [
+   "Encrypting only names",
+   "Deleting all data",
+   "Adding calibrated noise so single records can't be identified",
+   "Ignoring privacy"
+  ],
+  "answer": 2,
+  "explanation": "Differential privacy bounds how much any one record affects outputs."
+ },
+ {
+  "id": "E005",
+  "category": "AI Ethics & Safety",
+  "difficulty": "advanced",
+  "q": "'Federated learning' trains models by:",
+  "options": [
+   "Using no data",
+   "Encrypting the CPU",
+   "Uploading all raw data centrally",
+   "Keeping data on devices and sharing only model updates"
+  ],
+  "answer": 3,
+  "explanation": "Federated learning preserves privacy by training locally and aggregating updates."
+ },
+ {
+  "id": "E006",
+  "category": "AI Ethics & Safety",
+  "difficulty": "advanced",
+  "q": "An 'adversarial example' is an input:",
+  "options": [
+   "With missing labels",
+   "Slightly perturbed to fool a model",
+   "That trains faster",
+   "That is very large"
+  ],
+  "answer": 1,
+  "explanation": "Tiny, often imperceptible perturbations can cause misclassification."
+ },
+ {
+  "id": "E007",
+  "category": "AI Ethics & Safety",
+  "difficulty": "advanced",
+  "q": "'Model interpretability' technique SHAP is based on:",
+  "options": [
+   "Random forests only",
+   "Game-theoretic Shapley values",
+   "Image filters",
+   "Audio spectra"
+  ],
+  "answer": 1,
+  "explanation": "SHAP attributes a prediction to features using Shapley value theory."
+ },
+ {
+  "id": "E008",
+  "category": "AI Ethics & Safety",
+  "difficulty": "advanced",
+  "q": "'Fairness through unawareness' (ignoring sensitive attributes) is often insufficient because:",
+  "options": [
+   "It is illegal everywhere",
+   "It needs more data",
+   "It is too slow",
+   "Proxy variables can still encode the sensitive attribute"
+  ],
+  "answer": 3,
+  "explanation": "Correlated proxies (e.g., zip code) can reintroduce bias even if attributes are dropped."
+ },
+ {
+  "id": "E009",
+  "category": "AI Ethics & Safety",
+  "difficulty": "advanced",
+  "q": "The EU regulation focused on AI risk categories is called:",
+  "options": [
+   "HIPAA",
+   "PCI-DSS",
+   "GDPR only",
+   "The EU AI Act"
+  ],
+  "answer": 3,
+  "explanation": "The EU AI Act classifies AI systems by risk and sets corresponding obligations."
+ },
+ {
+  "id": "E010",
+  "category": "AI Ethics & Safety",
+  "difficulty": "advanced",
+  "q": "'Model cards' are documents that:",
+  "options": [
+   "Describe a model's intended use, performance, and limitations",
+   "Encrypt data",
+   "Store weights",
+   "Render UIs"
+  ],
+  "answer": 0,
+  "explanation": "Model cards promote transparency about capabilities and constraints."
+ },
+ {
+  "id": "E011",
+  "category": "AI Ethics & Safety",
+  "difficulty": "advanced",
+  "q": "'Human-in-the-loop' systems ensure:",
+  "options": [
+   "Fully autonomous decisions only",
+   "No humans",
+   "Human oversight/approval in AI decisions",
+   "Faster GPUs"
+  ],
+  "answer": 2,
+  "explanation": "HITL keeps humans involved for critical or high-risk decisions."
+ },
+ {
+  "id": "E012",
+  "category": "AI Ethics & Safety",
+  "difficulty": "advanced",
+  "q": "'Membership inference attacks' attempt to determine:",
+  "options": [
+   "Whether a specific record was in the training data",
+   "The file format",
+   "The GPU model",
+   "The learning rate"
+  ],
+  "answer": 0,
+  "explanation": "Such attacks threaten privacy by revealing training-set membership."
+ },
+ {
+  "id": "O001",
+  "category": "MLOps & Deployment",
+  "difficulty": "advanced",
+  "q": "'MLOps' primarily concerns:",
+  "options": [
+   "Painting",
+   "Writing novels",
+   "Deploying, monitoring, and maintaining ML models in production",
+   "Designing chips"
+  ],
+  "answer": 2,
+  "explanation": "MLOps applies DevOps practices to the ML lifecycle."
+ },
+ {
+  "id": "O002",
+  "category": "MLOps & Deployment",
+  "difficulty": "advanced",
+  "q": "'Model drift' refers to:",
+  "options": [
+   "Degrading performance as data distributions change over time",
+   "Faster inference",
+   "More parameters",
+   "Better accuracy"
+  ],
+  "answer": 0,
+  "explanation": "Drift occurs when real-world data diverges from training data, hurting accuracy."
+ },
+ {
+  "id": "O003",
+  "category": "MLOps & Deployment",
+  "difficulty": "advanced",
+  "q": "'Data drift' specifically means a change in:",
+  "options": [
+   "The number of GPUs",
+   "The programming language",
+   "The distribution of input features",
+   "The UI theme"
+  ],
+  "answer": 2,
+  "explanation": "Data drift is a shift in input data distribution over time."
+ },
+ {
+  "id": "O004",
+  "category": "MLOps & Deployment",
+  "difficulty": "advanced",
+  "q": "'Concept drift' means a change in:",
+  "options": [
+   "The relationship between inputs and the target",
+   "The vocabulary only",
+   "The screen resolution",
+   "The file size"
+  ],
+  "answer": 0,
+  "explanation": "Concept drift is when the underlying input-output mapping changes."
+ },
+ {
+  "id": "O005",
+  "category": "MLOps & Deployment",
+  "difficulty": "advanced",
+  "q": "'A/B testing' a model compares:",
+  "options": [
+   "Two variants to measure real-world impact",
+   "Two colors",
+   "Two GPUs",
+   "Two datasets only"
+  ],
+  "answer": 0,
+  "explanation": "A/B tests route traffic to different versions to compare performance."
+ },
+ {
+  "id": "O006",
+  "category": "MLOps & Deployment",
+  "difficulty": "advanced",
+  "q": "'Model serving' refers to:",
+  "options": [
+   "Cleaning data",
+   "Making a trained model available for inference requests",
+   "Labeling data",
+   "Training a model"
+  ],
+  "answer": 1,
+  "explanation": "Serving exposes the model (e.g., via an API) for predictions."
+ },
+ {
+  "id": "O007",
+  "category": "MLOps & Deployment",
+  "difficulty": "advanced",
+  "q": "A 'feature store' is used to:",
+  "options": [
+   "Store passwords",
+   "Manage and serve consistent features for training and inference",
+   "Compile code",
+   "Render dashboards"
+  ],
+  "answer": 1,
+  "explanation": "Feature stores centralize feature definitions to avoid training/serving skew."
+ },
+ {
+  "id": "O008",
+  "category": "MLOps & Deployment",
+  "difficulty": "advanced",
+  "q": "'Training-serving skew' happens when:",
+  "options": [
+   "Data/processing differs between training and production",
+   "The GPU is old",
+   "Labels are perfect",
+   "The model is small"
+  ],
+  "answer": 0,
+  "explanation": "Inconsistencies between training and serving pipelines degrade production accuracy."
+ },
+ {
+  "id": "O009",
+  "category": "MLOps & Deployment",
+  "difficulty": "advanced",
+  "q": "'Containerization' (e.g., Docker) helps ML deployment by:",
+  "options": [
+   "Increasing accuracy",
+   "Reducing parameters",
+   "Packaging code and dependencies for consistent environments",
+   "Labeling data"
+  ],
+  "answer": 2,
+  "explanation": "Containers ensure the model runs identically across environments."
+ },
+ {
+  "id": "O010",
+  "category": "MLOps & Deployment",
+  "difficulty": "advanced",
+  "q": "'Model versioning' is important to:",
+  "options": [
+   "Speed up the GPU",
+   "Encrypt outputs",
+   "Delete old data",
+   "Track, reproduce, and roll back model changes"
+  ],
+  "answer": 3,
+  "explanation": "Versioning enables reproducibility and safe rollbacks in production."
+ },
+ {
+  "id": "O011",
+  "category": "MLOps & Deployment",
+  "difficulty": "advanced",
+  "q": "'Inference latency' measures:",
+  "options": [
+   "Dataset size",
+   "Time taken to produce a prediction",
+   "Training duration",
+   "Number of features"
+  ],
+  "answer": 1,
+  "explanation": "Latency is critical for real-time applications requiring fast responses."
+ },
+ {
+  "id": "O012",
+  "category": "MLOps & Deployment",
+  "difficulty": "advanced",
+  "q": "'Canary deployment' releases a new model to:",
+  "options": [
+   "A small subset of users first to limit risk",
+   "All users instantly",
+   "No users",
+   "Only developers forever"
+  ],
+  "answer": 0,
+  "explanation": "Canary rollouts test changes on limited traffic before full release."
+ },
+ {
+  "id": "O013",
+  "category": "MLOps & Deployment",
+  "difficulty": "advanced",
+  "q": "'Shadow deployment' runs a new model:",
+  "options": [
+   "Only in training",
+   "Instead of production",
+   "On no data",
+   "Alongside production without affecting user-facing results"
+  ],
+  "answer": 3,
+  "explanation": "Shadow mode compares a candidate against production silently before switching."
+ },
+ {
+  "id": "O014",
+  "category": "MLOps & Deployment",
+  "difficulty": "advanced",
+  "q": "'Monitoring' a deployed model should track:",
+  "options": [
+   "Only file names",
+   "Only CPU brand",
+   "Only the logo",
+   "Performance, drift, and data quality"
+  ],
+  "answer": 3,
+  "explanation": "Ongoing monitoring detects degradation and data issues in production."
+ },
+ {
+  "id": "O015",
+  "category": "MLOps & Deployment",
+  "difficulty": "advanced",
+  "q": "'CI/CD for ML' automates:",
+  "options": [
+   "Only backups",
+   "Only data entry",
+   "Only UI design",
+   "Testing, building, and deploying model pipelines"
+  ],
+  "answer": 3,
+  "explanation": "CI/CD pipelines streamline reliable, repeatable ML delivery."
+ },
+ {
+  "id": "O016",
+  "category": "MLOps & Deployment",
+  "difficulty": "advanced",
+  "q": "'Batch inference' differs from 'online inference' in that it:",
+  "options": [
+   "Uses no data",
+   "Processes many inputs periodically rather than one-by-one in real time",
+   "Is always slower per item",
+   "Needs no model"
+  ],
+  "answer": 1,
+  "explanation": "Batch runs on large sets on a schedule; online serves individual real-time requests."
+ },
+ {
+  "id": "O017",
+  "category": "MLOps & Deployment",
+  "difficulty": "advanced",
+  "q": "'Edge deployment' runs models:",
+  "options": [
+   "Without any hardware",
+   "Only during training",
+   "Only on mainframes",
+   "On local/edge devices rather than the cloud"
+  ],
+  "answer": 3,
+  "explanation": "Edge deployment reduces latency and preserves privacy by running on-device."
+ },
+ {
+  "id": "O018",
+  "category": "MLOps & Deployment",
+  "difficulty": "advanced",
+  "q": "'Retraining pipelines' are triggered when:",
+  "options": [
+   "The screen dims",
+   "Performance degrades or new data arrives",
+   "A user logs in",
+   "The logo changes"
+  ],
+  "answer": 1,
+  "explanation": "Automated retraining keeps models current as data evolves."
+ },
+ {
+  "id": "O019",
+  "category": "MLOps & Deployment",
+  "difficulty": "advanced",
+  "q": "'Experiment tracking' tools (e.g., MLflow) record:",
+  "options": [
+   "Only screenshots",
+   "Parameters, metrics, and artifacts across runs",
+   "Only emails",
+   "Only invoices"
+  ],
+  "answer": 1,
+  "explanation": "Tracking tools log runs so experiments are comparable and reproducible."
+ },
+ {
+  "id": "O020",
+  "category": "MLOps & Deployment",
+  "difficulty": "advanced",
+  "q": "'GPU utilization monitoring' in production helps:",
+  "options": [
+   "Change the model architecture",
+   "Optimize cost and detect bottlenecks",
+   "Label data",
+   "Write documentation"
+  ],
+  "answer": 1,
+  "explanation": "Tracking utilization ensures efficient resource use and reveals performance issues."
+ }
+]

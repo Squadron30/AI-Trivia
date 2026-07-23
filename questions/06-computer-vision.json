@@ -1,0 +1,562 @@
+[
+ {
+  "id": "V001",
+  "category": "Computer Vision",
+  "difficulty": "intermediate",
+  "q": "A digital image is represented by a computer as:",
+  "options": [
+   "A text string",
+   "An audio wave",
+   "A grid of pixel values",
+   "A single number"
+  ],
+  "answer": 2,
+  "explanation": "Images are arrays of pixel intensity values, often across color channels."
+ },
+ {
+  "id": "V002",
+  "category": "Computer Vision",
+  "difficulty": "intermediate",
+  "q": "An RGB image has how many color channels?",
+  "options": [
+   "4",
+   "3",
+   "10",
+   "1"
+  ],
+  "answer": 1,
+  "explanation": "RGB images have Red, Green, and Blue channels."
+ },
+ {
+  "id": "V003",
+  "category": "Computer Vision",
+  "difficulty": "intermediate",
+  "q": "'Image classification' outputs:",
+  "options": [
+   "A single label for the whole image",
+   "A pixel mask",
+   "A box per object",
+   "A caption paragraph"
+  ],
+  "answer": 0,
+  "explanation": "Classification assigns one category to the entire image."
+ },
+ {
+  "id": "V004",
+  "category": "Computer Vision",
+  "difficulty": "intermediate",
+  "q": "'Edge detection' (e.g., Sobel) identifies:",
+  "options": [
+   "Audio peaks",
+   "Boundaries where intensity changes sharply",
+   "Text",
+   "Colors only"
+  ],
+  "answer": 1,
+  "explanation": "Edge detectors highlight rapid intensity transitions in images."
+ },
+ {
+  "id": "V005",
+  "category": "Computer Vision",
+  "difficulty": "intermediate",
+  "q": "'Grayscale' conversion reduces an image to:",
+  "options": [
+   "Text",
+   "Four channels",
+   "A single intensity channel",
+   "Only red"
+  ],
+  "answer": 2,
+  "explanation": "Grayscale keeps brightness information in one channel."
+ },
+ {
+  "id": "V006",
+  "category": "Computer Vision",
+  "difficulty": "intermediate",
+  "q": "The ImageNet dataset is famous for driving progress in:",
+  "options": [
+   "Robotics only",
+   "Large-scale image classification",
+   "Machine translation",
+   "Speech recognition"
+  ],
+  "answer": 1,
+  "explanation": "ImageNet's large labeled dataset catalyzed deep learning in vision (e.g., AlexNet 2012)."
+ },
+ {
+  "id": "V007",
+  "category": "Computer Vision",
+  "difficulty": "intermediate",
+  "q": "'AlexNet' (2012) was significant because it:",
+  "options": [
+   "Was the first computer",
+   "Played chess",
+   "Won ImageNet using deep CNNs on GPUs",
+   "Translated languages"
+  ],
+  "answer": 2,
+  "explanation": "AlexNet's deep CNN sharply reduced ImageNet error, sparking the deep learning boom."
+ },
+ {
+  "id": "V008",
+  "category": "Computer Vision",
+  "difficulty": "advanced",
+  "q": "'Image segmentation' partitions an image into:",
+  "options": [
+   "Audio frames",
+   "Text tokens",
+   "A single label",
+   "Meaningful regions or objects"
+  ],
+  "answer": 3,
+  "explanation": "Segmentation labels regions/pixels, separating objects from background."
+ },
+ {
+  "id": "V009",
+  "category": "Computer Vision",
+  "difficulty": "advanced",
+  "q": "'Instance segmentation' differs from semantic segmentation by:",
+  "options": [
+   "Ignoring objects",
+   "Distinguishing separate object instances of the same class",
+   "Only classifying",
+   "Using no pixels"
+  ],
+  "answer": 1,
+  "explanation": "Instance segmentation separates each object (e.g., two cars) individually."
+ },
+ {
+  "id": "V010",
+  "category": "Computer Vision",
+  "difficulty": "advanced",
+  "q": "'IoU' (Intersection over Union) measures:",
+  "options": [
+   "Model speed",
+   "Audio quality",
+   "Overlap between predicted and ground-truth boxes/masks",
+   "Color accuracy"
+  ],
+  "answer": 2,
+  "explanation": "IoU quantifies how well predicted regions overlap the true regions."
+ },
+ {
+  "id": "V011",
+  "category": "Computer Vision",
+  "difficulty": "advanced",
+  "q": "'Non-maximum suppression' (NMS) in detection:",
+  "options": [
+   "Removes redundant overlapping bounding boxes",
+   "Sorts pixels",
+   "Blurs images",
+   "Adds more boxes"
+  ],
+  "answer": 0,
+  "explanation": "NMS keeps the highest-confidence box and suppresses overlapping duplicates."
+ },
+ {
+  "id": "V012",
+  "category": "Computer Vision",
+  "difficulty": "advanced",
+  "q": "'Data augmentation' in vision is used to:",
+  "options": [
+   "Encrypt pixels",
+   "Increase dataset diversity and reduce overfitting",
+   "Delete images",
+   "Reduce channels"
+  ],
+  "answer": 1,
+  "explanation": "Transformations like flips and crops expand effective training data."
+ },
+ {
+  "id": "V013",
+  "category": "Computer Vision",
+  "difficulty": "advanced",
+  "q": "A 'pre-trained backbone' (e.g., ResNet) is often used for:",
+  "options": [
+   "Feature extraction via transfer learning",
+   "Storing labels",
+   "Rendering UI",
+   "Compressing audio"
+  ],
+  "answer": 0,
+  "explanation": "Pre-trained backbones provide strong visual features reused for new tasks."
+ },
+ {
+  "id": "V014",
+  "category": "Computer Vision",
+  "difficulty": "advanced",
+  "q": "'Optical flow' estimates:",
+  "options": [
+   "Text meaning",
+   "Motion of objects/pixels between video frames",
+   "Static colors",
+   "Audio pitch"
+  ],
+  "answer": 1,
+  "explanation": "Optical flow computes apparent motion between consecutive frames."
+ },
+ {
+  "id": "V015",
+  "category": "Computer Vision",
+  "difficulty": "advanced",
+  "q": "'Vision Transformers' (ViT) process images by:",
+  "options": [
+   "Using only convolutions",
+   "Ignoring pixels",
+   "Splitting them into patches treated like tokens",
+   "Using RNNs"
+  ],
+  "answer": 2,
+  "explanation": "ViT divides an image into patches and applies Transformer self-attention."
+ },
+ {
+  "id": "V016",
+  "category": "Computer Vision",
+  "difficulty": "advanced",
+  "q": "'Pooling' (e.g., max pooling) in CNNs primarily:",
+  "options": [
+   "Encrypts data",
+   "Adds color",
+   "Reduces spatial dimensions and adds invariance",
+   "Increases resolution"
+  ],
+  "answer": 2,
+  "explanation": "Pooling downsamples feature maps, reducing computation and adding robustness."
+ },
+ {
+  "id": "V017",
+  "category": "Computer Vision",
+  "difficulty": "advanced",
+  "q": "'Facial landmark detection' locates:",
+  "options": [
+   "Key points like eyes, nose, mouth corners",
+   "Text",
+   "Entire scenes",
+   "Audio peaks"
+  ],
+  "answer": 0,
+  "explanation": "Landmark detection finds specific facial keypoints for alignment or analysis."
+ },
+ {
+  "id": "V018",
+  "category": "Computer Vision",
+  "difficulty": "advanced",
+  "q": "'OpenCV' is a popular library for:",
+  "options": [
+   "Word processing",
+   "Databases",
+   "Computer vision and image processing",
+   "Web servers"
+  ],
+  "answer": 2,
+  "explanation": "OpenCV provides tools for image/video processing and classical CV."
+ },
+ {
+  "id": "V019",
+  "category": "Computer Vision",
+  "difficulty": "advanced",
+  "q": "'Histogram equalization' is used to:",
+  "options": [
+   "Add noise",
+   "Improve image contrast",
+   "Rotate images",
+   "Compress files"
+  ],
+  "answer": 1,
+  "explanation": "It redistributes intensity values to enhance contrast."
+ },
+ {
+  "id": "V020",
+  "category": "Computer Vision",
+  "difficulty": "advanced",
+  "q": "A 'convolution' operation in image processing involves:",
+  "options": [
+   "Sliding a kernel over the image computing weighted sums",
+   "Deleting rows",
+   "Random shuffling",
+   "Sorting pixels"
+  ],
+  "answer": 0,
+  "explanation": "Convolution applies a filter across the image to extract features."
+ },
+ {
+  "id": "V021",
+  "category": "Computer Vision",
+  "difficulty": "advanced",
+  "q": "'Image captioning' combines vision with:",
+  "options": [
+   "Audio synthesis only",
+   "Robotics only",
+   "Natural language generation",
+   "Databases"
+  ],
+  "answer": 2,
+  "explanation": "Captioning generates descriptive text from image content."
+ },
+ {
+  "id": "V022",
+  "category": "Computer Vision",
+  "difficulty": "advanced",
+  "q": "'Super-resolution' aims to:",
+  "options": [
+   "Add audio",
+   "Reduce resolution",
+   "Increase image resolution/detail",
+   "Convert to text"
+  ],
+  "answer": 2,
+  "explanation": "Super-resolution reconstructs high-resolution images from low-resolution inputs."
+ },
+ {
+  "id": "V023",
+  "category": "Computer Vision",
+  "difficulty": "advanced",
+  "q": "'Style transfer' produces an image that:",
+  "options": [
+   "Only rotates",
+   "Adds text",
+   "Deletes color",
+   "Combines the content of one image with the style of another"
+  ],
+  "answer": 3,
+  "explanation": "Neural style transfer merges content and artistic style representations."
+ },
+ {
+  "id": "V024",
+  "category": "Computer Vision",
+  "difficulty": "advanced",
+  "q": "'Feature pyramid networks' (FPN) help detect objects at:",
+  "options": [
+   "Audio scale",
+   "One fixed size only",
+   "No scale",
+   "Multiple scales"
+  ],
+  "answer": 3,
+  "explanation": "FPNs combine multi-scale features to detect objects of varying sizes."
+ },
+ {
+  "id": "V025",
+  "category": "Computer Vision",
+  "difficulty": "advanced",
+  "q": "'Anchor boxes' in object detection are:",
+  "options": [
+   "Audio frames",
+   "Predefined reference boxes of various shapes/sizes",
+   "Random pixels",
+   "Text labels"
+  ],
+  "answer": 1,
+  "explanation": "Anchors serve as reference templates that detectors refine into predictions."
+ },
+ {
+  "id": "V026",
+  "category": "Computer Vision",
+  "difficulty": "advanced",
+  "q": "'mAP' (mean Average Precision) evaluates:",
+  "options": [
+   "Object detection performance across classes",
+   "Text readability",
+   "Training speed",
+   "Audio clarity"
+  ],
+  "answer": 0,
+  "explanation": "mAP averages precision across recall levels and classes for detection."
+ },
+ {
+  "id": "V027",
+  "category": "Computer Vision",
+  "difficulty": "advanced",
+  "q": "'Depth estimation' predicts:",
+  "options": [
+   "Audio pitch",
+   "Distance of scene points from the camera",
+   "Image color",
+   "Text content"
+  ],
+  "answer": 1,
+  "explanation": "Depth estimation infers 3D distance from 2D images."
+ },
+ {
+  "id": "V028",
+  "category": "Computer Vision",
+  "difficulty": "advanced",
+  "q": "'Pose estimation' detects:",
+  "options": [
+   "Image color histograms",
+   "Audio tempo",
+   "Text sentiment",
+   "Body joint positions and configuration"
+  ],
+  "answer": 3,
+  "explanation": "Pose estimation locates human body keypoints to infer posture."
+ },
+ {
+  "id": "V029",
+  "category": "Computer Vision",
+  "difficulty": "advanced",
+  "q": "A 'bounding box' is defined by:",
+  "options": [
+   "Coordinates enclosing an object",
+   "A color value",
+   "A single pixel",
+   "A text label only"
+  ],
+  "answer": 0,
+  "explanation": "Bounding boxes are rectangles (x, y, width, height) around objects."
+ },
+ {
+  "id": "V030",
+  "category": "Computer Vision",
+  "difficulty": "advanced",
+  "q": "'Transfer learning' in vision commonly uses models pre-trained on:",
+  "options": [
+   "ImageNet",
+   "Audio datasets",
+   "Text corpora",
+   "Spreadsheets"
+  ],
+  "answer": 0,
+  "explanation": "ImageNet-pretrained models are frequently reused as feature extractors."
+ },
+ {
+  "id": "V031",
+  "category": "Computer Vision",
+  "difficulty": "advanced",
+  "q": "'Image denoising' aims to:",
+  "options": [
+   "Remove unwanted noise while preserving detail",
+   "Convert to audio",
+   "Reduce resolution",
+   "Add noise"
+  ],
+  "answer": 0,
+  "explanation": "Denoising recovers a cleaner image from a noisy observation."
+ },
+ {
+  "id": "V032",
+  "category": "Computer Vision",
+  "difficulty": "advanced",
+  "q": "'OCR' in computer vision converts:",
+  "options": [
+   "Text into images",
+   "Audio into text",
+   "Video into audio",
+   "Images of text into machine-readable text"
+  ],
+  "answer": 3,
+  "explanation": "Optical Character Recognition extracts text from images."
+ },
+ {
+  "id": "V033",
+  "category": "Computer Vision",
+  "difficulty": "advanced",
+  "q": "'Color space HSV' stands for:",
+  "options": [
+   "Hidden State Vector",
+   "High Speed Vision",
+   "Horizontal Scan Vector",
+   "Hue, Saturation, Value"
+  ],
+  "answer": 3,
+  "explanation": "HSV represents color by hue, saturation, and value/brightness."
+ },
+ {
+  "id": "V034",
+  "category": "Computer Vision",
+  "difficulty": "advanced",
+  "q": "'Deepfakes' are typically generated using:",
+  "options": [
+   "Spreadsheets",
+   "Databases",
+   "GANs or diffusion models",
+   "Firewalls"
+  ],
+  "answer": 2,
+  "explanation": "Deepfakes use generative models to synthesize realistic fake media."
+ },
+ {
+  "id": "V035",
+  "category": "Computer Vision",
+  "difficulty": "advanced",
+  "q": "'Region proposal networks' (RPN) are part of:",
+  "options": [
+   "Faster R-CNN detection pipelines",
+   "Databases",
+   "Text classifiers",
+   "Speech models"
+  ],
+  "answer": 0,
+  "explanation": "RPNs propose candidate object regions for two-stage detectors."
+ },
+ {
+  "id": "V036",
+  "category": "Computer Vision",
+  "difficulty": "advanced",
+  "q": "'Image registration' aligns:",
+  "options": [
+   "Audio tracks",
+   "Two or more images into a common coordinate system",
+   "Text documents",
+   "Databases"
+  ],
+  "answer": 1,
+  "explanation": "Registration overlays images (e.g., medical scans) for comparison."
+ },
+ {
+  "id": "V037",
+  "category": "Computer Vision",
+  "difficulty": "advanced",
+  "q": "A CNN's early layers typically learn:",
+  "options": [
+   "Sentence meaning",
+   "Full object identities",
+   "Low-level features like edges and textures",
+   "Audio pitch"
+  ],
+  "answer": 2,
+  "explanation": "Early conv layers detect simple patterns; deeper layers capture complex shapes."
+ },
+ {
+  "id": "V038",
+  "category": "Computer Vision",
+  "difficulty": "advanced",
+  "q": "'Segmentation masks' are:",
+  "options": [
+   "Audio segments",
+   "Text captions",
+   "Per-pixel labels indicating object membership",
+   "Bounding boxes"
+  ],
+  "answer": 2,
+  "explanation": "Masks assign each pixel to an object or background class."
+ },
+ {
+  "id": "V039",
+  "category": "Computer Vision",
+  "difficulty": "advanced",
+  "q": "'Contrastive Language-Image Pretraining' (CLIP) enables:",
+  "options": [
+   "Text summarization",
+   "Audio synthesis",
+   "Zero-shot image classification via text prompts",
+   "Only supervised training"
+  ],
+  "answer": 2,
+  "explanation": "CLIP matches images to text descriptions, allowing zero-shot recognition."
+ },
+ {
+  "id": "V040",
+  "category": "Computer Vision",
+  "difficulty": "advanced",
+  "q": "'U-Net' architecture is widely used for:",
+  "options": [
+   "Tabular regression",
+   "Text generation",
+   "Image segmentation (esp. biomedical)",
+   "Audio classification"
+  ],
+  "answer": 2,
+  "explanation": "U-Net's encoder-decoder with skip connections excels at segmentation."
+ }
+]

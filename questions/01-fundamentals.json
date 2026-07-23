@@ -1,0 +1,842 @@
+[
+ {
+  "id": "F001",
+  "category": "AI Fundamentals",
+  "difficulty": "beginner",
+  "q": "What does the abbreviation 'AI' stand for?",
+  "options": [
+   "Augmented Interface",
+   "Automated Intelligence",
+   "Artificial Intelligence",
+   "Advanced Integration"
+  ],
+  "answer": 2,
+  "explanation": "AI stands for Artificial Intelligence, the simulation of human intelligence by machines."
+ },
+ {
+  "id": "F002",
+  "category": "AI Fundamentals",
+  "difficulty": "beginner",
+  "q": "Who is widely regarded as the 'father of Artificial Intelligence'?",
+  "options": [
+   "Marvin Minsky",
+   "Geoffrey Hinton",
+   "Alan Turing",
+   "John McCarthy"
+  ],
+  "answer": 3,
+  "explanation": "John McCarthy coined the term 'Artificial Intelligence' in 1955 and organized the 1956 Dartmouth workshop."
+ },
+ {
+  "id": "F003",
+  "category": "AI Fundamentals",
+  "difficulty": "beginner",
+  "q": "In which year was the term 'Artificial Intelligence' first coined at the Dartmouth Conference?",
+  "options": [
+   "1950",
+   "1969",
+   "1943",
+   "1956"
+  ],
+  "answer": 3,
+  "explanation": "The Dartmouth Summer Research Project in 1956 is considered the founding event of AI as a field."
+ },
+ {
+  "id": "F004",
+  "category": "AI Fundamentals",
+  "difficulty": "beginner",
+  "q": "The Turing Test is designed to evaluate a machine's ability to exhibit what?",
+  "options": [
+   "Perfect memory",
+   "Intelligent behavior indistinguishable from a human",
+   "Faster computation",
+   "Physical dexterity"
+  ],
+  "answer": 1,
+  "explanation": "Proposed by Alan Turing in 1950, the test checks whether a machine's responses are indistinguishable from a human's."
+ },
+ {
+  "id": "F005",
+  "category": "AI Fundamentals",
+  "difficulty": "beginner",
+  "q": "Which of the following is a subset of Artificial Intelligence?",
+  "options": [
+   "Machine Learning",
+   "Cloud Computing",
+   "Blockchain",
+   "Quantum Physics"
+  ],
+  "answer": 0,
+  "explanation": "Machine Learning is a subset of AI that enables systems to learn from data."
+ },
+ {
+  "id": "F006",
+  "category": "AI Fundamentals",
+  "difficulty": "beginner",
+  "q": "What is 'Narrow AI' (or Weak AI)?",
+  "options": [
+   "AI that can perform any intellectual task a human can",
+   "AI that is self-aware",
+   "AI designed to perform a specific task",
+   "AI running on small hardware"
+  ],
+  "answer": 2,
+  "explanation": "Narrow AI is specialized for a single or limited task, like image recognition or spam filtering."
+ },
+ {
+  "id": "F007",
+  "category": "AI Fundamentals",
+  "difficulty": "beginner",
+  "q": "What does 'AGI' stand for?",
+  "options": [
+   "Augmented Global Intelligence",
+   "Advanced Graphics Integration",
+   "Automated General Interface",
+   "Artificial General Intelligence"
+  ],
+  "answer": 3,
+  "explanation": "AGI (Artificial General Intelligence) refers to machines with human-level general reasoning across tasks."
+ },
+ {
+  "id": "F008",
+  "category": "AI Fundamentals",
+  "difficulty": "beginner",
+  "q": "Which of these is an example of AI used in everyday life?",
+  "options": [
+   "A calculator",
+   "Voice assistants like Siri or Alexa",
+   "A light switch",
+   "A wall clock"
+  ],
+  "answer": 1,
+  "explanation": "Voice assistants use speech recognition and natural language processing, both AI techniques."
+ },
+ {
+  "id": "F009",
+  "category": "AI Fundamentals",
+  "difficulty": "beginner",
+  "q": "What is the primary goal of Machine Learning?",
+  "options": [
+   "To replace all databases",
+   "To speed up the CPU",
+   "To hard-code every rule manually",
+   "To enable systems to learn patterns from data"
+  ],
+  "answer": 3,
+  "explanation": "ML lets systems improve automatically by learning patterns from data rather than explicit programming."
+ },
+ {
+  "id": "F010",
+  "category": "AI Fundamentals",
+  "difficulty": "beginner",
+  "q": "An 'agent' in AI is best described as something that:",
+  "options": [
+   "Compiles code",
+   "Displays graphics",
+   "Only stores data",
+   "Perceives its environment and takes actions"
+  ],
+  "answer": 3,
+  "explanation": "An intelligent agent perceives its environment through sensors and acts upon it through actuators."
+ },
+ {
+  "id": "F011",
+  "category": "AI Fundamentals",
+  "difficulty": "beginner",
+  "q": "Which type of learning uses labeled data?",
+  "options": [
+   "Reinforcement learning",
+   "Supervised learning",
+   "Transfer learning",
+   "Unsupervised learning"
+  ],
+  "answer": 1,
+  "explanation": "Supervised learning trains on input-output pairs where the correct labels are provided."
+ },
+ {
+  "id": "F012",
+  "category": "AI Fundamentals",
+  "difficulty": "beginner",
+  "q": "Which type of learning finds hidden patterns without labeled outputs?",
+  "options": [
+   "None",
+   "Semi-supervised only",
+   "Supervised learning",
+   "Unsupervised learning"
+  ],
+  "answer": 3,
+  "explanation": "Unsupervised learning discovers structure (like clusters) in unlabeled data."
+ },
+ {
+  "id": "F013",
+  "category": "AI Fundamentals",
+  "difficulty": "beginner",
+  "q": "In reinforcement learning, an agent learns by receiving:",
+  "options": [
+   "Rewards and penalties",
+   "Random numbers",
+   "Labels",
+   "Only images"
+  ],
+  "answer": 0,
+  "explanation": "RL agents learn optimal behavior through trial and error, guided by rewards and penalties."
+ },
+ {
+  "id": "F014",
+  "category": "AI Fundamentals",
+  "difficulty": "beginner",
+  "q": "A 'chatbot' primarily relies on which AI field?",
+  "options": [
+   "Robotics",
+   "Cryptography",
+   "Computer Vision",
+   "Natural Language Processing"
+  ],
+  "answer": 3,
+  "explanation": "Chatbots use Natural Language Processing (NLP) to understand and generate human language."
+ },
+ {
+  "id": "F015",
+  "category": "AI Fundamentals",
+  "difficulty": "beginner",
+  "q": "Which of the following is NOT typically considered a branch of AI?",
+  "options": [
+   "Machine Learning",
+   "Computer Vision",
+   "Spreadsheet formatting",
+   "Natural Language Processing"
+  ],
+  "answer": 2,
+  "explanation": "Spreadsheet formatting is not an AI discipline; the others are core AI branches."
+ },
+ {
+  "id": "F016",
+  "category": "AI Fundamentals",
+  "difficulty": "beginner",
+  "q": "What is 'training data'?",
+  "options": [
+   "Data used to style a webpage",
+   "Deleted data",
+   "Backup data",
+   "Data used to teach a model"
+  ],
+  "answer": 3,
+  "explanation": "Training data is the dataset a model learns from during training."
+ },
+ {
+  "id": "F017",
+  "category": "AI Fundamentals",
+  "difficulty": "beginner",
+  "q": "Computer Vision enables machines to:",
+  "options": [
+   "Send emails",
+   "Store files",
+   "Interpret and understand images and video",
+   "Hear sounds"
+  ],
+  "answer": 2,
+  "explanation": "Computer Vision lets machines derive meaning from visual inputs like photos and video."
+ },
+ {
+  "id": "F018",
+  "category": "AI Fundamentals",
+  "difficulty": "beginner",
+  "q": "Which company created the AI program AlphaGo that beat a world Go champion?",
+  "options": [
+   "DeepMind",
+   "Meta",
+   "IBM",
+   "OpenAI"
+  ],
+  "answer": 0,
+  "explanation": "DeepMind (a Google subsidiary) developed AlphaGo, which defeated Lee Sedol in 2016."
+ },
+ {
+  "id": "F019",
+  "category": "AI Fundamentals",
+  "difficulty": "beginner",
+  "q": "IBM's system that won Jeopardy! in 2011 was called:",
+  "options": [
+   "Cortana",
+   "Watson",
+   "Bard",
+   "Deep Blue"
+  ],
+  "answer": 1,
+  "explanation": "IBM Watson used NLP and information retrieval to win the quiz show Jeopardy!"
+ },
+ {
+  "id": "F020",
+  "category": "AI Fundamentals",
+  "difficulty": "beginner",
+  "q": "IBM's Deep Blue famously defeated a world champion in which game in 1997?",
+  "options": [
+   "Chess",
+   "Checkers",
+   "Go",
+   "Poker"
+  ],
+  "answer": 0,
+  "explanation": "Deep Blue beat chess world champion Garry Kasparov in 1997."
+ },
+ {
+  "id": "F021",
+  "category": "AI Fundamentals",
+  "difficulty": "beginner",
+  "q": "A 'dataset' is:",
+  "options": [
+   "A collection of data used for analysis or training",
+   "A programming language",
+   "A single number",
+   "A type of CPU"
+  ],
+  "answer": 0,
+  "explanation": "A dataset is an organized collection of data, often used to train and test models."
+ },
+ {
+  "id": "F022",
+  "category": "AI Fundamentals",
+  "difficulty": "beginner",
+  "q": "Which of these is an example of a classification task?",
+  "options": [
+   "Predicting tomorrow's temperature",
+   "Deciding if an email is spam or not",
+   "Ranking web pages",
+   "Compressing a file"
+  ],
+  "answer": 1,
+  "explanation": "Classifying email as 'spam' or 'not spam' assigns inputs to discrete categories."
+ },
+ {
+  "id": "F023",
+  "category": "AI Fundamentals",
+  "difficulty": "beginner",
+  "q": "Which of these is an example of a regression task?",
+  "options": [
+   "Sorting emails into folders",
+   "Predicting a house price",
+   "Recognizing a face",
+   "Detecting a cat in an image"
+  ],
+  "answer": 1,
+  "explanation": "Regression predicts a continuous numeric value, such as a price."
+ },
+ {
+  "id": "F024",
+  "category": "AI Fundamentals",
+  "difficulty": "beginner",
+  "q": "What does 'NLP' stand for in AI?",
+  "options": [
+   "Network Layer Protocol",
+   "Neural Learning Process",
+   "Natural Language Processing",
+   "Numeric Logic Programming"
+  ],
+  "answer": 2,
+  "explanation": "NLP is the field enabling computers to understand and generate human language."
+ },
+ {
+  "id": "F025",
+  "category": "AI Fundamentals",
+  "difficulty": "beginner",
+  "q": "A recommendation system (like on Netflix) is an application of:",
+  "options": [
+   "AI/Machine Learning",
+   "Firewall rules",
+   "Disk defragmentation",
+   "Word processing"
+  ],
+  "answer": 0,
+  "explanation": "Recommendation systems use ML to predict user preferences."
+ },
+ {
+  "id": "F026",
+  "category": "AI Fundamentals",
+  "difficulty": "beginner",
+  "q": "What is an 'algorithm'?",
+  "options": [
+   "A step-by-step procedure to solve a problem",
+   "A type of computer",
+   "A network cable",
+   "A display screen"
+  ],
+  "answer": 0,
+  "explanation": "An algorithm is a finite sequence of well-defined instructions to solve a problem."
+ },
+ {
+  "id": "F027",
+  "category": "AI Fundamentals",
+  "difficulty": "beginner",
+  "q": "Which of the following best describes 'Deep Learning'?",
+  "options": [
+   "A search engine",
+   "ML using multi-layered neural networks",
+   "Learning underwater",
+   "A database technique"
+  ],
+  "answer": 1,
+  "explanation": "Deep learning uses neural networks with many layers to learn complex representations."
+ },
+ {
+  "id": "F028",
+  "category": "AI Fundamentals",
+  "difficulty": "beginner",
+  "q": "The building block of a neural network is called a:",
+  "options": [
+   "Neuron (node)",
+   "Cluster",
+   "Pixel",
+   "Byte"
+  ],
+  "answer": 0,
+  "explanation": "Artificial neurons (nodes) are the basic units of a neural network."
+ },
+ {
+  "id": "F029",
+  "category": "AI Fundamentals",
+  "difficulty": "beginner",
+  "q": "Which of the following is a popular programming language for AI and ML?",
+  "options": [
+   "SQL only",
+   "Python",
+   "HTML",
+   "CSS"
+  ],
+  "answer": 1,
+  "explanation": "Python is the most widely used language for AI/ML due to libraries like TensorFlow and PyTorch."
+ },
+ {
+  "id": "F030",
+  "category": "AI Fundamentals",
+  "difficulty": "beginner",
+  "q": "'Generative AI' is best described as AI that:",
+  "options": [
+   "Creates new content such as text, images, or audio",
+   "Manages networks",
+   "Only classifies data",
+   "Deletes files"
+  ],
+  "answer": 0,
+  "explanation": "Generative AI produces new content, e.g., text (ChatGPT) or images (DALL-E)."
+ },
+ {
+  "id": "F031",
+  "category": "AI Fundamentals",
+  "difficulty": "beginner",
+  "q": "ChatGPT is an example of which kind of model?",
+  "options": [
+   "Web browser",
+   "Large Language Model",
+   "Spreadsheet",
+   "Operating system"
+  ],
+  "answer": 1,
+  "explanation": "ChatGPT is built on a Large Language Model (LLM) trained to generate text."
+ },
+ {
+  "id": "F032",
+  "category": "AI Fundamentals",
+  "difficulty": "beginner",
+  "q": "What does a 'model' refer to in machine learning?",
+  "options": [
+   "A hardware chip",
+   "A wireframe drawing",
+   "A mathematical representation learned from data",
+   "A fashion figure"
+  ],
+  "answer": 2,
+  "explanation": "An ML model is the learned function that maps inputs to outputs."
+ },
+ {
+  "id": "F033",
+  "category": "AI Fundamentals",
+  "difficulty": "beginner",
+  "q": "Self-driving cars primarily combine which AI fields?",
+  "options": [
+   "Only spreadsheets",
+   "Only databases",
+   "Only NLP",
+   "Computer vision, sensor fusion, and machine learning"
+  ],
+  "answer": 3,
+  "explanation": "Autonomous vehicles rely heavily on computer vision, sensors, and ML for decision-making."
+ },
+ {
+  "id": "F034",
+  "category": "AI Fundamentals",
+  "difficulty": "beginner",
+  "q": "Which of the following is a common use of AI in healthcare?",
+  "options": [
+   "Cooking food",
+   "Mowing lawns",
+   "Painting walls",
+   "Medical image diagnosis"
+  ],
+  "answer": 3,
+  "explanation": "AI assists in analyzing medical images like X-rays and MRIs to aid diagnosis."
+ },
+ {
+  "id": "F035",
+  "category": "AI Fundamentals",
+  "difficulty": "beginner",
+  "q": "What is 'facial recognition' an application of?",
+  "options": [
+   "Robotics only",
+   "Computer Vision",
+   "Natural Language Processing",
+   "Databases"
+  ],
+  "answer": 1,
+  "explanation": "Facial recognition is a computer vision task that identifies or verifies faces."
+ },
+ {
+  "id": "F036",
+  "category": "AI Fundamentals",
+  "difficulty": "beginner",
+  "q": "Which term describes AI that matches or exceeds human intelligence across all tasks?",
+  "options": [
+   "Expert system",
+   "Rule-based AI",
+   "Narrow AI",
+   "Superintelligence"
+  ],
+  "answer": 3,
+  "explanation": "Superintelligence refers to AI surpassing the best human minds in virtually every field."
+ },
+ {
+  "id": "F037",
+  "category": "AI Fundamentals",
+  "difficulty": "beginner",
+  "q": "An 'expert system' makes decisions using:",
+  "options": [
+   "Random guessing",
+   "A set of rules and a knowledge base",
+   "GPS coordinates",
+   "Only images"
+  ],
+  "answer": 1,
+  "explanation": "Expert systems use a knowledge base and inference rules to emulate expert decision-making."
+ },
+ {
+  "id": "F038",
+  "category": "AI Fundamentals",
+  "difficulty": "beginner",
+  "q": "What is a 'feature' in machine learning?",
+  "options": [
+   "An individual measurable property of the data",
+   "A bug in code",
+   "A network port",
+   "A user interface button"
+  ],
+  "answer": 0,
+  "explanation": "A feature is an input variable used by the model to make predictions."
+ },
+ {
+  "id": "F039",
+  "category": "AI Fundamentals",
+  "difficulty": "beginner",
+  "q": "What is a 'label' in supervised learning?",
+  "options": [
+   "A color",
+   "The correct answer/output for a training example",
+   "A sticker on hardware",
+   "A file name"
+  ],
+  "answer": 1,
+  "explanation": "A label is the known target output associated with an input in supervised learning."
+ },
+ {
+  "id": "F040",
+  "category": "AI Fundamentals",
+  "difficulty": "beginner",
+  "q": "Spam email filtering is an example of:",
+  "options": [
+   "Regression",
+   "Reinforcement learning",
+   "Supervised classification",
+   "Unsupervised clustering"
+  ],
+  "answer": 2,
+  "explanation": "Spam filters are typically trained on labeled spam/not-spam examples (supervised classification)."
+ },
+ {
+  "id": "F041",
+  "category": "AI Fundamentals",
+  "difficulty": "beginner",
+  "q": "Which of the following best defines 'Big Data'?",
+  "options": [
+   "Extremely large and complex datasets",
+   "A small text file",
+   "A type of monitor",
+   "A single spreadsheet"
+  ],
+  "answer": 0,
+  "explanation": "Big Data refers to datasets so large or complex that traditional tools struggle to process them."
+ },
+ {
+  "id": "F042",
+  "category": "AI Fundamentals",
+  "difficulty": "beginner",
+  "q": "Which of these is a popular open-source deep learning framework?",
+  "options": [
+   "Photoshop",
+   "TensorFlow",
+   "WordPress",
+   "Excel"
+  ],
+  "answer": 1,
+  "explanation": "TensorFlow (by Google) is a widely used open-source deep learning framework."
+ },
+ {
+  "id": "F043",
+  "category": "AI Fundamentals",
+  "difficulty": "beginner",
+  "q": "'Robotics' in AI combines perception, reasoning, and:",
+  "options": [
+   "Web hosting",
+   "Email marketing",
+   "Spreadsheet macros",
+   "Physical action in the real world"
+  ],
+  "answer": 3,
+  "explanation": "Robotics integrates AI with sensors and actuators to act physically in the world."
+ },
+ {
+  "id": "F044",
+  "category": "AI Fundamentals",
+  "difficulty": "beginner",
+  "q": "What is 'prediction' in ML?",
+  "options": [
+   "A random number",
+   "A model's output/estimate for new input",
+   "A password",
+   "A hardware setting"
+  ],
+  "answer": 1,
+  "explanation": "A prediction is the model's estimated output for previously unseen input data."
+ },
+ {
+  "id": "F045",
+  "category": "AI Fundamentals",
+  "difficulty": "beginner",
+  "q": "Which of these is an ethical concern in AI?",
+  "options": [
+   "More colorful screens",
+   "Cheaper cables",
+   "Bias in decision-making",
+   "Faster processors"
+  ],
+  "answer": 2,
+  "explanation": "Bias in AI can lead to unfair or discriminatory outcomes, a major ethical concern."
+ },
+ {
+  "id": "F046",
+  "category": "AI Fundamentals",
+  "difficulty": "beginner",
+  "q": "OpenAI is best known for creating which family of models?",
+  "options": [
+   "Windows",
+   "GPT",
+   "Chrome",
+   "Android"
+  ],
+  "answer": 1,
+  "explanation": "OpenAI created the GPT (Generative Pre-trained Transformer) family of models."
+ },
+ {
+  "id": "F047",
+  "category": "AI Fundamentals",
+  "difficulty": "beginner",
+  "q": "A 'neural network' is inspired by:",
+  "options": [
+   "The human brain",
+   "Ocean currents",
+   "Weather systems",
+   "Traffic lights"
+  ],
+  "answer": 0,
+  "explanation": "Artificial neural networks are loosely inspired by the interconnected neurons of the brain."
+ },
+ {
+  "id": "F048",
+  "category": "AI Fundamentals",
+  "difficulty": "beginner",
+  "q": "What is 'automation'?",
+  "options": [
+   "Printing documents",
+   "Manually doing everything",
+   "Using technology to perform tasks with minimal human intervention",
+   "Turning off computers"
+  ],
+  "answer": 2,
+  "explanation": "Automation uses technology to carry out tasks automatically, often powered by AI."
+ },
+ {
+  "id": "F049",
+  "category": "AI Fundamentals",
+  "difficulty": "beginner",
+  "q": "Which of the following is an example of unsupervised learning?",
+  "options": [
+   "Customer segmentation via clustering",
+   "Grading exams with an answer key",
+   "Predicting labeled house prices",
+   "Spam detection with labels"
+  ],
+  "answer": 0,
+  "explanation": "Clustering customers into groups without predefined labels is unsupervised learning."
+ },
+ {
+  "id": "F050",
+  "category": "AI Fundamentals",
+  "difficulty": "beginner",
+  "q": "'Speech recognition' converts:",
+  "options": [
+   "Spoken language into text",
+   "Text into images",
+   "Video into text",
+   "Images into sound"
+  ],
+  "answer": 0,
+  "explanation": "Speech recognition transcribes spoken audio into written text."
+ },
+ {
+  "id": "F051",
+  "category": "AI Fundamentals",
+  "difficulty": "beginner",
+  "q": "What is 'sentiment analysis'?",
+  "options": [
+   "Determining the emotional tone of text",
+   "Sorting files by date",
+   "Counting web visits",
+   "Measuring CPU temperature"
+  ],
+  "answer": 0,
+  "explanation": "Sentiment analysis is an NLP task that classifies text as positive, negative, or neutral."
+ },
+ {
+  "id": "F052",
+  "category": "AI Fundamentals",
+  "difficulty": "beginner",
+  "q": "Which term describes teaching a model using examples with known answers?",
+  "options": [
+   "Clustering",
+   "Anomaly detection",
+   "Supervised learning",
+   "Dimensionality reduction"
+  ],
+  "answer": 2,
+  "explanation": "Supervised learning uses labeled examples (known answers) to train models."
+ },
+ {
+  "id": "F053",
+  "category": "AI Fundamentals",
+  "difficulty": "beginner",
+  "q": "An 'autonomous system' is one that can:",
+  "options": [
+   "Never make mistakes",
+   "Operate and make decisions without constant human control",
+   "Only run when plugged in",
+   "Only work offline"
+  ],
+  "answer": 1,
+  "explanation": "Autonomous systems perform tasks and make decisions independently."
+ },
+ {
+  "id": "F054",
+  "category": "AI Fundamentals",
+  "difficulty": "beginner",
+  "q": "Which of the following is a virtual assistant powered by AI?",
+  "options": [
+   "Calculator",
+   "Paint",
+   "Notepad",
+   "Google Assistant"
+  ],
+  "answer": 3,
+  "explanation": "Google Assistant uses NLP and ML to respond to voice commands."
+ },
+ {
+  "id": "F055",
+  "category": "AI Fundamentals",
+  "difficulty": "beginner",
+  "q": "What does 'ML' stand for?",
+  "options": [
+   "Managed Logic",
+   "Multi Language",
+   "Machine Learning",
+   "Memory Load"
+  ],
+  "answer": 2,
+  "explanation": "ML stands for Machine Learning, a core subfield of AI."
+ },
+ {
+  "id": "F056",
+  "category": "AI Fundamentals",
+  "difficulty": "beginner",
+  "q": "AI systems that recognize handwriting are performing:",
+  "options": [
+   "Optical Character Recognition",
+   "Audio synthesis",
+   "Network routing",
+   "File compression"
+  ],
+  "answer": 0,
+  "explanation": "OCR (Optical Character Recognition) converts images of text into machine-readable text."
+ },
+ {
+  "id": "F057",
+  "category": "AI Fundamentals",
+  "difficulty": "beginner",
+  "q": "Which of the following is TRUE about AI today?",
+  "options": [
+   "AGI is already common",
+   "All AI is fully self-aware",
+   "AI can feel emotions like humans",
+   "It is mostly narrow/specialized AI"
+  ],
+  "answer": 3,
+  "explanation": "Current real-world AI is overwhelmingly narrow AI focused on specific tasks."
+ },
+ {
+  "id": "F058",
+  "category": "AI Fundamentals",
+  "difficulty": "beginner",
+  "q": "A 'prompt' in generative AI is:",
+  "options": [
+   "A type of monitor",
+   "The input/instruction given to the model",
+   "A hardware error",
+   "A network cable"
+  ],
+  "answer": 1,
+  "explanation": "A prompt is the text input or instruction that guides a generative model's output."
+ },
+ {
+  "id": "F059",
+  "category": "AI Fundamentals",
+  "difficulty": "beginner",
+  "q": "Which of these best describes 'data preprocessing'?",
+  "options": [
+   "Printing data",
+   "Deleting all data",
+   "Encrypting the CPU",
+   "Cleaning and preparing data before training"
+  ],
+  "answer": 3,
+  "explanation": "Preprocessing cleans, transforms, and prepares raw data for effective model training."
+ },
+ {
+  "id": "F060",
+  "category": "AI Fundamentals",
+  "difficulty": "beginner",
+  "q": "Which of these is a benefit of AI in business?",
+  "options": [
+   "Automating repetitive tasks and gaining insights from data",
+   "Slowing down all processes",
+   "Removing all computers",
+   "Increasing manual paperwork"
+  ],
+  "answer": 0,
+  "explanation": "AI helps businesses automate tasks, reduce errors, and extract insights from data."
+ }
+]

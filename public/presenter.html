@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>AI Trivia — Presenter</title>
+<style>
+  /* Brand palette — blue theme on white (edit --acc / --acc2 to rebrand) */
+  :root{--bg:#EAF1FB;--bg2:#DCE8F8;--card:#FFFFFF;--acc:#005BC8;--acc2:#0A84FF;--navy:#0A1B3D;--ok:#1E874B;--bad:#CC2E28;--txt:#0A1B3D;--mut:#5C6B8A;--border:#D5E0F0}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:'Segoe UI',system-ui,Roboto,Arial,sans-serif;background:linear-gradient(180deg,var(--bg2),var(--bg));color:var(--txt);min-height:100vh;border-top:6px solid var(--acc)}
+  .wrap{max-width:1200px;margin:0 auto;padding:24px}
+  h1{font-size:30px;margin:0;color:var(--navy)}
+  .grid{display:grid;grid-template-columns:1fr 340px;gap:20px}
+  .card{background:var(--card);border:1px solid var(--border);border-radius:18px;padding:22px;box-shadow:0 8px 26px rgba(10,27,61,.10)}
+  .pin{font-size:64px;font-weight:900;letter-spacing:10px;background:linear-gradient(90deg,var(--acc),var(--acc2));-webkit-background-clip:text;background-clip:text;color:transparent}
+  .join-url{font-size:18px;color:var(--mut)}
+  button{padding:14px 20px;border:0;border-radius:12px;font-size:16px;font-weight:700;cursor:pointer;color:#fff;background:linear-gradient(90deg,var(--acc),var(--acc2))}
+  button.ghost{background:#fff;border:1.5px solid var(--acc);color:var(--acc)}
+  button:disabled{opacity:.45;cursor:not-allowed}
+  .toggle{display:flex;gap:10px;margin:14px 0}
+  .toggle .opt{flex:1;padding:14px;border:1.5px solid var(--border);border-radius:12px;background:#F5F8FD;cursor:pointer;text-align:center;color:var(--navy)}
+  .toggle .opt.sel{border-color:var(--acc);background:#E5EFFB;outline:2px solid var(--acc)}
+  .toggle .opt small{display:block;color:var(--mut);font-weight:400;margin-top:4px}
+  .qtext{font-size:34px;font-weight:800;line-height:1.3;margin:14px 0 20px;color:var(--navy)}
+  .opts{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+  .o{padding:20px;border-radius:14px;font-size:22px;font-weight:700;border:1.5px solid var(--border);background:#F5F8FD;position:relative;overflow:hidden;color:var(--navy)}
+  .o .bar{position:absolute;left:0;bottom:0;height:6px;background:var(--acc);width:0;transition:width .3s}
+  .o.A{border-left:8px solid #005BC8}.o.B{border-left:8px solid #0A84FF}.o.C{border-left:8px solid #F5820A}.o.D{border-left:8px solid #1E874B}
+  .o.correct{background:rgba(30,135,75,.14);border-color:var(--ok)}
+  .o .cnt{position:absolute;right:14px;top:14px;font-size:14px;color:var(--mut)}
+  .timer{height:16px;background:#DCE6F5;border-radius:10px;overflow:hidden;margin:8px 0 4px}
+  .timer > i{display:block;height:100%;width:100%;background:linear-gradient(90deg,var(--acc),var(--acc2))}
+  .clock{font-size:40px;font-weight:900;text-align:center;color:var(--acc)}
+  .row{display:flex;justify-content:space-between;align-items:center;gap:12px}
+  .pill{background:#EAF1FB;border:1px solid var(--border);border-radius:999px;padding:8px 14px;font-size:14px;color:var(--mut)}
+  table{width:100%;border-collapse:collapse}
+  td{padding:9px 6px;border-bottom:1px solid var(--border);color:var(--navy)}
+  .lb-name{font-weight:600}.lb-score{text-align:right;font-weight:800;color:var(--acc)}
+  .rank1{color:#C9A227}.rank2{color:#8A94A6}.rank3{color:#B06A2C}
+  .players{display:flex;flex-wrap:wrap;gap:8px;max-height:180px;overflow:auto}
+  .chip{background:#E5EFFB;border:1px solid var(--border);border-radius:999px;padding:6px 12px;font-size:13px;color:var(--navy);animation:pop .25s}
+  @keyframes pop{from{transform:scale(.6);opacity:0}to{transform:scale(1);opacity:1}}
+  .count{font-size:52px;font-weight:900}
+  .hide{display:none}
+  .joinbadge{position:fixed;top:16px;right:16px;z-index:60;background:#fff;border:2px solid var(--acc);border-radius:16px;padding:12px 18px;text-align:right;box-shadow:0 10px 30px rgba(10,27,61,.2)}
+  .joinbadge .jb-label{font-size:11px;color:var(--mut);text-transform:uppercase;letter-spacing:1.5px}
+  .joinbadge .jb-url{font-size:15px;color:var(--navy);margin:2px 0}
+  .joinbadge .jb-pin{font-size:34px;font-weight:900;letter-spacing:7px;line-height:1;background:linear-gradient(90deg,var(--acc),var(--acc2));-webkit-background-clip:text;background-clip:text;color:transparent}
+  .controls{display:flex;gap:12px;margin-top:18px;flex-wrap:wrap}
+  h3{margin:0 0 10px;font-size:15px;color:var(--acc);text-transform:uppercase;letter-spacing:1px}
+  .explain{font-size:18px;color:var(--mut);margin-top:14px}
+  .prev{font-size:13px;color:var(--mut)}
+</style>
+</head>
+<body>
+<div class="joinbadge hide" id="joinBadge">
+  <div class="jb-label">Join at</div>
+  <div class="jb-url" id="jbUrl"></div>
+  <div class="jb-label" style="margin-top:4px">Game PIN</div>
+  <div class="jb-pin" id="jbPin"></div>
+</div>
+<div class="wrap">
+  <div class="row" style="margin-bottom:18px">
+    <div style="display:flex;align-items:center;gap:14px">
+      <span style="font-weight:900;font-size:22px;letter-spacing:1px;color:#fff;background:linear-gradient(90deg,var(--acc),var(--acc2));padding:6px 16px;border-radius:10px">🧠 AI</span>
+      <h1>AI Trivia — Presenter</h1>
+    </div>
+    <span class="pill" id="bankPill">loading…</span>
+  </div>
+
+  <!-- SETUP -->
+  <div class="card" id="setupCard">
+    <h3>Create a session</h3>
+    <p style="color:var(--mut);margin-top:0">15s each · difficulty ramps across the year. Set the length and how the game advances:</p>
+    <label style="display:block;font-size:13px;color:var(--mut);margin:6px 0 8px">Number of questions</label>
+    <div class="toggle" id="countToggle">
+      <div class="opt" data-count="10">10<small>~4 min</small></div>
+      <div class="opt sel" data-count="20">20<small>~8 min</small></div>
+      <div class="opt" data-count="30">30<small>~12 min</small></div>
+      <div class="opt" data-count="custom">Custom<small><input id="customCount" type="number" min="5" max="50" placeholder="5–50" style="width:70px;padding:6px;border-radius:8px;border:1px solid #2b3766;background:#0b1020;color:#e8ecf8"/></small></div>
+    </div>
+    <label style="display:block;font-size:13px;color:var(--mut);margin:6px 0 8px">Topic</label>
+    <select id="topicSelect" style="width:100%;padding:13px;border:1.5px solid var(--border);border-radius:12px;background:#F5F8FD;color:var(--navy);font-size:15px;margin-bottom:6px">
+      <option value="all">Loading topics…</option>
+    </select>
+    <label style="display:block;font-size:13px;color:var(--mut);margin:12px 0 8px">How the game advances</label>
+    <div class="toggle" id="modeToggle">
+      <div class="opt sel" data-mode="host">👤 I host it<small>You click "Reveal" &amp; "Next" manually — full control while presenting.</small></div>
+      <div class="opt" data-mode="auto">⚡ Auto-run<small>Each question auto-advances on the 15s timer. You just narrate.</small></div>
+    </div>
+    <div class="controls">
+      <button id="createBtn">Create session</button>
+    </div>
+    <div class="prev" id="prevInfo" style="margin-top:16px"></div>
+  </div>
+
+  <!-- LOBBY -->
+  <div class="grid hide" id="lobbyView">
+    <div class="card">
+      <h3>Players join at</h3>
+      <div class="join-url" id="joinUrl"></div>
+      <div style="margin:14px 0">Game PIN</div>
+      <div class="pin" id="pinBig"></div>
+      <div class="row" style="margin-top:18px">
+        <span class="pill" id="modePill"></span>
+        <span class="pill" id="sessionPill"></span>
+      </div>
+      <div class="controls">
+        <button id="startBtn">Start game →</button>
+      </div>
+      <div class="prev" id="prevBoard" style="margin-top:18px"></div>
+    </div>
+    <div class="card">
+      <h3>Who's in <span class="count" id="pcount" style="font-size:20px">0</span></h3>
+      <div class="players" id="lobbyPlayers"></div>
+    </div>
+  </div>
+
+  <!-- QUESTION -->
+  <div class="grid hide" id="gameView">
+    <div class="card" id="stage">
+      <div class="row">
+        <span class="pill" id="progress"></span>
+        <span class="pill" id="cat"></span>
+      </div>
+      <div class="timer"><i id="bar"></i></div>
+      <div class="clock" id="clock">15</div>
+      <div class="qtext" id="qtext"></div>
+      <div class="opts" id="opts"></div>
+      <div class="explain hide" id="explain"></div>
+      <div class="controls" id="hostControls">
+        <button class="ghost" id="revealBtn">Reveal answer</button>
+        <button id="nextBtn">Next question →</button>
+      </div>
+    </div>
+    <div class="card">
+      <h3>Live leaderboard</h3>
+      <div class="row"><span class="pill" id="answeredPill">0 answered</span><span class="pill" id="pcount2">0 players</span></div>
+      <table id="board"></table>
+    </div>
+  </div>
+
+  <!-- FINISHED -->
+  <div class="card hide" id="finalView">
+    <h3>🏁 Final leaderboard — <span id="finalTitle"></span></h3>
+    <table id="finalBoard"></table>
+    <div class="controls"><button id="newBtn">Start a new session</button></div>
+  </div>
+</div>
+
+<script src="/socket.io/socket.io.js"></script>
+<script>
+const socket=io();
+const $=id=>document.getElementById(id);
+let mode='host', count=20, topic='all', pin=null, curDeadline=0, curTotal=15000, tick=null, isLast=false;
+const show=(...ids)=>{['setupCard','lobbyView','gameView','finalView'].forEach(x=>$(x).classList.add('hide'));ids.forEach(x=>$(x).classList.remove('hide'));};
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+
+fetch('/api/meta').then(r=>r.json()).then(m=>{
+  $('bankPill').textContent=`${m.bank.total} questions · ${m.sessionsPlayed} sessions played`;
+  if(m.previous)$('prevInfo').innerHTML=`Previous winner: <b>${esc(m.previous.leaderboard[0]?.name||'—')}</b> (Session ${m.previous.sessionNumber})`;
+  if(m.topics){
+    $('topicSelect').innerHTML=m.topics.map(t=>`<option value="${t.key}">${esc(t.label)} (${t.count})</option>`).join('');
+    topic=$('topicSelect').value;
+  }
+});
+$('topicSelect').onchange=e=>{topic=e.target.value;};
+
+$('modeToggle').onclick=e=>{const o=e.target.closest('.opt');if(!o)return;mode=o.dataset.mode;[...$('modeToggle').children].forEach(c=>c.classList.toggle('sel',c===o));};
+
+$('countToggle').onclick=e=>{
+  const o=e.target.closest('.opt'); if(!o)return;
+  [...$('countToggle').children].forEach(c=>c.classList.toggle('sel',c===o));
+  if(o.dataset.count==='custom'){const v=parseInt($('customCount').value,10);count=Number.isFinite(v)?v:20;$('customCount').focus();}
+  else count=parseInt(o.dataset.count,10);
+};
+$('customCount').oninput=()=>{const v=parseInt($('customCount').value,10);if(Number.isFinite(v)){count=Math.max(5,Math.min(50,v));}};
+
+$('createBtn').onclick=()=>{
+  socket.emit('host:create',{mode,count,topic},res=>{
+    if(!res||!res.ok)return alert('Could not create session');
+    pin=res.pin; mode=res.mode;
+    const joinHost=location.origin.replace(/^https?:\/\//,'');
+    $('pinBig').textContent=res.pin;
+    $('joinUrl').textContent=joinHost;
+    // persistent top-right badge so latecomers can always join
+    $('jbUrl').textContent=joinHost;
+    $('jbPin').textContent=res.pin;
+    $('joinBadge').classList.remove('hide');
+    $('modePill').textContent=mode==='auto'?'⚡ Auto-run':'👤 Host-controlled';
+    $('sessionPill').textContent='Session '+res.sessionNumber+' · '+res.totalQuestions+' Qs · '+(res.topicLabel||'Mixed');
+    if(res.previous){$('prevBoard').innerHTML='<b>Previous session top 5:</b><br>'+res.previous.leaderboard.slice(0,5).map((p,i)=>`${i+1}. ${esc(p.name)} — ${p.score}`).join('<br>');}
+    show('lobbyView');
+  });
+};
+
+$('startBtn').onclick=()=>{ socket.emit('host:start',{},()=>{}); };
+$('revealBtn').onclick=()=>socket.emit('host:reveal');
+$('nextBtn').onclick=()=>socket.emit('host:next');
+$('newBtn').onclick=()=>location.reload();
+
+socket.on('players',list=>{
+  $('pcount').textContent=list.length; $('pcount2').textContent=list.length+' players';
+  $('lobbyPlayers').innerHTML=list.map(p=>`<span class="chip">${esc(p.name)}</span>`).join('');
+});
+
+socket.on('question',q=>{
+  isLast=false; curDeadline=q.deadline; curTotal=q.timeMs;
+  $('progress').textContent=`Question ${q.index+1} of ${q.total}`;
+  $('cat').textContent=`${q.category} · ${q.difficulty}`;
+  $('qtext').textContent=q.question;
+  const L=['A','B','C','D'];
+  $('opts').innerHTML=q.options.map((o,i)=>`<div class="o ${L[i]}" data-i="${i}"><span class="cnt" id="cnt${i}"></span><b>${L[i]}.</b> ${esc(o)}<i class="bar" id="ob${i}"></i></div>`).join('');
+  $('explain').classList.add('hide'); $('explain').textContent='';
+  $('hostControls').style.display=mode==='auto'?'none':'flex';
+  show('gameView'); runClock();
+});
+
+socket.on('leaderboard',d=>{
+  $('answeredPill').textContent=`${d.answered} / ${d.players} answered`;
+  renderBoard($('board'),d.live);
+});
+
+socket.on('reveal',r=>{
+  clearInterval(tick); $('bar').style.width='0%'; $('clock').textContent='0';
+  const total=Math.max(1,r.answered);
+  r.counts.forEach((c,i)=>{
+    $('cnt'+i).textContent=c;
+    $('ob'+i).style.width=(100*c/total)+'%';
+    if(i===r.correctIndex)document.querySelector('.o[data-i="'+i+'"]').classList.add('correct');
+  });
+  $('explain').textContent='💡 '+r.explanation; $('explain').classList.remove('hide');
+  renderBoard($('board'),r.leaderboard);
+  isLast=r.isLast;
+  $('nextBtn').textContent=isLast?'Show final results →':'Next question →';
+});
+
+socket.on('finished',f=>{
+  clearInterval(tick);
+  $('joinBadge').classList.add('hide');
+  $('finalTitle').textContent=f.summary.title;
+  renderBoard($('finalBoard'),f.leaderboard,true);
+  show('finalView');
+});
+
+function renderBoard(el,list,big){
+  el.innerHTML=(list||[]).slice(0,big?15:10).map(p=>{
+    const rc=p.rank<=3?('rank'+p.rank):'';
+    const medal=p.rank===1?'🥇':p.rank===2?'🥈':p.rank===3?'🥉':('#'+p.rank);
+    return `<tr><td class="${rc}">${medal}</td><td class="lb-name">${esc(p.name)}</td><td class="lb-score">${p.score}</td></tr>`;
+  }).join('');
+}
+
+function runClock(){
+  clearInterval(tick);
+  tick=setInterval(()=>{
+    const left=Math.max(0,curDeadline-Date.now());
+    $('bar').style.width=(100*left/curTotal)+'%';
+    $('clock').textContent=Math.ceil(left/1000);
+    if(left<=0)clearInterval(tick);
+  },100);
+}
+</script>
+</body>
+</html>

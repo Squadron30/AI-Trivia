@@ -1,0 +1,1122 @@
+[
+ {
+  "id": "M001",
+  "category": "Machine Learning",
+  "difficulty": "intermediate",
+  "q": "What problem does 'overfitting' describe?",
+  "options": [
+   "Model uses too little memory",
+   "Model trains too fast",
+   "Model is too simple",
+   "Model performs well on training data but poorly on new data"
+  ],
+  "answer": 3,
+  "explanation": "Overfitting means the model memorizes training data and fails to generalize to unseen data."
+ },
+ {
+  "id": "M002",
+  "category": "Machine Learning",
+  "difficulty": "intermediate",
+  "q": "What is 'underfitting'?",
+  "options": [
+   "Model has too many features",
+   "Model is too complex",
+   "Model overtrains",
+   "Model fails to capture underlying patterns even in training data"
+  ],
+  "answer": 3,
+  "explanation": "Underfitting occurs when a model is too simple to capture the data's structure."
+ },
+ {
+  "id": "M003",
+  "category": "Machine Learning",
+  "difficulty": "intermediate",
+  "q": "Which technique helps prevent overfitting by penalizing large weights?",
+  "options": [
+   "Normalization",
+   "Regularization",
+   "Tokenization",
+   "Compilation"
+  ],
+  "answer": 1,
+  "explanation": "Regularization (L1/L2) adds a penalty term to discourage overly complex models."
+ },
+ {
+  "id": "M004",
+  "category": "Machine Learning",
+  "difficulty": "intermediate",
+  "q": "What is the purpose of a 'validation set'?",
+  "options": [
+   "To back up the model",
+   "To tune hyperparameters and check generalization during training",
+   "To store passwords",
+   "To render graphics"
+  ],
+  "answer": 1,
+  "explanation": "A validation set evaluates the model during development to tune hyperparameters without touching the test set."
+ },
+ {
+  "id": "M005",
+  "category": "Machine Learning",
+  "difficulty": "intermediate",
+  "q": "In the bias-variance tradeoff, high variance typically leads to:",
+  "options": [
+   "Faster training",
+   "Overfitting",
+   "Underfitting",
+   "Lower memory use"
+  ],
+  "answer": 1,
+  "explanation": "High variance means the model is sensitive to training data noise, causing overfitting."
+ },
+ {
+  "id": "M006",
+  "category": "Machine Learning",
+  "difficulty": "intermediate",
+  "q": "Which algorithm is used for splitting data into k groups based on similarity?",
+  "options": [
+   "Naive Bayes",
+   "K-means clustering",
+   "Decision tree regression",
+   "Linear regression"
+  ],
+  "answer": 1,
+  "explanation": "K-means partitions data into k clusters by minimizing within-cluster variance."
+ },
+ {
+  "id": "M007",
+  "category": "Machine Learning",
+  "difficulty": "intermediate",
+  "q": "A 'confusion matrix' is used to evaluate:",
+  "options": [
+   "Memory usage",
+   "Compression ratio",
+   "Sorting speed",
+   "Classification performance"
+  ],
+  "answer": 3,
+  "explanation": "A confusion matrix tabulates true/false positives and negatives to assess classifiers."
+ },
+ {
+  "id": "M008",
+  "category": "Machine Learning",
+  "difficulty": "intermediate",
+  "q": "Precision is defined as:",
+  "options": [
+   "TN / (TN + FP)",
+   "(TP + TN) / total",
+   "TP / (TP + FN)",
+   "TP / (TP + FP)"
+  ],
+  "answer": 3,
+  "explanation": "Precision = True Positives / (True Positives + False Positives)."
+ },
+ {
+  "id": "M009",
+  "category": "Machine Learning",
+  "difficulty": "intermediate",
+  "q": "Recall (sensitivity) is defined as:",
+  "options": [
+   "TP / (TP + FN)",
+   "TP / (TP + FP)",
+   "FP / (FP + TN)",
+   "TN / total"
+  ],
+  "answer": 0,
+  "explanation": "Recall = True Positives / (True Positives + False Negatives)."
+ },
+ {
+  "id": "M010",
+  "category": "Machine Learning",
+  "difficulty": "intermediate",
+  "q": "The F1-score is the:",
+  "options": [
+   "Harmonic mean of precision and recall",
+   "Product of all metrics",
+   "Sum of accuracy and recall",
+   "Difference of precision and recall"
+  ],
+  "answer": 0,
+  "explanation": "F1 balances precision and recall via their harmonic mean."
+ },
+ {
+  "id": "M011",
+  "category": "Machine Learning",
+  "difficulty": "intermediate",
+  "q": "Which algorithm is based on Bayes' theorem with an independence assumption?",
+  "options": [
+   "K-means",
+   "Gradient descent",
+   "Naive Bayes",
+   "Random forest"
+  ],
+  "answer": 2,
+  "explanation": "Naive Bayes assumes features are conditionally independent given the class."
+ },
+ {
+  "id": "M012",
+  "category": "Machine Learning",
+  "difficulty": "intermediate",
+  "q": "A decision tree splits data based on:",
+  "options": [
+   "Random numbers",
+   "Feature values that best separate classes",
+   "File size",
+   "Alphabetical order"
+  ],
+  "answer": 1,
+  "explanation": "Trees split on features that maximize information gain or reduce impurity."
+ },
+ {
+  "id": "M013",
+  "category": "Machine Learning",
+  "difficulty": "intermediate",
+  "q": "'Random Forest' is an example of which technique?",
+  "options": [
+   "Reinforcement learning",
+   "Dimensionality reduction",
+   "Clustering",
+   "Ensemble learning"
+  ],
+  "answer": 3,
+  "explanation": "Random Forest combines many decision trees (bagging) to improve accuracy and reduce variance."
+ },
+ {
+  "id": "M014",
+  "category": "Machine Learning",
+  "difficulty": "intermediate",
+  "q": "What does 'gradient descent' optimize?",
+  "options": [
+   "Disk space",
+   "Screen brightness",
+   "A loss/cost function",
+   "Network bandwidth"
+  ],
+  "answer": 2,
+  "explanation": "Gradient descent iteratively adjusts parameters to minimize a loss function."
+ },
+ {
+  "id": "M015",
+  "category": "Machine Learning",
+  "difficulty": "intermediate",
+  "q": "The 'learning rate' controls:",
+  "options": [
+   "The number of classes",
+   "The dataset size",
+   "The number of features",
+   "The step size in gradient descent updates"
+  ],
+  "answer": 3,
+  "explanation": "Learning rate determines how large each parameter update step is."
+ },
+ {
+  "id": "M016",
+  "category": "Machine Learning",
+  "difficulty": "intermediate",
+  "q": "What happens if the learning rate is too high?",
+  "options": [
+   "Training may diverge or oscillate",
+   "Data becomes labeled",
+   "Training is always faster and better",
+   "Model uses no memory"
+  ],
+  "answer": 0,
+  "explanation": "An excessive learning rate can overshoot minima, causing divergence."
+ },
+ {
+  "id": "M017",
+  "category": "Machine Learning",
+  "difficulty": "intermediate",
+  "q": "'Feature scaling' (normalization/standardization) is important because:",
+  "options": [
+   "It labels the data",
+   "It deletes outliers",
+   "It puts features on comparable ranges for many algorithms",
+   "It compresses the model"
+  ],
+  "answer": 2,
+  "explanation": "Scaling prevents features with large ranges from dominating distance/gradient computations."
+ },
+ {
+  "id": "M018",
+  "category": "Machine Learning",
+  "difficulty": "intermediate",
+  "q": "Which method reduces the number of features while preserving variance?",
+  "options": [
+   "Naive Bayes",
+   "Backpropagation",
+   "K-means",
+   "Principal Component Analysis (PCA)"
+  ],
+  "answer": 3,
+  "explanation": "PCA projects data onto directions of maximum variance to reduce dimensionality."
+ },
+ {
+  "id": "M019",
+  "category": "Machine Learning",
+  "difficulty": "intermediate",
+  "q": "'Cross-validation' is used to:",
+  "options": [
+   "Estimate model performance more reliably",
+   "Encrypt data",
+   "Label data automatically",
+   "Speed up the GPU"
+  ],
+  "answer": 0,
+  "explanation": "Cross-validation (e.g., k-fold) averages performance over multiple train/test splits."
+ },
+ {
+  "id": "M020",
+  "category": "Machine Learning",
+  "difficulty": "intermediate",
+  "q": "In k-fold cross-validation with k=5, the data is split into:",
+  "options": [
+   "5 models trained on all data",
+   "5 features",
+   "5 copies",
+   "5 equal parts, each used once as validation"
+  ],
+  "answer": 3,
+  "explanation": "Each of the 5 folds serves as validation once while the rest train the model."
+ },
+ {
+  "id": "M021",
+  "category": "Machine Learning",
+  "difficulty": "intermediate",
+  "q": "Logistic regression is primarily used for:",
+  "options": [
+   "Image rendering",
+   "Classification",
+   "Compression",
+   "Sorting"
+  ],
+  "answer": 1,
+  "explanation": "Despite its name, logistic regression is a classification algorithm outputting probabilities."
+ },
+ {
+  "id": "M022",
+  "category": "Machine Learning",
+  "difficulty": "intermediate",
+  "q": "The sigmoid function outputs values in the range:",
+  "options": [
+   "(0, infinity)",
+   "(0, 1)",
+   "(-1, 1)",
+   "(-infinity, infinity)"
+  ],
+  "answer": 1,
+  "explanation": "Sigmoid squashes any real input into the open interval (0, 1), useful for probabilities."
+ },
+ {
+  "id": "M023",
+  "category": "Machine Learning",
+  "difficulty": "intermediate",
+  "q": "Which is a supervised learning algorithm?",
+  "options": [
+   "K-means",
+   "DBSCAN",
+   "PCA",
+   "Support Vector Machine"
+  ],
+  "answer": 3,
+  "explanation": "SVM is supervised; the others are unsupervised techniques."
+ },
+ {
+  "id": "M024",
+  "category": "Machine Learning",
+  "difficulty": "intermediate",
+  "q": "A Support Vector Machine tries to find:",
+  "options": [
+   "The median value",
+   "The smallest cluster",
+   "The fastest route",
+   "The hyperplane with maximum margin between classes"
+  ],
+  "answer": 3,
+  "explanation": "SVM maximizes the margin between classes using support vectors."
+ },
+ {
+  "id": "M025",
+  "category": "Machine Learning",
+  "difficulty": "intermediate",
+  "q": "The 'kernel trick' in SVMs allows:",
+  "options": [
+   "Image compression",
+   "Learning non-linear boundaries in higher-dimensional space",
+   "Data encryption",
+   "Faster disk access"
+  ],
+  "answer": 1,
+  "explanation": "Kernels implicitly map data to higher dimensions to separate non-linearly separable classes."
+ },
+ {
+  "id": "M026",
+  "category": "Machine Learning",
+  "difficulty": "intermediate",
+  "q": "'Bagging' reduces variance by:",
+  "options": [
+   "Removing all features",
+   "Increasing the learning rate",
+   "Boosting weak learners sequentially",
+   "Training models on bootstrap samples and averaging"
+  ],
+  "answer": 3,
+  "explanation": "Bagging (Bootstrap Aggregating) trains models on resampled data and aggregates predictions."
+ },
+ {
+  "id": "M027",
+  "category": "Machine Learning",
+  "difficulty": "intermediate",
+  "q": "'Boosting' works by:",
+  "options": [
+   "Clustering data",
+   "Training weak learners sequentially, each correcting prior errors",
+   "Reducing dimensions",
+   "Averaging independent models"
+  ],
+  "answer": 1,
+  "explanation": "Boosting (e.g., AdaBoost, XGBoost) builds models sequentially to fix predecessors' mistakes."
+ },
+ {
+  "id": "M028",
+  "category": "Machine Learning",
+  "difficulty": "intermediate",
+  "q": "XGBoost is a popular implementation of:",
+  "options": [
+   "K-means",
+   "Gradient boosting",
+   "PCA",
+   "Naive Bayes"
+  ],
+  "answer": 1,
+  "explanation": "XGBoost is an efficient, regularized gradient boosting framework."
+ },
+ {
+  "id": "M029",
+  "category": "Machine Learning",
+  "difficulty": "intermediate",
+  "q": "A 'hyperparameter' is:",
+  "options": [
+   "A setting configured before training (e.g., learning rate)",
+   "A learned weight",
+   "An output prediction",
+   "A data label"
+  ],
+  "answer": 0,
+  "explanation": "Hyperparameters are set before training and are not learned from data directly."
+ },
+ {
+  "id": "M030",
+  "category": "Machine Learning",
+  "difficulty": "intermediate",
+  "q": "'Grid search' is used to:",
+  "options": [
+   "Encrypt models",
+   "Systematically search hyperparameter combinations",
+   "Draw grids on images",
+   "Compress datasets"
+  ],
+  "answer": 1,
+  "explanation": "Grid search evaluates all combinations in a defined hyperparameter grid."
+ },
+ {
+  "id": "M031",
+  "category": "Machine Learning",
+  "difficulty": "intermediate",
+  "q": "The 'curse of dimensionality' refers to:",
+  "options": [
+   "Small datasets",
+   "Slow monitors",
+   "Problems arising as feature count grows very large",
+   "Too few features"
+  ],
+  "answer": 2,
+  "explanation": "In high dimensions, data becomes sparse and distances less meaningful, hurting many algorithms."
+ },
+ {
+  "id": "M032",
+  "category": "Machine Learning",
+  "difficulty": "intermediate",
+  "q": "K-Nearest Neighbors (KNN) classifies a point based on:",
+  "options": [
+   "The majority class of its nearest neighbors",
+   "The mean of all data",
+   "A random guess",
+   "The first data point"
+  ],
+  "answer": 0,
+  "explanation": "KNN assigns the most common class among the k closest training examples."
+ },
+ {
+  "id": "M033",
+  "category": "Machine Learning",
+  "difficulty": "intermediate",
+  "q": "A key drawback of KNN is that it:",
+  "options": [
+   "Requires labels never",
+   "Cannot classify",
+   "Can be slow at prediction time on large datasets",
+   "Uses no distance metric"
+  ],
+  "answer": 2,
+  "explanation": "KNN stores all data and computes distances at inference, which is costly for big datasets."
+ },
+ {
+  "id": "M034",
+  "category": "Machine Learning",
+  "difficulty": "intermediate",
+  "q": "'Entropy' in a decision tree measures:",
+  "options": [
+   "Model speed",
+   "Memory usage",
+   "File size",
+   "Impurity/disorder in a set of examples"
+  ],
+  "answer": 3,
+  "explanation": "Entropy quantifies how mixed the classes are; splits aim to reduce it."
+ },
+ {
+  "id": "M035",
+  "category": "Machine Learning",
+  "difficulty": "intermediate",
+  "q": "'Information gain' is:",
+  "options": [
+   "The reduction in entropy after a split",
+   "The training time",
+   "The number of samples",
+   "The increase in features"
+  ],
+  "answer": 0,
+  "explanation": "Information gain measures how much a feature split reduces uncertainty."
+ },
+ {
+  "id": "M036",
+  "category": "Machine Learning",
+  "difficulty": "intermediate",
+  "q": "Which metric is best when classes are highly imbalanced?",
+  "options": [
+   "Number of features",
+   "Training time",
+   "Raw accuracy alone",
+   "Precision/Recall/F1 or AUC"
+  ],
+  "answer": 3,
+  "explanation": "Accuracy is misleading with imbalance; precision, recall, F1, or AUC are more informative."
+ },
+ {
+  "id": "M037",
+  "category": "Machine Learning",
+  "difficulty": "intermediate",
+  "q": "The ROC curve plots:",
+  "options": [
+   "Accuracy vs epochs",
+   "Loss vs learning rate",
+   "Precision vs features",
+   "True Positive Rate vs False Positive Rate"
+  ],
+  "answer": 3,
+  "explanation": "ROC shows the tradeoff between TPR and FPR across thresholds."
+ },
+ {
+  "id": "M038",
+  "category": "Machine Learning",
+  "difficulty": "intermediate",
+  "q": "AUC stands for:",
+  "options": [
+   "Augmented Utility Class",
+   "Automatic Unit Conversion",
+   "Area Under the Curve",
+   "Average Update Count"
+  ],
+  "answer": 2,
+  "explanation": "AUC is the area under the ROC curve; higher means better ranking of classes."
+ },
+ {
+  "id": "M039",
+  "category": "Machine Learning",
+  "difficulty": "intermediate",
+  "q": "'One-hot encoding' is used to:",
+  "options": [
+   "Compress images",
+   "Shuffle data",
+   "Normalize numbers",
+   "Represent categorical variables as binary vectors"
+  ],
+  "answer": 3,
+  "explanation": "One-hot encoding converts categories into binary indicator columns."
+ },
+ {
+  "id": "M040",
+  "category": "Machine Learning",
+  "difficulty": "intermediate",
+  "q": "A 'loss function' measures:",
+  "options": [
+   "The disk usage",
+   "The number of layers",
+   "The difference between predictions and true values",
+   "The CPU temperature"
+  ],
+  "answer": 2,
+  "explanation": "Loss quantifies prediction error that training aims to minimize."
+ },
+ {
+  "id": "M041",
+  "category": "Machine Learning",
+  "difficulty": "intermediate",
+  "q": "Mean Squared Error (MSE) is commonly used for:",
+  "options": [
+   "Binary classification only",
+   "Tokenization",
+   "Clustering",
+   "Regression problems"
+  ],
+  "answer": 3,
+  "explanation": "MSE averages squared differences and is a standard regression loss."
+ },
+ {
+  "id": "M042",
+  "category": "Machine Learning",
+  "difficulty": "intermediate",
+  "q": "Cross-entropy loss is commonly used for:",
+  "options": [
+   "Classification problems",
+   "Sorting",
+   "Compression",
+   "Rendering"
+  ],
+  "answer": 0,
+  "explanation": "Cross-entropy measures the difference between predicted and true probability distributions."
+ },
+ {
+  "id": "M043",
+  "category": "Machine Learning",
+  "difficulty": "intermediate",
+  "q": "'Stochastic Gradient Descent' updates weights using:",
+  "options": [
+   "No data",
+   "One (or a few) sample(s) at a time",
+   "Random labels",
+   "The entire dataset only"
+  ],
+  "answer": 1,
+  "explanation": "SGD uses small batches/single samples for faster, noisier updates."
+ },
+ {
+  "id": "M044",
+  "category": "Machine Learning",
+  "difficulty": "intermediate",
+  "q": "An 'epoch' in training refers to:",
+  "options": [
+   "One full pass over the training dataset",
+   "One sample",
+   "One layer",
+   "One feature"
+  ],
+  "answer": 0,
+  "explanation": "An epoch is a complete iteration through all training examples."
+ },
+ {
+  "id": "M045",
+  "category": "Machine Learning",
+  "difficulty": "intermediate",
+  "q": "'Batch size' is:",
+  "options": [
+   "Number of classes",
+   "Number of features",
+   "Number of samples processed before a weight update",
+   "Number of epochs"
+  ],
+  "answer": 2,
+  "explanation": "Batch size controls how many examples are used per gradient update."
+ },
+ {
+  "id": "M046",
+  "category": "Machine Learning",
+  "difficulty": "intermediate",
+  "q": "Which is an unsupervised dimensionality reduction technique for visualization?",
+  "options": [
+   "t-SNE",
+   "AdaBoost",
+   "Logistic regression",
+   "SVM"
+  ],
+  "answer": 0,
+  "explanation": "t-SNE projects high-dimensional data to 2D/3D preserving local structure."
+ },
+ {
+  "id": "M047",
+  "category": "Machine Learning",
+  "difficulty": "intermediate",
+  "q": "'Data leakage' occurs when:",
+  "options": [
+   "The GPU overheats",
+   "Information from outside training improperly influences the model",
+   "Data is compressed",
+   "The disk overflows"
+  ],
+  "answer": 1,
+  "explanation": "Leakage happens when test/future information leaks into training, inflating performance."
+ },
+ {
+  "id": "M048",
+  "category": "Machine Learning",
+  "difficulty": "intermediate",
+  "q": "The 'no free lunch' theorem states that:",
+  "options": [
+   "GPUs are unnecessary",
+   "Training is always free",
+   "No single algorithm is best for all problems",
+   "Data is unlimited"
+  ],
+  "answer": 2,
+  "explanation": "Performance depends on the problem; no universally superior algorithm exists."
+ },
+ {
+  "id": "M049",
+  "category": "Machine Learning",
+  "difficulty": "intermediate",
+  "q": "'Imputation' handles:",
+  "options": [
+   "GPU scheduling",
+   "Model deployment",
+   "Extra features",
+   "Missing values in a dataset"
+  ],
+  "answer": 3,
+  "explanation": "Imputation fills in missing data using strategies like mean, median, or model-based methods."
+ },
+ {
+  "id": "M050",
+  "category": "Machine Learning",
+  "difficulty": "intermediate",
+  "q": "An 'outlier' is:",
+  "options": [
+   "A missing value",
+   "A column header",
+   "A data point that differs significantly from others",
+   "A duplicate row"
+  ],
+  "answer": 2,
+  "explanation": "Outliers are anomalous values that can distort models if not handled."
+ },
+ {
+  "id": "M051",
+  "category": "Machine Learning",
+  "difficulty": "intermediate",
+  "q": "DBSCAN is an algorithm for:",
+  "options": [
+   "Dimensionality reduction",
+   "Classification with labels",
+   "Density-based clustering",
+   "Regression"
+  ],
+  "answer": 2,
+  "explanation": "DBSCAN groups densely packed points and marks sparse points as noise."
+ },
+ {
+  "id": "M052",
+  "category": "Machine Learning",
+  "difficulty": "intermediate",
+  "q": "'Ensemble methods' generally aim to:",
+  "options": [
+   "Combine multiple models for better performance",
+   "Encrypt predictions",
+   "Speed up disk I/O",
+   "Reduce dataset size"
+  ],
+  "answer": 0,
+  "explanation": "Ensembles combine several models to outperform any single one."
+ },
+ {
+  "id": "M053",
+  "category": "Machine Learning",
+  "difficulty": "intermediate",
+  "q": "Which classic AI search algorithm explores the deepest nodes first?",
+  "options": [
+   "Depth-First Search",
+   "A* search",
+   "Breadth-First Search",
+   "Dijkstra"
+  ],
+  "answer": 0,
+  "explanation": "DFS explores as far as possible along each branch before backtracking."
+ },
+ {
+  "id": "M054",
+  "category": "Classic AI",
+  "difficulty": "intermediate",
+  "q": "A* search combines path cost with:",
+  "options": [
+   "A heuristic estimate to the goal",
+   "Depth only",
+   "Random exploration",
+   "Alphabetical order"
+  ],
+  "answer": 0,
+  "explanation": "A* uses f(n)=g(n)+h(n), balancing actual cost and heuristic estimate."
+ },
+ {
+  "id": "M055",
+  "category": "Classic AI",
+  "difficulty": "intermediate",
+  "q": "For A* to be optimal, the heuristic must be:",
+  "options": [
+   "Admissible (never overestimates)",
+   "Random",
+   "Always zero",
+   "Larger than true cost"
+  ],
+  "answer": 0,
+  "explanation": "An admissible heuristic never overestimates the true cost, guaranteeing optimality."
+ },
+ {
+  "id": "M056",
+  "category": "Classic AI",
+  "difficulty": "intermediate",
+  "q": "The 'minimax' algorithm is used in:",
+  "options": [
+   "Two-player adversarial games",
+   "Image classification",
+   "Regression",
+   "Clustering"
+  ],
+  "answer": 0,
+  "explanation": "Minimax computes optimal moves assuming an adversary minimizes the player's payoff."
+ },
+ {
+  "id": "M057",
+  "category": "Classic AI",
+  "difficulty": "intermediate",
+  "q": "'Alpha-beta pruning' improves minimax by:",
+  "options": [
+   "Eliminating branches that cannot affect the result",
+   "Adding random moves",
+   "Increasing tree depth always",
+   "Storing all states"
+  ],
+  "answer": 0,
+  "explanation": "Alpha-beta pruning skips branches that won't influence the final decision, saving computation."
+ },
+ {
+  "id": "M058",
+  "category": "Classic AI",
+  "difficulty": "intermediate",
+  "q": "A 'heuristic' in AI search is:",
+  "options": [
+   "A dataset",
+   "A guaranteed exact answer",
+   "A rule of thumb guiding the search",
+   "A hardware component"
+  ],
+  "answer": 2,
+  "explanation": "Heuristics provide informed estimates to guide search efficiently."
+ },
+ {
+  "id": "M059",
+  "category": "Classic AI",
+  "difficulty": "intermediate",
+  "q": "Breadth-First Search guarantees the shortest path when:",
+  "options": [
+   "There is no goal",
+   "All edges have equal cost",
+   "The graph is infinite",
+   "Edges have negative cost"
+  ],
+  "answer": 1,
+  "explanation": "BFS finds the shallowest goal, which is shortest only with uniform edge costs."
+ },
+ {
+  "id": "M060",
+  "category": "Classic AI",
+  "difficulty": "intermediate",
+  "q": "A 'constraint satisfaction problem' (CSP) involves:",
+  "options": [
+   "Rendering graphics",
+   "Assigning values to variables subject to constraints",
+   "Training neural networks",
+   "Compressing files"
+  ],
+  "answer": 1,
+  "explanation": "CSPs (e.g., Sudoku, scheduling) find variable assignments satisfying all constraints."
+ },
+ {
+  "id": "M061",
+  "category": "Classic AI",
+  "difficulty": "intermediate",
+  "q": "'Propositional logic' deals with statements that are:",
+  "options": [
+   "Random",
+   "True or false",
+   "Continuous",
+   "Always numeric"
+  ],
+  "answer": 1,
+  "explanation": "Propositional logic uses boolean-valued propositions combined with logical connectives."
+ },
+ {
+  "id": "M062",
+  "category": "Classic AI",
+  "difficulty": "intermediate",
+  "q": "'First-order logic' adds which capability over propositional logic?",
+  "options": [
+   "Encryption",
+   "Image support",
+   "Faster CPUs",
+   "Quantifiers and predicates over objects"
+  ],
+  "answer": 3,
+  "explanation": "First-order logic introduces quantifiers (for all, exists) and predicates over objects."
+ },
+ {
+  "id": "M063",
+  "category": "Classic AI",
+  "difficulty": "intermediate",
+  "q": "'Forward chaining' is a reasoning method that starts from:",
+  "options": [
+   "Random states",
+   "The goal working backward",
+   "Known facts to derive conclusions",
+   "Neural weights"
+  ],
+  "answer": 2,
+  "explanation": "Forward chaining applies rules to known facts to infer new facts until reaching a goal."
+ },
+ {
+  "id": "M064",
+  "category": "Classic AI",
+  "difficulty": "intermediate",
+  "q": "'Backward chaining' starts from:",
+  "options": [
+   "The goal and works toward supporting facts",
+   "The first rule",
+   "Random data",
+   "The largest dataset"
+  ],
+  "answer": 0,
+  "explanation": "Backward chaining begins with a goal and searches for facts/rules that support it."
+ },
+ {
+  "id": "M065",
+  "category": "Classic AI",
+  "difficulty": "intermediate",
+  "q": "A 'knowledge base' in an expert system stores:",
+  "options": [
+   "Temporary cache",
+   "Only images",
+   "User passwords",
+   "Facts and rules about a domain"
+  ],
+  "answer": 3,
+  "explanation": "The knowledge base holds domain facts and rules used by the inference engine."
+ },
+ {
+  "id": "M066",
+  "category": "Classic AI",
+  "difficulty": "intermediate",
+  "q": "The 'inference engine' in an expert system:",
+  "options": [
+   "Applies logical rules to the knowledge base to derive conclusions",
+   "Renders UI",
+   "Stores images",
+   "Manages memory"
+  ],
+  "answer": 0,
+  "explanation": "The inference engine reasons over the knowledge base to reach conclusions."
+ },
+ {
+  "id": "M067",
+  "category": "Classic AI",
+  "difficulty": "intermediate",
+  "q": "A 'greedy best-first search' selects nodes based on:",
+  "options": [
+   "Depth only",
+   "Actual path cost only",
+   "The heuristic estimate alone",
+   "Random choice"
+  ],
+  "answer": 2,
+  "explanation": "Greedy best-first uses only the heuristic h(n), which is fast but not always optimal."
+ },
+ {
+  "id": "M068",
+  "category": "Classic AI",
+  "difficulty": "intermediate",
+  "q": "'Hill climbing' can get stuck in:",
+  "options": [
+   "Negative cycles",
+   "Global optima always",
+   "Local maxima",
+   "Infinite loops only"
+  ],
+  "answer": 2,
+  "explanation": "Hill climbing may converge to a local optimum rather than the global best."
+ },
+ {
+  "id": "M069",
+  "category": "Classic AI",
+  "difficulty": "intermediate",
+  "q": "'Simulated annealing' escapes local optima by:",
+  "options": [
+   "Never moving downhill",
+   "Using more memory",
+   "Occasionally accepting worse solutions with decreasing probability",
+   "Always restarting"
+  ],
+  "answer": 2,
+  "explanation": "Simulated annealing sometimes accepts worse moves early on, reducing this over time."
+ },
+ {
+  "id": "M070",
+  "category": "Classic AI",
+  "difficulty": "intermediate",
+  "q": "A 'genetic algorithm' is inspired by:",
+  "options": [
+   "Natural selection and evolution",
+   "Quantum mechanics",
+   "Fluid dynamics",
+   "Neural signaling"
+  ],
+  "answer": 0,
+  "explanation": "Genetic algorithms evolve solutions using selection, crossover, and mutation."
+ },
+ {
+  "id": "M071",
+  "category": "Machine Learning",
+  "difficulty": "intermediate",
+  "q": "'Semi-supervised learning' uses:",
+  "options": [
+   "A small amount of labeled data with lots of unlabeled data",
+   "Only rewards",
+   "Only labeled data",
+   "No data"
+  ],
+  "answer": 0,
+  "explanation": "Semi-supervised methods leverage abundant unlabeled data alongside limited labels."
+ },
+ {
+  "id": "M072",
+  "category": "Machine Learning",
+  "difficulty": "intermediate",
+  "q": "'Anomaly detection' aims to:",
+  "options": [
+   "Cluster all data equally",
+   "Identify rare items that differ from the norm",
+   "Classify common items",
+   "Compress features"
+  ],
+  "answer": 1,
+  "explanation": "Anomaly detection flags unusual observations, useful in fraud and fault detection."
+ },
+ {
+  "id": "M073",
+  "category": "Machine Learning",
+  "difficulty": "intermediate",
+  "q": "'Early stopping' prevents overfitting by:",
+  "options": [
+   "Deleting the dataset",
+   "Halting training when validation performance stops improving",
+   "Encrypting weights",
+   "Reducing image size"
+  ],
+  "answer": 1,
+  "explanation": "Early stopping ends training once validation loss no longer improves."
+ },
+ {
+  "id": "M074",
+  "category": "Machine Learning",
+  "difficulty": "intermediate",
+  "q": "'L1 regularization' (Lasso) tends to:",
+  "options": [
+   "Increase all weights",
+   "Add layers",
+   "Remove labels",
+   "Produce sparse models with some weights exactly zero"
+  ],
+  "answer": 3,
+  "explanation": "L1 drives some coefficients to zero, effectively performing feature selection."
+ },
+ {
+  "id": "M075",
+  "category": "Machine Learning",
+  "difficulty": "intermediate",
+  "q": "'L2 regularization' (Ridge) tends to:",
+  "options": [
+   "Delete features",
+   "Shrink weights toward zero without making them exactly zero",
+   "Increase variance",
+   "Randomize labels"
+  ],
+  "answer": 1,
+  "explanation": "L2 penalizes large weights smoothly, reducing overfitting without full sparsity."
+ },
+ {
+  "id": "M076",
+  "category": "Machine Learning",
+  "difficulty": "intermediate",
+  "q": "A 'baseline model' is used to:",
+  "options": [
+   "Provide a reference performance to compare against",
+   "Replace all models",
+   "Encrypt the pipeline",
+   "Store data"
+  ],
+  "answer": 0,
+  "explanation": "Baselines set a minimum benchmark that more complex models should beat."
+ },
+ {
+  "id": "M077",
+  "category": "Machine Learning",
+  "difficulty": "intermediate",
+  "q": "'Feature engineering' refers to:",
+  "options": [
+   "Creating or transforming input variables to improve models",
+   "Writing UI code",
+   "Managing servers",
+   "Building CPUs"
+  ],
+  "answer": 0,
+  "explanation": "Feature engineering crafts informative inputs from raw data to boost performance."
+ },
+ {
+  "id": "M078",
+  "category": "Machine Learning",
+  "difficulty": "intermediate",
+  "q": "'Class imbalance' can be addressed by:",
+  "options": [
+   "Ignoring it always",
+   "Resampling (oversampling/undersampling) or class weighting",
+   "Removing all classes",
+   "Adding random noise only"
+  ],
+  "answer": 1,
+  "explanation": "Techniques like SMOTE, undersampling, or weighted losses handle imbalance."
+ },
+ {
+  "id": "M079",
+  "category": "Machine Learning",
+  "difficulty": "intermediate",
+  "q": "The 'test set' should be used:",
+  "options": [
+   "Only once, for final unbiased evaluation",
+   "To train the model",
+   "Repeatedly for tuning",
+   "To generate labels"
+  ],
+  "answer": 0,
+  "explanation": "The test set gives an unbiased final estimate and should not drive tuning decisions."
+ },
+ {
+  "id": "M080",
+  "category": "Machine Learning",
+  "difficulty": "intermediate",
+  "q": "'Scikit-learn' is a Python library primarily for:",
+  "options": [
+   "3D games",
+   "Web servers",
+   "Classical machine learning",
+   "Operating systems"
+  ],
+  "answer": 2,
+  "explanation": "scikit-learn provides classical ML algorithms, preprocessing, and evaluation tools."
+ }
+]

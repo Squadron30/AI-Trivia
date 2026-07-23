@@ -1,0 +1,1066 @@
+[
+ {
+  "id": "DA001",
+  "category": "AI System Design & Architecture",
+  "difficulty": "beginner",
+  "q": "A 'reactive agent' architecture chooses its actions based on:",
+  "options": [
+   "Random sampling",
+   "A full history of the world",
+   "A pretrained image set",
+   "The current perception only"
+  ],
+  "answer": 3,
+  "explanation": "Reactive (reflex) agents map the current percept directly to an action, with no internal model."
+ },
+ {
+  "id": "DA002",
+  "category": "AI System Design & Architecture",
+  "difficulty": "intermediate",
+  "q": "A 'deliberative' agent architecture relies primarily on:",
+  "options": [
+   "Pure randomness",
+   "An internal world model and planning",
+   "No memory at all",
+   "Only condition-action rules"
+  ],
+  "answer": 1,
+  "explanation": "Deliberative agents maintain a model of the world and reason/plan before acting."
+ },
+ {
+  "id": "DA003",
+  "category": "AI System Design & Architecture",
+  "difficulty": "advanced",
+  "q": "Brooks' 'subsumption architecture' organizes an agent's behaviour into:",
+  "options": [
+   "Layers of increasing competence",
+   "A relational database",
+   "One neural network",
+   "A single monolithic rule"
+  ],
+  "answer": 0,
+  "explanation": "Subsumption stacks simple behaviour layers, higher layers subsuming lower ones."
+ },
+ {
+  "id": "DA004",
+  "category": "AI System Design & Architecture",
+  "difficulty": "intermediate",
+  "q": "A 'hybrid' agent architecture typically combines:",
+  "options": [
+   "Two identical planners",
+   "Only sensors",
+   "Only actuators",
+   "Reactive and deliberative components"
+  ],
+  "answer": 3,
+  "explanation": "Hybrid architectures blend fast reactive responses with slower deliberative planning."
+ },
+ {
+  "id": "DA005",
+  "category": "AI System Design & Architecture",
+  "difficulty": "intermediate",
+  "q": "Separating the 'training' and 'serving' pipelines in an ML system mainly helps to:",
+  "options": [
+   "Slow down inference",
+   "Avoid training-serving skew and scale them independently",
+   "Delete the model",
+   "Remove all data"
+  ],
+  "answer": 1,
+  "explanation": "Decoupling lets each pipeline scale and evolve independently and keeps feature logic consistent."
+ },
+ {
+  "id": "DA006",
+  "category": "AI System Design & Architecture",
+  "difficulty": "intermediate",
+  "q": "A 'model registry' is used to store:",
+  "options": [
+   "Network routes",
+   "User passwords",
+   "Raw log files only",
+   "Versioned models with their metadata"
+  ],
+  "answer": 3,
+  "explanation": "A registry tracks model versions, stages, and metadata for reproducibility and rollback."
+ },
+ {
+  "id": "DA007",
+  "category": "AI System Design & Architecture",
+  "difficulty": "intermediate",
+  "q": "For real-time, low-latency predictions you should design for:",
+  "options": [
+   "No inference",
+   "Online (synchronous) inference",
+   "Manual predictions",
+   "Only nightly batch jobs"
+  ],
+  "answer": 1,
+  "explanation": "Online inference serves individual requests with low latency, unlike batch."
+ },
+ {
+  "id": "DA008",
+  "category": "AI System Design & Architecture",
+  "difficulty": "beginner",
+  "q": "To score millions of records overnight, the natural choice is:",
+  "options": [
+   "A spreadsheet",
+   "No inference",
+   "Batch inference",
+   "Per-request online inference"
+  ],
+  "answer": 2,
+  "explanation": "Batch inference efficiently processes large datasets on a schedule."
+ },
+ {
+  "id": "DA009",
+  "category": "AI System Design & Architecture",
+  "difficulty": "advanced",
+  "q": "'Data parallelism' in distributed training:",
+  "options": [
+   "Uses no GPUs",
+   "Splits one model across GPUs",
+   "Trains without data",
+   "Replicates the model and splits the data across workers"
+  ],
+  "answer": 3,
+  "explanation": "Each worker holds a full model copy and processes a shard of the data, syncing gradients."
+ },
+ {
+  "id": "DA010",
+  "category": "AI System Design & Architecture",
+  "difficulty": "advanced",
+  "q": "'Model parallelism' is used when:",
+  "options": [
+   "A model is too large to fit on one device, so it is split across devices",
+   "No training is needed",
+   "There is only one GPU and a small model",
+   "The dataset is tiny"
+  ],
+  "answer": 0,
+  "explanation": "Model parallelism partitions the model itself across multiple devices."
+ },
+ {
+  "id": "DA011",
+  "category": "AI System Design & Architecture",
+  "difficulty": "intermediate",
+  "q": "A 'feature store' primarily provides:",
+  "options": [
+   "Consistent, reusable features for training and serving",
+   "Email delivery",
+   "User authentication",
+   "Image rendering"
+  ],
+  "answer": 0,
+  "explanation": "Feature stores centralize feature computation to prevent training/serving skew."
+ },
+ {
+  "id": "DA012",
+  "category": "AI System Design & Architecture",
+  "difficulty": "intermediate",
+  "q": "To decouple producers and consumers in a data pipeline, you typically use:",
+  "options": [
+   "A DNS record",
+   "A message queue / event stream",
+   "A single shared variable",
+   "A CSS file"
+  ],
+  "answer": 1,
+  "explanation": "Queues (e.g., Kafka, Service Bus) buffer and decouple components for resilience and scale."
+ },
+ {
+  "id": "DA013",
+  "category": "AI System Design & Architecture",
+  "difficulty": "beginner",
+  "q": "'Horizontal scaling' means:",
+  "options": [
+   "Adding more instances/machines",
+   "Adding more RAM to one machine",
+   "Deleting servers",
+   "Reducing users"
+  ],
+  "answer": 0,
+  "explanation": "Horizontal scaling (scale-out) adds instances to share load."
+ },
+ {
+  "id": "DA014",
+  "category": "AI System Design & Architecture",
+  "difficulty": "beginner",
+  "q": "'Vertical scaling' means:",
+  "options": [
+   "Adding more machines",
+   "Adding more CPU/RAM to a single machine",
+   "Splitting the database",
+   "Turning the server off"
+  ],
+  "answer": 1,
+  "explanation": "Vertical scaling (scale-up) increases the resources of one machine."
+ },
+ {
+  "id": "DA015",
+  "category": "AI System Design & Architecture",
+  "difficulty": "beginner",
+  "q": "A 'load balancer' is responsible for:",
+  "options": [
+   "Training models",
+   "Compiling code",
+   "Distributing incoming requests across multiple servers",
+   "Encrypting disks"
+  ],
+  "answer": 2,
+  "explanation": "Load balancers spread traffic to improve throughput and availability."
+ },
+ {
+  "id": "DA016",
+  "category": "AI System Design & Architecture",
+  "difficulty": "intermediate",
+  "q": "Caching frequent model outputs mainly improves:",
+  "options": [
+   "Dataset size",
+   "Latency and reduces redundant computation",
+   "Label quality",
+   "Model accuracy"
+  ],
+  "answer": 1,
+  "explanation": "Caching serves repeated requests quickly without recomputing predictions."
+ },
+ {
+  "id": "DA017",
+  "category": "AI System Design & Architecture",
+  "difficulty": "beginner",
+  "q": "For image classification, the natural neural architecture is a:",
+  "options": [
+   "Bag of words",
+   "Decision stump only",
+   "Simple lookup table",
+   "Convolutional Neural Network (CNN)"
+  ],
+  "answer": 3,
+  "explanation": "CNNs exploit spatial structure, making them ideal for images."
+ },
+ {
+  "id": "DA018",
+  "category": "AI System Design & Architecture",
+  "difficulty": "intermediate",
+  "q": "For modern language/sequence tasks, the dominant architecture is the:",
+  "options": [
+   "K-means model",
+   "Single perceptron",
+   "Linear regressor",
+   "Transformer"
+  ],
+  "answer": 3,
+  "explanation": "Transformers with self-attention are the standard for language and many sequence tasks."
+ },
+ {
+  "id": "DA019",
+  "category": "AI System Design & Architecture",
+  "difficulty": "intermediate",
+  "q": "An 'encoder-decoder' architecture is best suited for:",
+  "options": [
+   "Only image thresholding",
+   "Only binary classification",
+   "Only clustering",
+   "Sequence-to-sequence tasks like translation"
+  ],
+  "answer": 3,
+  "explanation": "Encoder-decoder models map an input sequence to an output sequence."
+ },
+ {
+  "id": "DA020",
+  "category": "AI System Design & Architecture",
+  "difficulty": "advanced",
+  "q": "A Retrieval-Augmented Generation (RAG) architecture pairs a generator (LLM) with:",
+  "options": [
+   "A retriever over an external knowledge source",
+   "A second identical LLM only",
+   "A random number generator",
+   "A CSS framework"
+  ],
+  "answer": 0,
+  "explanation": "RAG retrieves relevant context and feeds it to the LLM to ground its answers."
+ },
+ {
+  "id": "DA021",
+  "category": "AI System Design & Architecture",
+  "difficulty": "intermediate",
+  "q": "A 'vector database' is designed to:",
+  "options": [
+   "Store embeddings and perform similarity search",
+   "Manage DNS",
+   "Store only relational tables",
+   "Render 3D graphics"
+  ],
+  "answer": 0,
+  "explanation": "Vector DBs index embeddings for fast nearest-neighbour retrieval."
+ },
+ {
+  "id": "DA022",
+  "category": "AI System Design & Architecture",
+  "difficulty": "intermediate",
+  "q": "A 'microservices' architecture:",
+  "options": [
+   "Decomposes a system into small, independently deployable services",
+   "Puts everything in one binary",
+   "Removes all APIs",
+   "Uses no network"
+  ],
+  "answer": 0,
+  "explanation": "Microservices split functionality into independent services that scale separately."
+ },
+ {
+  "id": "DA023",
+  "category": "AI System Design & Architecture",
+  "difficulty": "advanced",
+  "q": "'Stateless' services are easier to scale horizontally because:",
+  "options": [
+   "Any instance can handle any request",
+   "They require one server only",
+   "They never respond",
+   "They store all session state locally"
+  ],
+  "answer": 0,
+  "explanation": "With no local state, requests can be routed to any instance freely."
+ },
+ {
+  "id": "DA024",
+  "category": "AI System Design & Architecture",
+  "difficulty": "advanced",
+  "q": "To keep real-time WebSocket sessions consistent across multiple server instances, you need:",
+  "options": [
+   "A single global variable",
+   "Only more RAM",
+   "Sticky sessions plus a shared pub/sub layer (e.g., Redis)",
+   "No configuration"
+  ],
+  "answer": 2,
+  "explanation": "Affinity pins a socket to an instance; a shared pub/sub relays events across instances."
+ },
+ {
+  "id": "DA025",
+  "category": "AI System Design & Architecture",
+  "difficulty": "intermediate",
+  "q": "'Edge deployment' of a model reduces:",
+  "options": [
+   "The need for any model",
+   "Latency and bandwidth by running closer to the data source",
+   "Training data",
+   "Model accuracy always"
+  ],
+  "answer": 1,
+  "explanation": "Running on-device/at the edge cuts round-trip latency and network usage."
+ },
+ {
+  "id": "DA026",
+  "category": "AI System Design & Architecture",
+  "difficulty": "advanced",
+  "q": "A 'circuit breaker' pattern is used to:",
+  "options": [
+   "Speed up training",
+   "Stop calls to a failing dependency to prevent cascading failures",
+   "Add more features",
+   "Encrypt models"
+  ],
+  "answer": 1,
+  "explanation": "Circuit breakers trip open when a dependency fails, protecting the system."
+ },
+ {
+  "id": "DA027",
+  "category": "AI System Design & Architecture",
+  "difficulty": "advanced",
+  "q": "'Blue-green deployment' enables:",
+  "options": [
+   "Faster GPUs",
+   "Near-zero-downtime releases by switching traffic between two environments",
+   "Automatic labeling",
+   "Bigger datasets"
+  ],
+  "answer": 1,
+  "explanation": "Two identical environments let you switch traffic instantly and roll back safely."
+ },
+ {
+  "id": "DA028",
+  "category": "AI System Design & Architecture",
+  "difficulty": "intermediate",
+  "q": "An 'API gateway' in a distributed AI system acts as:",
+  "options": [
+   "A single entry point that routes requests to backend services",
+   "A model trainer",
+   "A GPU scheduler",
+   "A database index"
+  ],
+  "answer": 0,
+  "explanation": "The gateway centralizes routing, auth, and rate limiting for backend services."
+ },
+ {
+  "id": "KR001",
+  "category": "Knowledge Representation & Reasoning",
+  "difficulty": "beginner",
+  "q": "'Knowledge representation' is concerned with:",
+  "options": [
+   "Rendering video",
+   "Encoding information so machines can reason about it",
+   "Compressing images only",
+   "Cooling the CPU"
+  ],
+  "answer": 1,
+  "explanation": "KR studies how to formally capture knowledge for automated reasoning."
+ },
+ {
+  "id": "KR002",
+  "category": "Knowledge Representation & Reasoning",
+  "difficulty": "beginner",
+  "q": "A 'semantic network' represents knowledge using:",
+  "options": [
+   "A single number",
+   "Audio frames",
+   "Nodes (concepts) and labeled links (relationships)",
+   "Pixels only"
+  ],
+  "answer": 2,
+  "explanation": "Semantic networks link concepts with typed relationships."
+ },
+ {
+  "id": "KR003",
+  "category": "Knowledge Representation & Reasoning",
+  "difficulty": "intermediate",
+  "q": "'Frames' represent knowledge as:",
+  "options": [
+   "Structured objects with slots and values",
+   "Only images",
+   "Random noise",
+   "Flat lists of numbers"
+  ],
+  "answer": 0,
+  "explanation": "Frames are record-like structures with slots (attributes) and fillers (values)."
+ },
+ {
+  "id": "KR004",
+  "category": "Knowledge Representation & Reasoning",
+  "difficulty": "intermediate",
+  "q": "An 'ontology' formally defines:",
+  "options": [
+   "CPU clock speeds",
+   "Concepts and the relationships between them in a domain",
+   "Screen resolutions",
+   "File permissions"
+  ],
+  "answer": 1,
+  "explanation": "Ontologies specify a shared vocabulary of concepts and relations."
+ },
+ {
+  "id": "KR005",
+  "category": "Knowledge Representation & Reasoning",
+  "difficulty": "intermediate",
+  "q": "A 'knowledge graph' stores information as:",
+  "options": [
+   "Entities connected by relationships in a graph",
+   "Compiled machine code",
+   "A single spreadsheet cell",
+   "A video stream"
+  ],
+  "answer": 0,
+  "explanation": "Knowledge graphs model entities (nodes) and relations (edges)."
+ },
+ {
+  "id": "KR006",
+  "category": "Knowledge Representation & Reasoning",
+  "difficulty": "beginner",
+  "q": "'Propositional logic' deals with statements that are:",
+  "options": [
+   "Images",
+   "Continuous",
+   "Always numeric",
+   "Either true or false"
+  ],
+  "answer": 3,
+  "explanation": "Propositions have boolean truth values combined with connectives."
+ },
+ {
+  "id": "KR007",
+  "category": "Knowledge Representation & Reasoning",
+  "difficulty": "intermediate",
+  "q": "'First-order logic' extends propositional logic by adding:",
+  "options": [
+   "More colours",
+   "Faster CPUs",
+   "Encryption",
+   "Quantifiers and predicates over objects"
+  ],
+  "answer": 3,
+  "explanation": "FOL introduces objects, predicates, and quantifiers (for all, exists)."
+ },
+ {
+  "id": "KR008",
+  "category": "Knowledge Representation & Reasoning",
+  "difficulty": "intermediate",
+  "q": "'Forward chaining' reasons:",
+  "options": [
+   "Without any rules",
+   "From known facts toward conclusions",
+   "Randomly",
+   "From the goal backward"
+  ],
+  "answer": 1,
+  "explanation": "Forward chaining applies rules to facts to derive new facts (data-driven)."
+ },
+ {
+  "id": "KR009",
+  "category": "Knowledge Representation & Reasoning",
+  "difficulty": "intermediate",
+  "q": "'Backward chaining' reasons:",
+  "options": [
+   "From a goal back to supporting facts",
+   "From facts forward only",
+   "By guessing",
+   "With no goal"
+  ],
+  "answer": 0,
+  "explanation": "Backward chaining starts with a goal and seeks rules/facts that prove it (goal-driven)."
+ },
+ {
+  "id": "KR010",
+  "category": "Knowledge Representation & Reasoning",
+  "difficulty": "intermediate",
+  "q": "By 'modus ponens', from P and (P implies Q) you can infer:",
+  "options": [
+   "not P",
+   "Q",
+   "not Q",
+   "P and not Q"
+  ],
+  "answer": 1,
+  "explanation": "Modus ponens: given P and P→Q, conclude Q."
+ },
+ {
+  "id": "KR011",
+  "category": "Knowledge Representation & Reasoning",
+  "difficulty": "advanced",
+  "q": "The 'resolution' inference rule is commonly used for:",
+  "options": [
+   "Image scaling",
+   "Sorting arrays",
+   "Automated theorem proving by refutation",
+   "Rendering fonts"
+  ],
+  "answer": 2,
+  "explanation": "Resolution proves a statement by deriving a contradiction from its negation."
+ },
+ {
+  "id": "KR012",
+  "category": "Knowledge Representation & Reasoning",
+  "difficulty": "advanced",
+  "q": "'Unification' in logic finds:",
+  "options": [
+   "The largest number",
+   "A shortest path",
+   "A random rule",
+   "A substitution that makes two expressions identical"
+  ],
+  "answer": 3,
+  "explanation": "Unification computes variable bindings that make terms match, key to FOL inference."
+ },
+ {
+  "id": "KR013",
+  "category": "Knowledge Representation & Reasoning",
+  "difficulty": "beginner",
+  "q": "A 'production rule' typically has the form:",
+  "options": [
+   "SELECT * FROM table",
+   "IF condition THEN action",
+   "x = x + 1",
+   "GOTO line 10"
+  ],
+  "answer": 1,
+  "explanation": "Production rules express knowledge as condition-action (IF-THEN) pairs."
+ },
+ {
+  "id": "KR014",
+  "category": "Knowledge Representation & Reasoning",
+  "difficulty": "beginner",
+  "q": "An 'inference engine' in a rule-based system:",
+  "options": [
+   "Cools the server",
+   "Displays graphics",
+   "Stores video files",
+   "Applies rules to the knowledge base to derive conclusions"
+  ],
+  "answer": 3,
+  "explanation": "The inference engine performs the reasoning over stored rules and facts."
+ },
+ {
+  "id": "KR015",
+  "category": "Knowledge Representation & Reasoning",
+  "difficulty": "advanced",
+  "q": "A 'Bayesian network' represents:",
+  "options": [
+   "A neural network layer",
+   "A sorting algorithm",
+   "A CSS grid",
+   "Probabilistic dependencies among variables via a directed acyclic graph"
+  ],
+  "answer": 3,
+  "explanation": "Bayesian networks encode conditional dependencies as a DAG with probability tables."
+ },
+ {
+  "id": "KR016",
+  "category": "Knowledge Representation & Reasoning",
+  "difficulty": "intermediate",
+  "q": "The conditional probability P(A|B) is read as:",
+  "options": [
+   "A minus B",
+   "Probability of A given B",
+   "Probability of B only",
+   "A multiplied by B"
+  ],
+  "answer": 1,
+  "explanation": "P(A|B) is the probability of A occurring given that B has occurred."
+ },
+ {
+  "id": "KR017",
+  "category": "Knowledge Representation & Reasoning",
+  "difficulty": "advanced",
+  "q": "A 'Hidden Markov Model' is used to model:",
+  "options": [
+   "Disk partitions",
+   "Fixed constants",
+   "Sequences with unobservable (hidden) states",
+   "Static single images"
+  ],
+  "answer": 2,
+  "explanation": "HMMs model sequential data where the underlying state is hidden (e.g., speech)."
+ },
+ {
+  "id": "KR018",
+  "category": "Knowledge Representation & Reasoning",
+  "difficulty": "intermediate",
+  "q": "'Fuzzy logic' allows truth values that are:",
+  "options": [
+   "Only exactly 0 or 1",
+   "Imaginary numbers",
+   "Negative",
+   "Anywhere between 0 and 1"
+  ],
+  "answer": 3,
+  "explanation": "Fuzzy logic represents partial truth on a continuous 0-1 scale."
+ },
+ {
+  "id": "KR019",
+  "category": "Knowledge Representation & Reasoning",
+  "difficulty": "advanced",
+  "q": "'Non-monotonic reasoning' is characterized by:",
+  "options": [
+   "Conclusions that can be retracted when new information arrives",
+   "Conclusions that never change",
+   "No conclusions",
+   "Only numeric outputs"
+  ],
+  "answer": 0,
+  "explanation": "Unlike classical logic, non-monotonic reasoning can withdraw beliefs given new facts."
+ },
+ {
+  "id": "KR020",
+  "category": "Knowledge Representation & Reasoning",
+  "difficulty": "advanced",
+  "q": "The 'closed-world assumption' states that:",
+  "options": [
+   "Everything is true",
+   "Nothing can be known",
+   "Anything not known to be true is assumed false",
+   "All facts are numeric"
+  ],
+  "answer": 2,
+  "explanation": "CWA treats absence of a fact as its negation, common in databases and Prolog."
+ },
+ {
+  "id": "KR021",
+  "category": "Knowledge Representation & Reasoning",
+  "difficulty": "advanced",
+  "q": "'Description logics' provide the formal basis for:",
+  "options": [
+   "Sorting networks",
+   "Ontology languages such as OWL",
+   "Image codecs",
+   "Spreadsheet macros"
+  ],
+  "answer": 1,
+  "explanation": "Description logics underpin semantic-web ontology languages like OWL."
+ },
+ {
+  "id": "KR022",
+  "category": "Knowledge Representation & Reasoning",
+  "difficulty": "advanced",
+  "q": "A 'truth maintenance system' (TMS) is used to:",
+  "options": [
+   "Track dependencies among beliefs to keep them consistent",
+   "Compress text",
+   "Balance network load",
+   "Speed up GPUs"
+  ],
+  "answer": 0,
+  "explanation": "A TMS records justifications so beliefs can be revised consistently."
+ },
+ {
+  "id": "KR023",
+  "category": "Knowledge Representation & Reasoning",
+  "difficulty": "intermediate",
+  "q": "'Bayes' theorem' relates P(A|B) to:",
+  "options": [
+   "P(B|A), P(A), and P(B)",
+   "A random constant",
+   "Only P(B)",
+   "Only P(A)"
+  ],
+  "answer": 0,
+  "explanation": "Bayes' theorem: P(A|B) = P(B|A)P(A)/P(B)."
+ },
+ {
+  "id": "KR024",
+  "category": "Knowledge Representation & Reasoning",
+  "difficulty": "intermediate",
+  "q": "A 'rule-based expert system' separates knowledge into:",
+  "options": [
+   "A knowledge base and an inference engine",
+   "A cache and a disk",
+   "A keyboard and a screen",
+   "A CPU and a GPU"
+  ],
+  "answer": 0,
+  "explanation": "Expert systems keep domain rules (knowledge base) distinct from the reasoning engine."
+ },
+ {
+  "id": "PS001",
+  "category": "Problem Solving & Search",
+  "difficulty": "intermediate",
+  "q": "A 'well-defined search problem' must specify the initial state, actions, goal test, and:",
+  "options": [
+   "GPU model",
+   "Screen colour",
+   "Path cost",
+   "User name"
+  ],
+  "answer": 2,
+  "explanation": "A search problem is defined by states, actions, a goal test, and a path-cost function."
+ },
+ {
+  "id": "PS002",
+  "category": "Problem Solving & Search",
+  "difficulty": "intermediate",
+  "q": "Breadth-First Search is optimal when:",
+  "options": [
+   "Costs are negative",
+   "The graph is infinite",
+   "There is no goal",
+   "All step costs are equal"
+  ],
+  "answer": 3,
+  "explanation": "BFS finds the shallowest goal, which is optimal only under uniform step costs."
+ },
+ {
+  "id": "PS003",
+  "category": "Problem Solving & Search",
+  "difficulty": "intermediate",
+  "q": "A key advantage of Depth-First Search is its:",
+  "options": [
+   "Independence from the graph",
+   "Constant time",
+   "Guaranteed optimality",
+   "Low memory usage (linear in depth)"
+  ],
+  "answer": 3,
+  "explanation": "DFS stores only the current path, using memory linear in the depth."
+ },
+ {
+  "id": "PS004",
+  "category": "Problem Solving & Search",
+  "difficulty": "advanced",
+  "q": "'Uniform-Cost Search' always expands the node with the:",
+  "options": [
+   "Highest heuristic",
+   "Most children",
+   "Fewest children",
+   "Lowest cumulative path cost"
+  ],
+  "answer": 3,
+  "explanation": "UCS expands the cheapest-so-far node, finding least-cost paths."
+ },
+ {
+  "id": "PS005",
+  "category": "Problem Solving & Search",
+  "difficulty": "advanced",
+  "q": "'Iterative Deepening Search' combines:",
+  "options": [
+   "Two heuristics",
+   "No search",
+   "DFS's low memory with BFS's completeness",
+   "Random restarts"
+  ],
+  "answer": 2,
+  "explanation": "IDS repeatedly runs depth-limited DFS, gaining BFS-like completeness with DFS memory."
+ },
+ {
+  "id": "PS006",
+  "category": "Problem Solving & Search",
+  "difficulty": "advanced",
+  "q": "'Bidirectional search' works by:",
+  "options": [
+   "Searching forward from the start and backward from the goal simultaneously",
+   "Only searching backward",
+   "Ignoring the goal",
+   "Expanding random nodes"
+  ],
+  "answer": 0,
+  "explanation": "Two frontiers meet in the middle, often reducing the explored space dramatically."
+ },
+ {
+  "id": "PS007",
+  "category": "Problem Solving & Search",
+  "difficulty": "intermediate",
+  "q": "A heuristic is 'admissible' if it:",
+  "options": [
+   "Always overestimates",
+   "Ignores the goal",
+   "Is always zero",
+   "Never overestimates the true cost to the goal"
+  ],
+  "answer": 3,
+  "explanation": "Admissible heuristics guarantee A* optimality by never overestimating."
+ },
+ {
+  "id": "PS008",
+  "category": "Problem Solving & Search",
+  "difficulty": "advanced",
+  "q": "A heuristic is 'consistent' (monotonic) if it satisfies the:",
+  "options": [
+   "Triangle inequality across every edge",
+   "Closed-world assumption",
+   "Law of large numbers",
+   "Pigeonhole principle"
+  ],
+  "answer": 0,
+  "explanation": "Consistency means h(n) ≤ cost(n,n') + h(n') for every successor n'."
+ },
+ {
+  "id": "PS009",
+  "category": "Problem Solving & Search",
+  "difficulty": "intermediate",
+  "q": "The A* evaluation function is:",
+  "options": [
+   "f(n) = g(n) + h(n)",
+   "f(n) = random",
+   "f(n) = g(n) - h(n)",
+   "f(n) = h(n) only"
+  ],
+  "answer": 0,
+  "explanation": "A* adds actual cost g(n) and heuristic estimate h(n)."
+ },
+ {
+  "id": "PS010",
+  "category": "Problem Solving & Search",
+  "difficulty": "intermediate",
+  "q": "'Greedy best-first search' evaluates nodes using:",
+  "options": [
+   "The path cost g(n) only",
+   "The heuristic h(n) only",
+   "f = g + h",
+   "Random values"
+  ],
+  "answer": 1,
+  "explanation": "Greedy best-first uses only h(n); fast but not guaranteed optimal."
+ },
+ {
+  "id": "PS011",
+  "category": "Problem Solving & Search",
+  "difficulty": "intermediate",
+  "q": "'Hill climbing' can fail by getting stuck in:",
+  "options": [
+   "An empty state space",
+   "A sorted list",
+   "A local maximum",
+   "The global optimum"
+  ],
+  "answer": 2,
+  "explanation": "Hill climbing may converge to a local optimum, not the global best."
+ },
+ {
+  "id": "PS012",
+  "category": "Problem Solving & Search",
+  "difficulty": "advanced",
+  "q": "'Simulated annealing' escapes local optima by:",
+  "options": [
+   "Never moving downhill",
+   "Sometimes accepting worse moves, with probability decreasing over time",
+   "Using more memory",
+   "Restarting only"
+  ],
+  "answer": 1,
+  "explanation": "It accepts worse states early (high 'temperature') to explore, cooling gradually."
+ },
+ {
+  "id": "PS013",
+  "category": "Problem Solving & Search",
+  "difficulty": "intermediate",
+  "q": "'Genetic algorithms' evolve solutions using selection, crossover, and:",
+  "options": [
+   "Encryption",
+   "Compilation",
+   "Rendering",
+   "Mutation"
+  ],
+  "answer": 3,
+  "explanation": "GAs mimic evolution: select fit individuals, recombine, and mutate."
+ },
+ {
+  "id": "PS014",
+  "category": "Problem Solving & Search",
+  "difficulty": "advanced",
+  "q": "'Beam search' limits memory by keeping only:",
+  "options": [
+   "No nodes",
+   "All nodes",
+   "One node",
+   "The best k nodes at each level"
+  ],
+  "answer": 3,
+  "explanation": "Beam search retains the top-k candidates, trading completeness for efficiency."
+ },
+ {
+  "id": "PS015",
+  "category": "Problem Solving & Search",
+  "difficulty": "intermediate",
+  "q": "A Constraint Satisfaction Problem (CSP) is defined by variables, domains, and:",
+  "options": [
+   "Pixels",
+   "Constraints",
+   "Neurons",
+   "Sockets"
+  ],
+  "answer": 1,
+  "explanation": "A CSP assigns values from domains to variables subject to constraints."
+ },
+ {
+  "id": "PS016",
+  "category": "Problem Solving & Search",
+  "difficulty": "intermediate",
+  "q": "'Backtracking search' for CSPs:",
+  "options": [
+   "Assigns all at once randomly",
+   "Assigns variables one by one and backtracks on conflict",
+   "Ignores constraints",
+   "Never backtracks"
+  ],
+  "answer": 1,
+  "explanation": "Backtracking incrementally assigns variables, undoing choices that violate constraints."
+ },
+ {
+  "id": "PS017",
+  "category": "Problem Solving & Search",
+  "difficulty": "advanced",
+  "q": "'Arc consistency' (e.g., AC-3) enforces consistency between:",
+  "options": [
+   "Only the goal",
+   "All variables at once permanently",
+   "Pairs of variables by pruning inconsistent domain values",
+   "Only one variable"
+  ],
+  "answer": 2,
+  "explanation": "AC-3 removes values that have no consistent partner for a constraint."
+ },
+ {
+  "id": "PS018",
+  "category": "Problem Solving & Search",
+  "difficulty": "advanced",
+  "q": "'Forward checking' in CSP solving:",
+  "options": [
+   "Removes all constraints",
+   "Assigns the goal first",
+   "Ignores neighbours",
+   "Prunes the domains of unassigned neighbours after each assignment"
+  ],
+  "answer": 3,
+  "explanation": "Forward checking detects failures early by trimming neighbour domains."
+ },
+ {
+  "id": "PS019",
+  "category": "Problem Solving & Search",
+  "difficulty": "intermediate",
+  "q": "The 'minimax' algorithm assumes the opponent plays:",
+  "options": [
+   "To help you",
+   "Not at all",
+   "Optimally to minimize your payoff",
+   "Randomly always"
+  ],
+  "answer": 2,
+  "explanation": "Minimax computes best moves assuming a rational adversary."
+ },
+ {
+  "id": "PS020",
+  "category": "Problem Solving & Search",
+  "difficulty": "intermediate",
+  "q": "'Alpha-beta pruning' improves minimax by:",
+  "options": [
+   "Pruning branches that cannot change the final decision",
+   "Storing every state",
+   "Searching deeper always",
+   "Adding random branches"
+  ],
+  "answer": 0,
+  "explanation": "Alpha-beta skips provably irrelevant branches, giving the same result faster."
+ },
+ {
+  "id": "PS021",
+  "category": "Problem Solving & Search",
+  "difficulty": "advanced",
+  "q": "'Expectimax' extends minimax to handle:",
+  "options": [
+   "No opponents",
+   "Only deterministic games",
+   "Sorting problems",
+   "Chance nodes / stochastic outcomes"
+  ],
+  "answer": 3,
+  "explanation": "Expectimax averages over chance nodes, modeling randomness in the game."
+ },
+ {
+  "id": "PS022",
+  "category": "Problem Solving & Search",
+  "difficulty": "advanced",
+  "q": "'Monte Carlo Tree Search' (MCTS) balances exploration and exploitation using:",
+  "options": [
+   "No simulations",
+   "Random simulations and a selection policy (e.g., UCT)",
+   "A fixed lookup table",
+   "Only depth-first search"
+  ],
+  "answer": 1,
+  "explanation": "MCTS runs simulations and uses statistics (like UCB/UCT) to guide the search."
+ },
+ {
+  "id": "PS023",
+  "category": "Problem Solving & Search",
+  "difficulty": "advanced",
+  "q": "For the 8-puzzle, the Manhattan-distance heuristic is:",
+  "options": [
+   "A random number",
+   "Equal to zero",
+   "Admissible (never overestimates)",
+   "Always inadmissible"
+  ],
+  "answer": 2,
+  "explanation": "Manhattan distance sums tile displacements and never overestimates the true cost."
+ },
+ {
+  "id": "PS024",
+  "category": "Problem Solving & Search",
+  "difficulty": "advanced",
+  "q": "'Local beam search' differs from simple hill climbing by:",
+  "options": [
+   "Never improving",
+   "Sorting the input",
+   "Maintaining k states in parallel instead of one",
+   "Using zero states"
+  ],
+  "answer": 2,
+  "explanation": "Local beam search tracks k current states, sharing information among them."
+ }
+]

@@ -1,0 +1,702 @@
+[
+ {
+  "id": "N001",
+  "category": "NLP",
+  "difficulty": "intermediate",
+  "q": "'Tokenization' in NLP is the process of:",
+  "options": [
+   "Encrypting text",
+   "Translating languages",
+   "Compressing files",
+   "Splitting text into smaller units (tokens)"
+  ],
+  "answer": 3,
+  "explanation": "Tokenization breaks text into words, subwords, or characters for processing."
+ },
+ {
+  "id": "N002",
+  "category": "NLP",
+  "difficulty": "intermediate",
+  "q": "'Stop words' are:",
+  "options": [
+   "Common words often filtered out (the, is, and)",
+   "Rare technical terms",
+   "Numbers",
+   "Punctuation only"
+  ],
+  "answer": 0,
+  "explanation": "Stop words carry little meaning and are sometimes removed before analysis."
+ },
+ {
+  "id": "N003",
+  "category": "NLP",
+  "difficulty": "intermediate",
+  "q": "'Stemming' reduces words to their:",
+  "options": [
+   "Root/base form by chopping affixes",
+   "Synonyms",
+   "Plural form",
+   "Uppercase"
+  ],
+  "answer": 0,
+  "explanation": "Stemming crudely trims words (e.g., 'running' to 'run')."
+ },
+ {
+  "id": "N004",
+  "category": "NLP",
+  "difficulty": "intermediate",
+  "q": "'Lemmatization' differs from stemming by:",
+  "options": [
+   "Producing valid dictionary base forms using context",
+   "Adding suffixes",
+   "Being random",
+   "Removing all vowels"
+  ],
+  "answer": 0,
+  "explanation": "Lemmatization maps words to their proper lemma (e.g., 'better' to 'good')."
+ },
+ {
+  "id": "N005",
+  "category": "NLP",
+  "difficulty": "intermediate",
+  "q": "'Bag of Words' represents text as:",
+  "options": [
+   "Audio",
+   "A sequence with order",
+   "An image",
+   "Word counts ignoring order"
+  ],
+  "answer": 3,
+  "explanation": "BoW counts word occurrences, discarding grammar and word order."
+ },
+ {
+  "id": "N006",
+  "category": "NLP",
+  "difficulty": "intermediate",
+  "q": "'TF-IDF' weighs words by:",
+  "options": [
+   "Word length",
+   "Alphabetical order",
+   "Random values",
+   "Term frequency and inverse document frequency"
+  ],
+  "answer": 3,
+  "explanation": "TF-IDF boosts frequent-in-doc but rare-across-corpus terms."
+ },
+ {
+  "id": "N007",
+  "category": "NLP",
+  "difficulty": "intermediate",
+  "q": "'Word2Vec' produces:",
+  "options": [
+   "Audio spectrograms",
+   "Dense word embeddings capturing semantics",
+   "One-hot vectors",
+   "Images"
+  ],
+  "answer": 1,
+  "explanation": "Word2Vec learns vector representations where similar words are near each other."
+ },
+ {
+  "id": "N008",
+  "category": "NLP",
+  "difficulty": "intermediate",
+  "q": "In word embeddings, 'king - man + woman' famously approximates:",
+  "options": [
+   "queen",
+   "child",
+   "prince",
+   "throne"
+  ],
+  "answer": 0,
+  "explanation": "This analogy illustrates that embeddings capture semantic relationships."
+ },
+ {
+  "id": "N009",
+  "category": "NLP",
+  "difficulty": "intermediate",
+  "q": "'Named Entity Recognition' (NER) identifies:",
+  "options": [
+   "Only verbs",
+   "Entities like people, places, organizations",
+   "Sentence length",
+   "Font size"
+  ],
+  "answer": 1,
+  "explanation": "NER tags spans of text as entity types such as PERSON or LOCATION."
+ },
+ {
+  "id": "N010",
+  "category": "NLP",
+  "difficulty": "intermediate",
+  "q": "'Part-of-Speech tagging' assigns:",
+  "options": [
+   "Numbers to letters",
+   "Colors to words",
+   "Grammatical categories (noun, verb) to words",
+   "Random labels"
+  ],
+  "answer": 2,
+  "explanation": "POS tagging labels each token with its grammatical role."
+ },
+ {
+  "id": "N011",
+  "category": "NLP",
+  "difficulty": "intermediate",
+  "q": "An 'n-gram' is:",
+  "options": [
+   "A neural layer",
+   "A contiguous sequence of n items (words/chars)",
+   "A single letter",
+   "A dataset"
+  ],
+  "answer": 1,
+  "explanation": "N-grams capture local context, e.g., bigrams are pairs of consecutive words."
+ },
+ {
+  "id": "N012",
+  "category": "NLP",
+  "difficulty": "intermediate",
+  "q": "'Machine translation' converts text:",
+  "options": [
+   "Into code only",
+   "Into images",
+   "Into audio only",
+   "From one language to another"
+  ],
+  "answer": 3,
+  "explanation": "MT systems (e.g., Google Translate) translate between languages."
+ },
+ {
+  "id": "N013",
+  "category": "NLP",
+  "difficulty": "advanced",
+  "q": "'Cosine similarity' between embeddings measures:",
+  "options": [
+   "The word length",
+   "The angle-based similarity of two vectors",
+   "The file size",
+   "The token count"
+  ],
+  "answer": 1,
+  "explanation": "Cosine similarity compares vector orientation, common for semantic similarity."
+ },
+ {
+  "id": "N014",
+  "category": "NLP",
+  "difficulty": "advanced",
+  "q": "'Seq2Seq' models map:",
+  "options": [
+   "Audio to nothing",
+   "An image to a label",
+   "A number to a color",
+   "An input sequence to an output sequence"
+  ],
+  "answer": 3,
+  "explanation": "Sequence-to-sequence models (encoder-decoder) power translation and summarization."
+ },
+ {
+  "id": "N015",
+  "category": "NLP",
+  "difficulty": "advanced",
+  "q": "The 'attention mechanism' in seq2seq helps by:",
+  "options": [
+   "Deleting the encoder",
+   "Letting the decoder focus on relevant input positions",
+   "Compressing text",
+   "Randomizing outputs"
+  ],
+  "answer": 1,
+  "explanation": "Attention aligns output steps with the most relevant input tokens."
+ },
+ {
+  "id": "N016",
+  "category": "NLP",
+  "difficulty": "advanced",
+  "q": "'BLEU score' is used to evaluate:",
+  "options": [
+   "CPU speed",
+   "Image sharpness",
+   "Audio volume",
+   "Machine translation quality"
+  ],
+  "answer": 3,
+  "explanation": "BLEU compares machine translations to reference translations via n-gram overlap."
+ },
+ {
+  "id": "N017",
+  "category": "NLP",
+  "difficulty": "advanced",
+  "q": "'Subword tokenization' (e.g., BPE) helps handle:",
+  "options": [
+   "Rare and out-of-vocabulary words",
+   "Image pixels",
+   "Audio frames",
+   "Only numbers"
+  ],
+  "answer": 0,
+  "explanation": "Byte-Pair Encoding splits rare words into known subword units."
+ },
+ {
+  "id": "N018",
+  "category": "NLP",
+  "difficulty": "advanced",
+  "q": "'Coreference resolution' determines:",
+  "options": [
+   "The sentence length",
+   "The language",
+   "The font",
+   "Which words refer to the same entity"
+  ],
+  "answer": 3,
+  "explanation": "Coreference links pronouns and phrases to the entities they refer to."
+ },
+ {
+  "id": "N019",
+  "category": "NLP",
+  "difficulty": "advanced",
+  "q": "'GloVe' embeddings are trained using:",
+  "options": [
+   "Images",
+   "Only local windows",
+   "Reinforcement learning",
+   "Global word co-occurrence statistics"
+  ],
+  "answer": 3,
+  "explanation": "GloVe factorizes a global word co-occurrence matrix to learn vectors."
+ },
+ {
+  "id": "N020",
+  "category": "NLP",
+  "difficulty": "advanced",
+  "q": "A 'language model' predicts:",
+  "options": [
+   "The probability of the next token/word",
+   "The file size",
+   "The image class",
+   "The audio pitch"
+  ],
+  "answer": 0,
+  "explanation": "Language models estimate the likelihood of sequences, predicting upcoming tokens."
+ },
+ {
+  "id": "N021",
+  "category": "NLP",
+  "difficulty": "advanced",
+  "q": "'Perplexity' is a metric that measures:",
+  "options": [
+   "GPU load",
+   "Image quality",
+   "Disk usage",
+   "How well a language model predicts a sample (lower is better)"
+  ],
+  "answer": 3,
+  "explanation": "Perplexity reflects model uncertainty; lower perplexity means better prediction."
+ },
+ {
+  "id": "N022",
+  "category": "NLP",
+  "difficulty": "advanced",
+  "q": "'Text summarization' can be extractive, meaning it:",
+  "options": [
+   "Selects existing sentences from the source",
+   "Translates the text",
+   "Deletes the text",
+   "Writes brand-new sentences"
+  ],
+  "answer": 0,
+  "explanation": "Extractive summarization picks key sentences; abstractive generates new text."
+ },
+ {
+  "id": "N023",
+  "category": "NLP",
+  "difficulty": "advanced",
+  "q": "'Topic modeling' (e.g., LDA) discovers:",
+  "options": [
+   "Latent themes across a document collection",
+   "Fonts",
+   "Image objects",
+   "Grammar errors"
+  ],
+  "answer": 0,
+  "explanation": "Latent Dirichlet Allocation finds clusters of co-occurring words as topics."
+ },
+ {
+  "id": "N024",
+  "category": "NLP",
+  "difficulty": "advanced",
+  "q": "'Contextual embeddings' (e.g., BERT) differ from Word2Vec because they:",
+  "options": [
+   "Vary the vector by surrounding context",
+   "Use no neural nets",
+   "Ignore context",
+   "Are always identical per word"
+  ],
+  "answer": 0,
+  "explanation": "Contextual models give a word different vectors depending on its sentence."
+ },
+ {
+  "id": "N025",
+  "category": "NLP",
+  "difficulty": "advanced",
+  "q": "BERT is trained using which objective?",
+  "options": [
+   "Image classification",
+   "Masked language modeling",
+   "Next-frame prediction",
+   "Reward maximization"
+  ],
+  "answer": 1,
+  "explanation": "BERT masks tokens and learns to predict them (plus next-sentence prediction)."
+ },
+ {
+  "id": "N026",
+  "category": "NLP",
+  "difficulty": "advanced",
+  "q": "BERT is a ______ model, while GPT is a ______ model.",
+  "options": [
+   "both decoders",
+   "both encoders",
+   "decoder-only; encoder-only",
+   "encoder-only; decoder-only"
+  ],
+  "answer": 3,
+  "explanation": "BERT uses the transformer encoder; GPT uses the decoder for generation."
+ },
+ {
+  "id": "N027",
+  "category": "NLP",
+  "difficulty": "advanced",
+  "q": "'Stemming' vs 'Lemmatization': which is generally more linguistically accurate?",
+  "options": [
+   "Both identical",
+   "Lemmatization",
+   "Neither",
+   "Stemming"
+  ],
+  "answer": 1,
+  "explanation": "Lemmatization uses vocabulary and morphology for correct base forms."
+ },
+ {
+  "id": "N028",
+  "category": "NLP",
+  "difficulty": "advanced",
+  "q": "'Zero-shot text classification' means classifying:",
+  "options": [
+   "With millions of labels",
+   "Random labels",
+   "Only trained labels",
+   "Into labels the model wasn't explicitly trained on"
+  ],
+  "answer": 3,
+  "explanation": "Zero-shot uses semantic understanding to handle unseen label sets."
+ },
+ {
+  "id": "N029",
+  "category": "NLP",
+  "difficulty": "advanced",
+  "q": "'Dependency parsing' analyzes:",
+  "options": [
+   "Pixel values",
+   "Network packets",
+   "Grammatical relationships between words",
+   "Audio waveforms"
+  ],
+  "answer": 2,
+  "explanation": "Dependency parsing builds a tree of head-dependent word relations."
+ },
+ {
+  "id": "N030",
+  "category": "NLP",
+  "difficulty": "advanced",
+  "q": "The main limitation of Bag-of-Words is that it:",
+  "options": [
+   "Ignores word order and context",
+   "Cannot count words",
+   "Is too slow",
+   "Requires GPUs"
+  ],
+  "answer": 0,
+  "explanation": "BoW loses sequence and semantic context, limiting understanding."
+ },
+ {
+  "id": "N031",
+  "category": "NLP",
+  "difficulty": "advanced",
+  "q": "'Text normalization' includes steps like:",
+  "options": [
+   "Adding random words",
+   "Increasing font",
+   "Lowercasing, removing punctuation, expanding contractions",
+   "Encrypting text"
+  ],
+  "answer": 2,
+  "explanation": "Normalization standardizes text to reduce spurious variation."
+ },
+ {
+  "id": "N032",
+  "category": "NLP",
+  "difficulty": "advanced",
+  "q": "A 'corpus' in NLP is:",
+  "options": [
+   "A large collection of text used for analysis/training",
+   "A single sentence",
+   "A GPU cluster",
+   "A neural layer"
+  ],
+  "answer": 0,
+  "explanation": "A corpus is a structured set of texts used in linguistics and NLP."
+ },
+ {
+  "id": "N033",
+  "category": "NLP",
+  "difficulty": "advanced",
+  "q": "'Intent classification' in chatbots determines:",
+  "options": [
+   "What the user wants to accomplish",
+   "The IP address",
+   "The font used",
+   "The message length"
+  ],
+  "answer": 0,
+  "explanation": "Intent detection maps user utterances to actions the bot should take."
+ },
+ {
+  "id": "N034",
+  "category": "NLP",
+  "difficulty": "advanced",
+  "q": "'Slot filling' in dialog systems extracts:",
+  "options": [
+   "Audio pitch",
+   "Specific parameter values from user input",
+   "Random tokens",
+   "Image regions"
+  ],
+  "answer": 1,
+  "explanation": "Slots capture entities like date, location, or quantity from an utterance."
+ },
+ {
+  "id": "N035",
+  "category": "NLP",
+  "difficulty": "advanced",
+  "q": "'Text-to-Speech' (TTS) converts:",
+  "options": [
+   "Text into images",
+   "Speech into text",
+   "Text into spoken audio",
+   "Audio into text"
+  ],
+  "answer": 2,
+  "explanation": "TTS synthesizes natural-sounding speech from written text."
+ },
+ {
+  "id": "N036",
+  "category": "NLP",
+  "difficulty": "advanced",
+  "q": "'Automatic Speech Recognition' (ASR) converts:",
+  "options": [
+   "Images into text",
+   "Text into images",
+   "Text into speech",
+   "Speech into text"
+  ],
+  "answer": 3,
+  "explanation": "ASR transcribes spoken language into written text."
+ },
+ {
+  "id": "N037",
+  "category": "NLP",
+  "difficulty": "advanced",
+  "q": "Which metric evaluates summarization by overlap with references?",
+  "options": [
+   "BLEU only for images",
+   "PSNR",
+   "ROUGE",
+   "Silhouette score"
+  ],
+  "answer": 2,
+  "explanation": "ROUGE measures n-gram/word overlap between generated and reference summaries."
+ },
+ {
+  "id": "N038",
+  "category": "NLP",
+  "difficulty": "advanced",
+  "q": "'Out-of-vocabulary' (OOV) words are those that:",
+  "options": [
+   "Are numbers",
+   "Are misspelled only",
+   "Are uppercase",
+   "Do not appear in the model's vocabulary"
+  ],
+  "answer": 3,
+  "explanation": "OOV words are unseen tokens; subword methods help handle them."
+ },
+ {
+  "id": "N039",
+  "category": "NLP",
+  "difficulty": "advanced",
+  "q": "'Semantic parsing' maps natural language to:",
+  "options": [
+   "Pixels",
+   "Audio",
+   "A structured, machine-readable meaning representation",
+   "Random text"
+  ],
+  "answer": 2,
+  "explanation": "Semantic parsing produces logical forms or queries from language."
+ },
+ {
+  "id": "N040",
+  "category": "NLP",
+  "difficulty": "advanced",
+  "q": "A 'language model head' typically outputs:",
+  "options": [
+   "A probability distribution over the vocabulary",
+   "An audio clip",
+   "A single image",
+   "A cluster ID"
+  ],
+  "answer": 0,
+  "explanation": "The LM head projects hidden states to vocabulary logits for next-token prediction."
+ },
+ {
+  "id": "N041",
+  "category": "NLP",
+  "difficulty": "advanced",
+  "q": "'Beam search' in text generation:",
+  "options": [
+   "Explores multiple candidate sequences to find high-probability output",
+   "Deletes tokens",
+   "Sorts characters",
+   "Picks random tokens"
+  ],
+  "answer": 0,
+  "explanation": "Beam search keeps the top-k partial sequences to improve generation quality."
+ },
+ {
+  "id": "N042",
+  "category": "NLP",
+  "difficulty": "advanced",
+  "q": "'Greedy decoding' selects at each step:",
+  "options": [
+   "A random token",
+   "All tokens",
+   "The single most probable next token",
+   "The least probable token"
+  ],
+  "answer": 2,
+  "explanation": "Greedy decoding always takes the highest-probability token, which can be suboptimal."
+ },
+ {
+  "id": "N043",
+  "category": "NLP",
+  "difficulty": "advanced",
+  "q": "'Temperature' in text generation controls:",
+  "options": [
+   "The vocabulary",
+   "The GPU heat",
+   "Randomness/diversity of outputs",
+   "The dataset size"
+  ],
+  "answer": 2,
+  "explanation": "Higher temperature increases randomness; lower makes output more deterministic."
+ },
+ {
+  "id": "N044",
+  "category": "NLP",
+  "difficulty": "advanced",
+  "q": "'Top-k sampling' restricts generation to:",
+  "options": [
+   "The k most likely next tokens",
+   "One token",
+   "All tokens",
+   "The k least likely tokens"
+  ],
+  "answer": 0,
+  "explanation": "Top-k samples only from the k highest-probability tokens for controlled diversity."
+ },
+ {
+  "id": "N045",
+  "category": "NLP",
+  "difficulty": "advanced",
+  "q": "'Top-p (nucleus) sampling' selects tokens from:",
+  "options": [
+   "Random noise",
+   "A fixed count",
+   "The smallest set whose cumulative probability exceeds p",
+   "The full vocabulary always"
+  ],
+  "answer": 2,
+  "explanation": "Nucleus sampling chooses from the smallest probable set summing to probability p."
+ },
+ {
+  "id": "N046",
+  "category": "NLP",
+  "difficulty": "advanced",
+  "q": "'spaCy' and 'NLTK' are:",
+  "options": [
+   "Databases",
+   "Web frameworks",
+   "GPUs",
+   "Popular NLP libraries in Python"
+  ],
+  "answer": 3,
+  "explanation": "Both are widely used Python libraries for natural language processing."
+ },
+ {
+  "id": "N047",
+  "category": "NLP",
+  "difficulty": "advanced",
+  "q": "'Language identification' determines:",
+  "options": [
+   "The font",
+   "Which language a text is written in",
+   "The author's age",
+   "The topic only"
+  ],
+  "answer": 1,
+  "explanation": "Language ID classifies text by its natural language."
+ },
+ {
+  "id": "N048",
+  "category": "NLP",
+  "difficulty": "advanced",
+  "q": "'Text classification' assigns text to:",
+  "options": [
+   "Predefined categories",
+   "Audio bins",
+   "Random pixels",
+   "Numeric coordinates"
+  ],
+  "answer": 0,
+  "explanation": "Text classification maps documents to categories like topic or sentiment."
+ },
+ {
+  "id": "N049",
+  "category": "NLP",
+  "difficulty": "advanced",
+  "q": "A challenge specific to NLP is:",
+  "options": [
+   "Ambiguity and context-dependence of language",
+   "Lack of any data",
+   "No use cases",
+   "Fixed vocabulary always"
+  ],
+  "answer": 0,
+  "explanation": "Words can have multiple meanings, making context crucial and NLP hard."
+ },
+ {
+  "id": "N050",
+  "category": "NLP",
+  "difficulty": "advanced",
+  "q": "'Embeddings' generally enable models to:",
+  "options": [
+   "Sort alphabetically",
+   "Encrypt text",
+   "Represent discrete symbols as continuous vectors capturing meaning",
+   "Delete rare words"
+  ],
+  "answer": 2,
+  "explanation": "Embeddings place semantically similar items close in vector space."
+ }
+]

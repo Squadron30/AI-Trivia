@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: ai-trivia
+    runtime: node
+    plan: free            # upgrade to 'starter' ($7/mo) to remove sleep/cold-starts
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_VERSION
+        value: 20.11.1
+      # Optional shared access code — set a value to require it before entry.
+      - key: TRIVIA_PASSCODE
+        sync: false

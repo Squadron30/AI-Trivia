@@ -1,0 +1,1402 @@
+[
+ {
+  "id": "B001",
+  "category": "AI Basics",
+  "difficulty": "beginner",
+  "q": "What is the full form of 'AI'?",
+  "options": [
+   "Analog Interface",
+   "Applied Informatics",
+   "Artificial Intelligence",
+   "Automatic Input"
+  ],
+  "answer": 2,
+  "explanation": "AI stands for Artificial Intelligence: building machines that can think and act like humans."
+ },
+ {
+  "id": "B002",
+  "category": "AI Basics",
+  "difficulty": "beginner",
+  "q": "Artificial Intelligence mainly aims to:",
+  "options": [
+   "Design faster keyboards",
+   "Develop intelligent machines",
+   "Sell more computers",
+   "Improve office furniture"
+  ],
+  "answer": 1,
+  "explanation": "AI focuses on creating systems that can reason, learn, and act intelligently."
+ },
+ {
+  "id": "B003",
+  "category": "AI History",
+  "difficulty": "beginner",
+  "q": "Who is credited with coining the term 'Artificial Intelligence'?",
+  "options": [
+   "Andrew Ng",
+   "John McCarthy",
+   "Bill Gates",
+   "Geoffrey Hinton"
+  ],
+  "answer": 1,
+  "explanation": "John McCarthy named the field and was a pioneer of early AI research."
+ },
+ {
+  "id": "B004",
+  "category": "AI Basics",
+  "difficulty": "beginner",
+  "q": "Which of these is a branch of Artificial Intelligence?",
+  "options": [
+   "Network cabling",
+   "Book-keeping",
+   "Machine Learning",
+   "Cyber forensics"
+  ],
+  "answer": 2,
+  "explanation": "Machine Learning is a core sub-area of AI, along with NLP, vision, and robotics."
+ },
+ {
+  "id": "B005",
+  "category": "AI Basics",
+  "difficulty": "beginner",
+  "q": "Which of these is a real-world application of AI?",
+  "options": [
+   "Sweeping the floor manually",
+   "Stapling paper",
+   "Language understanding and problem solving",
+   "Filing physical documents"
+  ],
+  "answer": 2,
+  "explanation": "NLP-based language understanding is a common AI application, e.g. voice assistants."
+ },
+ {
+  "id": "B006",
+  "category": "AI Basics",
+  "difficulty": "beginner",
+  "q": "The AI process is often described in three steps: sensing, reasoning, and:",
+  "options": [
+   "Sleeping",
+   "Acting",
+   "Printing",
+   "Deleting"
+  ],
+  "answer": 1,
+  "explanation": "AI systems sense the world, reason about it, then act upon the environment."
+ },
+ {
+  "id": "B007",
+  "category": "AI Basics",
+  "difficulty": "beginner",
+  "q": "AI is commonly categorized based on capability and:",
+  "options": [
+   "Price",
+   "Functionality",
+   "Screen size",
+   "Colour"
+  ],
+  "answer": 1,
+  "explanation": "AI is grouped by capability (ANI/AGI/ASI) and by functionality (reactive, limited memory, etc.)."
+ },
+ {
+  "id": "B008",
+  "category": "AI Basics",
+  "difficulty": "beginner",
+  "q": "By capability, which is the type of AI we mostly have today?",
+  "options": [
+   "Artificial General Intelligence (AGI)",
+   "None",
+   "Artificial Narrow Intelligence (ANI)",
+   "Artificial Super Intelligence (ASI)"
+  ],
+  "answer": 2,
+  "explanation": "Today's AI is narrow (ANI) — specialized for specific tasks."
+ },
+ {
+  "id": "B009",
+  "category": "AI Basics",
+  "difficulty": "beginner",
+  "q": "'Artificial General Intelligence' (AGI) refers to AI that can:",
+  "options": [
+   "Only play one game",
+   "Only translate text",
+   "Perform any intellectual task a human can",
+   "Only recognize faces"
+  ],
+  "answer": 2,
+  "explanation": "AGI would match human-level general reasoning across many tasks."
+ },
+ {
+  "id": "B010",
+  "category": "AI Basics",
+  "difficulty": "beginner",
+  "q": "'Artificial Super Intelligence' (ASI) describes AI that would:",
+  "options": [
+   "Surpass human intelligence in nearly all areas",
+   "Be slightly slower than humans",
+   "Only store data",
+   "Only do maths"
+  ],
+  "answer": 0,
+  "explanation": "ASI is a hypothetical AI exceeding the best human minds across the board."
+ },
+ {
+  "id": "B011",
+  "category": "AI Basics",
+  "difficulty": "beginner",
+  "q": "Which is a functionality-based type of AI?",
+  "options": [
+   "Reactive machines",
+   "Cheap machines",
+   "Loud machines",
+   "Round machines"
+  ],
+  "answer": 0,
+  "explanation": "By functionality, AI includes reactive machines, limited memory, theory of mind, and self-awareness."
+ },
+ {
+  "id": "B012",
+  "category": "AI Basics",
+  "difficulty": "beginner",
+  "q": "Which is considered a key component of intelligence in AI?",
+  "options": [
+   "Sleeping",
+   "Charging",
+   "Painting",
+   "Learning"
+  ],
+  "answer": 3,
+  "explanation": "Learning — gaining knowledge from experience or teaching — is a core component of intelligence."
+ },
+ {
+  "id": "B013",
+  "category": "Intelligent Agents",
+  "difficulty": "beginner",
+  "q": "An AI 'agent' perceives its environment through sensors and acts through:",
+  "options": [
+   "Cables",
+   "Speakers only",
+   "Actuators",
+   "Printers only"
+  ],
+  "answer": 2,
+  "explanation": "Agents sense via sensors and act via actuators (effectors)."
+ },
+ {
+  "id": "B014",
+  "category": "Intelligent Agents",
+  "difficulty": "beginner",
+  "q": "An agent function maps a sequence of percepts to:",
+  "options": [
+   "A password",
+   "A file name",
+   "A colour",
+   "An action"
+  ],
+  "answer": 3,
+  "explanation": "The agent function decides which action to take given the percepts seen so far."
+ },
+ {
+  "id": "B015",
+  "category": "Intelligent Agents",
+  "difficulty": "beginner",
+  "q": "Which of these is NOT a standard type of intelligent agent?",
+  "options": [
+   "Goal-based agent",
+   "Unity-based agent",
+   "Simple reflex agent",
+   "Learning agent"
+  ],
+  "answer": 1,
+  "explanation": "Standard agent types include simple reflex, model-based, goal-based, utility-based, and learning agents."
+ },
+ {
+  "id": "B016",
+  "category": "Intelligent Agents",
+  "difficulty": "beginner",
+  "q": "A 'simple reflex agent' chooses actions based on:",
+  "options": [
+   "Random numbers",
+   "The weather forecast",
+   "Its entire life history",
+   "The current percept only"
+  ],
+  "answer": 3,
+  "explanation": "Simple reflex agents act on the current percept using condition-action rules."
+ },
+ {
+  "id": "B017",
+  "category": "Intelligent Agents",
+  "difficulty": "beginner",
+  "q": "A 'goal-based agent' selects actions to:",
+  "options": [
+   "Waste time",
+   "Use more power",
+   "Achieve a desired goal",
+   "Ignore the goal"
+  ],
+  "answer": 2,
+  "explanation": "Goal-based agents consider how actions bring them closer to a goal."
+ },
+ {
+  "id": "B018",
+  "category": "Intelligent Agents",
+  "difficulty": "beginner",
+  "q": "A 'utility-based agent' tries to maximize:",
+  "options": [
+   "File size",
+   "A measure of happiness/usefulness (utility)",
+   "Cable length",
+   "Screen brightness"
+  ],
+  "answer": 1,
+  "explanation": "Utility-based agents pick actions that maximize expected utility, not just reach a goal."
+ },
+ {
+  "id": "B019",
+  "category": "Intelligent Agents",
+  "difficulty": "beginner",
+  "q": "A 'learning agent' is special because it can:",
+  "options": [
+   "Improve its performance over time",
+   "Never change",
+   "Only turn on and off",
+   "Only display text"
+  ],
+  "answer": 0,
+  "explanation": "Learning agents improve by learning from experience."
+ },
+ {
+  "id": "B020",
+  "category": "Intelligent Agents",
+  "difficulty": "beginner",
+  "q": "In an agent, 'sensors' are used to:",
+  "options": [
+   "Receive information from the environment",
+   "Print reports",
+   "Cool the CPU",
+   "Store passwords"
+  ],
+  "answer": 0,
+  "explanation": "Sensors gather input/percepts from the environment."
+ },
+ {
+  "id": "B021",
+  "category": "Intelligent Agents",
+  "difficulty": "beginner",
+  "q": "For a human treated as an agent, the eyes and ears act as:",
+  "options": [
+   "Batteries",
+   "Actuators",
+   "Sensors",
+   "Wires"
+  ],
+  "answer": 2,
+  "explanation": "Eyes and ears are sensors; hands and legs are effectors/actuators."
+ },
+ {
+  "id": "B022",
+  "category": "Intelligent Agents",
+  "difficulty": "beginner",
+  "q": "A robot vacuum cleaner is an example of a(n):",
+  "options": [
+   "Spreadsheet",
+   "Database",
+   "Web browser",
+   "Intelligent agent"
+  ],
+  "answer": 3,
+  "explanation": "It senses its surroundings and acts to clean — a classic simple agent."
+ },
+ {
+  "id": "B023",
+  "category": "Intelligent Agents",
+  "difficulty": "beginner",
+  "q": "An agent is composed of an architecture and a:",
+  "options": [
+   "Poster",
+   "Program",
+   "Painting",
+   "Playlist"
+  ],
+  "answer": 1,
+  "explanation": "Agent = architecture (hardware) + program (the logic mapping percepts to actions)."
+ },
+ {
+  "id": "B024",
+  "category": "Intelligent Agents",
+  "difficulty": "beginner",
+  "q": "Which of the following can be considered an AI agent?",
+  "options": [
+   "An autonomous spacecraft",
+   "A brick",
+   "A paper notebook",
+   "A rubber band"
+  ],
+  "answer": 0,
+  "explanation": "An autonomous spacecraft senses and acts on its own — it is an agent."
+ },
+ {
+  "id": "B025",
+  "category": "Intelligent Agents",
+  "difficulty": "beginner",
+  "q": "In a 'fully observable' environment, the agent:",
+  "options": [
+   "Sees nothing",
+   "Guesses randomly",
+   "Only hears sounds",
+   "Can see the complete state at each step"
+  ],
+  "answer": 3,
+  "explanation": "Full observability means sensors give access to the complete environment state."
+ },
+ {
+  "id": "B026",
+  "category": "Intelligent Agents",
+  "difficulty": "beginner",
+  "q": "A 'partially observable' environment means the agent:",
+  "options": [
+   "Knows everything",
+   "Has no sensors",
+   "Cannot act",
+   "Has incomplete information about the state"
+  ],
+  "answer": 3,
+  "explanation": "Partial observability means the agent cannot perceive the full state."
+ },
+ {
+  "id": "B027",
+  "category": "Intelligent Agents",
+  "difficulty": "beginner",
+  "q": "In a 'deterministic' environment, the next state is:",
+  "options": [
+   "Decided by dice",
+   "Always random",
+   "Fully determined by the current state and action",
+   "Never known"
+  ],
+  "answer": 2,
+  "explanation": "Deterministic environments have predictable outcomes for each action."
+ },
+ {
+  "id": "B028",
+  "category": "Intelligent Agents",
+  "difficulty": "beginner",
+  "q": "A 'stochastic' environment is one where outcomes are:",
+  "options": [
+   "Never changing",
+   "Always the same",
+   "Always fixed",
+   "Uncertain/random to some degree"
+  ],
+  "answer": 3,
+  "explanation": "Stochastic environments involve randomness in outcomes."
+ },
+ {
+  "id": "B029",
+  "category": "Intelligent Agents",
+  "difficulty": "beginner",
+  "q": "A 'static' environment is one that:",
+  "options": [
+   "Does not change while the agent is deciding",
+   "Has no agent",
+   "Is always noisy",
+   "Changes every millisecond"
+  ],
+  "answer": 0,
+  "explanation": "Static environments don't change while the agent deliberates."
+ },
+ {
+  "id": "B030",
+  "category": "Intelligent Agents",
+  "difficulty": "beginner",
+  "q": "A 'multi-agent' environment involves:",
+  "options": [
+   "Only sensors",
+   "No agents",
+   "More than one agent interacting",
+   "Exactly one agent"
+  ],
+  "answer": 2,
+  "explanation": "Multi-agent environments have several agents that may cooperate or compete."
+ },
+ {
+  "id": "B031",
+  "category": "AI Basics",
+  "difficulty": "beginner",
+  "q": "The 'Turing Test' checks whether a machine can:",
+  "options": [
+   "Run faster than a human",
+   "Converse indistinguishably from a human",
+   "Lift heavy objects",
+   "Store more files"
+  ],
+  "answer": 1,
+  "explanation": "Alan Turing's test judges if a machine's responses are indistinguishable from a human's."
+ },
+ {
+  "id": "B032",
+  "category": "AI History",
+  "difficulty": "beginner",
+  "q": "Alan Turing is best known in AI for proposing the:",
+  "options": [
+   "Turing Engine oil",
+   "Turing Oven",
+   "Turing Keyboard",
+   "Turing Test"
+  ],
+  "answer": 3,
+  "explanation": "Turing proposed the imitation game, now called the Turing Test, in 1950."
+ },
+ {
+  "id": "B033",
+  "category": "AI Basics",
+  "difficulty": "beginner",
+  "q": "'Strong AI' refers to machines that can:",
+  "options": [
+   "Only store data",
+   "Only follow fixed scripts",
+   "Only display images",
+   "Truly reason and solve problems like a human mind"
+  ],
+  "answer": 3,
+  "explanation": "Strong AI aims for genuine understanding and reasoning, not just imitation."
+ },
+ {
+  "id": "B034",
+  "category": "AI Basics",
+  "difficulty": "beginner",
+  "q": "'Weak AI' (narrow AI) refers to systems that:",
+  "options": [
+   "Feel emotions",
+   "Are conscious",
+   "Can do anything a human can",
+   "Act intelligently on specific tasks without true reasoning"
+  ],
+  "answer": 3,
+  "explanation": "Weak AI performs specific tasks intelligently but doesn't truly 'think'."
+ },
+ {
+  "id": "B035",
+  "category": "AI Basics",
+  "difficulty": "beginner",
+  "q": "A face recognition security system is an example of the:",
+  "options": [
+   "Cognitive science approach",
+   "Purely theoretical approach",
+   "No approach",
+   "Applied AI approach"
+  ],
+  "answer": 3,
+  "explanation": "The applied approach builds commercially viable 'smart' systems like face recognition."
+ },
+ {
+  "id": "B036",
+  "category": "AI Basics",
+  "difficulty": "beginner",
+  "q": "'Fuzzy logic' allows machines to:",
+  "options": [
+   "Ignore all inputs",
+   "Store images",
+   "Handle vague, imprecise information",
+   "Only use true/false with no in-between"
+  ],
+  "answer": 2,
+  "explanation": "Fuzzy logic handles degrees of truth, mimicking human intuition about vague data."
+ },
+ {
+  "id": "B037",
+  "category": "AI Basics",
+  "difficulty": "beginner",
+  "q": "Which is a benefit of Artificial Intelligence?",
+  "options": [
+   "Reduces time to solve certain problems",
+   "Makes tasks slower",
+   "Removes all electricity",
+   "Always increases errors"
+  ],
+  "answer": 0,
+  "explanation": "AI can automate and speed up problem solving and repetitive tasks."
+ },
+ {
+  "id": "B038",
+  "category": "Intelligent Agents",
+  "difficulty": "beginner",
+  "q": "What can improve an AI agent's performance over time?",
+  "options": [
+   "Deleting its program",
+   "Learning from past experiences",
+   "Turning it off",
+   "Removing its sensors"
+  ],
+  "answer": 1,
+  "explanation": "An agent that learns from previous states responds better to similar situations later."
+ },
+ {
+  "id": "B039",
+  "category": "AI Basics",
+  "difficulty": "beginner",
+  "q": "Which is a common programming language for AI?",
+  "options": [
+   "Python",
+   "HTML alone",
+   "CSS alone",
+   "Notepad"
+  ],
+  "answer": 0,
+  "explanation": "Python is very popular for AI; LISP and Prolog are classic AI languages too."
+ },
+ {
+  "id": "B040",
+  "category": "AI History",
+  "difficulty": "beginner",
+  "q": "Which language was historically associated with early AI programs?",
+  "options": [
+   "Photoshop",
+   "Excel macros",
+   "Morse code",
+   "LISP"
+  ],
+  "answer": 3,
+  "explanation": "LISP was widely used in early AI research and programs."
+ },
+ {
+  "id": "B041",
+  "category": "AI History",
+  "difficulty": "beginner",
+  "q": "'ELIZA' was an early program that simulated a:",
+  "options": [
+   "Chess grandmaster",
+   "Search engine",
+   "Psychotherapist conversation",
+   "Weather satellite"
+  ],
+  "answer": 2,
+  "explanation": "ELIZA (1966) was an early chatbot mimicking a Rogerian therapist."
+ },
+ {
+  "id": "B042",
+  "category": "AI History",
+  "difficulty": "beginner",
+  "q": "IBM's 'Deep Blue' famously beat a world champion in:",
+  "options": [
+   "Cricket",
+   "Tennis",
+   "Chess boxing",
+   "Chess"
+  ],
+  "answer": 3,
+  "explanation": "Deep Blue defeated chess world champion Garry Kasparov in 1997."
+ },
+ {
+  "id": "B043",
+  "category": "AI History",
+  "difficulty": "beginner",
+  "q": "IBM 'Watson' became famous for winning which quiz show?",
+  "options": [
+   "Family Feud",
+   "Jeopardy!",
+   "Wheel of Fortune",
+   "The Price Is Right"
+  ],
+  "answer": 1,
+  "explanation": "Watson won the quiz show Jeopardy! in 2011 using NLP."
+ },
+ {
+  "id": "B044",
+  "category": "AI History",
+  "difficulty": "beginner",
+  "q": "'AlphaGo' by DeepMind mastered which board game?",
+  "options": [
+   "Checkers",
+   "Go",
+   "Ludo",
+   "Snakes and Ladders"
+  ],
+  "answer": 1,
+  "explanation": "AlphaGo beat top human Go players, a major AI milestone in 2016."
+ },
+ {
+  "id": "B045",
+  "category": "Problem Solving & Search",
+  "difficulty": "beginner",
+  "q": "In AI, 'search' techniques are used to:",
+  "options": [
+   "Find a sequence of actions to reach a goal",
+   "Sort files alphabetically",
+   "Search the internet only",
+   "Format a disk"
+  ],
+  "answer": 0,
+  "explanation": "Search explores possible states/actions to find a path to a goal."
+ },
+ {
+  "id": "B046",
+  "category": "Problem Solving & Search",
+  "difficulty": "beginner",
+  "q": "An 'uninformed' (blind) search does NOT use:",
+  "options": [
+   "Any memory",
+   "Extra problem-specific knowledge (heuristics)",
+   "Any states",
+   "Any goal"
+  ],
+  "answer": 1,
+  "explanation": "Uninformed search has no heuristic guidance beyond the problem definition."
+ },
+ {
+  "id": "B047",
+  "category": "Problem Solving & Search",
+  "difficulty": "beginner",
+  "q": "An 'informed' search uses a ______ to guide it toward the goal.",
+  "options": [
+   "Random dice",
+   "Screen saver",
+   "Heuristic",
+   "Password"
+  ],
+  "answer": 2,
+  "explanation": "Informed (heuristic) search uses estimates to reach goals more efficiently."
+ },
+ {
+  "id": "B048",
+  "category": "Problem Solving & Search",
+  "difficulty": "beginner",
+  "q": "'Breadth-First Search' explores nodes:",
+  "options": [
+   "Randomly",
+   "Deepest branch first",
+   "Backward only",
+   "Level by level (shallowest first)"
+  ],
+  "answer": 3,
+  "explanation": "BFS expands all nodes at one depth before going deeper."
+ },
+ {
+  "id": "B049",
+  "category": "Problem Solving & Search",
+  "difficulty": "beginner",
+  "q": "'Depth-First Search' explores:",
+  "options": [
+   "Only the goal",
+   "Nothing",
+   "As deep as possible before backtracking",
+   "Level by level"
+  ],
+  "answer": 2,
+  "explanation": "DFS follows one branch to its end, then backtracks."
+ },
+ {
+  "id": "B050",
+  "category": "Problem Solving & Search",
+  "difficulty": "beginner",
+  "q": "A 'heuristic' is best described as a:",
+  "options": [
+   "Guaranteed exact solution",
+   "Password manager",
+   "Helpful rule of thumb / educated guess",
+   "Type of monitor"
+  ],
+  "answer": 2,
+  "explanation": "Heuristics provide informed estimates to guide search efficiently."
+ },
+ {
+  "id": "B051",
+  "category": "Problem Solving & Search",
+  "difficulty": "beginner",
+  "q": "The 'A* search' algorithm is well known for finding:",
+  "options": [
+   "The slowest path",
+   "The largest file",
+   "Random routes",
+   "Efficient shortest paths using a heuristic"
+  ],
+  "answer": 3,
+  "explanation": "A* combines path cost and a heuristic to find optimal paths efficiently."
+ },
+ {
+  "id": "B052",
+  "category": "Problem Solving & Search",
+  "difficulty": "beginner",
+  "q": "How many main types of informed search methods are commonly listed?",
+  "options": [
+   "Ten",
+   "Four",
+   "One",
+   "Zero"
+  ],
+  "answer": 1,
+  "explanation": "Common informed methods: best-first, greedy best-first, A*, and memory-bounded heuristic search."
+ },
+ {
+  "id": "B053",
+  "category": "Problem Solving & Search",
+  "difficulty": "beginner",
+  "q": "A 'goal state' in a search problem is:",
+  "options": [
+   "A random number",
+   "A deleted file",
+   "The state we want to reach",
+   "The starting point only"
+  ],
+  "answer": 2,
+  "explanation": "The goal state is the desired end condition the search aims to achieve."
+ },
+ {
+  "id": "B054",
+  "category": "Problem Solving & Search",
+  "difficulty": "beginner",
+  "q": "The 'state space' of a problem is:",
+  "options": [
+   "One single state",
+   "The screen resolution",
+   "The keyboard layout",
+   "The set of all possible states"
+  ],
+  "answer": 3,
+  "explanation": "The state space is all configurations reachable in the problem."
+ },
+ {
+  "id": "B055",
+  "category": "Adversarial Search",
+  "difficulty": "beginner",
+  "q": "'Adversarial search' is used in AI for:",
+  "options": [
+   "Printing documents",
+   "Backing up files",
+   "Sorting emails",
+   "Two-player games like chess"
+  ],
+  "answer": 3,
+  "explanation": "Adversarial search handles competitive settings such as games with an opponent."
+ },
+ {
+  "id": "B056",
+  "category": "Adversarial Search",
+  "difficulty": "beginner",
+  "q": "In game-playing AI, the 'minimax' idea assumes the opponent plays:",
+  "options": [
+   "Not at all",
+   "To help you win",
+   "To minimize your advantage",
+   "Randomly always"
+  ],
+  "answer": 2,
+  "explanation": "Minimax assumes the opponent tries to minimize your score while you maximize it."
+ },
+ {
+  "id": "B057",
+  "category": "Adversarial Search",
+  "difficulty": "beginner",
+  "q": "'Alpha-beta pruning' helps a game AI by:",
+  "options": [
+   "Playing slower",
+   "Ignoring the rules",
+   "Adding more branches",
+   "Skipping branches that won't affect the decision"
+  ],
+  "answer": 3,
+  "explanation": "Alpha-beta pruning cuts off branches that can't change the outcome, saving time."
+ },
+ {
+  "id": "B058",
+  "category": "Logical Agents",
+  "difficulty": "beginner",
+  "q": "In propositional logic, the two basic truth values are:",
+  "options": [
+   "Hot and Cold",
+   "0 and 10",
+   "Yes and Maybe",
+   "True and False"
+  ],
+  "answer": 3,
+  "explanation": "Propositional logic uses two proposition symbols: true and false."
+ },
+ {
+  "id": "B059",
+  "category": "Logical Agents",
+  "difficulty": "beginner",
+  "q": "Which of these is a logical connective used in AI logic?",
+  "options": [
+   "Copy-paste",
+   "AND (conjunction)",
+   "Divide-color",
+   "Plus-melt"
+  ],
+  "answer": 1,
+  "explanation": "Logical symbols include negation, conjunction (AND), disjunction (OR), implication, biconditional."
+ },
+ {
+  "id": "B060",
+  "category": "Logical Agents",
+  "difficulty": "beginner",
+  "q": "How many standard logical connectives (symbols) are typically listed?",
+  "options": [
+   "Zero",
+   "Two",
+   "Twenty",
+   "Five"
+  ],
+  "answer": 3,
+  "explanation": "The five are negation, conjunction, disjunction, implication, and biconditional."
+ },
+ {
+  "id": "B061",
+  "category": "Logical Agents",
+  "difficulty": "beginner",
+  "q": "'Negation' in logic means:",
+  "options": [
+   "Copying a value",
+   "Adding two values",
+   "NOT — reversing the truth value",
+   "Multiplying values"
+  ],
+  "answer": 2,
+  "explanation": "Negation flips true to false and vice versa."
+ },
+ {
+  "id": "B062",
+  "category": "Logical Agents",
+  "difficulty": "beginner",
+  "q": "In first-order logic, how many types of quantifiers are there?",
+  "options": [
+   "Five",
+   "Two (universal and existential)",
+   "One",
+   "Ten"
+  ],
+  "answer": 1,
+  "explanation": "The two quantifiers are universal (for all) and existential (there exists)."
+ },
+ {
+  "id": "B063",
+  "category": "Logical Agents",
+  "difficulty": "beginner",
+  "q": "The universal quantifier is read as:",
+  "options": [
+   "'There exists'",
+   "'For all'",
+   "'Sometimes'",
+   "'Never'"
+  ],
+  "answer": 1,
+  "explanation": "The universal quantifier means a statement holds for all objects."
+ },
+ {
+  "id": "B064",
+  "category": "Logical Agents",
+  "difficulty": "beginner",
+  "q": "The existential quantifier is read as:",
+  "options": [
+   "'Always'",
+   "'There exists'",
+   "'None'",
+   "'For all'"
+  ],
+  "answer": 1,
+  "explanation": "The existential quantifier means at least one object satisfies the statement."
+ },
+ {
+  "id": "B065",
+  "category": "Knowledge & Reasoning",
+  "difficulty": "beginner",
+  "q": "A 'knowledge base' stores:",
+  "options": [
+   "Only music",
+   "Only images",
+   "Only passwords",
+   "Facts and rules about a domain"
+  ],
+  "answer": 3,
+  "explanation": "A knowledge base holds the facts and rules an AI reasons over."
+ },
+ {
+  "id": "B066",
+  "category": "Knowledge & Reasoning",
+  "difficulty": "beginner",
+  "q": "An 'inference engine' is responsible for:",
+  "options": [
+   "Displaying videos",
+   "Applying rules to derive new conclusions",
+   "Cooling the computer",
+   "Charging the battery"
+  ],
+  "answer": 1,
+  "explanation": "The inference engine reasons over the knowledge base to reach conclusions."
+ },
+ {
+  "id": "B067",
+  "category": "Knowledge & Reasoning",
+  "difficulty": "beginner",
+  "q": "An 'expert system' is designed to:",
+  "options": [
+   "Cool the room",
+   "Emulate the decision-making of a human expert",
+   "Draw cartoons",
+   "Play music"
+  ],
+  "answer": 1,
+  "explanation": "Expert systems use knowledge and rules to make expert-like decisions."
+ },
+ {
+  "id": "B068",
+  "category": "Knowledge & Reasoning",
+  "difficulty": "beginner",
+  "q": "A 'Bayesian network' is used to represent:",
+  "options": [
+   "Only images",
+   "Probabilities and relationships between variables",
+   "Only sound",
+   "Only text fonts"
+  ],
+  "answer": 1,
+  "explanation": "Bayesian networks model probabilistic relationships, giving a full description of a domain."
+ },
+ {
+  "id": "B069",
+  "category": "Knowledge & Reasoning",
+  "difficulty": "beginner",
+  "q": "'Reasoning' in AI means:",
+  "options": [
+   "Ignoring the data",
+   "Deleting information",
+   "Processing information to reach conclusions",
+   "Randomly guessing"
+  ],
+  "answer": 2,
+  "explanation": "Reasoning processes known facts to infer new information or decisions."
+ },
+ {
+  "id": "B070",
+  "category": "Knowledge & Reasoning",
+  "difficulty": "beginner",
+  "q": "A 'semantic network' represents knowledge as:",
+  "options": [
+   "Nodes and links showing relationships",
+   "A blank page",
+   "A sound file",
+   "A single number"
+  ],
+  "answer": 0,
+  "explanation": "Semantic networks use nodes (concepts) connected by labeled relationships."
+ },
+ {
+  "id": "B071",
+  "category": "Planning",
+  "difficulty": "beginner",
+  "q": "'Planning' in AI produces:",
+  "options": [
+   "A sequence of actions to achieve a goal",
+   "A picture",
+   "A song",
+   "A single random move"
+  ],
+  "answer": 0,
+  "explanation": "Planning finds an ordered set of actions that reach a desired goal."
+ },
+ {
+  "id": "B072",
+  "category": "Planning",
+  "difficulty": "beginner",
+  "q": "In real-time dynamic systems, planning is challenging because:",
+  "options": [
+   "Nothing ever changes",
+   "There is no goal",
+   "There are no actions",
+   "The environment keeps changing"
+  ],
+  "answer": 3,
+  "explanation": "Dynamic environments change while the agent plans and acts, complicating planning."
+ },
+ {
+  "id": "B073",
+  "category": "Uncertainty",
+  "difficulty": "beginner",
+  "q": "AI uses 'probability' to handle:",
+  "options": [
+   "Uncertainty and incomplete information",
+   "File names",
+   "Only exact facts",
+   "Screen colors"
+  ],
+  "answer": 0,
+  "explanation": "Probability lets AI reason under uncertainty."
+ },
+ {
+  "id": "B074",
+  "category": "Uncertainty",
+  "difficulty": "beginner",
+  "q": "A probability value always lies between:",
+  "options": [
+   "0 and 1",
+   "1 and 100",
+   "-10 and 10",
+   "0 and 1000"
+  ],
+  "answer": 0,
+  "explanation": "Probabilities range from 0 (impossible) to 1 (certain)."
+ },
+ {
+  "id": "B075",
+  "category": "Learning",
+  "difficulty": "beginner",
+  "q": "'Machine Learning' allows systems to:",
+  "options": [
+   "Only follow fixed instructions",
+   "Only cool down",
+   "Only display text",
+   "Learn patterns from data"
+  ],
+  "answer": 3,
+  "explanation": "ML enables systems to improve from data instead of being explicitly programmed."
+ },
+ {
+  "id": "B076",
+  "category": "Learning",
+  "difficulty": "beginner",
+  "q": "'Supervised learning' uses data that is:",
+  "options": [
+   "Encrypted only",
+   "Deleted",
+   "Completely unlabeled",
+   "Labeled with correct answers"
+  ],
+  "answer": 3,
+  "explanation": "Supervised learning trains on inputs paired with known correct outputs."
+ },
+ {
+  "id": "B077",
+  "category": "Learning",
+  "difficulty": "beginner",
+  "q": "'Unsupervised learning' works with data that is:",
+  "options": [
+   "Fully labeled",
+   "Encrypted only",
+   "Printed on paper",
+   "Unlabeled"
+  ],
+  "answer": 3,
+  "explanation": "Unsupervised learning finds structure in data without labels."
+ },
+ {
+  "id": "B078",
+  "category": "Learning",
+  "difficulty": "beginner",
+  "q": "'Reinforcement learning' teaches an agent using:",
+  "options": [
+   "Only labeled images",
+   "Rewards and penalties",
+   "Only text",
+   "Only sound"
+  ],
+  "answer": 1,
+  "explanation": "RL agents learn by trial and error guided by rewards and penalties."
+ },
+ {
+  "id": "B079",
+  "category": "Learning",
+  "difficulty": "beginner",
+  "q": "A 'decision tree' makes predictions by:",
+  "options": [
+   "Asking a series of yes/no-style questions",
+   "Playing music",
+   "Rolling dice",
+   "Sending emails"
+  ],
+  "answer": 0,
+  "explanation": "Decision trees split data with feature-based questions to reach a prediction."
+ },
+ {
+  "id": "B080",
+  "category": "Learning",
+  "difficulty": "beginner",
+  "q": "A 'neural network' is loosely inspired by:",
+  "options": [
+   "The human brain",
+   "Ocean waves",
+   "Car engines",
+   "Traffic lights"
+  ],
+  "answer": 0,
+  "explanation": "Artificial neural networks are inspired by interconnected neurons in the brain."
+ },
+ {
+  "id": "B081",
+  "category": "Perception & Robotics",
+  "difficulty": "beginner",
+  "q": "'Computer Vision' enables machines to:",
+  "options": [
+   "Only print",
+   "Only store text",
+   "Only hear sounds",
+   "Understand images and video"
+  ],
+  "answer": 3,
+  "explanation": "Computer vision extracts meaning from visual data."
+ },
+ {
+  "id": "B082",
+  "category": "Perception & Robotics",
+  "difficulty": "beginner",
+  "q": "'Natural Language Processing' (NLP) deals with:",
+  "options": [
+   "Only music",
+   "Only numbers",
+   "Human language (text and speech)",
+   "Only images"
+  ],
+  "answer": 2,
+  "explanation": "NLP lets computers understand and generate human language."
+ },
+ {
+  "id": "B083",
+  "category": "Perception & Robotics",
+  "difficulty": "beginner",
+  "q": "'Robotics' combines AI with:",
+  "options": [
+   "Only spreadsheets",
+   "Only websites",
+   "Physical machines that sense and act",
+   "Only databases"
+  ],
+  "answer": 2,
+  "explanation": "Robotics integrates perception, reasoning, and physical action."
+ },
+ {
+  "id": "B084",
+  "category": "Perception & Robotics",
+  "difficulty": "beginner",
+  "q": "A 'chatbot' is an AI application that:",
+  "options": [
+   "Converses with users in natural language",
+   "Charges phones",
+   "Cools the CPU",
+   "Prints photos"
+  ],
+  "answer": 0,
+  "explanation": "Chatbots use NLP to understand and respond to users."
+ },
+ {
+  "id": "B085",
+  "category": "Perception & Robotics",
+  "difficulty": "beginner",
+  "q": "'Speech recognition' converts:",
+  "options": [
+   "Video into text only",
+   "Spoken words into text",
+   "Images into sound",
+   "Text into images"
+  ],
+  "answer": 1,
+  "explanation": "Speech recognition transcribes audio speech into written text."
+ },
+ {
+  "id": "B086",
+  "category": "Perception & Robotics",
+  "difficulty": "beginner",
+  "q": "A self-driving car mainly relies on AI for:",
+  "options": [
+   "Heating seats",
+   "Playing radio",
+   "Perceiving surroundings and making driving decisions",
+   "Opening the trunk"
+  ],
+  "answer": 2,
+  "explanation": "Autonomous cars use vision, sensors, and ML to perceive and decide."
+ },
+ {
+  "id": "B087",
+  "category": "AI Basics",
+  "difficulty": "beginner",
+  "q": "'Actuators' in a machine are used to:",
+  "options": [
+   "Cool the room",
+   "Perform physical actions/outputs",
+   "Store data",
+   "Display colours"
+  ],
+  "answer": 1,
+  "explanation": "Actuators convert decisions into physical actions (e.g., motors, wheels)."
+ },
+ {
+  "id": "B088",
+  "category": "AI Basics",
+  "difficulty": "beginner",
+  "q": "Which task is a good example of AI 'game playing'?",
+  "options": [
+   "A program that saves files",
+   "A program that formats text",
+   "A program that prints",
+   "A program that plays chess"
+  ],
+  "answer": 3,
+  "explanation": "Game playing (chess, Go) is a classic AI application area."
+ },
+ {
+  "id": "B089",
+  "category": "AI Basics",
+  "difficulty": "beginner",
+  "q": "Which is an example of AI in daily life?",
+  "options": [
+   "Voice assistant on a phone",
+   "A mechanical clock",
+   "A paper calendar",
+   "A glass of water"
+  ],
+  "answer": 0,
+  "explanation": "Voice assistants use speech recognition and NLP — everyday AI."
+ },
+ {
+  "id": "B090",
+  "category": "AI Basics",
+  "difficulty": "beginner",
+  "q": "'Automation' with AI mainly helps to:",
+  "options": [
+   "Slow down work",
+   "Remove all computers",
+   "Do repetitive tasks with less human effort",
+   "Increase manual paperwork"
+  ],
+  "answer": 2,
+  "explanation": "AI-driven automation reduces repetitive manual work."
+ },
+ {
+  "id": "B091",
+  "category": "AI Basics",
+  "difficulty": "beginner",
+  "q": "Which is a possible risk or concern with AI?",
+  "options": [
+   "Brighter screens",
+   "Faster maths",
+   "Bias leading to unfair decisions",
+   "Smaller files"
+  ],
+  "answer": 2,
+  "explanation": "Bias in data or design can cause unfair AI outcomes — a key concern."
+ },
+ {
+  "id": "B092",
+  "category": "AI Basics",
+  "difficulty": "beginner",
+  "q": "'Training data' is:",
+  "options": [
+   "A web page",
+   "A backup drive",
+   "A power cable",
+   "The data used to teach a model"
+  ],
+  "answer": 3,
+  "explanation": "Models learn patterns from training data."
+ },
+ {
+  "id": "B093",
+  "category": "AI Basics",
+  "difficulty": "beginner",
+  "q": "A 'model' in machine learning is:",
+  "options": [
+   "A type of screen",
+   "A network router",
+   "What the system learns to make predictions",
+   "A fashion figure"
+  ],
+  "answer": 2,
+  "explanation": "A model is the learned function mapping inputs to outputs."
+ },
+ {
+  "id": "B094",
+  "category": "AI Basics",
+  "difficulty": "beginner",
+  "q": "'Generative AI' can:",
+  "options": [
+   "Only sort numbers",
+   "Create new text, images, or audio",
+   "Only delete files",
+   "Only measure temperature"
+  ],
+  "answer": 1,
+  "explanation": "Generative AI produces new content, like ChatGPT (text) or image generators."
+ },
+ {
+  "id": "B095",
+  "category": "AI Basics",
+  "difficulty": "beginner",
+  "q": "A 'prompt' given to a generative AI is:",
+  "options": [
+   "A screen setting",
+   "A network cable",
+   "A hardware fault",
+   "The instruction or question you provide"
+  ],
+  "answer": 3,
+  "explanation": "A prompt is the input text that guides what the model generates."
+ },
+ {
+  "id": "B096",
+  "category": "AI Basics",
+  "difficulty": "beginner",
+  "q": "Which statement about today's AI is TRUE?",
+  "options": [
+   "All AI is conscious",
+   "Most AI is narrow/specialized",
+   "AI feels emotions like humans",
+   "AGI is already everywhere"
+  ],
+  "answer": 1,
+  "explanation": "Current AI is narrow, focused on specific tasks — not general or conscious."
+ },
+ {
+  "id": "B097",
+  "category": "AI Basics",
+  "difficulty": "beginner",
+  "q": "'Data' is important for AI because:",
+  "options": [
+   "Models learn patterns from data",
+   "It powers the screen",
+   "It replaces the CPU",
+   "It cools the machine"
+  ],
+  "answer": 0,
+  "explanation": "Data is the fuel AI models learn from."
+ },
+ {
+  "id": "B098",
+  "category": "Intelligent Agents",
+  "difficulty": "beginner",
+  "q": "A 'rational agent' is one that:",
+  "options": [
+   "Always fails",
+   "Acts to achieve the best expected outcome",
+   "Never acts",
+   "Acts randomly"
+  ],
+  "answer": 1,
+  "explanation": "A rational agent chooses actions expected to maximize its performance measure."
+ },
+ {
+  "id": "B099",
+  "category": "Intelligent Agents",
+  "difficulty": "beginner",
+  "q": "A 'performance measure' evaluates:",
+  "options": [
+   "The price of hardware",
+   "How well an agent is doing its task",
+   "The colour of the agent",
+   "The room temperature"
+  ],
+  "answer": 1,
+  "explanation": "The performance measure defines success for an agent."
+ },
+ {
+  "id": "B100",
+  "category": "AI Basics",
+  "difficulty": "beginner",
+  "q": "In simple terms, AI tries to make machines that can:",
+  "options": [
+   "Only make noise",
+   "Think, learn, and act intelligently",
+   "Only heat up",
+   "Only consume power"
+  ],
+  "answer": 1,
+  "explanation": "The essence of AI is machines that think, learn, and act in intelligent ways."
+ }
+]
